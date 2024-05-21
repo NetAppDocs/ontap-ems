@@ -1,7 +1,7 @@
 settings:
   name: ONTAP 9.15.1 EMS reference
   internal:
-    pdf_enabled: true
+    pdf_enabled: false
     github_edit: false
     github_issue: false
     lipi_enabled: false
@@ -13,6 +13,9 @@ settings:
     github_issue: false
     lipi_enabled: false
   versions:
+    # This Repo
+    - version-number: "9.15.1"
+      url: /ontap-ems
     - version-number: "9.14.1"
       url: /ontap-ems-9141
     - version-number: "9.13.1"
@@ -20,9 +23,9 @@ settings:
     - version-number: "9.12.1"
       url: /ontap-ems-9121
     - version-number: "9.11.1"
-      url: //ontap-ems-9111
+      url: /ontap-ems-9111
     - version-number: "9.10.1"
-      url: //ontap-ems-9101
+      url: /ontap-ems-9101
     - version-number: "9.9.1"
       url: https://library.netapp.com/ecm/ecm_get_file/ECMLP2876977
     - version-number: "9.8"
@@ -5995,4 +5998,6 @@ sidebar:
     entries:
     - title: ztl.smap events
       url: /ztl-smap-events.html
+  - title: Legal notices
+    url: /legal-notices.html
 
