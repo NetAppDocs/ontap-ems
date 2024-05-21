@@ -1,6 +1,5 @@
 settings:
   name: ONTAP 9.15.1 EMS reference
-  downlevel: true
   internal:
     pdf_enabled: true
     github_edit: false
@@ -42,7 +41,7 @@ product-family:
 
 sidebar: 
  entries:
-  - title: ONTAP 9.13.1 EMS reference
+  - title: ONTAP 9.15.1 EMS reference
     url: /index.html
   - title: accesscache events
     entries:
