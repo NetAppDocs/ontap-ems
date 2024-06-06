@@ -5,7 +5,7 @@ indexpage:
   keywords: ems, message, messages, event, events, group, catalog
   tiles:
     - title: About the ONTAP 9 EMS
-      link:
+      links:
         - title: Configure EMS
           url: https://docs.netapp.com/us-en/ontap/error-messages/index.html
     - title: More resources
