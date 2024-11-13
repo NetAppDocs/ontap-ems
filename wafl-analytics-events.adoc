@@ -22,10 +22,10 @@ This message occurs when the system detects an inconsistency in the file system 
 *Corrective Action*::
 Turn file system analytics on again for the volume to initiate new consistent analytics.
 *Syslog Message*::
-The system detected an inconsistency in the file system analytics database associated with volume %s:%s.
+The system detected an inconsistency in the file system analytics database associated with volume %s%s.
 *Parameters*::
-*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's Vserver.
 *volname* (STRING): Volume name.
+*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's storage VM (SVM).
 
 == wafl.analytics.corruption
 *Severity*::
@@ -85,10 +85,10 @@ This message occurs when a volume fails to have a file system analytics database
 *Corrective Action*::
 Disable then re-enable file system analytics for the volume. If problems persist or further assistance is needed, contact NetApp technical support.
 *Syslog Message*::
-Failed to initialize a file system analytics database for volume %s:%s, %s.
+Failed to initialize a file system analytics database for volume %s%s, %s.
 *Parameters*::
-*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's Vserver.
 *volname* (STRING): Volume name.
+*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's storage VM (SVM).
 *error* (STRING): Error message.
 
 == wafl.analytics.languishing
@@ -152,10 +152,10 @@ This message occurs when the system detects an inconsistency in the file system 
 *Corrective Action*::
 Turn file system analytics off and then on again for the volume. If problems persist or further assistance is needed, contact NetApp technical support.
 *Syslog Message*::
-The system detected an inconsistency in the file system analytics database associated with volume %s:%s.
+The system detected an inconsistency in the file system analytics database associated with volume %s%s.
 *Parameters*::
-*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's Vserver.
 *volname* (STRING): Volume name.
+*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's storage VM (SVM).
 
 == wafl.analytics.scan.fail
 *Severity*::
@@ -163,12 +163,12 @@ ALERT
 *Description*::
 This message occurs when the "volume analytics on" command fails due to an internal error.
 *Corrective Action*::
-Resolve the error if possible. Disable file system analytics using the "volume analytics off" command and then re-enable file system analytics using the "volume analytics on" command. If problems persist or further assistance is needed, contact NetApp technical support.
+Resolve the error if possible. Disable File System Analytics using the "volume analytics off" command and then re-enable File System Analytics using the "volume analytics on" command. If problems persist or further assistance is needed, contact NetApp technical support.
 *Syslog Message*::
-File system analytics scan failed for volume "%s:%s. Error: %s".
+File System Analytics scan fails for volume "%s%s. Error: %s".
 *Parameters*::
-*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's Vserver.
 *volname* (STRING): Volume name.
+*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's storage VM (SVM).
 *error* (STRING): Error message.
 
 == wafl.analytics.sp.valid.fail
@@ -208,10 +208,10 @@ This message occurs when the file system analytics state has been changed on a v
 *Corrective Action*::
 (None).
 *Syslog Message*::
-The file system analytics state of volume "%s:%s" (DSID: "%lu") has changed to "%s". Reason: %s. Rulegen: %lu.
+The file system analytics state of volume "%s%s" (DSID: "%lu") has changed to "%s". Reason: %s. Rulegen: %lu.
 *Parameters*::
-*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's storage VM (SVM).
 *volname* (STRING): Volume name.
+*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's storage VM (SVM).
 *dsid* (LONGINT): Unique identifier (DSID) of the volume.
 *state* (STRING): File system analytics state: on or off.
 *reason* (STRING): The reason that the file system analytics state was changed.

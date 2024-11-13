@@ -18,14 +18,14 @@ summary: wafl.snapshot_xlation_setupfailed events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when WAFL(R) cannot setup the Snapshot(TM) copy translation table. Access to this Snapshot copy is disabled until the problem is resolved.
+This message occurs when WAFL(R) cannot setup the snapshot translation table. Access to this snapshot is disabled until the problem is resolved.
 *Corrective Action*::
-The Snapshot copy is inaccessible, possibly due to a resource issue.Contact NetApp technical support.
+The snapshot is inaccessible, possibly due to a resource issue.Contact NetApp technical support.
 *Syslog Message*::
-WAFL Snapshot copy translation table: Cannot to add entry on volume '%s%s%s' that maps physical Snapshot copy '%d' to logical Snapshot copy '%d'
+WAFL snapshot translation table: Cannot to add entry on volume '%s%s%s' that maps physical snapshot '%d' to logical snapshot '%d'
 *Parameters*::
 *owner* (STRING): Owner of the volume.
 *app* (STRING): Application UUID.
 *volident* (STRING): Unique Identifier of the volume in cases where the volume name itself is insufficient.
-*physical_snapid* (INT): Physical Snapshot copy index.
-*Logical_snapid* (INT): Logical Snapshot copy index.
+*physical_snapid* (INT): Physical snapshot index.
+*Logical_snapid* (INT): Logical snapshot index.

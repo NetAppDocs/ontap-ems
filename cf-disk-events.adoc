@@ -46,7 +46,7 @@ ERROR
 *Description*::
 This message occurs when one of the nodes in a high-availability (HA) pair has reported this disk in its disk inventory, but the HA partner node has not. This might be due to one of following reasons: (1) One node can see the disk, but the other node cannot. (2) Ownership of the disk has changed. (3) The disk has either been failed or unfailed. (4) The disk has been inserted or removed.
 *Corrective Action*::
-Use the "storage disk refresh-ownership" command on both nodes in the HA pair to rescan the disks and to determine the latest ownership. If the inventory mismatch is not resolved, remove and replace any failed disks. If there are no failed disks, check the cabling for loose connections or a bad cable on the node where the disk is not included in the inventory.
+Use the "storage disk refresh-ownership" command on both nodes in the HA pair to rescan the disks and to determine the latest ownership. For ASA r2, Use the "storage disk show -fields storage-pod-uuid" instead of the "storage disk refresh-ownership" command. If the inventory mismatch is not resolved, remove and replace any failed disks. If there are no failed disks, check the cabling for loose connections or a bad cable on the node where the disk is not included in the inventory.
 *Syslog Message*::
 Status of the disk %s (%s) has recently changed or the node (%s) is missing the disk.
 *Parameters*::

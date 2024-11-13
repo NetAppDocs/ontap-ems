@@ -45,11 +45,11 @@ Replication 'check' from %s to %s:%s completed: Please review destination applia
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs at the source appliance of a SnapMirror(R) 'check' operation to notify the appliance about which base Snapshot(tm) copy will be used for the operation.
+This message occurs at the source appliance of a SnapMirror(R) 'check' operation to notify the appliance about which base snapshot will be used for the operation.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Snapmirror 'check' from '%s' to '%s':'%s' will use '%s' as the base Snapshot copy. All Snapshot copies older than and including the base Snapshot copy on the source volume will be used.
+Snapmirror 'check' from '%s' to '%s':'%s' will use '%s' as the base snapshot. All snapshots older than and including the base snapshot on the source volume will be used.
 *Parameters*::
 *srcpath* (STRING): Source path.
 *dstfiler* (STRING): Destination appliance.

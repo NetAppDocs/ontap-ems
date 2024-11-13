@@ -40,8 +40,8 @@ This message occurs when the replication engine encounters inconsistent map obje
 *Corrective Action*::
 Contact NetApp technical support.
 *Syslog Message*::
-REPL cloud inconsistent: Corrupted cloud data detected in cloud Snapshot copy:%s, cloud Snapshot copy UUID:%s, cloud object:%s.
+REPL cloud inconsistent: Corrupted cloud data detected in cloud snapshot:%s, cloud snapshot UUID:%s, cloud object:%s.
 *Parameters*::
-*snapshot_name* (STRING): Cloud Snapshot copy name.
-*snapshot_uuid* (STRING): Cloud Snapshot copy Universally Unique ID (UUID).
+*snapshot_name* (STRING): Cloud snapshot name.
+*snapshot_uuid* (STRING): Cloud snapshot Universally Unique ID (UUID).
 *object_name* (STRING): Cloud object name.

@@ -18,13 +18,13 @@ summary: sms.snap events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when a Snapshot(tm) copy for SnapMirror(R) Synchronous relationship is not successfully replicated.
+This message occurs when a snapshot for SnapMirror(R) Synchronous relationship is not successfully replicated.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Snapshot copy '%s' is not sucessfully replicated for the relationship '%s' with source volume DSID '%llu' and path '%s'. Reason: %s.
+Snapshot '%s' is not sucessfully replicated for the relationship '%s' with source volume DSID '%llu' and path '%s'. Reason: %s.
 *Parameters*::
-*snapshot* (STRING): Name of the Snapshot copy to be replicated.
+*snapshot* (STRING): Name of the snapshot to be replicated.
 *transferId* (STRING): UUID of the SnapMirror transfer.
 *volumeDSID* (LONGINT): Volume data set ID (DSID).
 *volumePath* (STRING): Path of the volume.

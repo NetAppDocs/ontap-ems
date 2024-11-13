@@ -16,13 +16,12 @@ summary: nblade.nfscredcacheflushed events
 
 == Nblade.nfsCredCacheFlushed
 *Severity*::
-INFORMATIONAL
+NOTICE
 *Description*::
-This message occurs when the administrator modifies the "extended-groups-limit" option or "auth-sys-extended-groups" option using the "vserver nfs modify" command. This results in the flushing of the entire credential cache, thereby making the subsequent operations slower for a short while until the credential cache is repopulated.
+This message occurs when the administrator modifies the options "extended-groups-limit", "auth-sys-extended-groups" or "v4-id-domain" option using the "vserver nfs modify" command. This results in the flushing of the credential cache of that corresponding storage virtual machine (SVM) that holds credentials on connections that use mixed-mode security style volumes, RPCSEC_GSS authentication or extended groups over AUTH_SYS. As a result, the subsequent operations are slower for a short while until the credential cache is repopulated.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-When the administrator modifies the "extended-groups-limit" option or "auth-sys-extended-groups" option using the "vserver nfs modify" command, the entire credential cache is flushed that holds credentials on connections that use mixed-mode security style volumes or RPCSEC_GSS authentication or extended groups over AUTH_SYS. This makes subsequent operations on such connections slower for a short while, until the credential cache is repopulated. The value of "auth-sys-extended-groups" option is %d (1:enabled, 0:disabled). The value of "extended-groups-limit" option is %d.
+Credential cache flushed on SVM "%s" after modification of "extended-groups-limit", "auth-sys-extended-groups" or "v4-id-domain" NFS options. NFS connection operations are slower until the credential cache is repopulated.
 *Parameters*::
-*isExtGroupsEnabled* (INT): Flag to indicate if "auth-sys-extended-groups" option is enabled or not.
-*extendedGroupsLimit* (INT): This indicates the number of auxiliary groups supported over RPC security flavors AUTH_SYS or RPCSEC_GSS. The range is 32 to 1024.
+*vserverName* (STRING): Name of the SVM associated with this operation.

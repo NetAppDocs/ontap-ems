@@ -28,7 +28,7 @@ This message occurs when a SnapMirror(R) transfer uses logical mode without even
 *srcVolDsid* (LONGINT): Source volume Data Set ID (DSID).
 *srcVolClusterId* (STRING): Source volume cluster Universally Unique ID (UUID).
 *srcVolVserverId* (INT): Source volume Vserver ID.
-*srcInstanceImageUuid* (STRING): Source transfer instance Snapshot(tm) copy UUID.
-*srcVersionImageUuid* (STRING): Source transfer version Snapshot copy UUID.
-*srcInstanceRefImageUuid* (STRING): Source reference instance Snapshot copy UUID.
-*srcVersionRefImageUuid* (STRING): Source reference version Snapshot copy UUID.
+*srcInstanceImageUuid* (STRING): Source transfer instance snapshot UUID.
+*srcVersionImageUuid* (STRING): Source transfer version snapshot UUID.
+*srcInstanceRefImageUuid* (STRING): Source reference instance snapshot UUID.
+*srcVersionRefImageUuid* (STRING): Source reference version snapshot UUID.

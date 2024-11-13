@@ -18,16 +18,16 @@ summary: snapvault.dst events
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs when SnapVault(R) creates a backup Snapshot(tm) copy for a given backup schedule.
+This message occurs when SnapVault(R) creates a backup snapshot for a given backup schedule.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-A backup Snapshot copy was created on volume %s by backup schedule %s (%d of %d allocated Snapshot copies consumed).
+A backup snapshot was created on volume %s by backup schedule %s (%d of %d allocated snapshot copies consumed).
 *Parameters*::
-*vol_name* (STRING): Name of the SnapVault secondary volume on which the backup Snapshot copy is created.
-*target_name* (STRING): Base name of the backup schedule for which the given backup Snapshot copy is created.
-*snap_cnt* (INT): Total number of backup Snapshot copies created for the given backup schedule.
-*alloc_cnt* (INT): Total number of backup Snapshot copies allocated for the given backup schedule.
+*vol_name* (STRING): Name of the SnapVault secondary volume on which the backup snapshot is created.
+*target_name* (STRING): Base name of the backup schedule for which the given backup snapshot is created.
+*snap_cnt* (INT): Total number of backup snapshots created for the given backup schedule.
+*alloc_cnt* (INT): Total number of backup snapshots allocated for the given backup schedule.
 
 == snapvault.dst.bliDataRepaired
 *Severity*::
@@ -37,7 +37,7 @@ This message is issued when SnapVault may have repaired data that had previously
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Data ONTAP changed data in %d data chunk(s) in %s which may have been missing or incorrect.
+ONTAP changed data in %d data chunk(s) in %s which may have been missing or incorrect.
 *Parameters*::
 *chunks_repaired* (INT): The number of of chunks which may have been repaired. Up to 2MB of data may be sent in a chunk in the QSM/SnapVault data format. This count is incremented for each chunk in which one or more 4K blocks may have been repaired.
 *dst_path* (STRING): Destination qtree path.
@@ -50,7 +50,7 @@ This event is issued when SnapVault has detected that OSSV secondary data may be
 *Corrective Action*::
 See the public reports for Bug #137685 and Bug #140930 for corrective action.
 *Syslog Message*::
-Data ONTAP has detected a condition in which OSSV secondary data for %s may be incomplete or incorrect. See the public reports for Bug #137685 and Bug #140930 for corrective action.
+ONTAP has detected a condition in which OSSV secondary data for %s may be incomplete or incorrect. See the public reports for Bug #137685 and Bug #140930 for corrective action.
 *Parameters*::
 *dst_path* (STRING): Destination qtree path.
 
@@ -58,16 +58,16 @@ Data ONTAP has detected a condition in which OSSV secondary data for %s may be i
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the remaining number of Snapshot(tm) copies allocated for a given SnapVault(R) backup schedule on the given volume reaches or falls below the preset warning level. This event occurs on every failed attempt by SnapVault to create a backup Snapshot copy on the given backup schedule, until you resolve the condition.
+This message occurs when the remaining number of snapshots allocated for a given SnapVault(R) backup schedule on the given volume reaches or falls below the preset warning level. This event occurs on every failed attempt by SnapVault to create a backup snapshot on the given backup schedule, until you resolve the condition.
 *Corrective Action*::
-Consider deleting some backup Snapshot copies from the given backup target to create some free slots. For more information and other solutions, see the Online Backup Recovery Guide.
+Consider deleting some backup snapshots from the given backup target to create some free slots. For more information and other solutions, see the Online Backup Recovery Guide.
 *Syslog Message*::
-Remaining number of Snapshot copies on the volume %s for the backup schedule %s is below the set warning level (%d of allocated %d).
+Remaining number of snapshots on the volume %s for the backup schedule %s is below the set warning level (%d of allocated %d).
 *Parameters*::
-*vol_name* (STRING): Name of the SnapVault secondary volume on which the backup Snapshot copy is created.
-*target_name* (STRING): Base name of the backup schedule for which the given backup Snapshot copy is created.
-*snap_cnt* (INT): Total number of backup Snapshot copies created for the given backup schedule.
-*alloc_cnt* (INT): Total number of backup Snapshot copies allocated to the given backup schedule.
+*vol_name* (STRING): Name of the SnapVault secondary volume on which the backup snapshot is created.
+*target_name* (STRING): Base name of the backup schedule for which the given backup snapshot is created.
+*snap_cnt* (INT): Total number of backup snapshots created for the given backup schedule.
+*alloc_cnt* (INT): Total number of backup snapshots allocated to the given backup schedule.
 
 == snapvault.dst.opNotComplete
 *Severity*::

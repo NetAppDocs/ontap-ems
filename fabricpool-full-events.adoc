@@ -20,7 +20,7 @@ ERROR
 *Description*::
 This message occurs when the total, cluster-wide FabricPool space usage of object stores from capacity-licensed providers has reached the license limit.
 *Corrective Action*::
-To find the percentage of the licensed capacity used by each FabricPool, use the "storage aggregate object-store show-space" command. To create more space, delete Snapshot(tm) copies from volumes with the tiering policy "snapshot" or "backup" by using the "volume snapshot delete" command. To increase the licensed capacity, install a new license on the cluster.
+To find the percentage of the licensed capacity used by each FabricPool, use the "storage aggregate object-store show-space" command. To create more space, delete snapshots from volumes with the tiering policy "snapshot" or "backup" by using the "volume snapshot delete" command. To increase the licensed capacity, install a new license on the cluster.
 *Syslog Message*::
 Total, cluster-wide FabricPool space usage of object stores from capacity-licensed providers has reached the licensed limit. Cluster ID: %s. Current usage: %s, licensed capacity: %s.
 *Parameters*::

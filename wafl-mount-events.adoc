@@ -14,6 +14,19 @@ summary: wafl.mount events
 :linkattrs:
 :imagesdir: ./media/
 
+== wafl.mount.fa.incons
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the flexaggregate cannot be mounted; the flexaggregate is marked as inconsistent.
+*Corrective Action*::
+Contact NetApp technical support.
+*Syslog Message*::
+wafliron could not mount flexaggregate %s due to %s. Flexaggregate is marked as inconsistent.
+*Parameters*::
+*flexaggrname* (STRING): Flexaggregate name.
+*reason* (STRING): Reason for the failure.
+
 == wafl.mount.inconsistent
 *Severity*::
 ERROR
@@ -43,12 +56,12 @@ mount message
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the FlexVol(R) volume cannot be mounted due to transient errors; the volume is taken offline.
+This message occurs when a FlexVol(R) volume cannot be mounted due to transient errors and the volume is taken offline.
 *Corrective Action*::
-First, attempt to bring the volume online manually by using the "volume online" command. If the issue persists, determine whether the volume is a NetApp(R) Aggregate Encryption (NAE) volume by using the "volume show -encryption-type aggregate" command. If so, remount the aggregate of the volume by taking it offline (using the "aggr offline" command), and then bringing it online again (using the "aggr online" command). If the issue still persists, Contact NetApp technical support.
+Firstly, attempt to bring the volume online manually by using the "volume online" command. If the issue persists, determine whether the volume is a NetApp(R) Aggregate Encryption (NAE) volume by using the "volume show -encryption-type aggregate" command. If so, remount the aggregate of the volume by taking it offline (using the "aggr offline" command), and then bringing it online again (using the "aggr online" command). If the issue still persists, contact NetApp technical support. For ASA r2, contact NetApp technical support for assistance to resolve this internal error.
 *Syslog Message*::
 WAFL: Unable to mount volume %s, UUID %s due to %s. Volume is taken offline due to transient errors.
 *Parameters*::
 *vvolname* (STRING): Volume name.
-*uuid* (STRING): UUID of the volume.
+*uuid* (STRING): Universal unique identifier (UUID) of the volume.
 *reason* (STRING): Reason for the failure to mount the volume.

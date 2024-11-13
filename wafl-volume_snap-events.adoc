@@ -18,13 +18,13 @@ summary: wafl.volume_snap events
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs when automatic deletion of a Snapshot(tm) copy fails.
+This message occurs when automatic deletion of a snapshot fails.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Unable to delete Snapshot copy '%s' in volume '%s%s%s' to recover space: %s
+Unable to delete snapshot '%s' in volume '%s%s%s' to recover space: %s
 *Parameters*::
-*name* (STRING): Snapshot copy name.
+*name* (STRING): Snapshot name.
 *vol* (STRING): Volume name.
 *app* (STRING): Application UUID.
 *volident* (STRING): Uniquely identifies the volume when the volume name itself is insufficient.

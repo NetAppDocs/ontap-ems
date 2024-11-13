@@ -18,7 +18,7 @@ summary: wafl.descend events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when there is an error during descendency checking. This message can occur when accessing a directory in a Snapshot(tm) copy that is being deleted.
+This message occurs when there is an error during descendency checking. This message can occur when accessing a directory in a snapshot that is being deleted.
 *Corrective Action*::
 This condition might be transient; try the operation again. If the problem persists, contact NetApp technical support.
 *Syslog Message*::

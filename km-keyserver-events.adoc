@@ -24,8 +24,8 @@ This message occurs when a check by the key manager for connectivity with a conf
 *Syslog Message*::
 The external key management server "%s" is now available for Vserver "%s".
 *Parameters*::
-*vserver* (STRING): Name of the Vserver where the key management server is configured.
 *address* (STRING): IP address of the key management server.
+*vserver* (STRING): Name of the Vserver where the key management server is configured.
 
 == km.keyserver.notavailable
 *Severity*::
@@ -37,6 +37,6 @@ Ensure that the key management server is online using the server's management in
 *Syslog Message*::
 The external key management server "%s" is not available for Vserver "%s", status: "%s".
 *Parameters*::
-*vserver* (STRING): Name of the Vserver where the key management server is configured.
 *address* (STRING): IP address of the key management server.
+*vserver* (STRING): Name of the Vserver where the key management server is configured.
 *keyserver_status* (STRING): Status of the key management server.

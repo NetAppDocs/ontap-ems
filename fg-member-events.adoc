@@ -57,3 +57,18 @@ Constituent volume "%u" in FlexGroup volume "%s" was resized from %lu blocks to 
 *flexgroup_used* (LONGINT): Size in bytes of the used space in the FlexGroup volume.
 *flexgroup_percent_full* (INT): Percentage of filled space in the FlexGroup volume.
 *event_time* (LONGINT): When the event occurred, shown in system time.
+
+== fg.member.invalidated
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a FlexGroup volume has been invalidated by an operation that was performed directly on a constituent volume instead of on the overall FlexGroup. For example, a constituent volume was directly deleted or had an operation performed on it such as snapshot restore.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+FlexGroup volume MSID "%lu" in Vserver "%s", has been been invalidated by an operation performed on constituent "%s" (DSID "%lu").
+*Parameters*::
+*volumeMsid* (LONGINT): Master Data Set ID (MSID) of the FlexGroup volume owning the invalidated constituent.
+*vserverName* (STRING): Name of the Vserver on which the FlexGroup volume resides.
+*constituentName* (STRING): Name of the invalidated constituent.
+*constituentDsid* (LONGINT): Data Set ID (DSID) of the invalidated constituent.

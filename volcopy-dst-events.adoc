@@ -59,7 +59,7 @@ This event is issued when a vol copy start operation has to revert the checksum 
 *Corrective Action*::
 No corrective action required.
 *Syslog Message*::
-A vol copy transfer to destination volume %s has found that the source and destination volumes have differing checksum states. Data ONTAP is aborting the transfer and reverting the checksum state for the destination volume. After Data ONTAP displays a message showing the revert is complete, you will need to retry the operation. You can use the "vol status -c" command to see the progress of the reversion.
+A vol copy transfer to destination volume %s has found that the source and destination volumes have differing checksum states. Data ONTAP is aborting the transfer and reverting the checksum state for the destination volume. After ONTAP displays a message showing the revert is complete, you will need to retry the operation. You can use the "vol status -c" command to see the progress of the reversion.
 *Parameters*::
 *dst* (STRING): The vol copy destination volume
 

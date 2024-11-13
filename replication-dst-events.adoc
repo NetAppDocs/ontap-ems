@@ -18,9 +18,9 @@ summary: replication.dst events
 *Severity*::
 ERROR
 *Description*::
-This message is issued at the end of a Qtree SnapMirror(R) or SnapVault(R) transfer or checker/fixer operation when the replication destination detects that the replication source has sent file attributes that the replication destination does not support, and the replication destination has not saved those attributes. This may happen when the replication source is running a newer version of Data ONTAP(R) which supports file attributes that the replication destination does not support.
+This message is issued at the end of a Qtree SnapMirror(R) or SnapVault(R) transfer or checker/fixer operation when the replication destination detects that the replication source has sent file attributes that the replication destination does not support, and the replication destination has not saved those attributes. This may happen when the replication source is running a newer version of ONTAP which supports file attributes that the replication destination does not support.
 *Corrective Action*::
-To store all of the attributes, upgrade your replication destination filer to a version of Data ONTAP which is at least as recent as the source. Alternatively, this message can be suppressed for all future transfers or checker/fixer operations for all Qtree SnapMirror and SnapVault relationships by setting the hidden replication option, suppress_attrs_not_saved_warnings.
+To store all of the attributes, upgrade your replication destination filer to a version of ONTAP which is at least as recent as the source. Alternatively, this message can be suppressed for all future transfers or checker/fixer operations for all Qtree SnapMirror and SnapVault relationships by setting the hidden replication option, suppress_attrs_not_saved_warnings.
 *Syslog Message*::
 The replication destination was unable to replicate all file attributes on %d file(s) or director(y/ies) in %s because it does not support one or more of the attributes sent by the source.
 *Parameters*::
@@ -104,11 +104,11 @@ Replication transfer from %s:%s to %s:%s: the destination could not find ACL %d 
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a SnapVault(R) or SnapMirror(R) relationship cannot be resynchronized because there is no usable Snapshot(tm) copy that the source and destination have in common. In such situations, the 'snapvault start -r' and 'snapmirror resync' commands cannot be successfully completed.
+This message occurs when a SnapVault(R) or SnapMirror(R) relationship cannot be resynchronized because there is no usable snapshot that the source and destination have in common. In such situations, the 'snapvault start -r' and 'snapmirror resync' commands cannot be successfully completed.
 *Corrective Action*::
 The relationship cannot be resynchronized so it must be reinitialized. For SnapMirror, use the 'snapmirror initialize' command. For SnapVault, use the 'snapvault start' command. Either run the baseline transfer to a new qtree, or remove the existing qtree before starting the transfer. Refer to the Data Protection Guide for details.
 *Syslog Message*::
-%s: destination transfer from %s:%s to %s:%s : no common Snapshot copy to use as the base for resynchronization.
+%s: destination transfer from %s:%s to %s:%s : no common snapshot to use as the base for resynchronization.
 *Parameters*::
 *rtype* (STRING): Replication type (SnapMirror, SnapVault, and so on.).
 *srcfiler* (STRING): Replication source system.
@@ -134,11 +134,11 @@ System is low on memory; aborting %s destination transfer.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a SnapVault(R) or SnapMirror(R) destination discovers that the relationship's base Snapshot(tm) copy no longer exists on the source. In such situations, 'snapvault update' and 'snapmirror update' commands cannot execute successfully.
+This message occurs when a SnapVault(R) or SnapMirror(R) destination discovers that the relationship's base snapshot no longer exists on the source. In such situations, 'snapvault update' and 'snapmirror update' commands cannot execute successfully.
 *Corrective Action*::
-For SnapMirror, issue the command 'snapmirror resync' to make SnapMirror attempt to resynchronize the relationship. If the resync operation cannot find a common Snapshot copy, you must reestablish the relationship with the 'snapmirror initialize' command. For SnapVault, issue the command 'snapvault start -r' to make SnapVault attempt to resynchronize the relationship. If the 'snapvault start -r' command cannot find a common Snapshot copy, you must reestablish the relationship with the 'snapvault start' command. If you must reestablish a relationship, either run the baseline transfer to a new qtree, or remove the existing qtree before starting the transfer. Refer to the Data Protection Guide for details.
+For SnapMirror, issue the command 'snapmirror resync' to make SnapMirror attempt to resynchronize the relationship. If the resync operation cannot find a common snapshot, you must reestablish the relationship with the 'snapmirror initialize' command. For SnapVault, issue the command 'snapvault start -r' to make SnapVault attempt to resynchronize the relationship. If the 'snapvault start -r' command cannot find a common snapshot, you must reestablish the relationship with the 'snapvault start' command. If you must reestablish a relationship, either run the baseline transfer to a new qtree, or remove the existing qtree before starting the transfer. Refer to the Data Protection Guide for details.
 *Syslog Message*::
-%s: destination transfer from %s:%s to %s:%s : base Snapshot copy for transfer no longer exists on the source.
+%s: destination transfer from %s:%s to %s:%s : base snapshot for transfer no longer exists on the source.
 *Parameters*::
 *rtype* (STRING): Replication type (SnapMirror, SnapVault, and so on.).
 *srcfiler* (STRING): Replication source system.
@@ -183,7 +183,7 @@ Operation successful; no corrective action required.
 *Severity*::
 ERROR
 *Description*::
-This event occurs when Data ONTAP encounters an illegal data stream during a logical backup operation. This is usually due to an OSSV primary software bug. Normally OSSV sets an ACL (Access Control List) on a regular file or directory. However, as a result of this bug, OSSV attempts to set an ACL on an Alternate Data Stream (ADS) of a file or directory. See bug 148879 for details.
+This event occurs when ONTAP encounters an illegal data stream during a logical backup operation. This is usually due to an OSSV primary software bug. Normally OSSV sets an ACL (Access Control List) on a regular file or directory. However, as a result of this bug, OSSV attempts to set an ACL on an Alternate Data Stream (ADS) of a file or directory. See bug 148879 for details.
 *Corrective Action*::
 (None).
 *Syslog Message*::
@@ -196,7 +196,7 @@ This event occurs when Data ONTAP encounters an illegal data stream during a log
 *Severity*::
 ERROR
 *Description*::
-This message occurs when Data ONTAP(R) encounters an error while setting an ACL (Access Control List) for an inode on a SnapVault(R) or SnapMirror(R) destination. The replication transfer is aborted upon encountering this error.
+This message occurs when ONTAP encounters an error while setting an ACL (Access Control List) for an inode on a SnapVault(R) or SnapMirror(R) destination. The replication transfer is aborted upon encountering this error.
 *Corrective Action*::
 (None).
 *Syslog Message*::

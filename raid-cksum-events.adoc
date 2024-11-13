@@ -503,7 +503,7 @@ Block number mismatch on %s %s %s, %s, stored_dbn = %u, expected_dbn = %llu; sto
 *expected_vbn* (LONGINT): Expected volume block number.
 *ino_type* (STRING): The inode type
 *fileid* (INT): File identifier.
-*snapid* (INT): Snapshot(tm) copy identifier.
+*snapid* (INT): Snapshot identifier.
 *bno* (LONGINT): Block number in the file.
 *level* (INT): Level.
 *shelf* (STRING): Disk shelf identifier where the disk drive is located.
@@ -534,7 +534,7 @@ Invalid checksum entry on %s %s %s, %s, disk block %llu, %s inode number %d, sna
 *blockNum* (LONGINT): Physical disk block number containing the error.
 *ino_type* (STRING): The inode type
 *fileid* (INT): File identifier.
-*snapid* (INT): Snapshot(tm) copy identifier.
+*snapid* (INT): Snapshot identifier.
 *bno* (LONGINT): Block number in the file.
 *level* (INT): Level.
 *shelf* (STRING): Disk shelf identifier where the disk drive is located.
@@ -893,7 +893,7 @@ This message occurs when the system detects a checksum error in an aggregate whe
 *Corrective Action*::
 (None).
 *Syslog Message*::
-%s on %s %s%s, %s, disk block %llu, cpcount %d, buftreeid %d. System will attempt to perform recovery.
+%s on %s %s%s, %s, disk block %llu, cpcount %d, buftreeid %llu. System will attempt to perform recovery.
 *Parameters*::
 *error* (STRING): Name of the error.
 *vol_type* (STRING): Volume type.
@@ -902,7 +902,7 @@ This message occurs when the system detects a checksum error in an aggregate whe
 *disk_info* (STRING): Information about the disk object, including disk name, path, shelf, bay, serial number, vendor, model, RPM, and carrier serial number.
 *blockNum* (LONGINT): Block number.
 *stored_cpcount* (INT): Stored CP count in the checksum entry.
-*stored_buftreeid* (INT): Stored buftree identifier in the checksum entry.
+*stored_buftreeid* (LONGINT): Stored buftree identifier in the checksum entry.
 *shelf* (STRING): Identifier of the disk shelf where the disk is located.
 *bay* (STRING): Disk bay within the shelf where disk is located.
 *vendor* (STRING): Name of the disk drive vendor.
@@ -923,7 +923,7 @@ This message occurs when the system discovers a checksum error in a block of a f
 *Corrective Action*::
 (None).
 *Syslog Message*::
-%s on %s %s%s, %s, disk block %llu, cpcount %d, buftreeid %d, %s inode number %d, snapid %d, file block %llu, level %d.
+%s on %s %s%s, %s, disk block %llu, cpcount %d, buftreeid %llu, %s inode number %d, snapid %d, file block %llu, level %d.
 *Parameters*::
 *error* (STRING): Name of the error.
 *vol_type* (STRING): Whether the file is contained in an aggregate or a flexible volume.
@@ -932,10 +932,10 @@ This message occurs when the system discovers a checksum error in a block of a f
 *disk_info* (STRING): Formatted information of the disk drive.
 *blockNum* (LONGINT): Block number.
 *stored_cpcount* (INT): Stored CP count in the checksum entry.
-*stored_buftreeid* (INT): Stored buftree identifier in the checksum entry.
+*stored_buftreeid* (LONGINT): Stored buftree identifier in the checksum entry.
 *ino_type* (STRING): Inode type.
 *fileid* (INT): File identifier.
-*snapid* (INT): Snapshot(tm) copy identifier.
+*snapid* (INT): Snapshot identifier.
 *bno* (LONGINT): Block number in the file.
 *level* (INT): Level.
 *shelf* (STRING): Disk shelf identifier where the disk drive is located.
@@ -970,7 +970,7 @@ Block number mismatch on %s %s%s, %s: stored_dbn = %u, expected_dbn = %llu; stor
 *expected_vbn* (LONGINT): Expected volume block number.
 *ino_type* (STRING): Inode type.
 *fileid* (INT): File identifier.
-*snapid* (INT): Snapshot(tm) copy identifier.
+*snapid* (INT): Snapshot identifier.
 *bno* (LONGINT): Block number in the file.
 *level* (INT): Level.
 *shelf* (STRING): Disk shelf identifier where the disk drive is located.
@@ -1002,7 +1002,7 @@ Invalid checksum entry on %s %s%s, %s, disk block %llu, %s inode number %d, snap
 *blockNum* (LONGINT): Physical disk block number that contains the error.
 *ino_type* (STRING): Inode type.
 *fileid* (INT): File identifier.
-*snapid* (INT): Snapshot(TM) copy identifier.
+*snapid* (INT): Snapshot identifier.
 *bno* (LONGINT): Block number in the file.
 *level* (INT): Level.
 *shelf* (STRING): Disk shelf identifier where the disk drive is located.
@@ -1034,7 +1034,7 @@ Empty checksum entry for non-zeroed block on %s %s%s, %s, disk block %llu, %s in
 *blockNum* (LONGINT): Physical disk block number containing the error.
 *ino_type* (STRING): Inode type.
 *fileid* (INT): File identifier.
-*snapid* (INT): Snapshot(tm) copy identifier.
+*snapid* (INT): Snapshot identifier.
 *bno* (LONGINT): Block number in the file.
 *level* (INT): Level.
 *shelf* (STRING): Disk shelf identifier where the disk drive is located.
@@ -1084,20 +1084,20 @@ This message occurs when the system detects a checksum error due to a WAFL(R) co
 *Corrective Action*::
 Please restore the corrupted file from snapshot or from the backup media.
 *Syslog Message*::
-Checksum error due to WAFL context mismatch on %s %s%s, %s, disk block %llu, buftree ID %d, %s inode number %d, Snapshot copy ID %d, file block %llu, level %d: checksum context has buftree ID %d, file block %llu, %s.
+Checksum error due to WAFL context mismatch on %s %s%s, %s, disk block %llu, buftree ID %d, %s inode number %d, snapshot ID %d, file block %llu, level %d: checksum context has buftree ID %d, file block %llu, %s.
 *Parameters*::
 *vol_type* (STRING): Whether the file is contained in an aggregate or within a flexible volume.
 *owner* (STRING): Owner of the affected volume or aggregate.
 *vol* (STRING): Name of the volume or aggregate.
 *disk_info* (STRING): Information about the disk object, including disk name, path, shelf, bay, serial number, vendor, model, RPM, and carrier serial number.
 *blockNum* (LONGINT): Block number.
-*buftreeid* (INT): Buftree identifier.
+*buftreeid* (LONGINT): Buftree identifier.
 *ino_type* (STRING): Inode type.
 *fileid* (INT): File identifier.
-*snapid* (INT): Snapshot(tm) copy identifier.
+*snapid* (INT): Snapshot identifier.
 *bno* (LONGINT): Block number in the file.
 *level* (INT): Indirection level in the WAFL buffer.
-*stored_buftreeid* (INT): Stored buftree identifier in the checksum entry.
+*stored_buftreeid* (LONGINT): Stored buftree identifier in the checksum entry.
 *stored_fbn* (LONGINT): Stored file block number in the checksum entry.
 *remaining_stored_context* (STRING): String containing CP count, Physical Volume Block Number (PVBN), encrypted flag, encyption key index stored in the checksum entry.
 *shelf* (STRING): Identifier of the shelf where the disk is located.
@@ -1155,7 +1155,7 @@ Checksum error due to zeroed block on %s %s%s, %s, disk block %llu, %s inode num
 *blockNum* (LONGINT): Block number.
 *ino_type* (STRING): Inode type.
 *fileid* (INT): File identifier.
-*snapid* (INT): Snapshot(tm) copy identifier.
+*snapid* (INT): Snapshot identifier.
 *bno* (LONGINT): Block number in the file.
 *level* (INT): Level.
 *shelf* (STRING): Disk shelf identifier where the disk drive is located.

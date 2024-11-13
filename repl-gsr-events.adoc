@@ -34,7 +34,7 @@ NOTICE
 *Description*::
 This message occurs when replication of a clone request fails or cannot be serviced. The clone request completed successfully on the sync mirror primary, but was not completed on the sync mirror secondary. The clone will not be available on the sync mirror secondary.
 *Corrective Action*::
-For further information about correcting the problem, see the Knowledgebase article #######.
+Wait for the relationship to automatically resynchronize.
 *Syslog Message*::
 Failed to replicate clone of /vol/%s/%s to sync mirror secondary.
 *Parameters*::
@@ -46,7 +46,7 @@ Failed to replicate clone of /vol/%s/%s to sync mirror secondary.
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs when a Snapshot(R) replication request fails or cannot be served.
+This message occurs when a snapshot replication request fails or cannot be served.
 *Corrective Action*::
 (None).
 *Syslog Message*::
@@ -55,7 +55,7 @@ Failed to replicate snapshot operation to the destination.
 *transferId* (STRING): UUID of the SnapMirror(R) transfer.
 *srcVolumeDsid* (LONGINT): Source volume data set ID (DSID).
 *srcCgUUID* (STRING): Source CG UUID.
-*snapshotName* (STRING): Name of the Snapshot copy to be replicated.
+*snapshotName* (STRING): Name of the snapshot to be replicated.
 *failureReason* (STRING): Reason for the failure.
 *replStatus* (INT): Replication Status.
 *replFailureMsg* (INT): Replication failure message.

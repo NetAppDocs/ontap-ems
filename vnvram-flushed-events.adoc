@@ -22,6 +22,7 @@ This message occurs when the VNVRAM contents of any ONTAP-based virtual applianc
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Write to VNVRAM persistent storage is complete (%s).
+Write to VNVRAM persistent storage is complete (%s) elapsed %d ms.
 *Parameters*::
 *vnvr_reg* (STRING): Section of NVRAM that was written to the backing device.
+*flush_time_ms* (INT): Time taken to write the NVRAM section.

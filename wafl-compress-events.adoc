@@ -84,7 +84,7 @@ ALERT
 *Description*::
 This message occurs when the FAS compression writes bad blocks for an inconsistent or corrupted compression group due to hardware errors.
 *Corrective Action*::
-Restore the corrupted file from the Snapshot copy, or contact NetApp technical support
+Restore the corrupted file from the snapshot, or contact NetApp technical support
 *Syslog Message*::
 FAS compression: Writing bad blocks, at fbn:%llu level:%u in %s inode (fileid:%d snapid:%u) in volume %s%s%s%s.
 *Parameters*::
@@ -92,7 +92,7 @@ FAS compression: Writing bad blocks, at fbn:%llu level:%u in %s inode (fileid:%d
 *level* (INT): Buffer level.
 *ino_type* (STRING): Inode type
 *fileid* (INT): Identifying number for the suspect inode.
-*snapid* (INT): Snapshot(tm) copy identifier: (0) - active file system (non-zero) - refers to Snapshot copy
+*snapid* (INT): Snapshot identifier: (0) - active file system (non-zero) - refers to snapshot
 *owner* (STRING): Owner of the volume.
 *vol* (STRING): Name of the volume.
 *app* (STRING): Application UUID.
@@ -104,7 +104,7 @@ ERROR
 *Description*::
 This message occurs when the FAS compression writes bad blocks for an inconsistent or corrupted compression group due to software errors.
 *Corrective Action*::
-Restore the corrupted file from the Snapshot copy, or contact NetApp technical support
+Restore the corrupted file from the snapshot, or contact NetApp technical support
 *Syslog Message*::
 FAS compression: Writing bad blocks, at fbn:%llu level:%u in %s inode (fileid:%d snapid:%u) in volume %s%s%s%s.
 *Parameters*::
@@ -112,7 +112,7 @@ FAS compression: Writing bad blocks, at fbn:%llu level:%u in %s inode (fileid:%d
 *level* (INT): Buffer level.
 *ino_type* (STRING): Inode type
 *fileid* (INT): Identifying number for the suspect inode.
-*snapid* (INT): Snapshot(tm) copy identifier: (0) - active file system (non-zero) - refers to Snapshot copy
+*snapid* (INT): Snapshot identifier: (0) - active file system (non-zero) - refers to snapshot
 *owner* (STRING): Owner of the volume.
 *vol* (STRING): Name of the volume.
 *app* (STRING): Application UUID.

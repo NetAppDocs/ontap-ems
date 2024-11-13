@@ -51,6 +51,30 @@ Disk %s cannot be used on a node configured as All-Flash Optimized.
 *Parameters*::
 *diskName* (STRING): Name of the disk.
 
+== disk.init.err.not.NVMe
+*Severity*::
+ERROR
+*Description*::
+This message occurs when a non-NVMe drive is detected by a node that only supports NVMe drives.
+*Corrective Action*::
+Remove the drive from the system.
+*Syslog Message*::
+Drive %s cannot be used on a node that only supports NVMe drives.
+*Parameters*::
+*diskName* (STRING): Name of the drive.
+
+== disk.init.err.not.SED
+*Severity*::
+ERROR
+*Description*::
+This message occurs when a non-self-encrypting drive (non-SED) is detected by a node that only supports self-encrypting drives (SEDs).
+*Corrective Action*::
+Remove the drive from the system.
+*Syslog Message*::
+Drive %s cannot be used on a node that only supports SEDs.
+*Parameters*::
+*diskName* (STRING): Name of the drive.
+
 == disk.init.err.unsupp.shelf
 *Severity*::
 ERROR

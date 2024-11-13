@@ -50,7 +50,7 @@ ERROR
 *Description*::
 This message occurs when the replication source engine encounters a disk error in the file system metadata. Replication transfer will abort.
 *Corrective Action*::
-Run wafliron to fix the active file system. To continue replication transfer, delete the Snapshot(tm) copies containing this bad block.
+Run wafliron to fix the active file system. To continue replication transfer, delete the snapshots containing this bad block.
 *Syslog Message*::
 %s: %s%s%s%s: WAFL metadata inconsistent due to disk errors. (vvbn:%u level:%u file_type:%d). Aborting transfer.
 *Parameters*::

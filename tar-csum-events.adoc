@@ -61,8 +61,8 @@ This message occurs when the system accesses a TAR archive and compares the calc
 *Syslog Message*::
 Stored checksum %u does not match calculated checksum %u, extracting %s.
 *Parameters*::
-*stored_csum* (INT): Value of the stored checksum.
-*calculated_csum* (INT): Value of the calculated checksum.
+*stored_csum* (INTHEX): Value of the stored checksum.
+*calculated_csum* (INTHEX): Value of the calculated checksum.
 *tgz_path* (STRING): Path to the archive for which the calculated and stored checksums do not match.
 
 == tar.csum.notFound

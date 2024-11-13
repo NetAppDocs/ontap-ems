@@ -33,7 +33,7 @@ ERROR
 *Description*::
 This message occurs when a disk returns an error during sanitization.
 *Corrective Action*::
-Verify that the drive is capable of sanitization. See the ONTAP(R) Physical Storage Management Guide https://library.netapp.com/ecmdocs/ECMP12458210/html/GUID-1DC1DEC2-AAB3-483E-805D-82E722023AA6.html for more information.
+Verify that the drive is capable of sanitization and check the knowledgebase of the support vendor website for the error codes.
 *Syslog Message*::
 Disk %s has received an error %d (0%xh/0%xh/0%xh/0%xh) during sanitization.
 *Parameters*::

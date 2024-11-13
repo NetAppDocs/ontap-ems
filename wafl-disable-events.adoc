@@ -20,7 +20,7 @@ NOTICE
 *Description*::
 This message occurs when the volume guarantee of a flexible volume is disabled due to aggregate space being physically overallocated.
 *Corrective Action*::
-Remount the aggregate after creating space by increasing the aggregate size or by deleting/moving some volumes to the other aggregates. Use the "storage aggregate show-space" command to view the current space usage of the aggregate. To increase an aggregate's size, add disks by using the "storage aggregate add-disks" command. Aggregate Snapshot copies are deleted automatically to make some space when the aggregate is full.
+Remount the aggregate after creating space by increasing the aggregate size or by deleting/moving some volumes to the other aggregates. Use the "storage aggregate show-space" command to view the current space usage of the aggregate. To increase an aggregate's size, add disks by using the "storage aggregate add-disks" command. Aggregate snapshots are deleted automatically to make some space when the aggregate is full.
 *Syslog Message*::
 Volume guarantee on volume "%s" is disabled after the aggregate "%s" becomes physically overallocated.
 *Parameters*::

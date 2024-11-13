@@ -18,14 +18,14 @@ summary: snapvault.qtree events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when SnapVault(R) cannot start a volume-wide Snapshot(tm) target to complete a manually invoked baseline transfer or resynchronizing transfer. As a result, the changes to the qtree in that operation will not yet be made visible. SnapVault attempts to repair this condition.
+This message occurs when SnapVault(R) cannot start a volume-wide snapshot target to complete a manually invoked baseline transfer or resynchronizing transfer. As a result, the changes to the qtree in that operation will not yet be made visible. SnapVault attempts to repair this condition.
 *Corrective Action*::
 (None).
 *Syslog Message*::
 Could not coalesce %s: %s.
 *Parameters*::
 *qtpath* (STRING): Path of the qtree in the operation.
-*reason* (STRING): Reason why SnapVault could not start the Snapshot target.
+*reason* (STRING): Reason why SnapVault could not start the snapshot target.
 
 == snapvault.qtree.notCoalesced
 *Severity*::

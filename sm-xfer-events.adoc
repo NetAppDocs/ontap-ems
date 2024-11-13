@@ -18,13 +18,13 @@ summary: sm.xfer events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when deletion of a Snapshot(tm) copy on the destination volume fails, and therefore a subsequent transfer exceeds the maximum supported Snapshot copy count for the vault destination.
+This message occurs when deletion of a snapshot on the destination volume fails, and therefore a subsequent transfer exceeds the maximum supported snapshot count for the vault destination.
 *Corrective Action*::
-Manually delete the Snapshot copies from the destination volume and reissue the failed SnapMirror command.
+Manually delete the snapshots from the destination volume and reissue the failed SnapMirror command.
 *Syslog Message*::
-Unable to delete Snapshot copy '%s' from destination volume '%s' of the relationship with relationship UUID '%s' to make space for for newer Snapshot copies.
+Unable to delete snapshot '%s' from destination volume '%s' of the relationship with relationship UUID '%s' to make space for for newer snapshots.
 *Parameters*::
-*snap_name* (STRING): Snapshot copy that was not deleted.
+*snap_name* (STRING): Snapshot that was not deleted.
 *dst_path* (STRING): Destination volume of the relationship.
 *relationship_id* (STRING): UUID of the snapmirror relationship.
 
@@ -32,11 +32,11 @@ Unable to delete Snapshot copy '%s' from destination volume '%s' of the relation
 *Severity*::
 ALERT
 *Description*::
-This message occurs when a SnapMirror(R) transfer fails because the maximum supported Snapshot(tm) copy limit for a SnapMirror destination is reached and there is no space for a new, incoming Snapshot copy.
+This message occurs when a SnapMirror(R) transfer fails because the maximum supported snapshot limit for a SnapMirror destination is reached and there is no space for a new, incoming snapshot.
 *Corrective Action*::
-Reduce the "keep" count by using the "snapmirror policy modify-rule -policy [policy_name] -keep [keep_count]" command, or by manually deleting Snapshot copies from the SnapMirror(R) destination.
+Reduce the "keep" count by using the "snapmirror policy modify-rule -policy [policy_name] -keep [keep_count]" command, or by manually deleting snapshots from the SnapMirror(R) destination.
 *Syslog Message*::
-The number of Snapshot copies on destination volume '%s' of the relationship with relationship UUID '%s' and policy '%s' has reached the maximum supported.
+The number of snapshots on destination volume '%s' of the relationship with relationship UUID '%s' and policy '%s' has reached the maximum supported.
 *Parameters*::
 *dst_path* (STRING): Destination volume of the relationship.
 *relationship_id* (STRING): UUID of the snapmirror relationship.
@@ -46,11 +46,11 @@ The number of Snapshot copies on destination volume '%s' of the relationship wit
 *Severity*::
 ERROR
 *Description*::
-This message occurs when an incomplete SnapMirror(R) operation is detected for an incremental Snapshot(tm) copy that no longer exists on the SnapMirror(R) source volume. As a result, SnapMirror creates a Snapshot copy with the name "snapmirror_vlt_xfer_recovery" and requires a SnapMirror Resync operation to be performed on the SnapVault relationship to resume data protection.
+This message occurs when an incomplete SnapMirror(R) operation is detected for an incremental snapshot that no longer exists on the SnapMirror(R) source volume. As a result, SnapMirror creates a snapshot with the name "snapmirror_vlt_xfer_recovery" and requires a SnapMirror Resync operation to be performed on the SnapVault relationship to resume data protection.
 *Corrective Action*::
-Resume data protection either by retaining or deleting the Snapshot(tm) copy. Use the 'snapmirror resync -preserve' to retain it or use the 'snapmirror resync' command to delete it.
+Resume data protection either by retaining or deleting the snapshot Use the 'snapmirror resync -preserve' to retain it or use the 'snapmirror resync' command to delete it.
 *Syslog Message*::
-An incomplete SnapMirror operation was detected for an incremental Snapshot copy that no longer exists on the source volume '%s'. The data transfer for the incremental Snapshot copy was completed but the Snapshot copy on the vault destination '%s' was not created. Instead, a Snapshot copy with the name "snapmirror_vlt_xfer_recovery" was created.
+An incomplete SnapMirror operation was detected for an incremental snapshot that no longer exists on the source volume '%s'. The data transfer for the incremental snapshot was completed but the snapshot on the vault destination '%s' was not created. Instead, a snapshot with the name "snapmirror_vlt_xfer_recovery" was created.
 *Parameters*::
 *src_path* (STRING): Source volume of the relationship.
 *dst_path* (STRING): Destination volume of the relationship.
@@ -59,11 +59,11 @@ An incomplete SnapMirror operation was detected for an incremental Snapshot copy
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs when a SnapMirror(R) update does not find any new Snapshot(tm) copies to transfer. This can happen when none of the newer Snapshot copies on the source has a SnapMirror(R) label that matches a SnapMirror policy.
+This message occurs when a SnapMirror(R) update does not find any new snapshots to transfer. This can happen when none of the newer snapshots on the source has a SnapMirror(R) label that matches a SnapMirror policy.
 *Corrective Action*::
-Check that the SnapMirror label from the Snapshot policy matches SnapMirror policy rules.
+Check that the SnapMirror label from the snapshot policy matches SnapMirror policy rules.
 *Syslog Message*::
-SnapMirror update did not find any new Snapshot copies to transfer from the source volume '%s' of the relationship with relationship UUID '%s'.
+SnapMirror update did not find any new snapshots to transfer from the source volume '%s' of the relationship with relationship UUID '%s'.
 *Parameters*::
 *src_path* (STRING): Source volume of the SnapMirror relationship.
 *relationship_id* (STRING): UUID of the snapmirror relationship.
@@ -72,13 +72,13 @@ SnapMirror update did not find any new Snapshot copies to transfer from the sour
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a Snapshot copy was not transferred from the source volume to the destination volume during a snapmirror transfer because a Snapshot copy with the same name already exists in the destination volume.
+This message occurs when a snapshot was not transferred from the source volume to the destination volume during a snapmirror transfer because a snapshot with the same name already exists in the destination volume.
 *Corrective Action*::
-Rename the Snapshot copy in the source volume to a name that does not match the name of any Snapshot copy in the destination volume. Then, wait for the next scheduled update or trigger a manual snapmirror update.
+Rename the snapshot in the source volume to a name that does not match the name of any snapshot in the destination volume. Then, wait for the next scheduled update or trigger a manual snapmirror update.
 *Syslog Message*::
-Snapshot copy "%s" was not transferred from the source volume "%s" to the destination volume "%s" because the destination volume has a Snapshot copy with the same name.
+Snapshot "%s" was not transferred from the source volume "%s" to the destination volume "%s" because the destination volume has a snapshot with the same name.
 *Parameters*::
-*snap_name* (STRING): Name of the Snapshot copy that was not transferred.
+*snap_name* (STRING): Name of the snapshot that was not transferred.
 *src_path* (STRING): Source volume of the relationship.
 *dst_path* (STRING): Destination volume of the relationship.
 
@@ -88,7 +88,7 @@ ERROR
 *Description*::
 This message occurs when a SnapMirror(R) transfer receives a warning when it is approaching the "keep" count of a particular SnapMirror(R) relationship.
 *Corrective Action*::
-Increase the "keep" count to transfer more Snapshot(tm) copies with the same label using the following command: snapmirror policy modify-rule -policy [policy_name] -keep [keep_count]
+Increase the "keep" count to transfer more snapshots with the same label using the following command: snapmirror policy modify-rule -policy [policy_name] -keep [keep_count]
 *Syslog Message*::
 Warnings issued for SnapMirror relationship with source volume '%s' and destination volume '%s' with relationship UUID '%s' : %s
 *Parameters*::
@@ -101,9 +101,9 @@ Warnings issued for SnapMirror relationship with source volume '%s' and destinat
 *Severity*::
 ERROR
 *Description*::
-This message occurs during a SnapMirror(R) transfer, when the Snapshot(tm) count limit is reached for the SnapMirror relationship between the indicated source and destination volumes.
+This message occurs during a SnapMirror(R) transfer, when the snapshot count limit is reached for the SnapMirror relationship between the indicated source and destination volumes.
 *Corrective Action*::
-Delete some Snapshot copies from the destination volume to create space for new Snapshot copies to be transferred to it.
+Delete some snapshots from the destination volume to create space for new snapshots to be transferred to it.
 *Syslog Message*::
 Snapshot count limit for SnapMirror relationship with source volume '%s' and destination volume '%s' with relationship UUID '%s' has been reached : %s
 *Parameters*::

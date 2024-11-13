@@ -22,7 +22,7 @@ This message occurs when the system automatically deletes an inactive FlexGroup 
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Constituent with DISD "%lu" of FlexGroup volume "%s" (MSID "%lu") in Vserver "%s", which exists only in the data component and is inactive, has been automatically deleted.
+Constituent with DSID "%lu" of FlexGroup volume "%s" (MSID "%lu") in Vserver "%s", which exists only in the data component and is inactive, has been automatically deleted.
 *Parameters*::
 *constituentDsid* (LONGINT): Data Set ID (DSID) of the deleted constituent.
 *volumeName* (STRING): Name of the FlexGroup volume owning the deleted constituent.
@@ -37,7 +37,7 @@ This message occurs when the system automatically deletes an inactive FlexGroup 
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Constituent "%lu" (DISD "%lu") of FlexGroup volume "%s" (MSID "%lu") in Vserver "%s" is inactive and has been automatically deleted.
+Constituent "%lu" (DSID "%lu") of FlexGroup volume "%s" (MSID "%lu") in Vserver "%s" is inactive and has been automatically deleted.
 *Parameters*::
 *flexgroupIndex* (LONGINT): FlexGroup index of the deleted constituent.
 *constituentDsid* (LONGINT): Data Set ID (DSID) of the deleted constituent.

@@ -39,3 +39,16 @@ Call home for CTRAN JPC SPLIT BRAIN DETECTED.
 *Parameters*::
 *subject* (STRING): AutoSupport subject or title for this event.
 *epoch* (STRING): Identifying tag for multi node ASUP.
+
+== callhome.ctran.proposal.stuck
+*Severity*::
+ALERT
+*Description*::
+This message occurs when the Kernel Cluster Services (KCS) / Cluster Transaction Manager (CTRAN) detects that the proposal is stuck. Proposal is the transaction between nodes in a cluster. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+*Corrective Action*::
+Call NetApp technical support immediately for further assistance.
+*Syslog Message*::
+Call home for %s.
+*Parameters*::
+*subject* (STRING): AutoSupport subject or title for this event.
+*epoch* (STRING): Identifying tag for multi-node ASUP.

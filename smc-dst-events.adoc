@@ -18,16 +18,16 @@ summary: smc.dst events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when SnapMirror creates or deletes a Snapshot copy with a SnapMirror label on a FlexVol destination volume of a SnapMirror(R) relationship.
+This message occurs when SnapMirror creates or deletes a snapshot with a SnapMirror label on a FlexVol destination volume of a SnapMirror(R) relationship.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-SnapMirror Snapshot %s %s on destination volume %s, label %s, instance UUID %s, version UUID %s, relationship UUID %s.
+SnapMirror snapshot %s %s on destination volume %s, label %s, instance UUID %s, version UUID %s, relationship UUID %s.
 *Parameters*::
-*operation* (STRING): Snapshot copy operation either "create" or "delete".
-*snapname* (STRING): Snapshot copy name.
+*operation* (STRING): Snapshot operation either "create" or "delete".
+*snapname* (STRING): Snapshot name.
 *dstpath* (STRING): Path name of the destination volume of the SnapMirror relationship.
-*snaplabel* (STRING): SnapMirror label of the Snapshot copy.
-*instance_uuid* (STRING): Instance UUID of the Snapshot copy.
-*version_uuid* (STRING): Version UUID of the Snapshot copy.
+*snaplabel* (STRING): SnapMirror label of the snapshot.
+*instance_uuid* (STRING): Instance UUID of the snapshot.
+*version_uuid* (STRING): Version UUID of the snapshot.
 *relationshipID* (STRING): UUID of the SnapMirror relationship.
