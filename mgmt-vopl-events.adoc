@@ -155,11 +155,11 @@ Volume move job failed because destination volume "%s" could not be created.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the volume move job cannot be completed because creation of a Snapshot(tm) copy on the source volume failed.
+This message occurs when the volume move job cannot be completed because creation of a snapshot on the source volume failed.
 *Corrective Action*::
-Use the "volume show" to check if the volume has enough space for the Snapshot copy. Use the "snapshot show" command to check if the number of Snapshot copies have reached the maximum count. If the issue persists, contact Contact NetApp technical support..
+Use the "volume show" to check if the volume has enough space for the snapshot. Use the "snapshot show" command to check if the number of snapshots have reached the maximum count. If the issue persists, contact Contact NetApp technical support..
 *Syslog Message*::
-Volume move job failed because creation of a Snapshot copy on source volume "%s" failed.
+Volume move job failed because creation of a snapshot on source volume "%s" failed.
 *Parameters*::
 *volpath* (STRING): Name of the source volume of the move job.
 
@@ -375,11 +375,11 @@ Volume move job failed because the destination volume '%s' could not be prepared
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the volume move job cannot be completed because the call to calculate the delta between a Snapshot(tm) copy and the active file system failed.
+This message occurs when the volume move job cannot be completed because the call to calculate the delta between a snapshot and the active file system failed.
 *Corrective Action*::
 Contact NetApp technical support.
 *Syslog Message*::
-Volume move job failed because the call to calculate the delta between a Snapshot copy and the active file system on the source volume '%s' failed.
+Volume move job failed because the call to calculate the delta between a snapshot and the active file system on the source volume '%s' failed.
 *Parameters*::
 *volpath* (STRING): Name of the source volume of the move job.
 
@@ -387,11 +387,11 @@ Volume move job failed because the call to calculate the delta between a Snapsho
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the 'volume move' job cannot look up the Snapshot(tm) copy next in age to the currently referenced Snapshot copy. The 'volume move' job attempts to retry the operation.
+This message occurs when the 'volume move' job cannot look up the snapshot next in age to the currently referenced snapshot. The 'volume move' job attempts to retry the operation.
 *Corrective Action*::
 Use the 'volume move show' command to get the status of the current move operation. If the problem persists, contact NetApp technical support.
 *Syslog Message*::
-The 'volume move' job could not to look up the Snapshot copy next in age to the currently referenced Snapshot copy on the source volume '%s'.
+The 'volume move' job could not to look up the snapshot next in age to the currently referenced snapshot on the source volume '%s'.
 *Parameters*::
 *volpath* (STRING): Name of the source volume involved in the move operation.
 
@@ -399,11 +399,11 @@ The 'volume move' job could not to look up the Snapshot copy next in age to the 
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the volume move job cannot be completed because a Snapshot(tm) copy list cannot be obtained from the destination volume.
+This message occurs when the volume move job cannot be completed because a snapshot list cannot be obtained from the destination volume.
 *Corrective Action*::
 Check whether the destination volume is online. If the problem persists, contact NetApp technical support.
 *Syslog Message*::
-Volume move job failed because a Snapshot copy list could not be obtained from the destination volume '%s'.
+Volume move job failed because a snapshot list could not be obtained from the destination volume '%s'.
 *Parameters*::
 *volpath* (STRING): Name of the destination volume of the move job.
 
@@ -411,11 +411,11 @@ Volume move job failed because a Snapshot copy list could not be obtained from t
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the volume move job cannot be completed because a Snapshot(tm) copy tag cannot be read from the source volume.
+This message occurs when the volume move job cannot be completed because a snapshot tag cannot be read from the source volume.
 *Corrective Action*::
 Check whether the source volume is online. If the problem persists, contact NetApp technical support.
 *Syslog Message*::
-Volume move job failed because a Snapshot copy tag could not be read from the source volume '%s'.
+Volume move job failed because a snapshot tag could not be read from the source volume '%s'.
 *Parameters*::
 *volpath* (STRING): Name of the source volume of the move job.
 
@@ -423,11 +423,11 @@ Volume move job failed because a Snapshot copy tag could not be read from the so
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the volume move job cannot be completed because a Snapshot(tm) copy list cannot be obtained from the source volume.
+This message occurs when the volume move job cannot be completed because a snapshot list cannot be obtained from the source volume.
 *Corrective Action*::
 Check whether the source volume is online. If the problem persists, contact NetApp technical support.
 *Syslog Message*::
-Volume move job failed because a Snapshot copy list could not be obtained from the source volume '%s'.
+Volume move job failed because a snapshot list could not be obtained from the source volume '%s'.
 *Parameters*::
 *volpath* (STRING): Name of the source volume of the move job.
 
@@ -435,11 +435,11 @@ Volume move job failed because a Snapshot copy list could not be obtained from t
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the volume move job cannot be completed because the Snapshot(tm) copy tags on the destination volume cannot be read.
+This message occurs when the volume move job cannot be completed because the snapshot tags on the destination volume cannot be read.
 *Corrective Action*::
 Retry the volume move job. If the problem persists, this indicates a system level problem. Contact NetApp technical support.
 *Syslog Message*::
-Volume move job failed because Snapshot copy tags on the destination volume '%s' in vserver '%s' for the volume move of source volume '%s' in vserver '%s' could not be read.
+Volume move job failed because snapshot tags on the destination volume '%s' in vserver '%s' for the volume move of source volume '%s' in vserver '%s' could not be read.
 *Parameters*::
 *dstVol* (STRING): Name of the destination volume of the move job.
 *srcVol* (STRING): Name of the source volume of the move job.
@@ -564,11 +564,11 @@ The 'volume move' operation with job ID '%jd' for volume '%s' in Vserver '%s' ha
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a 'volume move' operation fails to create a Snapshot(tm) copy on source volume because the number of Snapshot copies in the volume exceeds the maximum limit or there is insufficient disk space in the volume.
+This message occurs when a 'volume move' operation fails to create a snapshot on source volume because the number of snapshots in the volume exceeds the maximum limit or there is insufficient disk space in the volume.
 *Corrective Action*::
-Make sure that the Snapshot copy limit is not reached for the volume. The current Data ONTAP version allows a maximum of 255 Snapshot copies per volume. If required, delete old Snapshot copies of the volumes on the aggregate by running the 'volume snapshot delete' command.
+Make sure that the snapshot limit is not reached for the volume. The current Data ONTAP version allows a maximum of 255 snapshots per volume. If required, delete old snapshots of the volumes on the aggregate by running the 'volume snapshot delete' command.
 *Syslog Message*::
-The 'volume move' operation with job ID '%jd' for volume '%s' present on Vserver '%s' cannot proceed (Reason: Cannot create a Snapshot copy on the volume).
+The 'volume move' operation with job ID '%jd' for volume '%s' present on Vserver '%s' cannot proceed (Reason: Cannot create a snapshot on the volume).
 *Parameters*::
 *jobId* (LONGINT): Job ID of the 'volume move' operation.
 *volName* (STRING): Name of the volume.
@@ -580,7 +580,7 @@ ERROR
 *Description*::
 This message occurs when there is not enough space on the volume or aggregate for a 'volume move' operation to proceed. It could be on the source or the destination node.
 *Corrective Action*::
-Reduce the amount of used space on the volume or aggregate, or increase the size of the volume or aggregate. To increase the size of the volume, run the 'volume modify' command. To create space on an aggregate, take one of the following actions: a. To free up more space on a volume, delete old Snapshot(tm) copies of the volumes on the aggregate by running the 'volume snapshot delete' command. b. To increase the size of a volume or an aggregate, add disks to the aggregate by running the 'storage aggregate add-disks' command.
+Reduce the amount of used space on the volume or aggregate, or increase the size of the volume or aggregate. To increase the size of the volume, run the 'volume modify' command. To create space on an aggregate, take one of the following actions: a. To free up more space on a volume, delete old snapshots of the volumes on the aggregate by running the 'volume snapshot delete' command. b. To increase the size of a volume or an aggregate, add disks to the aggregate by running the 'storage aggregate add-disks' command.
 *Syslog Message*::
 The 'volume move' operation with ID '%jd' for volume '%s' present on Vserver '%s' cannot proceed (Reason: Not enough space in the volume or aggregate).
 *Parameters*::
@@ -645,7 +645,7 @@ The 'volume move' operation with job ID '%jd' for volume '%s' in Vserver '%s' co
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a volume move job encounters conditions that prevent it from restarting; for example, required Snapshot(tm) copies have been deleted. This might result in loss of client access to the volume, stale temporary volumes and stale metadata.
+This message occurs when a volume move job encounters conditions that prevent it from restarting; for example, required snapshots have been deleted. This might result in loss of client access to the volume, stale temporary volumes and stale metadata.
 *Corrective Action*::
 Contact NetApp technical support.
 *Syslog Message*::
@@ -661,16 +661,16 @@ Volume move job ID '%jd' could not restart correctly and might have left a stale
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a 'volume move' operation cannot delete a reference Snapshot(tm) copy created by the move job.
+This message occurs when a 'volume move' operation cannot delete a reference snapshot created by the move job.
 *Corrective Action*::
-Use the 'snapshot show' command to verify that the Snapshot copy exists and is not locked by another process. Use the 'snapshot delete' command to delete the Snapshot copy manually.
+Use the 'snapshot show' command to verify that the snapshot exists and is not locked by another process. Use the 'snapshot delete' command to delete the snapshot manually.
 *Syslog Message*::
-Snapshot copy for 'volume move' job ID %jd could not be deleted: name: %s; Vserver ID: %d; volume name: %s.
+snapshot for 'volume move' job ID %jd could not be deleted: name: %s; Vserver ID: %d; volume name: %s.
 *Parameters*::
 *jobId* (LONGINT): ID of the volume move job.
-*snapName* (STRING): Name of the Snapshot copy.
+*snapName* (STRING): Name of the snapshot.
 *vserverId* (INT): Destination Vserver ID.
-*volName* (STRING): Name of the parent volume of the Snapshot copy.
+*volName* (STRING): Name of the parent volume of the snapshot.
 
 == mgmt.vopl.move.source.cleanup.failed
 *Severity*::
@@ -753,11 +753,11 @@ Verify that the source volume exists.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the volume move job cannot be completed because a Snapshot(tm) copy tag cannot be written to the destination volume.
+This message occurs when the volume move job cannot be completed because a snapshot tag cannot be written to the destination volume.
 *Corrective Action*::
 Check whether the destination volume is online. If the problem persists, contact NetApp technical support.
 *Syslog Message*::
-Volume move job failed because a Snapshot copy tag could not be written to the destination volume '%s'.
+Volume move job failed because a snapshot tag could not be written to the destination volume '%s'.
 *Parameters*::
 *volpath* (STRING): Name of the destination volume of the move job.
 

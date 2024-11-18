@@ -28,4 +28,4 @@ While configuring "%s" for volume "%s", space_mgmt_try_first policy ("%s") is co
 *volume_name* (STRING): Name of the volume.
 *space_mgmt_try_first* (STRING): space-mgmt-try-first policy for volume_grow or snap_delete.
 *grow_threshold* (INT): Used-space threshold, as a percentage, for the automatic growth of the volume.
-*delete_threshold* (INT): Used-space threshold, as a percentage, for the auto-deletion of Snapshot copies.
+*delete_threshold* (INT): Used-space threshold, as a percentage, for the auto-deletion of snapshots.

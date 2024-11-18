@@ -70,7 +70,7 @@ WAFL sanity check detected bad data on volume %s%s, %s, disk block %llu, %s inod
 *blockNum* (LONGINT): Block number.
 *ino_type* (STRING): Inode type.
 *fileid* (INT): File identifier.
-*snapid* (INT): Snapshot(TM) identifier.
+*snapid* (INT): Snapshot identifier.
 *fileBlockNum* (LONGINT): Block number in the file.
 *level* (INT): Indirection level.
 
@@ -90,7 +90,7 @@ WAFL sanity check detected bad data on volume %s%s, %s, disk block %llu, %s inod
 *blockNum* (LONGINT): Block number.
 *ino_type* (STRING): Inode type.
 *fileid* (INT): File identifier.
-*snapid* (INT): Snapshot(TM) identifier.
+*snapid* (INT): Snapshot identifier.
 *fileBlockNum* (LONGINT): Block number in the file.
 *level* (INT): Indirection level.
 

@@ -43,3 +43,39 @@ Invalid file system identifier (FSID): Mount failed for volume %s%s%s%s.
 *vol* (STRING): Volume name.
 *app* (STRING): Application UUID.
 *volident* (STRING): Unique identifier for the volume when the volume name itself is insufficient.
+
+== wafl.failed.online.labelread
+*Severity*::
+ERROR
+*Description*::
+This message occurs if the system is unable to read a valid aggregate label from the disks which prevents onlining the aggregate.
+*Corrective Action*::
+Contact NetApp technical support.
+*Syslog Message*::
+Unable to read the label for aggregate ID ''%d'' and will not be online.
+*Parameters*::
+*fa_id* (INT): Aggregate ID for which the label read fails.
+
+== wafl.failed.online.vol.info
+*Severity*::
+ERROR
+*Description*::
+This message occurs if the system is unable to read valid aggregate volume information from the disks which prevents onlining the aggregate.
+*Corrective Action*::
+Contact NetApp technical support.
+*Syslog Message*::
+Unable to read the volume information for aggregate ID ''%d'' and will not be online.
+*Parameters*::
+*fa_id* (INT): Aggregate ID which fails to read the volume info.
+
+== wafl.failed.rootAggr.online
+*Severity*::
+ERROR
+*Description*::
+This message occurs if the system is unable to bring any of the aggregates online because the root aggregate cannot be onlined.
+*Corrective Action*::
+Contact NetApp technical support.
+*Syslog Message*::
+Failed to online the root aggregate.
+*Parameters*::
+(None).

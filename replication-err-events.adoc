@@ -18,9 +18,9 @@ summary: replication.err events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the replication engine fails to create an automatic Snapshot(tm) copy.
+This message occurs when the replication engine fails to create an automatic snapshot.
 *Corrective Action*::
-Make sure that the Snapshot limit is not reached for the volume. The current Data ONTAP(R) version allows a maximum of 255 Snapshot copies per volume.
+Make sure that the snapshot limit is not reached for the volume. The current ONTAP version allows a maximum of 255 snapshots per volume.
 *Syslog Message*::
 %s transfer from %s:%s to %s:%s : %s.
 *Parameters*::

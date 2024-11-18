@@ -179,16 +179,16 @@ Ignoring recalling %d locks for aggregate %s %s%s%s%s, so that the MetroCluster 
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when Snapshot copies of an aggregate are autodeleted to free up space for newer writes.
+This message occurs when snapshots of an aggregate are autodeleted to free up space for newer writes.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Autodeletion of Snapshot copies for aggregate "%s" was triggered due to: %s. Available space: %d%%, space used by Snapshot copies: %d%%.
+Autodeletion of snapshots for aggregate "%s" was triggered due to: %s. Available space: %d%%, space used by snapshots: %d%%.
 *Parameters*::
 *aggr* (STRING): Name of the aggregate.
-*reason* (STRING): The reason why autodeletion of Snapshot copies was triggered.
+*reason* (STRING): The reason why autodeletion of snapshots was triggered.
 *avail_pct* (INT): Percentage of available space in the aggregate.
-*snap_used_pct* (INT): Percentage of space used by Snapshot copies in the aggregate.
+*snap_used_pct* (INT): Percentage of space used by snapshots in the aggregate.
 
 == wafl.aggr.overcommitted.vsm
 *Severity*::

@@ -18,14 +18,14 @@ summary: smc.snapmir events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the destination volume of a SnapMirror(R) relationship is not of -type Data Protection (DP) and a 'snapmirror initialize' operation is attempted. A volume must be of -type DP to accept a 'snapmirror initialize' operation.
+This message occurs when the destination volume of a SnapMirror(R) relationship is not a Data Protection (DP) type and a snapmirror initialize operation is attempted. A volume must be of a DP type to accept a snapmirror initialize operation.
 *Corrective Action*::
-Use a different volume of -type DP, or use the 'volume create' command to create a new volume of -type DP to use as a destination of the SnapMirror relationship. You cannot modify the type of a volume using the 'volume modify' command.
+For ASA r2 systems, contact NetApp technical support for assistance to resolve this internal error. For all other systems: Use a different volume of type DP, or use the "volume create" command to create a new volume of type DP to use as a destination of the SnapMirror relationship. You cannot modify the type of a volume using the 'volume modify' command.
 *Syslog Message*::
-Destination volume '%s' of a SnapMirror relationship is not of -type DP. Relationship UUID '%s'.
+Destination volume '%s' of a SnapMirror relationship is not a DP type. Relationship UUID "%s".
 *Parameters*::
 *dstpath* (STRING): Path name of the destination volume of the SnapMirror relationship.
-*relationshipID* (STRING): UUID of the snapmirror relationship.
+*relationshipID* (STRING): Universal unique identifier(UUID) of the SnapMirror relationship.
 
 == smc.snapmir.frest.clean.fail
 *Severity*::
@@ -59,13 +59,13 @@ Initialize from source volume '%s' to destination volume '%s' failed with error 
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs when the latest Snapshot(R) copy on the SnapMirror(R) or SnapVault(R) destination is not the base Snapshot copy and the source volume is read-only. Generally this is a rare event and a local-rollback-based SnapMirror resync will be attempted to automatically recover from this situation. If this event occurs frequently, it is likely that the Snapshot policy on the primary volume in the cascade is deleting Snapshot copies too soon.
+This message occurs when the latest snapshot on the SnapMirror(R) or SnapVault(R) destination is not the base snapshot and the source volume is read-only. Generally this is a rare event and a local-rollback-based SnapMirror resync will be attempted to automatically recover from this situation. If this event occurs frequently, it is likely that the snapshot policy on the primary volume in the cascade is deleting snapshots too soon.
 *Corrective Action*::
-Check the Snapshot policy on the primary (read-write) volume and increase the retention count of the Snapshot copies that must be backed up all the way to the destination.
+Check the snapshot policy on the primary (read-write) volume and increase the retention count of the snapshots that must be backed up all the way to the destination.
 *Syslog Message*::
-Latest Snapshot copy %s on the destination %s is not the base Snapshot copy. Attempting a local rollback based SnapMirror resync to correct this issue.
+Latest snapshot %s on the destination %s is not the base snapshot. Attempting a local rollback based SnapMirror resync to correct this issue.
 *Parameters*::
-*snap_name* (STRING): Name of the latest Snapshot copy on the SnapMirror or SnapVault destination.
+*snap_name* (STRING): Name of the latest snapshot on the SnapMirror or SnapVault destination.
 *dst_path* (STRING): Destination volume of the SnapMirror/SnapVault relationship.
 
 == smc.snapmir.partnr.noconnect
@@ -190,7 +190,7 @@ SnapMirror unexpected error '%s'. Relationship UUID '%s'. Operation UUID '%s'.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a SnapMirror(R) operation encounters an NVMe Namespace that is not supported on the destination side.
+This message occurs when a SnapMirror(R) operation encounters an NVMe Namespace that is unsupported on the destination side.
 *Corrective Action*::
 Upgrade the destination to a version that supports NVMe Namespace objects.
 *Syslog Message*::
@@ -202,7 +202,7 @@ SnapMirror unsupported NVMe Namespace. Relationship UUID '%s'.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a SnapMirror(R) operation encounters a 512-byte block size NVMe namespace that is not supported on the destination.
+This message occurs when a SnapMirror(R) operation encounters a 512-byte block size NVMe namespace that is unsupported on the destination.
 *Corrective Action*::
 Upgrade the destination to a version that supports 512-byte block size NVMe namespace objects.
 *Syslog Message*::

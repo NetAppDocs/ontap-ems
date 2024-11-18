@@ -32,7 +32,7 @@ ALERT
 *Description*::
 This message occurs when the access time updates of all the files in the volumes of an aggregate stop because the aggregate has consumed its entire free space.
 *Corrective Action*::
-Create space by increasing the aggregate size or by deleting some volumes or moving volumes to other aggregates. Use the "storage aggregate show-space" command to view the current space usage of the aggregate. To increase an aggregate's size, add disks by using the "storage aggregate add-disks" command. Aggregate Snapshot(R) copies are deleted automatically to make some space when the aggregate is full.
+Create space by increasing the aggregate size or by deleting some volumes or moving volumes to other aggregates. Use the "storage aggregate show-space" command to view the current space usage of the aggregate. To increase an aggregate's size, add disks by using the "storage aggregate add-disks" command. Aggregate snapshots are deleted automatically to make some space when the aggregate is full.
 *Syslog Message*::
 Access time updates of all the files in the volumes of aggregate "%s" have been stopped.
 *Parameters*::
@@ -44,7 +44,7 @@ ALERT
 *Description*::
 This message occurs when the aggregate is nearly full. The access time updates of all the files in the volumes of an aggregate stop when the aggregate consumes its entire free space.
 *Corrective Action*::
-Create space by increasing the aggregate size or by deleting some volumes or moving volumes to other aggregates. Use the "storage aggregate show-space" command to view the current space usage of the aggregate. To increase an aggregate's size, add disks by using the "storage aggregate add-disks" command. Aggregate Snapshot(R) copies are deleted automatically to make some space when the aggregate is full.
+Create space by increasing the aggregate size or by deleting some volumes or moving volumes to other aggregates. Use the "storage aggregate show-space" command to view the current space usage of the aggregate. To increase an aggregate's size, add disks by using the "storage aggregate add-disks" command. Aggregate snapshots are deleted automatically to make some space when the aggregate is full.
 *Syslog Message*::
 Access time updates of all the files in the volumes of aggregate "%s" stop when the aggregate becomes full.
 *Parameters*::

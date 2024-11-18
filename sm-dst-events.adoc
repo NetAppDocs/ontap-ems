@@ -18,11 +18,11 @@ summary: sm.dst events
 *Severity*::
 ALERT
 *Description*::
-This message occurs when the SnapMirror(R) labels are lost for all Snapshot(tm) copies on the vault destination. This happens when the Snapshot copy tag's metafile of a volume has an inconsistent header. As a result, SnapMirror cannot automatically delete existing Snapshot copies from the SnapVault(R) destination and can reach the maximum supported Snapshot copies limit. New Snapshot copies are not affected.
+This message occurs when the SnapMirror(R) labels are lost for all Snapshot copies on the vault destination. This happens when the snapshot tag's metafile of a volume has an inconsistent header. As a result, SnapMirror cannot automatically delete existing snapshots from the SnapVault(R) destination and can reach the maximum supported snapshot limit. New snapshots are not affected.
 *Corrective Action*::
-When SnapVault destination reaches maximum supported Snapshot copies limit, delete the Snapshot copies that are missing the SnapMirror label. Use "volume snapshot show -snapmirror-label -" to get a list of Snapshot copies that are missing SnapMirror label.
+For ASA r2 systems, contact NetApp technical support for assistance to resolve this internal error. For all other systems: Delete the snapshots that are missing the SnapMirror label. Use "volume snapshot show -snapmirror-label -" command to list snapshots then delete the snapshots that are missing the SnapMirror label.
 *Syslog Message*::
-The volume '%s' has lost SnapMirror label for all Snapshot copies. SnapMirror will use Snapshot copy's Name Prefix to automatically delete Snapshot copies based on SnapMirror policy '%s'.
+The volume '%s' has lost SnapMirror label for all snapshots. SnapMirror will use the snapshot's name prefix to automatically delete snapshots based on SnapMirror policy "%s".
 *Parameters*::
 *dst_path* (STRING): Destination volume of the SnapVault relationship.
 *policy_name* (STRING): SnapMirror policy name.

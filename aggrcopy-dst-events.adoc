@@ -46,7 +46,7 @@ This event is issued when an aggr copy start operation has to revert the checksu
 *Corrective Action*::
 No corrective action required.
 *Syslog Message*::
-An aggr copy transfer to destination aggregate %s has found that the source and destination aggregates have differing checksum states. Data ONTAP is aborting the transfer and reverting the checksum state for the destination aggregate. After Data ONTAP displays a message showing the revert is complete, you will need to retry the operation. You can use the "aggr status -c" command to see the progress of the reversion.
+An aggr copy transfer to destination aggregate %s has found that the source and destination aggregates have differing checksum states. Data ONTAP is aborting the transfer and reverting the checksum state for the destination aggregate. After ONTAP displays a message showing the revert is complete, you will need to retry the operation. You can use the "aggr status -c" command to see the progress of the reversion.
 *Parameters*::
 *dst* (STRING): The aggr copy destination volume
 
@@ -58,7 +58,7 @@ This event is issued when a aggr copy start operation is not able to revert the 
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Data ONTAP cannot revert the checksum state of destination aggregate %s.
+ONTAP cannot revert the checksum state of destination aggregate %s.
 *Parameters*::
 *dst* (STRING): The aggr copy destination
 

@@ -22,11 +22,11 @@ This message occurs when an aggregate or volume with a 32-bit or mixed format fi
 *Corrective Action*::
 Contact NetApp technical support.
 *Syslog Message*::
-%s %s%s%s%s has an unsupported 32-bit or mixed format file system (Snapshot copy ID %u).
+%s %s%s%s%s has an unsupported 32-bit or mixed format file system (snapshot ID %u).
 *Parameters*::
 *type* (STRING): Type of object (volume or aggregate).
 *owner* (STRING): Volume owner.
 *vol* (STRING): Volume name.
 *app* (STRING): Application UUID.
 *volident* (STRING): Unique identifier of the volume in cases where the volume name itself is insufficient.
-*snapid* (INT): Snapshot(tm) copy identifier: (0) - active file system (non-zero) - refers to Snapshot copy
+*snapid* (INT): Snapshot identifier: (0) - active file system (non-zero) - refers to snapshot

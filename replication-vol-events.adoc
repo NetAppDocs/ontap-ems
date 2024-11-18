@@ -76,7 +76,7 @@ ALERT
 *Description*::
 This message occurs when a replication source engine encounters a disk error in the file system metadata. Replication transfer will abort.
 *Corrective Action*::
-If the specified Snapshot copy IDs contain 0 (active file system), run wafliron to fix the active file system. To continue replication transfer, delete the specified Snapshot copies during the next reboot, either by using the boot menu command 'boot_snap_delete' or by using the CLI command 'vol online -r'. Then contact NetApp technical support.
+If the specified snapshot IDs contain 0 (active file system), run wafliron to fix the active file system. To continue replication transfer, delete the specified snapshots during the next reboot, either by using the boot menu command 'boot_snap_delete' or by using the CLI command 'vol online -r'. Then contact NetApp technical support.
 *Syslog Message*::
 %s: %s: WAFL metadata inconsistent due to disk errors. (vbn:%llu level:%u file_type:%d) The affected snapshot IDs are %s. Aborting transfer.
 *Parameters*::
@@ -85,4 +85,4 @@ If the specified Snapshot copy IDs contain 0 (active file system), run wafliron 
 *vbn* (LONGINT): Virtual Volume Block Number
 *level* (INT): Buffer level.
 *file_type* (INT): Inode type.
-*snapstring* (STRING): String containing the list of Snapshot copy IDs of the Snapshot copies that have the inconsistent blocks.
+*snapstring* (STRING): String containing the list of snapshot IDs of the snapshots that have the inconsistent blocks.

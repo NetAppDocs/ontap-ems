@@ -18,11 +18,11 @@ summary: wafl.snaprestore events
 *Severity*::
 ERROR
 *Description*::
-This message occurs during a Snapshot(tm) copy restore operation, when the system cannot recognize the version of Data ONTAP(R) from the Snapshot copy it is reverting to. The Snapshot copy is corrupt and cannot be used.
+This message occurs during a snapshot restore operation, when the system cannot recognize the version of Data ONTAP(R) from the snapshot it is reverting to. The snapshot is corrupt and cannot be used.
 *Corrective Action*::
-Cancel the Snapshot copy restore operation, if necessary, and restore to a different Snapshot copy.
+Cancel the snapshot restore operation, if necessary, and restore to a different snapshot.
 *Syslog Message*::
-Snapshot copy is from an unrecognizable version of Data ONTAP. (vol='%s', volident='%s')
+Snapshot is from an unrecognizable version of Data ONTAP. (vol='%s', volident='%s')
 *Parameters*::
 *vol* (STRING): Volume name.
 *volident* (STRING): To uniquely identify the volume in cases where the volume name itself is insufficient.
@@ -31,9 +31,9 @@ Snapshot copy is from an unrecognizable version of Data ONTAP. (vol='%s', volide
 *Severity*::
 NOTICE
 *Description*::
-This message occurs during volume initialization when the system cancels a SnapRestore(R) process due to an invalid Snapshot(TM) copy.
+This message occurs during volume initialization when the system cancels a SnapRestore(R) process due to an invalid snapshot.
 *Corrective Action*::
-Select a different Snapshot copy and reattempt the restore operation.
+Select a different snapshot and reattempt the restore operation.
 *Syslog Message*::
 Snapshot is invalid; canceling pending "vol snaprestore" for %s %s%s%s%s.
 *Parameters*::
@@ -79,28 +79,28 @@ Readonly mode; deferring "vol snaprestore" for %s %s%s%s%s.
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs during volume initialization when the system reverts to a previous Snapshot(TM) copy.
+This message occurs during volume initialization when the system reverts to a previous snapshot.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Reverting %s %s%s%s%s to a previous Snapshot copy with snapid %d.
+Reverting %s %s%s%s%s to a previous snapshot with snapid %d.
 *Parameters*::
 *type* (STRING): Type of object (volume/aggregate).
 *owner* (STRING): Owner of the volume.
 *vol* (STRING): Name of the volume.
 *app* (STRING): Application UUID.
 *volident* (STRING): Unique identifier of the volume when the volume name by itself is insufficient.
-*snapId* (INT): Identifier for the Snapshot copy.
+*snapId* (INT): Identifier for the snapshot.
 
 == wafl.snaprestore.stale
 *Severity*::
 ERROR
 *Description*::
-This message occurs during a Snapshot(tm) copy restore operation, when the system determines that the Snapshot copy it is restoring from is stale. The Snapshot copy is corrupt and cannot be used.
+This message occurs during a snapshot restore operation, when the system determines that the snapshot it is restoring from is stale. The snapshot is corrupt and cannot be used.
 *Corrective Action*::
-Cancel the Snapshot copy restore operation, if necessary, and restore from a different Snapshot copy.
+Cancel the snapshot restore operation, if necessary, and restore from a different snapshot.
 *Syslog Message*::
-Snapshot copy is stale. (vol='%s', volident='%s')
+Snapshot is stale. (vol='%s', volident='%s')
 *Parameters*::
 *vol* (STRING): Volume name.
 *volident* (STRING): To uniquely identify the volume in cases where the volume name itself is insufficient.

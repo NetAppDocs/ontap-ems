@@ -18,16 +18,16 @@ summary: wafl.s2c events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when SnapMirror(R) logical transfer is not possible due to incompatible Snapshot copy.
+This message occurs when SnapMirror(R) logical transfer is not possible due to incompatible snapshot.
 *Corrective Action*::
-Create new Snapshot copy on the source volume and use that for Logical transfer.
+Create new snapshot on the source volume and use that for Logical transfer.
 *Syslog Message*::
-SnapMirror operation failed in volume '%s%s%s' for Snapshot ID %d because %s.
+SnapMirror operation failed in volume '%s%s%s' for snapshot ID %d because %s.
 *Parameters*::
 *vol* (STRING): Name of the volume.
 *app* (STRING): Application UUID.
 *volident* (STRING): Unique identifier of the volume in cases where the volume name itself is insufficient.
-*snapId* (INT): Identifier for the Snapshot(tm) copy.
+*snapId* (INT): Identifier for the snapshot.
 *reason* (STRING): Specific reason for failure.
 
 == wafl.s2c.snap.lang.mismatch

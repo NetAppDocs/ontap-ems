@@ -933,7 +933,7 @@ This event occurs when a checksum error due to WAFL context mismatch is detected
 *Corrective Action*::
 Start wafliron on the indicated volume or aggregate.
 *Syslog Message*::
-Checksum error due to wafl context mismatch on %s %s%s, %s inode number %d, snapid %d, file block %llu, level %d, RBN %llu. Checksum context has FBN %llu, buftreeid %u, CP count %u, encrypted flag %d, key index %d, PVBN %lld.
+Checksum error due to wafl context mismatch on %s %s%s, %s inode number %d, snapid %d, file block %llu, level %d, RBN %llu. Checksum context has FBN %llu, buftreeid %llu, CP count %u, encrypted flag %d, key index %d, PVBN %lld.
 *Parameters*::
 *vol_type* (STRING): String indicating whether the file is contained in a flexible volume or aggregate.
 *owner* (STRING): Owner of the affected volume or aggregate.
@@ -945,7 +945,7 @@ Checksum error due to wafl context mismatch on %s %s%s, %s inode number %d, snap
 *level* (INT): Inode indirect pointer level
 *blockNum* (LONGINT): RAID Block Number (RBN) of the block
 *stored_fbn* (LONGINT): Stored file block number in the checksum entry.
-*stored_buftreeid* (INT): Stored buftree identifier in the checksum entry.
+*stored_buftreeid* (LONGINT): Stored buftree identifier in the checksum entry.
 *stored_cpcount* (INT): Stored CP count in the checksum entry.
 *stored_encrypted_flag* (INT): Stored encrypted flag in the checksum entry.
 *stored_key_index* (INT): Stored encryption key index in the checksum entry.
@@ -1783,23 +1783,23 @@ This message occurs periodically at the end of RAID group resynchronization, pro
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs at the beginning and at the end of a resynchronization and it lists a bitmap of Snapshot(tm) copies involved in the resynchronization.
+This message occurs at the beginning and at the end of a resynchronization and it lists a bitmap of snapshots involved in the resynchronization.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-%s %s%s: resync Snapshot copies %x %x %x %x %x %x %x %x
+%s %s%s: resync snapshots %x %x %x %x %x %x %x %x
 *Parameters*::
 *vol_type* (STRING): Volume type.
 *owner* (STRING): Owner of the aggregate.
 *rg* (STRING): RAID group in the resynchronizing plex.
-*snapmap7* (INT): Bitmap for Snapshot copies 255-224.
-*snapmap6* (INT): Bitmap for Snapshot copies 223-192.
-*snapmap5* (INT): Bitmap for Snapshot copies 191-160.
-*snapmap4* (INT): Bitmap for Snapshot copies 159-128.
-*snapmap3* (INT): Bitmap for Snapshot copies 127-96.
-*snapmap2* (INT): Bitmap for Snapshot copies 95-64.
-*snapmap1* (INT): Bitmap for Snapshot copies 63-32.
-*snapmap0* (INT): Bitmap for Snapshot copies 31-0.
+*snapmap7* (INT): Bitmap for snapshots 255-224.
+*snapmap6* (INT): Bitmap for snapshots 223-192.
+*snapmap5* (INT): Bitmap for snapshots 191-160.
+*snapmap4* (INT): Bitmap for snapshots 159-128.
+*snapmap3* (INT): Bitmap for snapshots 127-96.
+*snapmap2* (INT): Bitmap for snapshots 95-64.
+*snapmap1* (INT): Bitmap for snapshots 63-32.
+*snapmap0* (INT): Bitmap for snapshots 31-0.
 
 == raid.rg.resync.start
 *Severity*::

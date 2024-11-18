@@ -29,7 +29,7 @@ New %s encrypted volume %s is created on aggregate %s.
 *aggr* (STRING): Name of the containing aggregate.
 *voluuid* (STRING): Volume UUID.
 *keyid* (STRING): Encryption Key ID.
-*buftreeid* (INT): Buftreeid.
+*buftreeid* (LONGINT): Buftreeid.
 *cp_count* (INT): Consistency Point (CP) at which this volume is created.
 
 == wafl.vvol.delete.metadata.recrm
@@ -107,7 +107,7 @@ Volume %s%s%s%s destroyed.
 *vol* (STRING): Name of the flexible volume.
 *app* (STRING): Application UUID.
 *volident* (STRING): Unique identifier for the volume when the volume name alone is insufficient.
-*vol_btid* (INT): Internal buftree identifier for the volume.
+*vol_btid* (LONGINT): Internal buftree identifier for the volume.
 
 == wafl.vvol.encrypted.offline
 *Severity*::
@@ -183,7 +183,7 @@ This message occurs when an encrypted destination volume is created as part of v
 *aggr* (STRING): Name of the containing aggregate.
 *voluuid* (STRING): Volume UUID.
 *keyid* (STRING): Encryption Key ID.
-*buftreeid* (INT): Buftreeid.
+*buftreeid* (LONGINT): Buftreeid.
 *cp_count* (INT): Consistency Point (CP) at which this volume is created.
 
 == wafl.vvol.offline
@@ -312,7 +312,7 @@ Cannot determine volume label information (%s). (Flexible volume with UUID '%s',
 *vol_flags* (INTHEX): Flags for the volume.
 *fsid* (INTHEX): File system identifier for the volume.
 *clone_parent* (INTHEX): 'id_in_aggr' value of the clone's parent volume.
-*base_snapid* (INTHEX): Clone base Snapshot(tm) copy ID.
+*base_snapid* (INTHEX): Clone base snapshot ID.
 *vvuuid* (STRING): UUID of the flexible volume as identified by the vvlabel.
 *vvol_type* (INTHEX): Flexible volume's type.
 *dsid* (LONGINTHEX): Volume data set identifier.
@@ -324,13 +324,13 @@ Cannot determine volume label information (%s). (Flexible volume with UUID '%s',
 *Severity*::
 ERROR
 *Description*::
-This event indicates that the transfer to a destination flexible volume has failed because the aggregate than contains this volume is out of space.
+This message occurs when transfer to a destination flexible volume has fails because the aggregate that contains this volume is out of space.
 *Corrective Action*::
-Increase space available in the aggregate by either adding disks or freeing space by deleting aggregate snapshots, shrinking flexible volumes or moving flexible volumes to another aggregate. Ensure that there is sufficient space available in the aggregate (using the df -A command) to accommodate the flexible volumes it contains. The vol size command may be used to obtain flexible volume sizes and also to grow or shrink them.
+For non-ASA r2 platforms, increase space available in the aggregate by either adding disks or freeing space by deleting aggregate Snapshot copies, shrinking flexible volumes or moving flexible volumes to another aggregate. Ensure that there is sufficient space available in the aggregate (using the "df -A command") to accommodate the flexible volumes it contains. The "volume size" command may be used to obtain flexible volume sizes and also to grow or shrink them. For ASA r2 platforms, increase space in an aggregate by either adding disks to the cluster or freeing space by deleting data or Snapshot copies. To delete a Snapshot copy, use the "vserver consistency-group snapshot delete" command.
 *Syslog Message*::
-Transfer to volume '%s%s%s' failed because the containing aggregate, '%s', is out of space.
+Transfer to volume "%s%s%s" failed because the containing aggregate, "%s", is out of space.
 *Parameters*::
 *vol* (STRING): The volume name
-*app* (STRING): Application UUID.
+*app* (STRING): Application universal unique identifier(UUID)
 *volident* (STRING): To uniquely identify the volume in cases where volume name itself is insufficient.
-*aggr* (STRING): The aggregate name
+*aggr* (STRING): The aggregate name.

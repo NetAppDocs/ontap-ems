@@ -16,13 +16,13 @@ summary: cluster.switch events
 
 == cluster.switch.count
 *Severity*::
-INFORMATIONAL
+ALERT
 *Description*::
-Redundant configuration is missing for cluster switches. If the remaining cluster switch fails, you can no longer access the cluster.
+This message occurs when an insufficient number of cluster switches are discovered for a redundant cluster network configuration.
 *Corrective Action*::
-1) Ensure that a redundant pair of cluster switches exists in the network. 2) Ensure that cluster ports are connected to both switches. 3) Enable the Cisco Discovery Protocol (CDP)/Industy Standard Discovery Protocol(ISDP) on the switches, if you previously disabled it. CDP/ISDP is enabled by default. Refer to your switch documentation for instructions. 4) If Data ONTAP cannot automatically discover a switch, use the "system cluster-switch create" command to configure discovery and monitoring of the switch.
+1) Ensure that a redundant pair of cluster switches exist in the network. 2) Ensure that cluster ports are connected to both switches. 3) Enable Cisco Discovery Protocol (CDP), Industry Standard Discovery Protocol (ISDP) or Link Layer Discovery Protocol (LLDP) on the switches, if you previously disabled it. CDP/ISDP/LLDP is enabled by default. Refer to your switch documentation for instructions. 4) If ONTAP cannot automatically discover a switch, use the "system switch ethernet create" command to configure discovery and monitoring of the switch.
 *Syslog Message*::
-Cluster switch count: %d but requires %d.
+Cluster switches discovered: %d, but %d switches required for redundancy.
 *Parameters*::
 *count* (INT): Number of cluster switches discovered.
 *required* (INT): Number of cluster switches required.

@@ -18,14 +18,14 @@ summary: wafl.snapshot_xlation_duplicate_entry events
 *Severity*::
 ALERT
 *Description*::
-This message occurs when WAFL(R) determines that there are duplicate Snapshot(tm) copy entries in the Snapshot copy translation table. Access to this Snapshot copy is disabled until the problem is resolved.
+This message occurs when WAFL(R) determines that there are duplicate snapshot entries in the snapshot translation table. Access to this snapshot is disabled until the problem is resolved.
 *Corrective Action*::
-The Snapshot copy is inaccessible because the corresponding entry in the translation table has been cleared. Contact NetApp technical support resolve the problem.
+The snapshot is inaccessible because the corresponding entry in the translation table has been cleared. Contact NetApp technical support resolve the problem.
 *Syslog Message*::
-WAFL Snapshot copy translation table: Duplicate entry for volume '%s%s%s' that maps physical Snapshot copy '%d' to logical Snapshot copy '%d'.
+WAFL snapshot translation table: Duplicate entry for volume '%s%s%s' that maps physical snapshot '%d' to logical snapshot '%d'.
 *Parameters*::
 *owner* (STRING): Owner of the volume.
 *app* (STRING): Application UUID.
 *volident* (STRING): Unique identifier of the volume in cases where the volume name itself is insufficient.
-*physical_snapid* (INT): Physical Snapshot copy index.
-*Logical_snapid* (INT): Logical Snapshot copy index.
+*physical_snapid* (INT): Physical snapshot index.
+*Logical_snapid* (INT): Logical snapshot index.

@@ -155,11 +155,11 @@ Giveback was vetoed because the disk ownership reassignment in progress on the p
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the system cannot perform a giveback due to Snapshot(tm) copy activity, and must abort the giveback.
+This message occurs when the system cannot perform a giveback due to snapshot activity, and must abort the giveback.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-%s %s%s%s%s has Snapshot copy activity underway; canceling giveback.
+%s %s%s%s%s has snapshot activity underway; canceling giveback.
 *Parameters*::
 *type* (STRING): Object type (volume or aggregate).
 *owner* (STRING): Volume owner.
@@ -171,11 +171,11 @@ This message occurs when the system cannot perform a giveback due to Snapshot(tm
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the system detects Snapshot(tm) copy activity during giveback.
+This message occurs when the system detects snapshot activity during giveback.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-%s %s%s%s%s has Snapshot copy activity underway.
+%s %s%s%s%s has snapshot activity underway.
 *Parameters*::
 *type* (STRING): Object type (volume or aggregate).
 *owner* (STRING): Volume owner.

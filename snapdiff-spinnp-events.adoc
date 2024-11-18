@@ -18,19 +18,19 @@ summary: snapdiff.spinnp events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the system encounters an unexpected condition while computing differences between Snapshot(tm) copies using the SnapDiff v2 API.
+This message occurs when the system encounters an unexpected condition while computing differences between snapshots using the SnapDiff v2 API.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Encountered unexpected Data ONTAP error while computing differences between Snapshot copies using the SnapDiff v2 API. SnapDiff session ID %s, FlexGroup %s, in vserver %s, with MSID %lu, diff Snapshot copy %s, diff Snapshot copy ID %lu, base Snapshot copy %s, base Snapshot copy ID %lu, current constituent DSID %lu. Error: %s
+Encountered unexpected Data ONTAP error while computing differences between snapshots using the SnapDiff v2 API. SnapDiff session ID %s, FlexGroup %s, in vserver %s, with MSID %lu, diff snapshot %s, diff snapshot ID %lu, base snapshot %s, base snapshot ID %lu, current constituent DSID %lu. Error: %s
 *Parameters*::
 *sessionId* (STRING): SnapDiff v2 session ID.
 *fgName* (STRING): FlexGroup name.
 *vsName* (STRING): Vserver name.
 *fgMsid* (LONGINT): FlexGroup MSID.
-*diffSnapName* (STRING): Diff Snapshot copy name.
-*diffSnapId* (LONGINT): Diff Snapshot copy logical ID.
-*baseSnapName* (STRING): Base Snapshot copy name.
-*baseSnapId* (LONGINT): Base Snapshot copy logical ID.
+*diffSnapName* (STRING): Diff snapshot name.
+*diffSnapId* (LONGINT): Diff snapshot logical ID.
+*baseSnapName* (STRING): Base snapshot name.
+*baseSnapId* (LONGINT): Base snapshot logical ID.
 *curDsid* (LONGINT): Current constituent DSID.
 *error* (STRING): Error message.

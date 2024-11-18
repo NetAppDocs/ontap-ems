@@ -31,11 +31,11 @@ clone inherited counters for clone flexible volume %s on aggregate %s are invali
 *Severity*::
 ERROR
 *Description*::
-This message alerts you about a missing clone flexible volume base Snapshot(tm) copy and strongly recommends that you take the clone flexible volume offline and destroy it.
+This message alerts you about a missing clone flexible volume base snapshot and strongly recommends that you take the clone flexible volume offline and destroy it.
 *Corrective Action*::
 Take the clone flexible volume offline immediately. If you know that the clone does not contain any valuable data, you can safely destroy and re-create it.
 *Syslog Message*::
-Base Snapshot copy for clone flexible volume %s on aggregate %s is missing. It is strongly recommended that you take the clone offline and destroy it. Failure to do so might lead to clone panic at any time.
+Base snapshot for clone flexible volume %s on aggregate %s is missing. It is strongly recommended that you take the clone offline and destroy it. Failure to do so might lead to clone panic at any time.
 *Parameters*::
 *clonename* (STRING): Clone flexible volume name.
 *aggrname* (STRING): Aggregate name.
@@ -75,11 +75,11 @@ Snapshot '%s' in clone volume '%s%s%s' cannot be deleted, there is insufficient 
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when there is not enough free space to complete a file clone split operation from the Snapshot(tm) copy. The clone file might become unreadable when the parent Snapshot copy is automatically deleted.
+This message occurs when there is not enough free space to complete a file clone split operation from the snapshot. The clone file might become unreadable when the parent snapshot is automatically deleted.
 *Corrective Action*::
 Increase the space available to the volume by either adding disks or by freeing space in the volume to allow the split operation to continue.
 *Syslog Message*::
-File clone split from Snapshot copy of '%s%s%s' cannot be completed due to lack of disk space.
+File clone split from snapshot of '%s%s%s' cannot be completed due to lack of disk space.
 *Parameters*::
 *name* (STRING): Volume name.
 *app* (STRING): Application UUID.
@@ -103,11 +103,11 @@ Volume clone split start called for fenced volume '%s%s%s'.
 *Severity*::
 ALERT
 *Description*::
-This message occurs during boot when a clone is marked unrecoverable due to its missing base Snapshot(tm) copy.
+This message occurs during boot when a clone is marked unrecoverable due to its missing base snapshot.
 *Corrective Action*::
 If you know that the clone does not contain any valuable data, you can safely destroy and re-create it. If it contains any valuable data, you can recover only the data which was written after the volume clone was created. Trying to access the data which was shared with the base snapshot (original data) will result in error.
 *Syslog Message*::
-Base Snapshot copy for clone %s on aggregate %s is missing. Marking it unrecoverable.
+Base snapshot for clone %s on aggregate %s is missing. Marking it unrecoverable.
 *Parameters*::
 *clonename* (STRING): Clone name.
 *aggrname* (STRING): Aggregate name.

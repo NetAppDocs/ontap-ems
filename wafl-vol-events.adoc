@@ -65,7 +65,7 @@ ERROR
 *Description*::
 This message occurs when ONTAP(R) software cannot increase the size of an AppDM volume by five percent during an upgrade to ONTAP 9.5.
 *Corrective Action*::
-ONTAP has increased the Snapshot(tm) copy reserve percentage on this AppDM volume from zero to five percent as part of the upgrade to ONTAP 9.5. To retain the same available free space on the volume, consider increasing the size of the volume by five percent by using the "vol modify -size" command. It might be necessary to increase the size of the aggregate first, using the "aggr add-disks" command.
+ONTAP has increased the snapshot reserve percentage on this AppDM volume from zero to five percent as part of the upgrade to ONTAP 9.5. To retain the same available free space on the volume, consider increasing the size of the volume by five percent by using the "vol modify -size" command. It might be necessary to increase the size of the aggregate first, using the "aggr add-disks" command.
 *Syslog Message*::
 The file system on %s %s%s%s%s could not be grown 5%% larger as part of the upgrade to ONTAP 9.5.
 *Parameters*::
@@ -129,7 +129,7 @@ ALERT
 *Description*::
 This message occurs when a background truncation operation for large files stalls due to insufficient free space for allocating additional metadata on the volume.
 *Corrective Action*::
-Manually delete Snapshot(tm) copies or increase the volume's size for one-time space issues. For frequent space issues, consider changing autogrow or autodelete settings for the volume in question.
+Manually delete snapshots or increase the volume's size for one-time space issues. For frequent space issues, consider changing autogrow or autodelete settings for the volume in question.
 *Syslog Message*::
 Insufficient free space available on %s %s%s %s to complete background truncation operation.
 *Parameters*::
@@ -206,7 +206,7 @@ This event is issued when the volume options are set such that the autodelete de
 Process of destroying volume clones using volume %s snapid %d failed. Some volume clones may have been taken offline or destroyed.
 *Parameters*::
 *name* (STRING): The volume name
-*snapid* (INT): Snapshot(tm) copy identifier.
+*snapid* (INT): Snapshot identifier.
 
 == wafl.vol.clone.unlock.snapshot.offline.failed
 *Severity*::
@@ -224,27 +224,27 @@ Volume clone offline of '%s' failed.
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs when the volume options are set so that the autodelete destroy policy is allowed to destroy volume clones referring to the Snapshot(TM) copy to be deleted. The message indicates that the process of destroying volume clones is beginning. The Snapshot autodelete destroy policy is used when all other attempts to recover space in a thin-provisioned aggregate fail. The disruptive effect of destroying volume clones should be understood when setting this policy.
+This message occurs when the volume options are set so that the autodelete destroy policy is allowed to destroy volume clones referring to the snapshot to be deleted. The message indicates that the process of destroying volume clones is beginning. The snapshot autodelete destroy policy is used when all other attempts to recover space in a thin-provisioned aggregate fail. The disruptive effect of destroying volume clones should be understood when setting this policy.
 *Corrective Action*::
 (None).
 *Syslog Message*::
 Starting process of destroying volume clones using volume %s snapid %d.
 *Parameters*::
 *name* (STRING): Volume name.
-*snapid* (INT): Snapshot copy identifier.
+*snapid* (INT): Snapshot identifier.
 
 == wafl.vol.clone.unlock.snapshot.success
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs when the volume options are set so that the autodelete destroy policy is allowed to destroy volume clones referring to the Snapshot(TM) copy to be deleted. The message indicates that the process of destroying volume clones has successfully completed.
+This message occurs when the volume options are set so that the autodelete destroy policy is allowed to destroy volume clones referring to the snapshot to be deleted. The message indicates that the process of destroying volume clones has successfully completed.
 *Corrective Action*::
 (None).
 *Syslog Message*::
 Destroyed all volume clones using using volume %s snapid %d.
 *Parameters*::
 *name* (STRING): Volume name.
-*snapid* (INT): Snapshot copy identifier.
+*snapid* (INT): Snapshot identifier.
 
 == wafl.vol.create.clusterVolOnCFOaggr
 *Severity*::
@@ -859,7 +859,7 @@ ALERT
 *Description*::
 This message occurs when an unlink operation requires more space than is available for unlinking in the relevant volume. Clients cannot remove files or directories until free space is added.
 *Corrective Action*::
-Manually delete Snapshot(tm) copies or increase the volume's size for one-time space issues. For frequent space issues, consider changing autogrow or autodelete settings for the volume or aggregate in question.
+Manually delete snapshots or increase the volume's size for one-time space issues. For frequent space issues, consider changing autogrow or autodelete settings for the volume or aggregate in question.
 *Syslog Message*::
 Insufficient free space available on %s %s %s%s %s to perform unlink operation.
 *Parameters*::
@@ -875,7 +875,7 @@ ERROR
 *Description*::
 This message occurs when automatically growing a volume fails because the underlying storage of the SVM (Vserver) has reached the SVM's storage limit.
 *Corrective Action*::
-Increase the storage of the SVM by raising the storage limit. Alternatively, recover storage space by deleting volumes, Snapshot copies, LUNs, or files.
+Increase the storage of the SVM by raising the storage limit. Alternatively, recover storage space by deleting volumes, snapshots, LUNs, or files.
 *Syslog Message*::
 Auto-grow of volume "%s" failed because the SVM's storage limit has been reached.
 *Parameters*::

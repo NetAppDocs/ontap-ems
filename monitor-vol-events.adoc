@@ -20,7 +20,7 @@ ALERT
 *Description*::
 This message occurs when one or more file systems are full, typically indicating at least 98% full. Space usage is computed based on the active file system size as well as all of the space saved by storage efficiency features. This value is computed by subtracting the value of the "Snapshot Reserve" field, and is equivalent to the "logical-used" field of the "volume show-space" command. The volume can be over 100% full due to space used or including savings by storage efficiency features or reserved by metadata. A value greater than 100% can cause the volume to become logically overallocated. See the "vol.log.overalloc.inc.sav" event message for more information.
 *Corrective Action*::
-Create space by increasing the volume size, deleting data, or deleting Snapshot copies. To increase volume size, use the "volume size" command. To delete Snapshot copies, use the "volume snapshot delete" command.
+Create space by increasing the volume size, deleting data, or deleting snapshots. To increase volume size, use the "volume size" command. To delete snapshots, use the "volume snapshot delete" command.
 *Syslog Message*::
 %s %s%s%s (UUID %s) is full (reserved or using %d%% of space including savings and %d%% of inodes).
 *Parameters*::
@@ -38,7 +38,7 @@ ALERT
 *Description*::
 This message occurs when one or more file systems are nearly full, typically indicating at least 95% full. Space usage is based on the active file system size as well as all of the space saved by storage efficiency features. This value is computed by subtracting the value of the "Snapshot Reserve" field, and is equivalent to the "logical-used" field of the "volume show-space" command.
 *Corrective Action*::
-Create space by increasing the volume size, deleting data, or deleting Snapshot copies. To increase volume size, use the "volume size" command. To delete Snapshot copies, use the "volume snapshot delete" command.
+Create space by increasing the volume size, deleting data, or deleting snapshots. To increase volume size, use the "volume size" command. To delete snapshots, use the "volume snapshot delete" command.
 *Syslog Message*::
 %s %s%s%s (UUID %s) is nearly full (reserved or using %d%% of space including savings and %d%% of inodes).
 *Parameters*::

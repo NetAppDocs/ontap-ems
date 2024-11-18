@@ -18,7 +18,7 @@ summary: replication.upgrade events
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs when post-upgrade operations for SnapMirror(R) and SnapVault(R), as a part of Data ONTAP upgrade, are complete.
+This message occurs when post-upgrade operations for SnapMirror(R) and SnapVault(R), as a part of ONTAP upgrade, are complete.
 *Corrective Action*::
 (None).
 *Syslog Message*::

@@ -26,6 +26,6 @@ An incompatible NFS v4.2 security label operation was received on a file in volu
 *Parameters*::
 *volname* (STRING): Volume name.
 *fsid* (INT): File System ID (FSID) of the volume.
-*snapid* (INT): Snapshot copy ID.
+*snapid* (INT): Snapshot ID.
 *fileid* (LONGINT): File ID.
 *error_msg* (STRING): Detailed error message to provide context while debugging the issue. The relevant input/output parameters of the message are also included to aid in debugging.

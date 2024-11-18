@@ -18,14 +18,14 @@ summary: snapdiff.zapi events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the Snapshot(tm) copy differencing engine, SnapDiff, fails to obtain an appropriate file name for the requested file access protocol. The SnapDiff session is aborted and future attempts will fail until the problem is resolved.
+This message occurs when the snapshot differencing engine, SnapDiff, fails to obtain an appropriate file name for the requested file access protocol. The SnapDiff session is aborted and future attempts will fail until the problem is resolved.
 *Corrective Action*::
 (Call support).
 *Syslog Message*::
-Failed to get an appropriate file name for the requested file access protocol for directory entry with inode %u in directory with inode %u in Snapshot copy %u of volume %u.
+Failed to get an appropriate file name for the requested file access protocol for directory entry with inode %u in directory with inode %u in snapshot %u of volume %u.
 *Parameters*::
 *inode_num* (INT): Identifier of the directory entry.
 *parent_inode_num* (INT): Identifier of the directory.
-*incr_snap_id* (INT): Identifier of the incremental Snapshot copy.
+*incr_snap_id* (INT): Identifier of the incremental snapshot.
 *fsid* (INT): Identifier of the volume.
-*base_snap_id* (INT): Identifier of the base Snapshot copy.
+*base_snap_id* (INT): Identifier of the base snapshot.

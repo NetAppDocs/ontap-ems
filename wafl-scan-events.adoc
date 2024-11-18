@@ -20,7 +20,7 @@ ERROR
 *Description*::
 This message occurs when the system is aborting the WORM clear scan because there is no space available in the volume.
 *Corrective Action*::
-Create space by increasing the volume or aggregate sizes, or by deleting data or deleting Snapshottm copies. To increase a volume's size, use the "volume size" command. To delete a volume's Snapshot copies, use the "volume snapshot delete" command. To increase an aggregate's size, add disks by using the "storage aggregate add-disks" command. Aggregate Snapshot copies are deleted automatically when the aggregate is full.
+For non-ASA r2 platforms, create space by increasing the volume or aggregate sizes, or by deleting data or by deleting Snapshot copies. To increase a volume's size, use the "volume size" command. To delete a volume's Snapshot copies, use the "volume snapshot delete" command. To increase an aggregate's size, add disks by using the "storage aggregate add-disks" command. Aggregate Snapshot copies are deleted automatically when the aggregate is full. For ASA r2 platforms, create space in the volume or aggregate. To create space in an aggregate, add more disks to the cluster. To create space in a volume, delete data or delete Snapshot copies. To delete a Snapshot copy, use the "vserver consistency-group snapshot delete" command.
 *Syslog Message*::
 Aborting WAFL %s scanner on volume %s because there is no space available in the volume.
 *Parameters*::
@@ -272,10 +272,10 @@ This message occurs when the deswizzler scanner encounters an error and aborts.
 *Corrective Action*::
 Correct the issue based on the reason the deswizzler scanner aborted.
 *Syslog Message*::
-The deswizzler scanner running on volume %s (Snapshot ID %d) was aborted. Reason: "%s".
+The deswizzler scanner running on volume %s (snapshot ID %d) was aborted. Reason: "%s".
 *Parameters*::
 *vol* (STRING): Volume that was being deswizzled.
-*snapid* (INT): Snapshot(tm) copy identifier: (0) - active file system (non-zero) - refers to Snapshot copy
+*snapid* (INT): Snapshot identifier: (0) - active file system (non-zero) - refers to snapshot
 *reason* (STRING): Reason the deswizzler scanner aborted.
 
 == wafl.scan.deswizzle.check.referenced
@@ -310,10 +310,10 @@ This message occurs when the deswizzler scanner encounters an exception.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-The deswizzler scanner running on volume %s (Snapshot ID %d) was excepted. Error: "%d".
+The deswizzler scanner running on volume %s (snapshot ID %d) was excepted. Error: "%d".
 *Parameters*::
 *vol* (STRING): Volume that was being deswizzled.
-*snapid* (INT): Snapshot(tm) copy identifier: (0) - active file system (non-zero) - refers to Snapshot copy
+*snapid* (INT): Snapshot identifier: (0) - active file system (non-zero) - refers to snapshot
 *error* (INT): Message status.
 
 == wafl.scan.deswizzle.failed
@@ -322,13 +322,13 @@ ERROR
 *Description*::
 This message occurs when the deswizzler scanner has encounters a volume inconsistency and stops running.
 *Corrective Action*::
-An inconsistency was found in the specified Snapshot copy. Delete the Snapshot copy. To ensure that the active file system is intact, you might want to run wafliron.
+An inconsistency was found in the specified snapshot. Delete the snapshot. To ensure that the active file system is intact, you might want to run wafliron.
 *Syslog Message*::
-The deswizzler scanner on flexvol %s, Snapshot copy %s (ID %d) encountered a volume inconsistency and stopped running on the volume.
+The deswizzler scanner on flexvol %s, snapshot %s (ID %d) encountered a volume inconsistency and stopped running on the volume.
 *Parameters*::
 *vol* (STRING): Volume that was being deswizzled.
-*snapname* (STRING): Inconsistent Snapshot(tm) copy name.
-*snapid* (INT): Inconsistent Snapshot(tm) copy snapid.
+*snapname* (STRING): Inconsistent snapshot name.
+*snapid* (INT): Inconsistent snapshot snapid.
 
 == wafl.scan.done
 *Severity*::
@@ -491,7 +491,7 @@ ERROR
 *Description*::
 This message occurs when there is not enough free space to uncompact the indirect blocks during the volume uncompact operation.
 *Corrective Action*::
-Create space by increasing the volume size, or by deleting data or deleting Snapshot(tm) copies. To increase a volume's size, use the "volume size" command. To delete a volume's Snapshot copies, use the "volume snapshot delete" command.
+Create space by increasing the volume size, or by deleting data or deleting snapshots. To increase a volume's size, use the "volume size" command. To delete a volume's snapshots, use the "volume snapshot delete" command.
 *Syslog Message*::
 Indirect block uncompact scan for volume %s (UUID: %s) stopped because of insufficient free space.
 *Parameters*::
@@ -632,14 +632,14 @@ User cannot abort quota initialization scan. Please use 'quota off' command.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a block reallocation scanner cannot move blocks trapped in aggregate Snapshot(R) copies, because the Snapshot copies are older than the value in 'wafl_blkr_max_snap_age' flag (default is 360 seconds). You can display the value of this flag by using 'printflag wafl_blkr_max_snap_age'.
+This message occurs when a block reallocation scanner cannot move blocks trapped in aggregate snapshots, because the snapshots are older than the value in 'wafl_blkr_max_snap_age' flag (default is 360 seconds). You can display the value of this flag by using 'printflag wafl_blkr_max_snap_age'.
 *Corrective Action*::
-Delete all aggregate Snapshot copies or Snapshot schedules before running a block reallocation scan. In the case of RaidSyncmirror aggregates, ensure that the resyncsnaptime option has a value that is less than in the 'age' parameter.
+Delete all aggregate snapshots or snapshot schedules before running a block reallocation scan. In the case of RaidSyncmirror aggregates, ensure that the resyncsnaptime option has a value that is less than in the 'age' parameter.
 *Syslog Message*::
 Block reallocation scan on aggregate %s found snapshots older than %d seconds.
 *Parameters*::
 *aggr* (STRING): Aggregate name.
-*age* (INT): Maximum allowed age of aggregate Snapshot copies, (in seconds), for block reallocation scan.
+*age* (INT): Maximum allowed age of aggregate snapshots, (in seconds), for block reallocation scan.
 
 == wafl.scan.reallocDisallowed
 *Severity*::
@@ -653,6 +653,20 @@ Reallocation disallowed on %s inode %d in volume %s%s: readonly or snapshot.
 *Parameters*::
 *inotype* (STRING): The inode space (public or private)
 *inode* (INT): The inode that could not be reallocated.
+*vol* (STRING): The volume name
+*app* (STRING): Application UUID.
+*volident* (STRING): To uniquely identify the volume in cases where volume name itself is insufficient.
+
+== wafl.scan.relocation.nocontiguousFree
+*Severity*::
+ERROR
+*Description*::
+This event is issued to indicate there is not enough contiguous free space to rewrite the blocks during file or volume reallocation.
+*Corrective Action*::
+Free space in the volume, or increase the size of the aggregate, then retry the operation.
+*Syslog Message*::
+Reallocate scan for volume %s%s has stopped because there is insufficient contiguous free space.
+*Parameters*::
 *vol* (STRING): The volume name
 *app* (STRING): Application UUID.
 *volident* (STRING): To uniquely identify the volume in cases where volume name itself is insufficient.
@@ -689,18 +703,18 @@ Reallocate scan for volume %s%s has stopped because there is insufficient snapsh
 *Severity*::
 ERROR
 *Description*::
-This messges occurs when scanners find an out-of-range block number in the Snapshot(tm) copy.
+This messges occurs when scanners find an out-of-range block number in the snapshot.
 *Corrective Action*::
-Delete the specified Snapshot copy.
+Delete the specified snapshot.
 *Syslog Message*::
-Out of range block number error detected at %s %s%s%s%s in Snapshot copy %d, during block type scan. Delete the specified Snapshot copy.
+Out of range block number error detected at %s %s%s%s%s in snapshot %d, during block type scan. Delete the specified snapshot.
 *Parameters*::
 *type* (STRING): Type of object (volume or aggregate).
 *owner* (STRING): Volume owner.
 *vol* (STRING): Volume name.
 *app* (STRING): Application UUID.
 *volident* (STRING): To uniquely identify the volume in cases where the volume name itself is insufficient.
-*snapId* (INT): Identifier for the Snapshot copy.
+*snapId* (INT): Identifier for the snapshot.
 
 == wafl.scan.split.inofile.cantAbort
 *Severity*::
@@ -722,14 +736,14 @@ This message occurs when the type bit scan encounters an unexpected error from t
 *Corrective Action*::
 Contact NetApp technical support for corrective steps.
 *Syslog Message*::
-Aborting the type bit scan due to error %d on volume %s while running a diff operation on inode %u of %s space between Snapshot ID %u and Snapshot ID %u after fbn %llu.
+Aborting the type bit scan due to error %d on volume %s while running a diff operation on inode %u of %s space between snapshot ID %u and snapshot ID %u after fbn %llu.
 *Parameters*::
 *error* (INT): Error number.
 *volname* (STRING): Volume name.
 *inum* (INT): File ID under scan.
 *ino_type* (STRING): Inode type.
-*snapId* (INT): Identifier for the Snapshot(tm) copy under scan.
-*prev_snapId* (INT): Identifier for the reference Snapshot copy.
+*snapId* (INT): Identifier for the snapshot under scan.
+*prev_snapId* (INT): Identifier for the reference snapshot.
 *start_fbn* (LONGINT): Starting file block number (fbn) of the diff operation.
 *vendor* (STRING): Name of the vendor.
 
@@ -737,18 +751,18 @@ Aborting the type bit scan due to error %d on volume %s while running a diff ope
 *Severity*::
 NOTICE
 *Description*::
-This messages occurs when scanners find a type bits mismatch for a block number. This might indicate a file system inconsistency in a file system or Snapshot(tm) copy.
+This messages occurs when scanners find a type bits mismatch for a block number. This might indicate a file system inconsistency in a file system or snapshot.
 *Corrective Action*::
 (Call support).
 *Syslog Message*::
-Type bits mismatch found at %s %s%s%s%s in Snapshot copy %d, vbn %llu, during block type scan. On-disk type bits %d, expected type bits %d.
+Type bits mismatch found at %s %s%s%s%s in snapshot %d, vbn %llu, during block type scan. On-disk type bits %d, expected type bits %d.
 *Parameters*::
 *type* (STRING): Type of object (volume or aggregate).
 *owner* (STRING): Node that owns the object.
 *vol* (STRING): Name of the object.
 *app* (STRING): Application UUID.
 *volident* (STRING): To uniquely identify the object in cases where the object name itself is insufficient.
-*snapId* (INT): Identifier for the Snapshot copy.
+*snapId* (INT): Identifier for the snapshot.
 *vbn* (LONGINT): Block number of the block within the volume.
 *diskbits* (INT): On-disk type bits of the block.
 *expectedbits* (INT): Expected type bits of the block.
