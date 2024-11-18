@@ -92,6 +92,62 @@ Chapter metadata (%s) has inconsistent record for object (%s). Source %s (%s).
 *condition* (STRING): Initial metadata validation test that failed.
 *state* (STRING): Description of the metadata that was found to be inconsistent.
 
+== air.repaired.cssSnapdbFh
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when ONTAP(R) discovers an inconsistency in a metadata bucket header record. The inconsistency is automatically repaired immediately upon detection.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Inconsistency in the css snapdb filehandle information of the TOC metadata %s belonging to bucket %u is being repaired.
+*Parameters*::
+*toc_fh* (STRING): File handle of the TOC metafile.
+*bucket_num* (INT): Bucket number.
+*state* (STRING): Description of the metadata that was found to be inconsistent.
+
+== air.repaired.cssSnapdbHdr
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when ONTAP(R) discovers an inconsistency in the user header of the css snapdb metafile. The inconsistency is automatically repaired immediately upon detection.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Inconsistency in user header of css snapdb metafile %s belonging to bucket %u is being repaired.
+*Parameters*::
+*snapdb_fh* (STRING): File handle of the snapdb metafile.
+*bucket_num* (INT): Bucket number.
+*state* (STRING): Description of the metadata that was found to be inconsistent.
+
+== air.repaired.cssSnapdbInode
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when ONTAP(R) discovers an inconsistency in the css snapdb metafile inode. The inconsistency is automatically repaired immediately upon detection.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Inconsistency in the css snapdb inode information of the TOC metadata %s belonging to bucket %u is being repaired.
+*Parameters*::
+*toc_fh* (STRING): File handle of the TOC metafile.
+*bucket_num* (INT): Bucket number.
+*state* (STRING): Description of the metadata that was found to be inconsistent.
+
+== air.repaired.cssSnapdbTid
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when ONTAP(R) discovers an inconsistency in the qtree id of the css snapdb metafile inode. The inconsistency is automatically repaired immediately upon detection.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Inconsistency in the TID of the css snapdb metafile inode %s belonging to bucket %u is being repaired.
+*Parameters*::
+*snapdb_fh* (STRING): File handle of the snapdb metafile.
+*bucket_num* (INT): Bucket number.
+*state* (STRING): Description of the metadata that was found to be inconsistent.
+
 == air.repaired.dir.hole
 *Severity*::
 NOTICE

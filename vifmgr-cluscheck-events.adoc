@@ -63,7 +63,7 @@ ALERT
 *Description*::
 This message occurs when continued packet loss during the ping test is observed. Continued packet loss means multiple failures of the ping test persisted over several iterations of the test. The ping test tests the connectivity of a cluster logical interface (LIF) to all other cluster logical interfaces (LIFs).
 *Corrective Action*::
-Ensure connectivity of the cluster LIFs. There are a number of issues that can cause this problem. Some things to check: - is the port conncted to the correct network/switch - link light - switch configuration
+Ensure connectivity of the cluster LIFs. There are a number of issues that can cause this problem. Some things to check: - is the port connected to the correct network/switch - link light - switch configuration
 *Syslog Message*::
 Continued packet loss when pinging from cluster lif %s (node %s) to cluster lif %s (node %s).
 *Parameters*::
@@ -78,7 +78,7 @@ ALERT
 *Description*::
 This message occurs when all packets of the ping test are dropped. The ping test tests the connectivity of a cluster logical interface (LIF) to all other cluster logical interfaces (LIFs).
 *Corrective Action*::
-Ensure connectivity of the cluster LIFs. There are a number of issues that can cause this problem. Some things to check: - is the port conncted to the correct network/switch - link light - switch configuration
+Ensure connectivity of the cluster LIFs. There are a number of issues that can cause this problem. Some things to check: - is the port connected to the correct network/switch - link light - switch configuration
 *Syslog Message*::
 Total packet loss when pinging from cluster lif %s (node %s) to cluster lif %s (node %s).
 *Parameters*::
@@ -130,6 +130,20 @@ Port %s on node %s is reporting a high number (at least 1 per %d packets) of obs
 *portname* (STRING): Name of the device that is reporting a high number of hardware errors.
 *nodename* (STRING): Name of the node on which the port resides.
 *threshold* (INT): Threshold at which this message is logged, at least 1 error per threshold.
+
+== vifmgr.cluscheck.hwerrors.ifgrp
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a network device that is part of an interface group reports a high number of observed hardware errors, such as CRC errors (cyclic redundancy check), length errors, alignment errors, or dropped frames, and those errors are limited to a single network interface card (NIC) slot.
+*Corrective Action*::
+The errors could be originating from the specified port, a remote port, or a port on another component of the network. Check the statistics for both the port and the switch. Contact NetApp technical support for assistance and specific instructions.
+*Syslog Message*::
+Ifgrp member port %s on node %s is reporting a high number (at least one per %d packets) of hardware errors. No other NIC slot in the ifgrp is over threshold.
+*Parameters*::
+*portname* (STRING): Name of the device that is reporting a high number of hardware errors.
+*nodename* (STRING): Name of the node on which the port resides.
+*threshold* (INT): An event is emitted when one or more errors occur for this number of packets.
 
 == vifmgr.cluscheck.l2ping
 *Severity*::

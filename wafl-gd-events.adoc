@@ -20,7 +20,7 @@ ERROR
 *Description*::
 This message occurs when reserving allocation size fails for a file using granular data because there is no space available in the volume.
 *Corrective Action*::
-Create space by increasing the volume or aggregate sizes, or by deleting data or deleting Snapshot copies. To increase a volume's size, use the "volume size" command. To delete a volume's Snapshot copies, use the "volume snapshot delete" command. To increase an aggregate's size, add disks by using the "storage aggregate add-disks" command. Aggregate Snapshot copies are deleted automatically when the aggregate is full.
+Create space by increasing the volume or aggregate sizes, or by deleting data or deleting snapshots. To increase a volume's size, use the "volume size" command. To delete a volume's snapshots, use the "volume snapshot delete" command. To increase an aggregate's size, add disks by using the "storage aggregate add-disks" command. Aggregate snapshots are deleted automatically when the aggregate is full.
 *Syslog Message*::
 Reserving allocation size for fileid "%d" on volume "%s%s%s%s" fails because there is no space available in the volume.
 *Parameters*::

@@ -18,40 +18,40 @@ summary: wafl.attr events
 *Severity*::
 ALERT
 *Description*::
-This message occurs when the large directory report fails to be cleared for a volume when this feature was turned off due to an internal error. Report on large directories may be unavailable or incorrect when it is turned on again.
+This message occurs when the large directory report fails to be cleared for a volume when this feature is turned off due to an internal error. Report on large directories might be unavailable or incorrect when it is turned on again.
 *Corrective Action*::
 The system should attempt to resolve the problems by itself. If problems persist or further assistance is needed, contact NetApp technical support.
 *Syslog Message*::
-Clearing the large directory report failed for volume "%s:%s. Error: %s"
+Clearing the large directory report fails for volume "%s%s. Error: %s"
 *Parameters*::
-*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's Vserver.
 *volname* (STRING): Volume name.
+*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's storage VM (SVM).
 *error* (STRING): Error message.
 
 == wafl.attr.topK.init.fail
 *Severity*::
 ALERT
 *Description*::
-This message occurs when the large directory report fails to be initialized for a volume due to an internal error. Report on large directories may be unavailable or incorrect.
+This message occurs when the large directory report fails to be initialized for a volume due to an internal error. Report on large directories might be unavailable or incorrect.
 *Corrective Action*::
 The system should attempt to resolve the problems by itself. If problems persist or further assistance is needed, contact NetApp technical support.
 *Syslog Message*::
-Initializing the large directory report failed for volume "%s:%s. Error: %s"
+Initializing the large directory report fails for volume "%s%s. Error: %s".
 *Parameters*::
-*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's Vserver.
 *volname* (STRING): Volume name.
+*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's storage VM (SVM).
 *error* (STRING): Error message.
 
 == wafl.attr.topK.scan.fail
 *Severity*::
 ALERT
 *Description*::
-This message occurs when scanning analytics database for large directories data fails due to an internal error. Report on large directories may be unavailable or incorrect.
+This message occurs when the scanning of the analytics database for large directories data fails due to an internal error. Report on large directories may be unavailable or incorrect.
 *Corrective Action*::
 The system should attempt to resolve the problems by itself. If problems persist or further assistance is needed, contact NetApp technical support.
 *Syslog Message*::
-Scanning analytics database for large directory report failed for volume "%s:%s. Error: %s"
+Scanning analytics database for large directory report fails for volume "%s%s. Error: %s".
 *Parameters*::
-*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's Vserver.
 *volname* (STRING): Volume name.
+*vserveruuid* (STRING): Universal Unique ID (UUID) of the volume's storage VM (SVM).
 *error* (STRING): Error message.

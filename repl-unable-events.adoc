@@ -18,11 +18,11 @@ summary: repl.unable events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the workflow is unable to create a common Snapshot copy due to timeout. This operation is retried automatically.
+This message occurs when the workflow is unable to create a common snapshot due to timeout. This operation is retried automatically.
 *Corrective Action*::
 (None).
 *Syslog Message*::
 Unable to create CSS "%s" for relationship with UUID %s.
 *Parameters*::
-*snapshot_name* (STRING): Common Snapshot copy name
+*snapshot_name* (STRING): Common snapshot name
 *relationship_id* (STRING): SnapMirror relationship universal unique identifier (UUID).

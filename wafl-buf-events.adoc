@@ -18,18 +18,18 @@ summary: wafl.buf events
 *Severity*::
 EMERGENCY
 *Description*::
-This message occurs when the system encounters a bad header in the Snapshot(tm) copy of the active map block of the filesystem.
+This message occurs when the system encounters a bad header in the snapshot of the active map block of the filesystem.
 *Corrective Action*::
-Delete the bad Snapshot copy. For a SnapMirror(R) target, rebuild from source or resynchronize, after deleting the Snapshot copy. If the problem persists or if you need further assistance, contact NetApp technical support.
+Delete the bad snapshot. For a SnapMirror(R) target, rebuild from source or resynchronize, after deleting the snapshot. If the problem persists or if you need further assistance, contact NetApp technical support.
 *Syslog Message*::
-Bad header in Snapshot copy of active map in %s %s%s%s%s, Snapshot copy %d, fbn %llu.
+Bad header in snapshot of active map in %s %s%s%s%s, snapshot %d, fbn %llu.
 *Parameters*::
 *type* (STRING): Type of object (volume or aggregate).
 *owner* (STRING): Owner of the volume.
 *vol* (STRING): Name of the volume.
 *app* (STRING): Application UUID.
 *volident* (STRING): To uniquely identify the volume in cases where the volume name itself is insufficient.
-*snapId* (INT): Snapshot(tm) copy identifier.
+*snapId* (INT): Snapshot identifier.
 *fbn* (LONGINT): File block number.
 
 == wafl.buf.freeingFreeBlock

@@ -31,7 +31,7 @@ Command request (%d) from host %s while SnapVault is not enabled.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a SnapVault(R) Snapshot(tm) target is initiated on a SnapVault primary volume while the volume is being migrated. The target might have been scheduled or manually invoked (through the 'snapvault snap create' command or programmatic interfaces).
+This message occurs when a SnapVault(R) snapshot target is initiated on a SnapVault primary volume while the volume is being migrated. The target might have been scheduled or manually invoked (through the 'snapvault snap create' command or programmatic interfaces).
 *Corrective Action*::
 Wait for the volume migration to be completed.
 *Syslog Message*::

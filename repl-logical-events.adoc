@@ -72,7 +72,7 @@ This message occurs when a SnapMirror(R) transfer uses logical mode after a prev
 *dstVolDsid* (LONGINT): Destination volume Data Set ID (DSID).
 *dstVolClusterId* (STRING): Destination volume cluster Universally Unique ID (UUID).
 *dstVolVserverId* (INT): Destination volume Vserver ID.
-*srcInstanceImageUuid* (STRING): Source transfer instance Snapshot(tm) copy UUID.
-*srcVersionImageUuid* (STRING): Source transfer version Snapshot copy UUID.
+*srcInstanceImageUuid* (STRING): Source transfer instance snapshot UUID.
+*srcVersionImageUuid* (STRING): Source transfer version snapshot UUID.
 *rawDirsSupported* (INT): Indicates whether the destination believes raw directory transfer is supported.
 *rawDirsRequired* (INT): Indicates whether the destination believes raw directory transfer is required.

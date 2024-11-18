@@ -33,11 +33,11 @@ This will be a rebaseline transfer because certain conditions for an incremental
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a SnapMirror(R) Cloud transfer fails because there is no common Snapshot(tm) copy between the source volume and the object-store destination endpoint of the transfer.
+This message occurs when a SnapMirror(R) Cloud transfer fails because there is no common snapshot between the source volume and the object-store destination endpoint of the transfer.
 *Corrective Action*::
-Retry the transfer by passing a specific Snapshot copy name using the "-s" option. Note that once you choose to go ahead with that option, you will not be able to transfer Snapshot copies older than the specified Snapshot copy. So it is suggested to select a Snapshot copy that is older than the Snapshot copies that you would like to be backed up per schedule.
+Retry the transfer by passing a specific snapshot name using the "-s" option. Note that once you choose to go ahead with that option, you will not be able to transfer snapshots older than the specified snapshot. So it is suggested to select a snapshot that is older than the snapshots that you would like to be backed up per schedule.
 *Syslog Message*::
-There is no common Snapshot copy between the source volume '%s' and the destination object-store endpoint '%s', with endpoint uuid '%s', and relationship uuid '%s'.
+There is no common snapshot between the source volume '%s' and the destination object-store endpoint '%s', with endpoint uuid '%s', and relationship uuid '%s'.
 *Parameters*::
 *src_path* (STRING): Path name of the source volume of the SnapMirror relationship.
 *dst_ep_path* (STRING): Path name of the destination object-store endpoint of the SnapMirror relationship.

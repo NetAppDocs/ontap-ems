@@ -375,11 +375,11 @@ Failover monitor: NVRAM mirror consistency is disabled.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the HA mode is set to "ha" but no interconnect adapter is found. This is an error indicating a misconfiguration of the system.
+This message occurs when the high availability (HA) mode is set to "ha" but no interconnect adapter is found. This is an error indicating a misconfiguration of the system.
 *Corrective Action*::
-Install the high-availability (HA) interconnect adapter or set the HA mode to "non_ha" by using the "storage failover modify -mode non_ha" command.
+Install the HA interconnect adapter, or if not using ASA r2, set the HA mode to "non_ha" by using the "storage failover modify -mode non_ha" command.
 *Syslog Message*::
-Warning: HA mode is set to "ha" but the interconnect adapter was not found.
+Warning: HA mode is set to "ha" but the interconnect adapter is not found.
 *Parameters*::
 (None).
 

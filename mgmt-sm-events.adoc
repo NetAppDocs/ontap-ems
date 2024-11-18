@@ -32,14 +32,40 @@ Job ID %lld failed to disable auto-initialize for SnapMirror relationship on vol
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a sync granular consistency group relationship is being deleted with the force option. Consistency Group relationship will be the deleted, however the items of the Consistency Group might not be made read-write or deletable after the operation.
+This message occurs when a sync granular consistency group relationship is deleted with the force option. Consistency Group relationship will be the deleted, however the items of the Consistency Group might not be made read-write or deletable after the operation.
 *Corrective Action*::
-Perform a volume offline and online on the destination volume to trigger the cleanup of any remaining relationship information on the volume.
+For ASA r2 systems, contact NetApp technical support for assistance to resolve this internal error. For all other systems: Perform a volume offline and online on the destination volume to trigger the cleanup of any remaining relationship information on the volume.
 *Syslog Message*::
-Sync granular consistency group relationship with source path %s and destination path %s has been force deleted and items of the consistency group on the destination volume might not be read-write or deletable.
+Sync granular consistency group relationship with source path %s. Destination path %s has been force deleted and items of the consistency group on the destination volume might not be read-write or deletable.
 *Parameters*::
 *src_path* (STRING): Source path of the sync granular consistency group relationship that was force deleted.
 *dst_path* (STRING): Destination path of the sync granular consistency group relationship that was force deleted.
+
+== mgmt.sm.cgRel.limit
+*Severity*::
+ALERT
+*Description*::
+This message occurs when either Consistency Group relationships or FlexGroups relationships exceeds the cluster-wide limit.
+*Corrective Action*::
+To delete the excess relationships. Alternatively, not to create any more additional relationship in the cluster.
+*Syslog Message*::
+Number of Consistency Group SnapMirror and/or FlexGroup relationships exceeds supported limit. Number of relationships supported on this cluster "%d". Current Number of relationships "%lu"
+*Parameters*::
+*max_count* (INT): Maximum number of relationships supported on cluster.
+*cur_count* (LONGINT): Current count of relationships on cluster.
+
+== mgmt.sm.cgVolRel.limit
+*Severity*::
+ALERT
+*Description*::
+This message occurs when either Consistency Group item relationships or FlexGroups item relationships exceeds the cluster-wide limit.
+*Corrective Action*::
+To delete the excess item relationships. Alternatively, not to create any more additional relationship in the cluster.
+*Syslog Message*::
+Number of Consistency Group item SnapMirror and/or FlexGroup item relationships exceeds supported limit. Number of item relationships supported on this cluster "%d". Current Number of relationships "%lu"
+*Parameters*::
+*max_count* (INT): Maximum number of item relationships supported on cluster.
+*cur_count* (LONGINT): Current count of item relationships on cluster.
 
 == mgmt.sm.dp.depr.msg
 *Severity*::
@@ -97,7 +123,7 @@ SnapMirror protect of source volume "%s" failed to destination Vserver "%s" beca
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the total cluster-wide physical used size for object store relationships is near the license capacity limit but does not exceed the limit.
+This message occurs when the total cluster-wide virtual used size for object store relationships is near the license capacity limit but does not exceed the limit.
 *Corrective Action*::
 To increase the license capacity, install a new license on the cluster. Alternatively, remove some data you are managing.
 *Syslog Message*::
@@ -124,7 +150,7 @@ SnapMirror protect of source volume "%s" failed to destination Vserver "%s" beca
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the total cluster-wide physical used size for object store relationships is over the license capacity limit.
+This message occurs when the total cluster-wide virtual used size for object store relationships is over the license capacity limit.
 *Corrective Action*::
 To increase the license capacity, install a new license on the cluster. Alternatively, remove some data you are managing.
 *Syslog Message*::
@@ -136,7 +162,7 @@ To increase the license capacity, install a new license on the cluster. Alternat
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a SnapMirror(R) protect operation fails because the source is already protected with a SnapMirror relationship with an object store destination. Creation of multiple SnapMirror relationships from a source endpoint to object store destinations is not supported.
+This message occurs when a SnapMirror(R) protect operation fails because the source is already protected with a SnapMirror relationship with an object store destination. Creation of multiple SnapMirror relationships from a source endpoint to object store destinations is unsupported.
 *Corrective Action*::
 View the existing SnapMirror relationship using the "snapmirror show" command, and correct as necessary.
 *Syslog Message*::
@@ -162,14 +188,14 @@ SnapMirror protect failed because of an unexpected internal error. Error: %s, Jo
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a SnapMirror(R) protect operation fails because the source volume is already protected with a SnapMirror relationship in the specified destination Vserver with the same policy, schedule, relationship type, destination volume prefix, and destination volume suffix.
+This message occurs when a SnapMirror(R) protect operation fails because the source volume is already protected with a SnapMirror relationship in the specified destination storage virtual machine (SVM) with the same policy, schedule, relationship type, destination volume prefix, and destination volume suffix.
 *Corrective Action*::
-If you want to protect the volume again, 1. Use a different destination volume suffix or destination volume prefix. 2. Use a different schedule or policy. 3. Use the "volume create" command to create a destination volume with a user defined name and then the "snapmirror create" command to create another SnapMirror relationship for the same source volume.
+For ASA r2 systems, contact NetApp technical support for assistance to resolve this internal error. For all other systems: Protect the volume again by carrying out the following three steps: 1. Use a different destination volume suffix or destination volume prefix. 2. Use a different schedule or policy. 3. Use the "volume create" command to create a destination volume with a user defined name and then the "snapmirror create" command to create another SnapMirror relationship for the same source volume.
 *Syslog Message*::
-SnapMirror protect operation of source volume "%s" failed to destination Vserver "%s" because the source volume is already protected with a SnapMirror relationship in the specified destination Vserver with the same policy, schedule, relationship type, destination volume prefix, and destination volume suffix. Error: %s, Job ID: %llu.
+SnapMirror protect operation of source volume "%s" fails to destination SVM "%s" because the source volume is already protected with a SnapMirror relationship in the specified destination SVM with the same policy, schedule, relationship type, destination volume prefix, and destination volume suffix. Error: %s, Job ID: %llu.
 *Parameters*::
 *srcpath* (STRING): Path name of the source volume to be protected.
-*dstvserver* (STRING): Destination Vserver name.
+*dstvserver* (STRING): Destination SVM name.
 *error* (STRING): Error message.
 *jobID* (LONGINT): Job ID.
 
@@ -229,13 +255,13 @@ Configuration replication of SnapMirror relationship of -type Load Sharing for d
 *Severity*::
 ALERT
 *Description*::
-This message occurs when a SnapMirror(R) "snapshot create" task fails on the destination volume, after successfully converting a FlexVol(R) volume to a FlexGroup. Future SnapMirror transfers will be unsuccessful.
+This message occurs when a SnapMirror(R) "snapshot create" command fails on the destination volume, after successfully converting a FlexVol(R) volume to a FlexGroup volume. Future SnapMirror transfers will be unsuccessful.
 *Corrective Action*::
-Create the baseline Snapshot copy on destination volume "%s" using the "volume conversion create-destination-snapshot" command, and then re-create the SnapMirror relationship using the "snapmirror create -destination-path %s -source-path %s -policy %s -throttle %d -schedule %s" command.
+For ASA r2 systems, contact NetApp technical support for assistance to resolve this internal error. For all other systems: Create the baseline Snapshot copy on destination volume "%s" using the "volume conversion create-destination-snapshot" command, and then re-create the SnapMirror relationship using the "snapmirror create -destination-path %s -source-path %s -policy %s -throttle %d -schedule %s" command.
 *Syslog Message*::
 Create the baseline Snapshot copy on destination volume "%s" using the "volume conversion create-destination-snapshot" command, and then re-create the SnapMirror relationship using the "snapmirror create -destination-path %s -source-path %s -policy %s -throttle %s -schedule %s" command.
 *Parameters*::
-*volume* (STRING): Volume converted to a FlexGroup.
+*volume* (STRING): Volume converted to a FlexGroup volume.
 *dstPath* (STRING): Destination path for SnapMirror create.
 *srcPath* (STRING): Source path for SnapMirror create.
 *policy* (STRING): Policy for SnapMirror create.
@@ -296,14 +322,14 @@ SnapMirror relationships from a pre-8.2 installation are present on this cluster
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a SnapMirror(R) protect operation fails to find an aggregate with sufficient free space for a destination volume or fails to create the volume. A SnapMirror relationship with the destination in the specified destination Vserver to protect the source volume will not be created until this condition is corrected.
+This message occurs when a SnapMirror(R) protect operation fails to find an aggregate with sufficient free space for a destination volume or fails to create the volume. A SnapMirror relationship with the destination in the specified destination storage virtual machine (SVM) to protect the source volume will not be created until this condition is corrected.
 *Corrective Action*::
-Use the "vserver show -vserver <vserver-name> -fields aggr-list" command to check whether there is a list of aggregates assigned to the destination Vserver. If there are aggregates listed, check the status of and the space left in the storage aggregates belonging to that Vserver. If there are no aggregates listed, then check the status of and the space left in all of the non-root, non-taken-over and non-SnapLock aggregates. To check whether storage aggregates are non-root, non-taken-over and non-SnapLock, run the "storage aggregate show -fields root, is-home, snaplock-type" command. To check the status of and the space left in a storage aggregate, run the "storage aggregate show -aggregate <aggr-name>" command for a particular aggregate or "storage aggregate show" for all storage aggregates on the cluster. If storage aggregates are offline, use "storage aggregate online -aggregate <aggr-name>" command to bring the storage aggregates online. If there is no space in the storage aggregates: 1) Use the "vserver add-aggregates -vserver <vserver-name> -aggregates <aggr-name>" command to add more storage aggregates to the destination Vserver. 2) If needed, use the "storage aggregate create -aggregate <aggr-name> -diskcount <number-of-disks> -node <node-name>" command to create new storage aggregates on available nodes. 3) Use the "storage aggregate add-disks -aggregate <aggr-name> -diskcount <number-of-disks>" command to add space to the storage aggregate. Even if there is free space on storage aggregates, it is possible that the maximum number of volumes already exist on a node. If so, additional volumes cannot be created on that node. If this is the case, add more aggregate space on other nodes. You can determine the number of volumes on a node by using the "volume show -node <node-name>" command. Note the entry count at the end of the show output. To check the overall status of the SnapMirror protect operation, use the "job show <jobID> -instance" or "job history show -id <jobID> -instance" commands. If the problem persists, contact NetApp technical support.
+For ASA r2 systems, contact NetApp technical support for assistance to resolve this internal error. For all other systems: Use the "vserver show -vserver <vserver-name> -fields aggr-list" command to check whether there is a list of aggregates assigned to the destination SVM. If there are aggregates listed, check the status of and the space left in the storage aggregates belonging to that SVM. If there are no aggregates listed, then check the status of and the space left in all of the non-root, non-taken-over and non-SnapLock aggregates. To check whether storage aggregates are non-root, non-taken-over and non-SnapLock, run the "storage aggregate show -fields root, is-home, snaplock-type" command. To check the status of and the space left in a storage aggregate, run the "storage aggregate show -aggregate <aggr-name>" command for a particular aggregate or the "storage aggregate show" command for all storage aggregates on the cluster. If storage aggregates are offline, use "storage aggregate online -aggregate <aggr-name>" command to bring the storage aggregates online. If there is no space in the storage aggregates: 1) Use the "vserver add-aggregates -vserver <vserver-name> -aggregates <aggr-name>" command to add more storage aggregates to the destination SVM. 2) If needed, use the "storage aggregate create -aggregate <aggr-name> -diskcount <number-of-disks> -node <node-name>" command to create new storage aggregates on available nodes. 3) Use the "storage aggregate add-disks -aggregate <aggr-name> -diskcount <number-of-disks>" command to add space to the storage aggregate. Even if there is free space on storage aggregates, it is possible that the maximum number of volumes already exist on a node. If so, additional volumes cannot be created on that node. If this is the case, add more aggregate space on other nodes. You can determine the number of volumes on a node by using the "volume show -node <node-name>" command. Note the entry count at the end of the show output. To check the overall status of the SnapMirror protect operation, use the "job show <jobID> -instance" or "job history show -id <jobID> -instance" commands. If the problem persists, contact NetApp technical support.
 *Syslog Message*::
-SnapMirror protect of source volume "%s" failed on destination Vserver "%s". Error: %s, Job ID: %llu.
+SnapMirror protect of source volume "%s" failed on destination SVM "%s". Error: %s, Job ID: %llu.
 *Parameters*::
 *srcpath* (STRING): Path name of the source volume to be protected.
-*dstvserver* (STRING): Destination Vserver name.
+*dstvserver* (STRING): Destination SVM name.
 *error* (STRING): Error message.
 *jobID* (LONGINT): Job ID.
 
@@ -311,11 +337,11 @@ SnapMirror protect of source volume "%s" failed on destination Vserver "%s". Err
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a SnapMirror(R) protect operation fails because the source volume style is not supported. The SnapMirror protect command only supports FlexVol(R) volumes. FlexGroups, FlexGroup constituents, Infinite Volumes, and Infinite Volume constituents are not supported. Temporary volumes are also not supported.
+This message occurs when a SnapMirror(R) protect operation fails because the source volume style is unsupported. The "SnapMirror" protect command only supports FlexVol(R) volumes. FlexGroup volumes, FlexGroup constituents, Infinite Volumes, and Infinite Volume constituents are unsupported. Temporary volumes are also not unsupported.
 *Corrective Action*::
-If you want to protect Infinite Volumes or FlexGroups, you must use the individual commands: 1. "volume create" of the destination volume 2. "snapmirror create" of the relationship 3. "snapmirror initialize" of the relationship Creating individual SnapMirror relationships on FlexGroup constituents or Infinite Volume constituents is not supported.
+For ASA r2 systems, contact NetApp technical support for assistance to resolve this internal error. For all other systems: If you want to protect Infinite Volumes or FlexGroup volumes, use the individual commands: 1. "volume create" for the destination volume 2. "snapmirror create" for the relationship 3. "snapmirror initialize" for the relationship Creating individual SnapMirror relationships on FlexGroup volumes or Infinite Volume constituents is unsupported.
 *Syslog Message*::
-SnapMirror protect of source volume "%s" failed because the volume is not a FlexVol volume. Job ID: %llu.
+SnapMirror protect of source volume "%s" fails because the volume is not a FlexVol volume. Job ID: %llu.
 *Parameters*::
 *srcpath* (STRING): Path name of the source volume to be protected.
 *jobID* (LONGINT): Job ID.

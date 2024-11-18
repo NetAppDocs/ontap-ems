@@ -18,7 +18,7 @@ summary: snapmirror.conf events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when there an entry in the snapmirror.conf file is configured to use the outstanding value of greater than or equal to 10 seconds. This method of specifying cp-sync mode for the SnapMirror(R), is being deprecated in Data ONTAP(R) 7.3. You should use the new keyword "semi-sync" to configure cp-sync mode. See the na_snapmirror.conf man page for details.
+This message occurs when there an entry in the snapmirror.conf file is configured to use the outstanding value of greater than or equal to 10 seconds. This method of specifying cp-sync mode for the SnapMirror(R), is being deprecated in ONTAP 7.3. You should use the new keyword "semi-sync" to configure cp-sync mode. See the na_snapmirror.conf man page for details.
 *Corrective Action*::
 Edit the /etc/snapmirror.conf file to convert the relationship to use the "semi-sync" keyword. See the man page for details about usage.
 *Syslog Message*::
@@ -46,7 +46,7 @@ Warning from the SnapMirror configuration parser, error in line number '%d' of s
 *Severity*::
 ERROR
 *Description*::
-This message occurs on a replication destination appliance when Data ONTAP encounters invalid string while collecting replication statistics.
+This message occurs on a replication destination appliance when ONTAP encounters invalid string while collecting replication statistics.
 *Corrective Action*::
 Check snapmirror.conf file for any typing mistakes. In case of a relationship line, path names are typically specified as "filer:volume" or "filer:/vol/volume/qtree". In case of a connection line check for an equal sign. Check snapmirror.conf man page for discussion of path specifications.
 *Syslog Message*::
@@ -58,7 +58,7 @@ Illegal string: %s.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when there exists an entry in the snapmirror.conf file that is configured to use the outstanding value of greater than 0 seconds and fewer than 10 seconds. This mode (nvlog semi-sync) is obsolete in Data ONTAP(R) 7.3. When it is configured in this mode, the relationship is converted automatically to a fully synchronous relationship.
+This message occurs when there exists an entry in the snapmirror.conf file that is configured to use the outstanding value of greater than 0 seconds and fewer than 10 seconds. This mode (nvlog semi-sync) is obsolete in ONTAP 7.3. When it is configured in this mode, the relationship is converted automatically to a fully synchronous relationship.
 *Corrective Action*::
 Edit the /etc/snapmirror.conf file to convert the relationship to either a fully synchronous relationship with "sync" parameter or a cp semi-synchronous relationship with "semi-sync" parameter.
 *Syslog Message*::

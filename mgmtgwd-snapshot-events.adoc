@@ -20,17 +20,17 @@ Deprecated as of Data ONTAP 9.6 because Infinite Volumes no longer exist.
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when a Snapshot(tm) copy cannot be deleted from an Infinite Volume.
+This message occurs when a snapshot cannot be deleted from an Infinite Volume.
 *Corrective Action*::
-Delete one or more older Snapshot copies associated with this schedule by using the "volume snapshot delete" command.
+Delete one or more older snapshots associated with this schedule by using the "volume snapshot delete" command.
 *Syslog Message*::
-Skipping deletion of scheduled Snapshot copy "%s" on volume "%s" on Vserver "%s" for schedule "%s" prefix "%s" (reason: %s).
+Skipping deletion of scheduled snapshot "%s" on volume "%s" on Vserver "%s" for schedule "%s" prefix "%s" (reason: %s).
 *Parameters*::
-*snapshotName* (STRING): Name of the Snapshot copy.
+*snapshotName* (STRING): Name of the snapshot.
 *volumeName* (STRING): Name of the volume.
 *vserverName* (STRING): Name of the Vserver.
-*scheduleName* (STRING): Name of the Snapshot policy schedule.
-*prefixName* (STRING): Name of the prefix associated with the Snapshot policy schedule.
+*scheduleName* (STRING): Name of the snapshot policy schedule.
+*prefixName* (STRING): Name of the prefix associated with the snapshot policy schedule.
 *reason* (STRING): Reason for the failure.
 
 == mgmtgwd.snapshot.frcRestore
@@ -39,15 +39,15 @@ Deprecated as of Data ONTAP 9.6 because Infinite Volumes no longer exist.
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs when a Snapshot(tm) copy is restored on an Infinite Volume using the 'force' option.
+This message occurs when a snapshot is restored on an Infinite Volume using the 'force' option.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Volume '%s' on Vserver '%s' was restored to Snapshot copy '%s' using the 'force' option.
+Volume '%s' on Vserver '%s' was restored to snapshot '%s' using the 'force' option.
 *Parameters*::
 *volumeName* (STRING): Name of the volume.
 *vserverName* (STRING): Name of the Vserver.
-*snapshotName* (STRING): Name of the Snapshot copy.
+*snapshotName* (STRING): Name of the snapshot.
 
 == mgmtgwd.snapshot.partCreate
 *Deprecated*::
@@ -55,18 +55,18 @@ Deprecated as of Data ONTAP 9.6 because Infinite Volumes no longer exist.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a Snapshot(tm) copy is partially created on an Infinite Volume. Residual Snapshot copies might remain on one or more Infinite Volume constituent volumes. These Snapshot copies might consume the Snapshot reserve on the constituent volumes.
+This message occurs when a snapshot copy is partially created on an Infinite Volume. Residual snapshots might remain on one or more Infinite Volume constituent volumes. These snapshots might consume the snapshot reserve on the constituent volumes.
 *Corrective Action*::
 Contact NetApp technical support.
 *Syslog Message*::
-Scheduled Snapshot copy '%s' of volume '%s' on Vserver '%s' for schedule '%s' prefix '%s' was partially created and cleanup failed on one or more constituent volumes.
+Scheduled snapshot '%s' of volume '%s' on Vserver '%s' for schedule '%s' prefix '%s' was partially created and cleanup failed on one or more constituent volumes.
 *Parameters*::
-*snapshotName* (STRING): Name of the Snapshot copy.
+*snapshotName* (STRING): Name of the snapshot.
 *volumeName* (STRING): Name of the volume.
 *vserverName* (STRING): Name of the Vserver.
-*scheduleName* (STRING): Name of the Snapshot policy schedule.
-*prefixName* (STRING): Name of the prefix associated with the Snapshot policy schedule.
-*constituentMsidList* (STRING): List of master data set IDs (MSIDs) of Infinite Volume constituent volumes that might have residual Snapshot copies.
+*scheduleName* (STRING): Name of the snapshot policy schedule.
+*prefixName* (STRING): Name of the prefix associated with the snapshot policy schedule.
+*constituentMsidList* (STRING): List of master data set IDs (MSIDs) of Infinite Volume constituent volumes that might have residual snapshots.
 
 == mgmtgwd.snapshot.tooManySnap
 *Deprecated*::
@@ -74,12 +74,12 @@ Deprecated as of Data ONTAP 9.6 because Infinite Volumes no longer exist.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a Snapshot(tm) copy cannot be created on an Infinite Volume because too many Snapshot copies exist for the associated schedule.
+This message occurs when a snapshot cannot be created on an Infinite Volume because too many snapshots exist for the associated schedule.
 *Corrective Action*::
-Delete an older Snapshot copy associated with this schedule using the 'volume snapshot delete' command.
+Delete an older snapshot associated with this schedule using the 'volume snapshot delete' command.
 *Syslog Message*::
-Scheduled Snapshot copy '%s' of volume '%s' on Vserver '%s' could not be created because too many Snapshot copies exist for the associated schedule.
+Scheduled snapshot '%s' of volume '%s' on Vserver '%s' could not be created because too many snapshots exist for the associated schedule.
 *Parameters*::
-*snapshotName* (STRING): Name of the Snapshot copy.
+*snapshotName* (STRING): Name of the snapshot.
 *volumeName* (STRING): Name of the volume.
 *vserverName* (STRING): Name of the Vserver.

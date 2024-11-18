@@ -14,6 +14,19 @@ summary: nvmf.qos events
 :linkattrs:
 :imagesdir: ./media/
 
+== nvmf.qos.mismatch.policy.r2
+*Severity*::
+ERROR
+*Description*::
+This message occurs when an NVMe over Fabrics (NVMe-oF) target subsystem contains namespaces that have different quality of service (QoS) policies which might affect the I/O of the namespaces with higher QoS policies. It is best practice to have the same QoS policy across all namespaces within a subsystem.
+*Corrective Action*::
+Determine which namespaces exist within the subsystem NQN by using the "vserver nvme subsystem map show" command. Verify that these namespaces share the same QoS policy by using the "vserver nvme namespace show -fields path,qos-policy-group" command.
+*Syslog Message*::
+NVMe-oF target subsystem NQN %s contains %d namespaces that do not have the same QoS policy.
+*Parameters*::
+*subsystem_nqn* (STRING): NVMe Qualified Name (NQN) of the subsystem.
+*ns_count* (INT): Number of namespaces that do not match.
+
 == nvmf.qos.mismatched.policy
 *Severity*::
 ERROR

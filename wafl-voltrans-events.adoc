@@ -134,9 +134,9 @@ Volume %s failed to update the logical SnapID table and could not be transitione
 *Severity*::
 ERROR
 *Description*::
-This message occurs during volume transition workflow when 32-bit Snapshot copy is detected for the transition volume.
+This message occurs during volume transition workflow when 32-bit snapshot is detected for the transition volume.
 *Corrective Action*::
-Retry volume transition to bypass this specific error. All 32-bit Snapshot copies are automatically deleted as part of the volume transition.
+Retry volume transition to bypass this specific error. All 32-bit snapshots are automatically deleted as part of the volume transition.
 *Syslog Message*::
 Volume transition failed due to unsupported 32-bit snapshots on volume %s uuid %s.
 *Parameters*::
@@ -147,9 +147,9 @@ Volume transition failed due to unsupported 32-bit snapshots on volume %s uuid %
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a volume transition operation detects one or more LUN clones backed up by Snapshot(R) copies within a voliume.
+This message occurs when a volume transition operation detects one or more LUN clones backed up by snapshots within a voliume.
 *Corrective Action*::
-Retry volume transition to bypass this specific error, force the volume online, and continue the transition operation. This results in data loss for all the LUN clones that have Snapshot copies in this volume. Alternatively, return the disks to a 7-Mode environment, split the LUN clones, and then repeat the transition workflow.
+Retry volume transition to bypass this specific error, force the volume online, and continue the transition operation. This results in data loss for all the LUN clones that have snapshots in this volume. Alternatively, return the disks to a 7-Mode environment, split the LUN clones, and then repeat the transition workflow.
 *Syslog Message*::
 Volume transition failed for volume %s uuid %s due to one or more snapshot backed lun clones.
 *Parameters*::

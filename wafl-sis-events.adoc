@@ -89,7 +89,7 @@ File clone create of clone file %s (fileid: %d) from source file %s (fileid: %d)
 *line_number* (INT): Line number where the error has occurred.
 *src_fsid* (INT): File system identifier of source volume.
 *dst_fsid* (INT): File system identifier of destination volume.
-*snapid* (INT): Snapshot copy identifier.
+*snapid* (INT): Snapshot identifier.
 *dir_fileid* (INT): File identifier for the directory.
 *type* (STRING): Type of Cloning.
 *category* (STRING): Clone create requestor information.
@@ -105,5 +105,5 @@ This event is issued when the volume options are set such that the autodelete de
 Unlocked sis clone backing snapshot in volume %s. Clone files based on snapshot (%d, %d) might become inconsistent.
 *Parameters*::
 *name* (STRING): The volume name
-*snapid* (INT): Snapshot(tm) copy identifier.
-*cp_cnt* (INT): The CP(Consistency Point) count. The (snapid, cp_count) pair uniquely identifies a Snapshot copy.
+*snapid* (INT): Snapshot identifier.
+*cp_cnt* (INT): The CP(Consistency Point) count. The (snapid, cp_count) pair uniquely identifies a snapshot.

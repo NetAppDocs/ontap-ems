@@ -85,7 +85,7 @@ ERROR
 *Description*::
 This message occurs when when the configuration backup and restore feature cannot initialize the necessary software components.
 *Corrective Action*::
-If the reason is about the backup directory under the root volume, ensure that the root volume is available and has enough free space. If the reason is about populating replicated database entries, wait 5 minutes and then use the advanced mode of the command-line interface to access the "Backup Settings" menu to ensure that backup schedules are listed. If the reason is about creating backup jobs, wait 5 minutes and then run the 'job show' command to ensure that backup jobs are displayed for each schedule.
+If the reason is about the backup directory under the root volume, ensure that the root volume is available and has enough free space. If the reason is about populating replicated database entries, wait five minutes and then use the advanced mode of the command-line interface to access the "Backup Settings" menu to ensure that backup schedules are listed. If the reason is about creating backup jobs, wait five minutes and then run the 'job show' command to ensure that backup jobs are displayed for each schedule.
 *Syslog Message*::
 Configuration backup and restore feature could not be initialized. Error: '%s'.
 *Parameters*::

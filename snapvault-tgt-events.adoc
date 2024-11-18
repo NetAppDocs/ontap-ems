@@ -18,26 +18,26 @@ summary: snapvault.tgt events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when SnapVault(R) detects more than one coalesced Snapshot(tm) copy of a specific type in a SnapVault secondary volume. SnapVault attempts to repair this condition.
+This message occurs when SnapVault(R) detects more than one coalesced snapshot of a specific type in a SnapVault secondary volume. SnapVault attempts to repair this condition.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Detected multiple coalesced %s Snapshot copies in volume %s.
+Detected multiple coalesced %s snapshots in volume %s.
 *Parameters*::
-*snaptype* (STRING): Type of coalesced Snapshot copy that has duplicates.
+*snaptype* (STRING): Type of coalesced snapshot that has duplicates.
 *volume* (STRING): Name of the SnapVault secondary volume on which the target was invoked.
 
 == snapvault.tgt.failure
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a SnapVault(R) Snapshot(tm) target fails, either because it could not start or because it encountered an error while processing. The target could have been scheduled or manually invoked (through the 'snapvault snap create' command or programmatic interfaces).
+This message occurs when a SnapVault(R) snapshot target fails, either because it could not start or because it encountered an error while processing. The target could have been scheduled or manually invoked (through the 'snapvault snap create' command or programmatic interfaces).
 *Corrective Action*::
-The corrective action depends on the cited reason regarding why the Snapshot target could not start or why it failed. After you correct the situation, invoke the Snapshot target again, or wait for the next scheduled invocation. If the volume could not be found, make sure that it is online, check the spelling of the volume name, and correct the SnapVault Snapshot schedule if it is misspelled. If the target could not start due to a temporary lack of resources (such as threads or memory), no corrective action might be necessary, because SnapVault periodically retries the operation. If the problem persists, you might need to schedule SnapVault and/or other services to run less frequently. If the target could not create a Snapshot copy, or could not create or write either data or metadata to the volume, check whether the volume has any available space, inodes, and Snapshot copies. If any of these have been exhausted, free some up for SnapVault use. If the target didn't run because it is not a create target, install a SnapVault secondary license or unconfigure the target. If the target didn't run because some other service is actively using the volume and would interfere with SnapVault, either stop that service or wait for it to be completed.
+The corrective action depends on the cited reason regarding why the snapshot target could not start or why it failed. After you correct the situation, invoke the snapshot target again, or wait for the next scheduled invocation. If the volume could not be found, make sure that it is online, check the spelling of the volume name, and correct the SnapVault snapshot schedule if it is misspelled. If the target could not start due to a temporary lack of resources (such as threads or memory), no corrective action might be necessary, because SnapVault periodically retries the operation. If the problem persists, you might need to schedule SnapVault and/or other services to run less frequently. If the target could not create a snapshot, or could not create or write either data or metadata to the volume, check whether the volume has any available space, inodes, and snapshots. If any of these have been exhausted, free some up for SnapVault use. If the target didn't run because it is not a create target, install a SnapVault secondary license or unconfigure the target. If the target didn't run because some other service is actively using the volume and would interfere with SnapVault, either stop that service or wait for it to be completed.
 *Syslog Message*::
-Could not create Snapshot target "%s" on volume %s: %s.
+Could not create snapshot target "%s" on volume %s: %s.
 *Parameters*::
-*snapname* (STRING): Base name of the Snapshot copy that the target was meant to create.
+*snapname* (STRING): Base name of the snapshot that the target was meant to create.
 *volume* (STRING): Name of the SnapVault secondary volume on which the target was invoked.
 *reason* (STRING): Reason why the target could not start, or the specific error encountered during processing.
 
@@ -71,11 +71,11 @@ Ignoring configuration entry for %s in volume %s: %s.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when SnapVault(R) detects a coalesced Snapshot(tm) copy with transitioning qtree replicas. If this event occurs, it suggests that archive Snapshot copies might have captured some SnapVault secondary qtrees in a transitioning state, which you can verify by running the 'snap list -q' command. SnapVault attempts to recover from this situation, but that only affects new archive Snapshot copies created after the event, and not any existing Snapshot copies.
+This message occurs when SnapVault(R) detects a coalesced snapshot with transitioning qtree replicas. If this event occurs, it suggests that archive snapshots might have captured some SnapVault secondary qtrees in a transitioning state, which you can verify by running the 'snap list -q' command. SnapVault attempts to recover from this situation, but that only affects new archive snapshots created after the event, and not any existing snapshots.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Recovery detected %s Snapshot copy with transitioning qtrees in volume %s.
+Recovery detected %s snapshot with transitioning qtrees in volume %s.
 *Parameters*::
-*snaptype* (STRING): Type of coalesced Snapshot copy that contains transitioning SnapVault qtree replicas.
+*snaptype* (STRING): Type of coalesced snapshot that contains transitioning SnapVault qtree replicas.
 *volume* (STRING): Name of the SnapVault secondary volume on which the target was invoked.

@@ -18,11 +18,11 @@ summary: rdb.env events
 *Severity*::
 ALERT
 *Description*::
-This message occurs when the cluster management Data Replication Module determines that I/O operations on the node's root volume are failing. This could indicate that the volume is full, not mounted, or any number of other error conditions.
+This message occurs when the cluster management Data Replication Module determines that I/O operations on the node's mroot filesystem are failing. This could indicate that the mroot filesystem is full, not mounted, or is encountering other error conditions.
 *Corrective Action*::
-Contact NetApp technical support for assistance with the root volume verification and recovery procedures.
+Contact NetApp technical support for assistance with the mroot verification and recovery procedures.
 *Syslog Message*::
-Error encountered in root volume I/O: %s.
+Error encountered in mroot I/O: %s.
 *Parameters*::
 *message* (STRING): Error message.
 
@@ -42,11 +42,11 @@ Multiple processes executing, detected by advisory locking violation: %s.
 *Severity*::
 ALERT
 *Description*::
-This message occurs when the cluster management Data Replication Module determines that the node's local replica set is corrupted. You must restore the replica set from the other nodes in the cluster, or from backup. If the damage extends beyond the replica set, it might be necessary to recover the root volume.
+This message occurs when the cluster management Data Replication Module determines that the node's local replica set is corrupted. If the damage extends beyond the replica set, it might be necessary to recover the mroot filesystem.
 *Corrective Action*::
-Contact NetApp technical support for assistance with the Data Replication Module and root volume verification and recovery procedures.
+Contact NetApp technical support for assistance with the Data Replication Module and mroot filesystem verification and recovery procedures.
 *Syslog Message*::
-Corruption in the local database of Data Replication Module: %s.
+Corruption in the local database of Data Replication Module: %s
 *Parameters*::
 *message* (STRING): Error message.
 

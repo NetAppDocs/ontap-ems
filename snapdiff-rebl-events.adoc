@@ -25,7 +25,7 @@ None. Zombie count of 0 is expected even when zombie processing is ongoing.
 Encountered an absent allocated block on inode %u in snapshot copy ID %u of volume %u Zombie processing: %u.
 *Parameters*::
 *inode_num* (INT): Identifier of the affected file.
-*snap_id* (INT): Identifier of the Snapshot copy.
+*snap_id* (INT): Identifier of the snapshot.
 *fsid* (INT): Identifier of the volume.
 *zombie_processing* (INT): Ongoing zombie processing.
 
@@ -37,10 +37,10 @@ This message occurs when SnapDiff(R), the snapshot copy differencing engine, enc
 *Corrective Action*::
 Run the (privilege: advanced) "inodepath -v volume_name inode_number" command to find the path of the affected file from the inode number, and modify the file within the Active File System. Note that file attributes captured in a snapshot copy cannot be changed.
 *Syslog Message*::
-Encountered invalid access time on inode %u in Snapshot copy ID %u of volume %u.
+Encountered invalid access time on inode %u in snapshot ID %u of volume %u.
 *Parameters*::
 *inode_num* (INT): Identifier of the affected file.
-*snap_id* (INT): Identifier of the Snapshot copy.
+*snap_id* (INT): Identifier of the snapshot.
 *fsid* (INT): Identifier of the volume.
 
 == snapdiff.rebl.BadModifyTime
@@ -51,8 +51,8 @@ This message occurs when SnapDiff(R), the snapshot copy differencing engine, enc
 *Corrective Action*::
 Run the (privilege: advanced) "inodepath -v volume_name inode_number" command to find the path of the affected file from the inode number, and modify the file within the Active File System. Note that file attributes captured in a snapshot copy cannot be changed.
 *Syslog Message*::
-Encountered invalid modify time on inode %u in Snapshot copy ID %u of volume %u.
+Encountered invalid modify time on inode %u in snapshot ID %u of volume %u.
 *Parameters*::
 *inode_num* (INT): Identifier of the affected file.
-*snap_id* (INT): Identifier of the Snapshot copy.
+*snap_id* (INT): Identifier of the snapshot.
 *fsid* (INT): Identifier of the volume.

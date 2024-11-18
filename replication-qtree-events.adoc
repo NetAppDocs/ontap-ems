@@ -45,7 +45,7 @@ SnapMirror: transfer from %s:%s to %s:%s: Source volume has disk errors. (source
 *dst_path* (STRING): Destination path of this replication transfer.
 *sfileid* (INT): Identifying number for the suspect file
 *sfbn* (INT): File block number in which the disk error was found.
-*ssnapid* (INT): Incremental Snapshot(tm) copy of the source from which this file came.
+*ssnapid* (INT): Incremental snapshot of the source from which this file came.
 
 == replication.qtree.dst.disk.error.summary
 *Severity*::
@@ -79,7 +79,7 @@ SnapMirror: transfer from %s:%s to %s:%s: Source volume has disk errors. (source
 *dst_filer* (STRING): Destination filer of this replication transfer.
 *dst_path* (STRING): Destination path of this replication transfer.
 *sfileid* (INT): Identifying number for the suspect ACL.
-*snapid* (INT): Incremental Snapshot(tm) copy of the source from which this ACL came.
+*snapid* (INT): Incremental snapshot of the source from which this ACL came.
 
 == replication.qtree.dst.inconsistent.symlink
 *Severity*::
@@ -96,4 +96,4 @@ SnapMirror: transfer from %s:%s to %s:%s: Source volume has disk errors. (source
 *dst_filer* (STRING): Destination filer of this replication transfer.
 *dst_path* (STRING): Destination path of this replication transfer.
 *sfileid* (INT): Identifying number for the suspect symbolic link.
-*snapid* (INT): Incremental Snapshot(tm) copy of the source from which this symbolic link came.
+*snapid* (INT): Incremental snapshot of the source from which this symbolic link came.

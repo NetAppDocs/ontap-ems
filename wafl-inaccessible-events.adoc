@@ -20,15 +20,15 @@ ERROR
 *Description*::
 This message occurs when an access request is received for inaccessible user data (area blocked by wafliron).
 *Corrective Action*::
-Use the "volume file show-inode" command with the file ID and volume name information to find the file path. Recover the file from a backup. For a SnapMirror(R) target, rebuild from the source or resynchronize. If the block is in a Snapshot copy, delete the Snapshot copy. Contact NetApp technical support for more options.
+Use the "volume file show-inode" command with the file ID and volume name information to find the file path. Recover the file from a backup. For a SnapMirror(R) target, rebuild from the source or resynchronize. If the block is in a snapshot, delete the snapshot. Contact NetApp technical support for more options.
 *Syslog Message*::
-Inaccessible user data block at FBN %llu Level %u in %s inode (file ID:%s Snapshot copy ID:%u file_type:%d disk_flags:0x%x) in volume %s%s%s%s.
+Inaccessible user data block at FBN %llu Level %u in %s inode (file ID:%s snapshot ID:%u file_type:%d disk_flags:0x%x) in volume %s%s%s%s.
 *Parameters*::
 *fbn* (LONGINT): File block number.
 *level* (INT): Buffer level.
 *file_space* (STRING): File space.
 *fileid* (STRING): Identifying number for the suspect inode.
-*snapid* (INT): Snapshot(tm) copy identifier: (0) - active file system (non-zero) - refers to Snapshot copy
+*snapid* (INT): Snapshot identifier: (0) - active file system (non-zero) - refers to snapshot
 *type* (INT): File type.
 *flags* (LONGINT): Inode disk flags.
 *owner* (STRING): Owner of the volume.

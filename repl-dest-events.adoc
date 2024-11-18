@@ -18,7 +18,7 @@ summary: repl.dest events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when Replication Engine encounters CSS Upload Table in a Snapshot.
+This message occurs when Replication Engine encounters CSS Upload Table in a snapshot.
 *Corrective Action*::
 (None).
 *Syslog Message*::
@@ -43,11 +43,11 @@ SnapMirror transfer with transfer ID %s will not send existing ilabels because t
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a Snapshot that contains multi-part inodes is transferred to a destination volume that does not support them.
+This message occurs when a snapshot that contains multipart inodes is transferred to a destination volume that does not support them. Multipart inodes are created on volumes with granular data enabled.
 *Corrective Action*::
-Update the destination's node version of ONTAP that supports multi-part inodes and enable granular data on the destination volume.
+Update the destination node to a version of ONTAP that supports granular data and enable granular data on the destination volume.
 *Syslog Message*::
-SnapMirror transfer failed because the transfer Snapshot contains multi-part inodes and the destination volume does not support them.
+SnapMirror transfer failed because the transfer snapshot contains multipart inodes and the destination volume does not support them.
 *Parameters*::
 (None).
 
@@ -72,7 +72,7 @@ The volume with DSID %llu, name %s%s, Vserver UUID %s cannot support changing th
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the transfer Snapshot(tm) copy from the source is unexpectedly larger than the size of the destination volume.
+This message occurs when the transfer snapshot from the source is unexpectedly larger than the size of the destination volume.
 *Corrective Action*::
 Increase the destination volume size to be greater than or equal to the source volume size.
 *Syslog Message*::

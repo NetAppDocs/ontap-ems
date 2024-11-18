@@ -22,10 +22,10 @@ This message occurs when the system rejects client access to a primordial volume
 *Corrective Action*::
 You can avoid this event by using the 'volume unmount' command to unmount the volume from the namespace, or by using the 'snapmirror initialize' command to initialize the SnapMirror relationship to the volume.
 *Syslog Message*::
-Access to SnapMirror volume '%s' was denied because SnapMirror initialization was not complete (exported Snapshot copy identifier '%d' is invalid).
+Access to SnapMirror volume '%s' was denied because SnapMirror initialization was not complete (exported snapshot identifier '%d' is invalid).
 *Parameters*::
 *vol* (STRING): Volume name.
-*snapid* (INT): Exported Snapshot(tm) copy identifier.
+*snapid* (INT): Exported snapshot identifier.
 
 == wafl.mirror.upgrade.fail
 *Severity*::

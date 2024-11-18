@@ -109,11 +109,11 @@ Replication 'check' from %s:%s to %s found mismatches. Please run replication fi
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs at the destination appliance of a SnapMirror(R) 'check' operation to notify the appliance about which base Snapshot(tm) copy will be used for the operation.
+This message occurs at the destination appliance of a SnapMirror(R) 'check' operation to notify the appliance about which base snapshot will be used for the operation.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Snapmirror 'check' from '%s':'%s' to '%s' will use '%s' as the base Snapshot copy. All Snapshot copies older than and including the base Snapshot copy on the source volume will be used.
+Snapmirror 'check' from '%s':'%s' to '%s' will use '%s' as the base snapshot. All snapshots older than and including the base snapshot on the source volume will be used.
 *Parameters*::
 *srcfiler* (STRING): Source appliance.
 *srcpath* (STRING): Source path.
@@ -136,11 +136,11 @@ Could not run a SnapMirror 'check' operation on destination volume '%s', a Synch
 *Severity*::
 ERROR
 *Description*::
-This message occurs on the destination system of a SnapMirror(R) 'check' operation when the source system's Data ONTAP(R) version does not support SnapMirror 'check' on FlexVol(R) volumes.
+This message occurs on the destination system of a SnapMirror(R) 'check' operation when the source system's ONTAP version does not support SnapMirror 'check' on FlexVol(R) volumes.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Data ONTAP version at source '%s' does not support SnapMirror 'check' on flexible volumes. Cannot execute a SnapMirror 'check' operation.
+ONTAP version at source '%s' does not support SnapMirror 'check' on flexible volumes. Cannot execute a SnapMirror 'check' operation.
 *Parameters*::
 *srcfiler* (STRING): Source system.
 
@@ -255,11 +255,11 @@ SnapMirror found no snapshots in destination %s %s, aborting transfer.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when SnapMirror(R) cannot bring the destination online after a transfer because compression is not supported in this version of Data ONTAP(R).
+This message occurs when SnapMirror(R) cannot bring the destination online after a transfer because compression is not supported in this version of ONTAP.
 *Corrective Action*::
-Install a version of Data ONTAP that supports compression, available from your vendor.
+Install a version of ONTAP that supports compression, available from your vendor.
 *Syslog Message*::
-SnapMirror could not bring destination volume %s online. Compression is not supported in this version of Data ONTAP.
+SnapMirror could not bring destination volume %s online. Compression is not supported in this version of ONTAP.
 *Parameters*::
 *dst* (STRING): SnapMirror destination.
 
@@ -296,11 +296,11 @@ Failed to bring destination %s %s online (%d,%d).
 *Severity*::
 ERROR
 *Description*::
-This message occurs when SnapMirror(R) cannot bring the destination online after a transfer because SnapLock(R) is not supported on this version of Data ONTAP(R).
+This message occurs when SnapMirror(R) cannot bring the destination online after a transfer because SnapLock(R) is not supported on this version of ONTAP.
 *Corrective Action*::
-Install a version of Data ONTAP that is supported with SnapLock, available from your vendor.
+Install a version of ONTAP that is supported with SnapLock, available from your vendor.
 *Syslog Message*::
-SnapMirror could not bring destination %s %s online. SnapLock is not supported on this version of Data ONTAP.
+SnapMirror could not bring destination %s %s online. SnapLock is not supported on this version of ONTAP.
 *Parameters*::
 *type* (STRING): Type of object (volume or aggregate).
 *dst* (STRING): SnapMirror destination.
@@ -359,11 +359,11 @@ Restart checkpoint for destination volume %s is no longer valid, removing checkp
 *Severity*::
 ERROR
 *Description*::
-This very rare message occurs on a replication destination appliance, when SnapMirror(R) detects that a transfer restarted from a checkpoint is attempting to transfer additional Snapshot copies that were not recorded in the checkpoint. In this case, SnapMirror aborts the transfer and clears the checkpoint to prevent corruption on the destination appliance.
+This very rare message occurs on a replication destination appliance, when SnapMirror(R) detects that a transfer restarted from a checkpoint is attempting to transfer additional snapshots that were not recorded in the checkpoint. In this case, SnapMirror aborts the transfer and clears the checkpoint to prevent corruption on the destination appliance.
 *Corrective Action*::
 No action is required for a scheduled SnapMirror transfer. The next scheduled transfer starts from the beginning. If you manually initiated this transfer, manually start a new transfer.
 *Syslog Message*::
-SnapMirror cannot restart the transfer from %s:%s to %s due to a change in the state of Snapshot copies on the source appliance. The checkpoint has been cleared, and the next transfer will start from beginning.
+SnapMirror cannot restart the transfer from %s:%s to %s due to a change in the state of snapshots on the source appliance. The checkpoint has been cleared, and the next transfer will start from beginning.
 *Parameters*::
 *srcfiler* (STRING): Source appliance.
 *srcpath* (STRING): SnapMirror source volume.
@@ -440,7 +440,7 @@ This event is issued when a SnapMirror initialize operation has to revert the ch
 *Corrective Action*::
 No corrective action required.
 *Syslog Message*::
-A SnapMirror transfer to destination aggregate %s has found that the source and destination aggregates have differing checksum states. Data ONTAP is aborting the transfer and reverting the checksum state for the destination aggregate. After Data ONTAP displays a message showing the revert is complete, you will need to retry the operation. You can use the "aggr status -c" command to see the progress of the reversion.
+A SnapMirror transfer to destination aggregate %s has found that the source and destination aggregates have differing checksum states. Data ONTAP is aborting the transfer and reverting the checksum state for the destination aggregate. After ONTAP displays a message showing the revert is complete, you will need to retry the operation. You can use the "aggr status -c" command to see the progress of the reversion.
 *Parameters*::
 *dst* (STRING): The SnapMirror destination aggregate
 
@@ -452,7 +452,7 @@ This event is issued when a SnapMirror initialize operation is not able to rever
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Data ONTAP cannot revert the checksum state of destination %s %s.
+ONTAP cannot revert the checksum state of destination %s %s.
 *Parameters*::
 *volaggr* (STRING): Whether volume or aggregate
 *dst* (STRING): The SnapMirror destination
@@ -478,7 +478,7 @@ This event is issued when a SnapMirror initialize operation has to revert the ch
 *Corrective Action*::
 No corrective action required.
 *Syslog Message*::
-A SnapMirror transfer to destination volume %s has found that the source and destination volumes have differing checksum states. Data ONTAP is aborting the transfer and reverting the checksum state for the destination volume. After Data ONTAP displays a message showing the revert is complete, you will need to retry the operation. You can use the "vol status -c" command to see the progress of the reversion.
+A SnapMirror transfer to destination volume %s has found that the source and destination volumes have differing checksum states. Data ONTAP is aborting the transfer and reverting the checksum state for the destination volume. After ONTAP displays a message showing the revert is complete, you will need to retry the operation. You can use the "vol status -c" command to see the progress of the reversion.
 *Parameters*::
 *dst* (STRING): The SnapMirror destination
 
@@ -526,9 +526,9 @@ The destination volume '%s' has an active SnapMirror 'check' operation in progre
 *Severity*::
 ERROR
 *Description*::
-This message occurs when NVLOG version mismatch between the source and destination appliance prevents the use of synchronous SnapMirror(R). The source and destination appliances must use the same version of NVLOG to mirror synchronously. Data ONTAP(R) will use periodic updates to mirror the volume until the mismatch is resolved.
+This message occurs when NVLOG version mismatch between the source and destination appliance prevents the use of synchronous SnapMirror(R). The source and destination appliances must use the same version of NVLOG to mirror synchronously. ONTAP will use periodic updates to mirror the volume until the mismatch is resolved.
 *Corrective Action*::
-Upgrade the source or destination appliance so that they both use the same NVLOG version. It is also recommended that both appliances run the same version of Data ONTAP.
+Upgrade the source or destination appliance so that they both use the same NVLOG version. It is also recommended that both appliances run the same version of ONTAP.
 *Syslog Message*::
 NVLOG version mismatch for Synchronous SnapMirror from %s:%s to %s. The source and destination appliances must use the same NVLOG version to mirror synchronously. Reverting to periodic updates to mirror the volume.
 *Parameters*::
@@ -540,9 +540,9 @@ NVLOG version mismatch for Synchronous SnapMirror from %s:%s to %s. The source a
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a protocol version mismatch between the source and destination appliance prevents the use of synchronous SnapMirror(R). The source and destination appliances must use the same version of protocol to mirror synchronously. Data ONTAP(R) will use periodic updates to mirror the volume until the mismatch is resolved.
+This message occurs when a protocol version mismatch between the source and destination appliance prevents the use of synchronous SnapMirror(R). The source and destination appliances must use the same version of protocol to mirror synchronously. ONTAP will use periodic updates to mirror the volume until the mismatch is resolved.
 *Corrective Action*::
-Upgrade the source or destination appliance so that they both use the same protocol version. It is also recommended that both appliances run the same version of Data ONTAP.
+Upgrade the source or destination appliance so that they both use the same protocol version. It is also recommended that both appliances run the same version of ONTAP.
 *Syslog Message*::
 Protocol version mismatch for Synchronous SnapMirror from %s:%s to %s. The source and destination appliances must use the same protocol version to mirror synchronously. Reverting to periodic updates to mirror the volume.
 *Parameters*::

@@ -50,11 +50,11 @@ Corrected bad level %d for buftree of %s fileid %d, snapid %d in %s %s%s%s%s
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the system attempts to create a Snapshot(tm) copy on a mixed-version cluster. However, the effective version of the cluster is ONTAP(R) 9.3 or earlier, and the maximum number of Snapshot copies supported by this effective version has already been reached.
+This message occurs when the system attempts to create a snapshot on a mixed-version cluster. However, the effective version of the cluster is ONTAP(R) 9.3 or earlier, and the maximum number of snapshots supported by this effective version has already been reached.
 *Corrective Action*::
 Upgrade all nodes in the cluster to ONTAP 9.4 or later.
 *Syslog Message*::
-Snapshot copy create operation failed on volume %s%s%s. Maximum number of Snapshot copies reached on a mixed-version cluster.
+Snapshot create operation failed on volume %s%s%s. Maximum number of snapshots reached on a mixed-version cluster.
 *Parameters*::
 *vol* (STRING): Name of the volume.
 *app* (STRING): Application UUID.

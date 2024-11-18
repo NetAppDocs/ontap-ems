@@ -14,18 +14,6 @@ summary: wafl.root events
 :linkattrs:
 :imagesdir: ./media/
 
-== wafl.root.autocreate
-*Severity*::
-NOTICE
-*Description*::
-This event is issued when no online root volume is found. It is used to indicate that auto creation of a root volume will happen.
-*Corrective Action*::
-(None).
-*Syslog Message*::
-No online root volume found on root aggregate %s. Automatically creating one.
-*Parameters*::
-*aggr* (STRING): The root aggregate name
-
 == wafl.root.content.changed
 *Severity*::
 ERROR
@@ -75,3 +63,15 @@ Set the Space Guarantee on the root volume to "volume" and the Fractional Reserv
 Root volume %s does not protect overwrites in space reserved files.
 *Parameters*::
 *vol* (STRING): Root volume name.
+
+== wafl.root.volume.create.fail
+*Severity*::
+EMERGENCY
+*Description*::
+This message occurs when root volume creation fails during cluster create or cluster join. Failure to create a root volume, required for storage of critical system data, will leave the system in an unusable state.
+*Corrective Action*::
+Based on the error in the event, resolve the problem that is causing the error condition before retrying the operation. If the error condition persists, contact NetApp technical support.
+*Syslog Message*::
+Root volume creation fails. Error: %s.
+*Parameters*::
+*error* (STRING): Reason for the failure.

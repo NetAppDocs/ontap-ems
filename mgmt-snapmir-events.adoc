@@ -18,11 +18,11 @@ summary: mgmt.snapmir events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the destination volume of a SnapMirror(R) relationship is not of -type Data Protection (DP) or Load Sharing (LS), and a 'snapmirror initialize' operation is attempted. A volume must be of -type DP or LS to accept a 'snapmirror initialize' operation.
+This message occurs when the destination volume of a SnapMirror(R) relationship is not a Data Protection (DP) or Load Sharing (LS) type, and a SnapMirror initialize operation is attempted. A volume must be a DP or LS type to accept a SnapMirror initialize operation.
 *Corrective Action*::
-Use a different volume of -type DP or LS, or use the 'volume create' command to create a new volume of -type DP or LS to use as a destination of the SnapMirror relationship. You cannot modify the type of a volume using the 'volume modify' command.
+For ASA r2 systems, contact NetApp technical support for assistance to resolve this internal error. For all other systems: Use a DP or LS type of volume, or use the "volume create" command to create a new volume with a DP or LS type to use as a destination of the SnapMirror relationship. You cannot modify the type of a volume using the "volume modify" command.
 *Syslog Message*::
-Destination volume '%s' of a SnapMirror relationship is not of -type DP or LS. Job ID %llu.
+Destination volume "%s" of a SnapMirror relationship is not a DP or LS type. Job ID %llu.
 *Parameters*::
 *dstpath* (STRING): Path name of the destination volume of the SnapMirror relationship.
 *jobID* (LONGINT): Job ID.

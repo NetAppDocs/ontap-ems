@@ -46,3 +46,15 @@ A digital certificate with Fully Qualified Domain Name (FQDN) %s, Serial Number 
 *type* (STRING): Type of the digital certificate.
 *vserver* (STRING): Name of the Vserver.
 *days* (LONGINT): Number of days remaining until the certificate expires.
+
+== mgmtgwd.certificate.switch
+*Severity*::
+ALERT
+*Description*::
+This message occurs when the user installed certificates of the service processor API service become invalid and are subsequently replaced with internal certificates.
+*Corrective Action*::
+Install new digital certificates on the system using the "security certificate create" or "security certificate install" command and enable them using "system service-processor api-service enable-installed-certificates" command.
+*Syslog Message*::
+User installed certificates of the service processor API service are replaced with internal certificates.
+*Parameters*::
+(None).

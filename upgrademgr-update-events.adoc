@@ -76,12 +76,13 @@ The automated update of the cluster has been resumed by the operator.
 
 == upgrademgr.update.started
 *Severity*::
-INFORMATIONAL
+NOTICE
 *Description*::
-This message occurs when the upgrade manager begins an automated update of the cluster.
+This message occurs when the upgrade manager begins an automated update of the cluster. By default, nodes that are already upgraded to the target version are skipped, except for MetroCluster configurations.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-An automated update of the cluster has been started.
+An automated update of the cluster has been started on nodes:%s. Skipped nodes:%s.
 *Parameters*::
-(None).
+*nodestoUpgrade* (STRING): Nodes that will be upgraded
+*nodesSkipped* (STRING): Nodes that will be skipped, or "none" if all nodes need an upgrade, or "disabled - MetroCluster" if the cluster is a MetroCluster configuration, or "disabled" if the "-skip-nodes-at-target-version" parameter is set to false.

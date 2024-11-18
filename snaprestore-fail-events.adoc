@@ -18,11 +18,11 @@ summary: snaprestore.fail events
 *Severity*::
 ALERT
 *Description*::
-This message occurs when a SnapRestore(R) operation on a volume fails due to insufficient space in the target volume to hold the data present in the Snapshot(tm) copy.
+This message occurs when a SnapRestore(R) operation on a volume fails due to insufficient space in the target volume to hold the data present in the snapshot.
 *Corrective Action*::
 Resize the target volume to the recommended minimum size.
 *Syslog Message*::
-SnapRestore operation failed: volume %s is too small to hold the data present in the Snapshot copy. Minimum size of the target volume required is %s.
+SnapRestore operation failed: volume %s is too small to hold the data present in the snapshot. Minimum size of the target volume required is %s.
 *Parameters*::
 *volume* (STRING): Volume name.
 *volsize* (STRING): Recommended minimum size of the target volume.

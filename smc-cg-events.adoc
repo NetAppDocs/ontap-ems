@@ -18,13 +18,13 @@ summary: smc.cg events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a FlexGroup(R) Snapshot copy rename fails and the revert to the original Snapshot copy name also fails.
+This message occurs when a FlexGroup(R) snapshot rename fails and the revert to the original snapshot name also fails.
 *Corrective Action*::
-Manually rename the Snapshot copy by issuing the "snapshot rename" command.
+Manually rename the snapshot by issuing the "snapshot rename" command.
 *Syslog Message*::
-Unable to revert Snapshot copy name from the new name, "%s" to oldname "%s" in volume "%s".
+Unable to revert snapshot name from the new name, "%s" to oldname "%s" in volume "%s".
 *Parameters*::
-*newsnapname* (STRING): New Snapshot copy name.
-*origsnapname* (STRING): Original Snapshot copy name.
-*dstpath* (STRING): Path name of the destination volume to which the Snapshot copy rename was issued.
+*newsnapname* (STRING): New snapshot name.
+*origsnapname* (STRING): Original snapshot name.
+*dstpath* (STRING): Path name of the destination volume to which the snapshot rename was issued.
 *error* (INT): Error code of the failure.

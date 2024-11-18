@@ -63,7 +63,7 @@ This message occurs when a file restore operation has completed.
 Single-file snaprestore of inode %u (snapid %d, %s %s%s%s%s) to inode %u has completed.
 *Parameters*::
 *srcIno* (INT): Source inode number.
-*snapId* (INT): Snapshot(TM) identifier.
+*snapId* (INT): Snapshot identifier.
 *type* (STRING): Type of object (volume/aggregate).
 *owner* (STRING): Volume owner.
 *vol* (STRING): Volume name.
@@ -83,7 +83,7 @@ Attempted to restore a file onto a LUN, but files cannot be restored onto a LUN.
 *Parameters*::
 *vol* (STRING): Volume name.
 *volident* (STRING): To uniquely identify the volume in cases where the volume name itself is insufficient.
-*snapname* (STRING): Name of the Snapshot(tm) copy that the file is being restored from.
+*snapname* (STRING): Name of the snapshot that the file is being restored from.
 *filename* (STRING): Name of the file that cannot be restored onto a LUN.
 
 == wafl.sfsr.lun.name.error
@@ -110,7 +110,7 @@ Attempted to restore a LUN to something other than a qtree root, but LUNs can on
 *Parameters*::
 *vol* (STRING): Volume name.
 *volident* (STRING): To uniquely identify the volume in cases where the volume name itself is insufficient.
-*snapname* (STRING): Name of the Snapshot(tm) copy that the LUN is being restored from.
+*snapname* (STRING): Name of the snapshot that the LUN is being restored from.
 *filename* (STRING): Name of the file that the LUN is being restored from.
 
 == wafl.sfsr.sr.disabled

@@ -14,6 +14,18 @@ summary: kmip2.cannot events
 :linkattrs:
 :imagesdir: ./media/
 
+== kmip2.cannot.import.MROOTAK
+*Severity*::
+ALERT
+*Description*::
+This message occurs when the KMIP2 client cannot import the MROOT-AK key from a Key Management Interoperability Protocol (KMIP) key server. A key was retrieved from a KMIP key server, but an error occurred when trying to add the key to ONTAP(R). The node fails the boot up process when this happens.
+*Corrective Action*::
+Reboot the node. If the issue persists, contact NetApp technical support for assistance.
+*Syslog Message*::
+KMIP2 client fails to import MROOT-AK from KMIP key server. Error: %d.
+*Parameters*::
+*err* (INT): Error code from system call to sysctlbyname().
+
 == kmip2.cannot.import.NSE.key
 *Severity*::
 ALERT

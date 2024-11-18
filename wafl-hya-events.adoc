@@ -41,7 +41,7 @@ This message occurs when a hybrid aggregate adds one counter file block (CBI - c
 *aggr_uuid* (STRING): Universal Unique ID (UUID) of the aggregate.
 *volume* (STRING): Volume name.
 *volume_uuid* (STRING): UUID of the volume.
-*btid* (INT): Buftree ID.
+*btid* (LONGINT): Buftree ID.
 *cbi* (INT): CBI value.
 *volume_info* (STRING): Volume type information.
 
@@ -60,7 +60,7 @@ This message occurs when a hybrid aggregate block accounting module receives a F
 *volume* (STRING): Volume name.
 *volume_uuid* (STRING): UUID of the volume.
 *volume_info* (STRING): Volume type information.
-*btid* (INT): Buftree ID.
+*btid* (LONGINT): Buftree ID.
 *cbi* (INT): CBI (counter block index) value.
 *ctr0* (LONGINT): Counter 0, total used blocks by this buftree ID at the time of the delete event.
 
@@ -76,7 +76,7 @@ This message occurs when a hybrid aggregate block accounting module frees a CBI 
 *Parameters*::
 *aggr* (STRING): Aggregate name.
 *aggr_uuid* (STRING): UUID of the aggregate.
-*btid* (INT): Buftree ID.
+*btid* (LONGINT): Buftree ID.
 *cbi* (INT): CBI value.
 *ctr0* (LONGINT): Counter 0, total used blocks by this buftree ID at the time of the free event.
 

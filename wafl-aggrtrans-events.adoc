@@ -115,11 +115,11 @@ Pre-commit transitioned aggregate %s is low on free space at about %d percent us
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when an aggregate transition operation fails because the aggregate is set to revert to a Snapshot copy.
+This message occurs when an aggregate transition operation fails because the aggregate is set to revert to a snapshot.
 *Corrective Action*::
-Return the disks to a 7-Mode environment, bring the aggregate online to finish restoring to the Snapshot(R) copy, and then try the transition again.
+Return the disks to a 7-Mode environment, bring the aggregate online to finish restoring to the snapshot, and then try the transition again.
 *Syslog Message*::
-Aggregate %s is reverting to a Snapshot copy and cannot be transitioned.
+Aggregate %s is reverting to a snapshot and cannot be transitioned.
 *Parameters*::
 *aggrname* (STRING): Name of the aggregate.
 
@@ -127,13 +127,13 @@ Aggregate %s is reverting to a Snapshot copy and cannot be transitioned.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when an aggregate transition commit operation fails to delete the pinned Snapshot(R) copy.
+This message occurs when an aggregate transition commit operation fails to delete the pinned snapshot.
 *Corrective Action*::
-Manually delete the pinned Snapshot copy using the node scoped command "snap delete -A". If manual deletion fails, contact technical support.
+Manually delete the pinned snapshot using the node scoped command "snap delete -A". If manual deletion fails, contact technical support.
 *Syslog Message*::
-Aggregate transition commit operation fails to delete the pinned Snapshot(R) copy "%s" on aggregate %s. Error: %s.
+Aggregate transition commit operation fails to delete the pinned snapshot "%s" on aggregate %s. Error: %s.
 *Parameters*::
-*name* (STRING): Name of the Snapshot copy.
+*name* (STRING): Name of the snapshot.
 *aggrname* (STRING): Name of the aggregate.
 *err* (STRING): Error description.
 
@@ -141,9 +141,9 @@ Aggregate transition commit operation fails to delete the pinned Snapshot(R) cop
 *Severity*::
 ERROR
 *Description*::
-This message occurs when an aggregate transition fails due to detection of a 32-bit Snapshot copy on the transition aggregate.
+This message occurs when an aggregate transition fails due to detection of a 32-bit snapshot on the transition aggregate.
 *Corrective Action*::
-Retry aggregate transition using "-ignore-errors" parameter to automatically delete all the 32-bit Snapshot copies as part of aggregate transition.
+Retry aggregate transition using "-ignore-errors" parameter to automatically delete all the 32-bit snapshots as part of aggregate transition.
 *Syslog Message*::
 Aggregate transition failed due to unsupported 32-bit snapshots on aggregate %s uuid %s.
 *Parameters*::
