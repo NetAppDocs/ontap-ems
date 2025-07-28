@@ -22,7 +22,7 @@ This event occurs when you run the 'label buildtree' command to create an aggreg
 *Corrective Action*::
 (None).
 *Syslog Message*::
-%s %s was created using the 'label buildtree' command.
+%s %s %s was created using the 'label buildtree' command.
 *Parameters*::
 *voltype* (STRING): Volume type.
 *volname* (STRING): Name of the aggregate created by the command.

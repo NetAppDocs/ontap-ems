@@ -20,7 +20,7 @@ ERROR
 *Description*::
 This message occurs when a running remote procedure call (RPC) operation takes longer than a defined length of time. The message indicates that the RPC operation has not been completed. If the condition persists, any operation to that RPC server is likely to fail.
 *Corrective Action*::
-Check the progress of the operation by using the (privilege: advanced) "statistic show -component nblade_rpc_server -instance [RPC_server_name] -raw true -counter curr_head*" command. If the curr_head_proc_time_secs counter keeps incrementing, the operation has not been completed. This condition might cause network configuration and status commands to fail consistently. If the operation does not get completed, contact technical support for assistance.
+Check the progress of the operation by using the (privilege: advanced) "statistic show -object nblade_rpc_server -instance [RPC_server_name] -raw true -counter curr_head*" command. If the curr_head_proc_time_secs counter keeps incrementing, the operation has not been completed. This condition might cause network configuration and status commands to fail consistently. If the operation does not get completed, contact technical support for assistance.
 *Syslog Message*::
 Detected a long-running RPC operation (procedure number %u) for RPC server %s. The server has not responded in %lu seconds, which is over the threshold of %lu seconds.
 *Parameters*::

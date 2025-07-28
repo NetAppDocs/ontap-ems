@@ -30,7 +30,7 @@ Vserver "%s" cannot be created because IPspace information related to the Vserve
 *Severity*::
 ERROR
 *Description*::
-This message occurs in a MetroCluster(R) configuration when attempting to replicate a "vserver create" operation onto the destination cluster, but the IPspace name for creation of the Vserver has not yet propagated to the destination cluster. This error can occur due to networking subsytem issues on the source cluster.
+This message occurs in a MetroCluster(R) configuration when attempting to replicate a "vserver create" operation onto the destination cluster, but the IPspace name for creation of the Vserver has not yet propagated to the destination cluster. This error can occur due to networking subsystem issues on the source cluster.
 *Corrective Action*::
 The operation is retried several times. Use the "metrocluster vserver show" command to verify that the configuration state of the Vserver becomes healthy. If the configuration state does not become healthy after an hour, contact NetApp technical support for assistance.
 *Syslog Message*::

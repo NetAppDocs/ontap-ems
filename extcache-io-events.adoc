@@ -18,7 +18,7 @@ summary: extcache.io events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the external cache detects a block checksum verification error while performing a read operation. Checksum errors are infrequent. Some combinations of external cache hardware and software handle these errors automatically without the need for adminstrator action. If further action is required, other messages will be generated. The operation will be retried from persistent storage (RAID).
+This message occurs when the external cache detects a block checksum verification error while performing a read operation. Checksum errors are infrequent. Some combinations of external cache hardware and software handle these errors automatically without the need for administrator action. If further action is required, other messages will be generated. The operation will be retried from persistent storage (RAID).
 *Corrective Action*::
 (None).
 *Syslog Message*::
@@ -62,7 +62,7 @@ WAFL external cache I/O read error: %s, code %d.
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the external cache detects an error on a write. Write errors are infrequent and are usually handled automatically by the external cache without the need for adminstrator action.
+This message occurs when the external cache detects an error on a write. Write errors are infrequent and are usually handled automatically by the external cache without the need for administrator action.
 *Corrective Action*::
 (None).
 *Syslog Message*::

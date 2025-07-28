@@ -18,9 +18,9 @@ summary: backup.fail events
 *Severity*::
 ERROR
 *Description*::
-This message occurs during a giveback operation, when there are active dump or restore processes running on cfo aggregates of the partner node.
+This message occurs during a giveback operation, when there are active dump or restore processes running on root aggregates of the partner node.
 *Corrective Action*::
-Wait for backup operations like dump or restore running on cfo aggregates of the partner node to finish before retrying the giveback operation. To kill the active backup operations and proceed, retry the giveback operation with the -override-vetoes option set to true.
+Wait for backup operations like dump or restore running on root aggregates of the partner node to finish before retrying the giveback operation. To kill the active backup operations and proceed, retry the giveback operation with the -override-vetoes option set to true.
 *Syslog Message*::
 Backup/restore services: There are active backup/restore sessions on the partner.
 *Parameters*::

@@ -44,7 +44,7 @@ ERROR
 *Description*::
 This message occurs when the automated update of the cluster is paused as a result of an error.
 *Corrective Action*::
-The automated update of the cluster has been paused due to the following reason: %s. Correct the cause of the error, and then issue the "cluster image resume-update" command to continue the automated update of the cluster.
+Correct the cause of the error and then resume the update to continue the automated update of the cluster.
 *Syslog Message*::
 The automated update of the cluster has been paused due to the following reason: %s
 *Parameters*::

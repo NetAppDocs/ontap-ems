@@ -20,7 +20,7 @@ Deprecated as of version 9.0.
 *Severity*::
 NOTICE
 *Description*::
-This message occurs at the start of a takeover, end of a successful takeover, start of a CFO giveback, and completion of an SFO giveback. It records the maximum, minimum, and average CPU and disk utilization on the node executing the takeover or giveback.
+This message occurs at the start of a takeover, end of a successful takeover, start of root aggregate giveback, and completion of data aggregate giveback. It records the maximum, minimum, and average CPU and disk utilization on the node executing the takeover or giveback.
 *Corrective Action*::
 (None).
 *Syslog Message*::
@@ -214,7 +214,7 @@ This message occurs when the failover monitor initiates a giveback.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Failover monitor: giveback started with token %s. "override-vetoes" set to %s, and "require-partner-waiting" set to %s.
+Failover monitor: giveback started with token %s. "override-vetoes" set to %s.
 *Parameters*::
 *token* (STRING): Unique token that identifies a failover instance.
 *override_vetoes* (STRING): Flag that indicates whether the system overrides veto checks during a giveback operation. This flag corresponds to the "-override-vetoes" parameter of the "storage failover giveback" command. When the parameter is set to true, some veto checks made by subsystems on the source node might be overridden.
@@ -867,6 +867,8 @@ Failover monitor: takeover started
 *partner_node_uuid* (STRING): UUID of the partner node.
 
 == cf.fm.timeMasterStatus
+*Deprecated*::
+Deprecated as of version 9.17.1.
 *Severity*::
 INFORMATIONAL
 *Description*::

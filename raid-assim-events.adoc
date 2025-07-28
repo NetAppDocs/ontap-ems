@@ -52,6 +52,8 @@ Error building RAID tree %s, plex %d, from disk %s.
 *disk* (STRING): Name of the disk.
 
 == raid.assim.cfo.aggr.offline
+*Deprecated*::
+Deprecated as of version 9.17.1 to rename the event to raid.assim.root.aggr.offline.
 *Severity*::
 INFORMATIONAL
 *Description*::
@@ -522,6 +524,21 @@ This message occurs when an offline disk within a RAID group fails verification 
 *vol* (STRING): Name of the aggregate.
 *rgId* (INT): RAID group identifier.
 *childId* (INT): Child identifier.
+
+== raid.assim.root.aggr.offline
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a root aggregate which is orginally homed to the disaster recovery (DR) partner or DR auxiliary partner is taken offline during assimilation after switchover in a MetroCluster(tm) configuration. Switched over root aggregates are kept offline until the MetroCluster(tm) is switched back.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Aggregate %s%s originally homed to %u is taken offline. Reason: %s.
+*Parameters*::
+*owner* (STRING): Owner of affected aggregate.
+*aggregate* (STRING): Name of the aggregate.
+*dr_home_owner_id* (INT): NVRAM system ID of the aggregate's disaster recovery (DR) home owner.
+*reason* (STRING): Reason for taking the aggregate offline.
 
 == raid.assim.tree.degradedDirty
 *Severity*::

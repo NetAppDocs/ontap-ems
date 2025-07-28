@@ -149,6 +149,23 @@ Configuration data for port %s in IPspace "%s" has been restored.
 *port* (STRING): Name of the affected port.
 *ipspace* (STRING): Name of the IPspace to which the port is assigned.
 
+== vifmgr.port.settings
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when MTU, speed, flowcontrol, or duplex administrative settings are applied to a network port. If link autonegotiation is enabled, the negotiated operational values might override these administrative settings.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Port %s on node "%s" is configured with MTU: %s, speed: %s, flowcontrol: %s, duplex: %s.
+*Parameters*::
+*port_name* (STRING): Name of the Ethernet port.
+*node* (STRING): Name of the node.
+*mtu* (STRING): MTU value.
+*speed* (STRING): Speed value.
+*flowcontrol* (STRING): Flow control value.
+*duplex* (STRING): Duplex value.
+
 == vifmgr.port.shareBd
 *Severity*::
 ERROR

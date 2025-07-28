@@ -18,11 +18,11 @@ summary: disk.partner events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when a node receives notice that a partner node has completed a disk encrypt revert operation.
+This message occurs when a node receives notice that its partner has completed a 'disk encrypt revert_original' operation. Check the command status on the partner node.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-The partner has completed reverting drive %s to its original state.
+The partner has completed a 'disk encrypt revert_original' operation on drive "%s". Check the partner node for the command status.
 *Parameters*::
 *diskName* (STRING): Name of the device.
 

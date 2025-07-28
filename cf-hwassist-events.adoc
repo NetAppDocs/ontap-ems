@@ -208,11 +208,11 @@ Currently installed version of %s's firmware doesn't support the hardware-assist
 *Severity*::
 ALERT
 *Description*::
-This message occurs when a controller module fails to update the hardware-assist configuration with its partner node. This is most likely because the SP component is not ready. The controller module will retry the hardware-assist configuration update automatically.
+This message occurs when node fails to update the hardware-assist configuration with its HA partner node. This is most likely because the service processor (SP) component is not ready. This messages might also be seen during ONTAP upgrade when the node reboots. The node will automatically retry the hardware-assisted storage failover configuration update.
 *Corrective Action*::
-Use the ""system node service-processor show"" command to check whether the SP is online. The SP must be online to update the hardware-assist configuration. If the SP is operational and online, use the ""system node service-processor reboot-sp"" command to reboot the SP.If the message persists, contact NetApp technical support.
+Use the "system node service-processor show" command to check whether the SP is online. Use the "storage failover hwassist show" command to check the status of hardware-assisted storage failover once the node is active. The SP must be online to update the hardware-assist storage failover configuration. If the SP is operational and online, use the "system node service-processor reboot-sp" command to reboot the SP.
 *Syslog Message*::
-Failed to update the hardware-assist configuration with hardware component (%s): %s(%d).
+Failed to update the hardware-assist configuration with hardware component (%s). Error: %s(%d).
 *Parameters*::
 *hwtype* (STRING): Hardware component type.
 *errorstr* (STRING): Error string returned by the hardware component.
@@ -268,15 +268,15 @@ hw_assist: Partner(%s) has stopped throttling hw_assist alerts.
 
 == cf.hwassist.recvKeepAlive
 *Severity*::
-INFORMATIONAL
+NOTICE
 *Description*::
-This message occurs when hwassist thread receives hw_assist KeepAlive alert after missing at least two consecutive KeepAlive alerts.
+This message occurs when the hwassist thread receives a HW-assisted takeover keep-alive message after missing at least two consecutive keep-alive messages.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-hw_assist: Received hw_assist KeepAlive alert from partner(%s).
+Received HW-assisted takeover keep-alive message again from HA partner (%s).
 *Parameters*::
-*partnerName* (STRING): Partner's name
+*partnerName* (STRING): HA partner's hostname.
 
 == cf.hwassist.socBindFailed
 *Severity*::

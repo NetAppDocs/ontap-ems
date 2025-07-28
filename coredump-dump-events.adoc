@@ -107,7 +107,7 @@ ERROR
 *Description*::
 Could not find any suitable disks for dumping a core.
 *Corrective Action*::
-Make sure there are non-broken disks connected to (and owned by) the panicing host.
+Make sure there are non-broken disks connected to (and owned by) the panicking host.
 *Syslog Message*::
 No valid disks found
 *Parameters*::
@@ -203,7 +203,7 @@ ERROR
 *Description*::
 The selected spare disk might not be big enough to hold the core. The dump attempt has been aborted.
 *Corrective Action*::
-Make sure a spare disk is available that is at least as big as the sum of main memory and NVRAM. Set the option "coredump.metadata_only" to "on". If the problem persists, turn off the option "cf.takeover.on_panic". This will disable the sparecore feature, and delay takeovers until the panicing partner has finished dumping the core.
+Make sure a spare disk is available that is at least as big as the sum of main memory and NVRAM. Set the option "coredump.metadata_only" to "on". If the problem persists, turn off the option "cf.takeover.on_panic". This will disable the sparecore feature, and delay takeovers until the panicking partner has finished dumping the core.
 *Syslog Message*::
 Spare disk too small for coredump
 *Parameters*::

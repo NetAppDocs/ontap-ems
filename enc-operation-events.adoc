@@ -14,21 +14,6 @@ summary: enc.operation events
 :linkattrs:
 :imagesdir: ./media/
 
-== enc.operation.aborted
-*Severity*::
-ERROR
-*Description*::
-This message occurs when either the rekeying of an encrypted flexible volume, or the conversion of the volume from unencrypted to encrypted, is aborted.
-*Corrective Action*::
-For ASA r2, contact NetApp technical support for assistance to resume the encryption operation. For all other systems, determine the cause of the error by using either the "volume encryption rekey show -vserver <vserver-name> -volume <volume-name>" command or the "volume encryption conversion show -vserver <vserver-name> -volume <volume-name>" command. Correct the error. If the error is related to rekeying, continue the operation by using the "volume encryption rekey resume -vserver <vserver-name> -volume <volume-name>" command. If the error is related to conversion to encryption, continue the operation by using the "volume encryption conversion resume -vserver <vserver-name> -volume <volume-name>" command.
-*Syslog Message*::
-%s scan is aborted in the volume "%s" (aggr "%s"). Reason: %s.
-*Parameters*::
-*op* (STRING): Rekey or conversion operation.
-*volume* (STRING): Volume name.
-*aggr* (STRING): Name of the containing aggregate.
-*status* (STRING): Status of the scan.
-
 == enc.operation.completed
 *Severity*::
 NOTICE

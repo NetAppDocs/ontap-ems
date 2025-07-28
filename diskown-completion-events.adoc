@@ -16,12 +16,12 @@ summary: diskown.completion events
 
 == diskown.completion.timer.reEnabled
 *Severity*::
-INFORMATIONAL
+NOTICE
 *Description*::
-This message occurs when the COMPLETION events from sanown layer remain after an aggregate is migrated form a source to a destination. Typically the events are enabled automatically, and if that doesn't happen with in a certain amount of time, the system reenables the COMPLETION events and logs this message.
+This message occurs when the COMPLETION events from sanown layer remain after an aggregate is migrated from a source to a destination. Typically the events are enabled automatically, and if that doesn't happen within a certain amount of time, the system reenables the COMPLETION events and logs this message.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Sanown completion event timer reenabled after a giveback.
+Sanown completion event reenabled after a giveback.
 *Parameters*::
 (None).

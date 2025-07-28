@@ -31,7 +31,7 @@ Configuration replication for volume "%s" in Vserver "%s" has failed because of 
 *Severity*::
 ERROR
 *Description*::
-This message occurs during a SnapMirror resync(R) operation on a Storage Virtual Machine (SVM) disaster recvoery (DR) relationship, when a new volume needs to be created on the destination SVM but another volume with the same name already exists on it, and it is also the destination of a volume-level SnapMirror relationship. The resync operation fails to start.
+This message occurs during a SnapMirror resync(R) operation on a Storage Virtual Machine (SVM) disaster recovery (DR) relationship, when a new volume needs to be created on the destination SVM but another volume with the same name already exists on it, and it is also the destination of a volume-level SnapMirror relationship. The resync operation fails to start.
 *Corrective Action*::
 Rename the volume on the destination SVM by using the "volume rename" command or delete it by using the "volume delete" command, and then execute another "snapmirror resync" command.
 *Syslog Message*::

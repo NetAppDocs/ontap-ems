@@ -63,7 +63,7 @@ Static route added to the network routing table for SVM %u: dest %s, gw %s, metr
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when a static route is removed from the network routing table of a istorage virtual machine (SVM).
+This message occurs when a static route is removed from the network routing table of a storage virtual machine (SVM).
 *Corrective Action*::
 (None).
 *Syslog Message*::

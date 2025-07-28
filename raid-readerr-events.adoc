@@ -56,8 +56,10 @@ This message occurs when the system detects an inconsistent RAID write signature
 *disk_name* (STRING): Name of the diag parity disk.
 *dbn* (LONGINT): Disk block number of the block being reported.
 *stripe_id* (INTHEX): Stripe ID field of the RAID write signature on the diag parity block.
+*is_ext_scheme* (INT): Is parity in extended scheme.
 *gen_cnt1* (INTHEX): Generation count bitmap field of the RAID write signature on the diag parity block, for data blocks 0-15.
 *gen_cnt2* (INTHEX): Generation count bitmap field of the RAID write signature on the diag parity block, for data blocks 16-27.
+*gen_cnt3* (INTHEX): Extended generation count bitmap field of the RAID write signature on the diag parity block.
 *comp_cksum* (INTHEX): Computed RAID checksum of the disk block.
 *wafl_cxt0* (INTHEX): Bytes 0-3 of WAFL(R) context information in the checksum.
 *wafl_cxt1* (INTHEX): Bytes 4-7 of WAFL context information in the checksum.
@@ -111,8 +113,10 @@ This message occurs when the system detects an inconsistent RAID write signature
 *disk_name* (STRING): Name of the row parity disk.
 *dbn* (LONGINT): Disk block number of the block being reported.
 *stripe_id* (INTHEX): Stripe ID field of the RAID write signature on the row parity block.
+*is_ext_scheme* (INT): Is parity in extended scheme.
 *gen_cnt1* (INTHEX): Generation count bitmap field of the RAID write signature on the row parity block, for data blocks 0-15.
 *gen_cnt2* (INTHEX): Generation count bitmap field of the RAID write signature on the row parity block, for data blocks 16-27.
+*gen_cnt3* (INTHEX): Extended Generation count bitmap field of the RAID write signature on the row parity block.
 *comp_cksum* (INTHEX): Computed RAID checksum of the disk block.
 *wafl_cxt0* (INTHEX): Bytes 0-3 of WAFL(R) context information in the checksum.
 *wafl_cxt1* (INTHEX): Bytes 4-7 of WAFL context information in the checksum.
@@ -188,8 +192,10 @@ This message occurs when the system detects an inconsistent RAID write signature
 *disk_name* (STRING): Name of the tparity disk.
 *dbn* (LONGINT): Disk block number of the block being reported.
 *stripe_id* (INTHEX): Stripe ID field of the RAID write signature on the tparity block.
+*is_ext_scheme* (INT): Is parity in extended scheme.
 *gen_cnt1* (INTHEX): Generation count bitmap field of the RAID write signature on the tparity block, for data blocks 0-15.
 *gen_cnt2* (INTHEX): Generation count bitmap field of the RAID write signature on the tparity block, for data blocks 16-27.
+*gen_cnt3* (INTHEX): Extended generation count bitmap field of the RAID write signature on the tparity block.
 *comp_cksum* (INTHEX): Computed RAID checksum of the disk block.
 *wafl_cxt0* (INTHEX): Bytes 0-3 of WAFL(R) context information in the checksum.
 *wafl_cxt1* (INTHEX): Bytes 4-7 of WAFL context information in the checksum.

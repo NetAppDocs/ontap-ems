@@ -34,7 +34,7 @@ This event was replaced by configbr.backupFailed.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when when the configuration backup cannot be created.
+This message occurs when the configuration backup cannot be created.
 *Corrective Action*::
 If the reason is about the root volume file system, ensure that it is available and has enough space to create a backup. If the reason is that a scheduled backup file could not be created, create the backup file manually and upload it to the remote URL.
 *Syslog Message*::
@@ -83,7 +83,7 @@ This event was replaced by configbr.initFailed.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when when the configuration backup and restore feature cannot initialize the necessary software components.
+This message occurs when the configuration backup and restore feature cannot initialize the necessary software components.
 *Corrective Action*::
 If the reason is about the backup directory under the root volume, ensure that the root volume is available and has enough free space. If the reason is about populating replicated database entries, wait five minutes and then use the advanced mode of the command-line interface to access the "Backup Settings" menu to ensure that backup schedules are listed. If the reason is about creating backup jobs, wait five minutes and then run the 'job show' command to ensure that backup jobs are displayed for each schedule.
 *Syslog Message*::

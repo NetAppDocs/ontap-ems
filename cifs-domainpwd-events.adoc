@@ -46,7 +46,7 @@ ERROR
 *Description*::
 This message occurs when the CIFS domain password update for a Vserver fails.
 *Corrective Action*::
-Try updating the password manually by using the 'vserver cifs domain password change' command. Review recent event logs for addtional information. If the error persists, contact NetApp technical support.
+Try updating the password manually by using the 'vserver cifs domain password change' command. Review recent event logs for additional information. If the error persists, contact NetApp technical support.
 *Syslog Message*::
 An attempt to update the domain account password for Vserver %s failed during %s with the following error: %s
 *Parameters*::

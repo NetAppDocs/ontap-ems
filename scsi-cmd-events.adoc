@@ -112,21 +112,21 @@ The adapter resource event is issued when the host adapter has run out of resour
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a check condition is recieved from a device. A check condition is the mechanism whereby a target device reports an informational condition or error status to the requesting host. Either the condition that generated this event is an error that occurred during execution of the command and was not cleared by retrying the request or an informational condition reporting status of the present operation or media state.
+This message occurs when the system receives a "check condition" status from a device. "Check condition" status is the mechanism whereby a target device reports an informational condition or error status to the requesting host. Either the condition that generated this event is an error that occurred during execution of the command and was not cleared by retrying the request or an informational condition reporting status of the present operation or media state.
 *Corrective Action*::
-A target status of check condition normally indicates an error at the device during execution of the requested command. Such cases are often the result of an intermittent device hardware or firmware problem that is automatically handled by the Data ONTAP drivers through command retries. In cases of repeated events, the specified device should be evaluated for proper operation and possible repair or replacement. A check condition with a SenseKey of "no sense" indicates an informational condition that is automatically handled by the Data ONTAP driver associated with the target device. These are normally not reported as error events. However, on occasion an unexpected informational condition may be reported by a target device. These cases should not be interpreted as a failure of the target device.
+A target status of check condition normally indicates an error at the device during execution of the requested command. Such cases are often the result of an intermittent device hardware or firmware problem that is automatically handled by the Data ONTAP drivers through command retries. Check condition statuses can also be seen during shelf firmware update operations. In cases of repeated events, the specified device should be evaluated for proper operation and possible repair or replacement. A check condition with a SenseKey of "no sense" indicates an informational condition that is automatically handled by the Data ONTAP driver associated with the target device. These are normally not reported as error events. However, on occasion an unexpected informational condition may be reported by a target device. These cases should not be interpreted as a failure of the target device.
 *Syslog Message*::
 %s device %s: Check Condition: CDB %s: Sense Data %s - %s (0x%x - 0x%x 0x%x 0x%x)(%d). %s
 *Parameters*::
-*deviceType* (STRING): The device type.
-*deviceName* (STRING): The electrical path name of the device on which the command failed.
-*cdb* (STRING): A string containing the opcode byte of the Command block which encountered the error. For opcodes of READ (0x28) or WRITE (0x2a), the logical block address and the transfer length are also included.
-*sSenseKey* (STRING): A string containing a description of the sense key for the failed command.
-*sSenseCode* (STRING): A string containing a description of the sense code for the failed command. If no description is available, this is a null string.
-*iSenseKey* (INTHEX): The integer value of the sense key for the failed command.
-*iASC* (INTHEX): The integer value of the sense code for the failed command.
-*iASCQ* (INTHEX): The integer value of the sense code qualifier for the failed command.
-*iFRU* (INTHEX): The integer value of the fru for the failed command.
+*deviceType* (STRING): Device type.
+*deviceName* (STRING): Electrical path name of the device on which the command failed.
+*cdb* (STRING): String containing the opcode byte of the Command block which encountered the error. For opcodes of READ (0x28) or WRITE (0x2a), the logical block address and the transfer length are also included.
+*sSenseKey* (STRING): String containing a description of the sense key for the failed command.
+*sSenseCode* (STRING): String containing a description of the sense code for the failed command. If no description is available, this is a null string.
+*iSenseKey* (INTHEX): Integer value of the sense key for the failed command.
+*iASC* (INTHEX): Integer value of the sense code for the failed command.
+*iASCQ* (INTHEX): Integer value of the sense code qualifier for the failed command.
+*iFRU* (INTHEX): Integer value of the fru for the failed command.
 *DTime* (INT): Delta time from first issued to sense logged.
 *disk_information* (STRING): Formatted information about the disk, including the disk's vendor, model, firmware revision, and serial number.
 
