@@ -66,7 +66,7 @@ License Checking: Mirror License failure: (%s)
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the license checker deterimines that the Base license is missing. If this is the case, you cannot add nodes to the cluster.
+This message occurs when the license checker determines that the Base license is missing. If this is the case, you cannot add nodes to the cluster.
 *Corrective Action*::
 Reinstall the Base license.
 *Syslog Message*::

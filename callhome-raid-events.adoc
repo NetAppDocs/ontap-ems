@@ -26,6 +26,30 @@ Disk auto-partitioning is disabled on this system: %s.
 *Parameters*::
 *subject* (STRING): Reason that auto-partitioning was disabled.
 
+== callhome.raid.bg.ops.stalled
+*Severity*::
+ALERT
+*Description*::
+This message occurs when RAID group background long running I/O is not making progress due to missing ownership metadata. This has high impact on I/O and can lead to I/O request timeouts if the background I/O type is "reconstruction". In contrast, I/O impact is low if the background I/O type is "scrub". If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+*Corrective Action*::
+NetApp technical support
+*Syslog Message*::
+Call home for %s.
+*Parameters*::
+*subject* (STRING): AutoSupport subject or title for this event.
+
+== callhome.raid.mdp.detected
+*Severity*::
+ALERT
+*Description*::
+This message occurs when the system detects that it has encountered a multi-disk error prior to this boot. If your system is configured to do so, it generates and transmits an AutoSupport(tm) (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+*Corrective Action*::
+Contact NetApp technical support.
+*Syslog Message*::
+Call home for %s
+*Parameters*::
+*subject* (STRING): AutoSupport subject or title for this event.
+
 == callhome.raid.no.recover
 *Severity*::
 EMERGENCY

@@ -54,9 +54,9 @@ ANDU firmware update monitoring job skipped because "%s"
 *Severity*::
 ERROR
 *Description*::
-This message occurs when a firmware update has failed for any of the firmware components.
+This message occurs when an automatic non-disruptive upgrade (ANDU) operation is paused due to a firmware update failure. The issue has to be resolved before the ANDU operation can continue.
 *Corrective Action*::
-Contact Contact NetApp technical support. for assistance.
+Contact NetApp technical support.
 *Syslog Message*::
 ANDU firmware update failed for firmware component: %s. Status: %s.
 *Parameters*::

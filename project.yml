@@ -14,8 +14,10 @@ settings:
     lipi_enabled: false
   versions:
     # This Repo
-    - version-number: "9.16.1"
+    - version-number: "9.17.1"
       url: /ontap-ems
+    - version-number: "9.16.1"
+      url: /ontap-ems-9161
     - version-number: "9.15.1"
       url: /ontap-ems-9151
     - version-number: "9.14.1"
@@ -46,7 +48,7 @@ product-family:
 
 sidebar: 
  entries:
-  - title: ONTAP 9.16.1 EMS reference
+  - title: ONTAP 9.17.1 EMS reference
     url: /index.html
   - title: accesscache events
     entries:

@@ -128,11 +128,11 @@ ONTAP Mediator (version %s) was removed on cluster '%s' having peer cluster '%s'
 *Severity*::
 ERROR
 *Description*::
-This message occurs when ONTAP(R) Mediator is removed from a cluster using the "force" option. As a result, the ONTAP Mediator configuration might still be present on the peer cluster. This results in a partial configuration that could lead to the failure of a SnapMirror(R) failover operation.
+This message occurs when ONTAP(R) Mediator fails to be removed from the peer cluster but is removed from the local cluster because the "force" option is given. As a result, the ONTAP Mediator configuration might still be present on the peer cluster. This results in a partial configuration that could lead to the failure of a SnapMirror(R) failover operation.
 *Corrective Action*::
 Check whether the current ONTAP Mediator is configured on the peer cluster. If so, remove the ONTAP Mediator by using the (diagnostic privilege) "snapmirror mediator remove -force true" command. Reconfigure access to the ONTAP Mediator by using the "snapmirror mediator add" command.
 *Syslog Message*::
-ONTAP Mediator (IP: %s, version: %s) was removed using the "force" option on cluster %s. Peer cluster %s.
+ONTAP Mediator (IP: "%s", version: "%s") was removed using the "force" option on cluster "%s". Peer cluster "%s".
 *Parameters*::
 *ipAddress* (STRING): ONTAP Mediator IP address.
 *version* (STRING): ONTAP Mediator version.

@@ -201,6 +201,8 @@ entries:
     url: /arl-veto-events.html
 - title: arp events
   entries:
+  - title: arp.block events
+    url: /arp-block-events.html
   - title: arp.version events
     url: /arp-version-events.html
 - title: arw events
@@ -287,6 +289,14 @@ entries:
     url: /aws-instance-events.html
   - title: aws.nic events
     url: /aws-nic-events.html
+- title: azurearc events
+  entries:
+  - title: azurearc.agent events
+    url: /azurearc-agent-events.html
+  - title: azurearc.himds events
+    url: /azurearc-himds-events.html
+  - title: azurearc.new events
+    url: /azurearc-new-events.html
 - title: backup events
   entries:
   - title: backup.abort events
@@ -417,6 +427,8 @@ entries:
     url: /callhome-ctran-events.html
   - title: callhome.dafs events
     url: /callhome-dafs-events.html
+  - title: callhome.data events
+    url: /callhome-data-events.html
   - title: callhome.dbs events
     url: /callhome-dbs-events.html
   - title: callhome.device events
@@ -445,6 +457,8 @@ entries:
     url: /callhome-fcp-events.html
   - title: callhome.fdsk events
     url: /callhome-fdsk-events.html
+  - title: callhome.fg events
+    url: /callhome-fg-events.html
   - title: callhome.flash events
     url: /callhome-flash-events.html
   - title: callhome.fs events
@@ -501,6 +515,8 @@ entries:
     url: /callhome-no-events.html
   - title: callhome.nse events
     url: /callhome-nse-events.html
+  - title: callhome.ntp events
+    url: /callhome-ntp-events.html
   - title: callhome.nvdimm events
     url: /callhome-nvdimm-events.html
   - title: callhome.nve events
@@ -509,6 +525,8 @@ entries:
     url: /callhome-nvme-events.html
   - title: callhome.nvmem events
     url: /callhome-nvmem-events.html
+  - title: callhome.nvmf events
+    url: /callhome-nvmf-events.html
   - title: callhome.nvram events
     url: /callhome-nvram-events.html
   - title: callhome.okm events
@@ -597,6 +615,8 @@ entries:
     url: /callhome-weekly-events.html
 - title: cam events
   entries:
+  - title: cam.counters events
+    url: /cam-counters-events.html
   - title: cam.dev events
     url: /cam-dev-events.html
   - title: cam.timeout events
@@ -711,8 +731,16 @@ entries:
     url: /cf-takeover-events.html
   - title: cf.transition events
     url: /cf-transition-events.html
+- title: cfvm events
+  entries:
+  - title: cfvm.cutover events
+    url: /cfvm-cutover-events.html
+  - title: cfvm.failed events
+    url: /cfvm-failed-events.html
 - title: cifs events
   entries:
+  - title: cifs.db events
+    url: /cifs-db-events.html
   - title: cifs.does events
     url: /cifs-does-events.html
   - title: cifs.domainpwd events
@@ -773,16 +801,22 @@ entries:
     url: /cloud-azurecredsinvalid-events.html
   - title: cloud.bin events
     url: /cloud-bin-events.html
+  - title: cloud.cannotresolveip events
+    url: /cloud-cannotresolveip-events.html
   - title: cloud.creds events
     url: /cloud-creds-events.html
   - title: cloud.dberror events
     url: /cloud-dberror-events.html
+  - title: cloud.dbinfo events
+    url: /cloud-dbinfo-events.html
   - title: cloud.dbtablenotfound events
     url: /cloud-dbtablenotfound-events.html
   - title: cloud.gcpcredsinvalid events
     url: /cloud-gcpcredsinvalid-events.html
   - title: cloud.nicsgwrong events
     url: /cloud-nicsgwrong-events.html
+  - title: cloud.nocredentials events
+    url: /cloud-nocredentials-events.html
   - title: cloud.secddnserror events
     url: /cloud-secddnserror-events.html
 - title: clus events
@@ -807,10 +841,12 @@ entries:
     url: /cluster-port-events.html
   - title: cluster.repl events
     url: /cluster-repl-events.html
-  - title: cluster.switch events
-    url: /cluster-switch-events.html
   - title: cluster.vol events
     url: /cluster-vol-events.html
+- title: cm events
+  entries:
+  - title: cm.rest events
+    url: /cm-rest-events.html
 - title: cmd events
   entries:
   - title: cmd.result events
@@ -1301,6 +1337,8 @@ entries:
     url: /disk-failmsg-events.html
   - title: disk.fakereassignsuccess events
     url: /disk-fakereassignsuccess-events.html
+  - title: disk.fence events
+    url: /disk-fence-events.html
   - title: disk.fli events
     url: /disk-fli-events.html
   - title: disk.fw events
@@ -1479,6 +1517,8 @@ entries:
     url: /diskown-uprevversion-events.html
   - title: diskown.waitingforreassign events
     url: /diskown-waitingforreassign-events.html
+  - title: diskown.wfgfencecheckbad events
+    url: /diskown-wfgfencecheckbad-events.html
 - title: diskshelf events
   entries:
   - title: diskshelf.psu events
@@ -1641,6 +1681,10 @@ entries:
   entries:
   - title: extcache.aggregate events
     url: /extcache-aggregate-events.html
+  - title: extcache.bypassallocfailed events
+    url: /extcache-bypassallocfailed-events.html
+  - title: extcache.bypassstate events
+    url: /extcache-bypassstate-events.html
   - title: extcache.configunsupported events
     url: /extcache-configunsupported-events.html
   - title: extcache.control events
@@ -1669,6 +1713,8 @@ entries:
     url: /fabric-sdm-events.html
 - title: fabriclink events
   entries:
+  - title: fabriclink.metadata events
+    url: /fabriclink-metadata-events.html
   - title: fabriclink.retry events
     url: /fabriclink-retry-events.html
 - title: fabricpool events
@@ -1965,12 +2011,20 @@ entries:
     url: /gpo-security-events.html
 - title: ha events
   entries:
+  - title: ha.aggregate events
+    url: /ha-aggregate-events.html
   - title: ha.aggrmigrduration events
     url: /ha-aggrmigrduration-events.html
   - title: ha.bdfu events
     url: /ha-bdfu-events.html
+  - title: ha.dataaggregate events
+    url: /ha-dataaggregate-events.html
   - title: ha.disasterbootinitiated events
     url: /ha-disasterbootinitiated-events.html
+  - title: ha.fenceaddedhalt events
+    url: /ha-fenceaddedhalt-events.html
+  - title: ha.fencecheckbad events
+    url: /ha-fencecheckbad-events.html
   - title: ha.fm events
     url: /ha-fm-events.html
   - title: ha.gb events
@@ -2033,8 +2087,8 @@ entries:
     url: /ha-toafterrcvpanicinfo-events.html
   - title: ha.tp events
     url: /ha-tp-events.html
-  - title: ha.unabletoretrieveaggregates events
-    url: /ha-unabletoretrieveaggregates-events.html
+  - title: ha.unabletoretrieveaggrs events
+    url: /ha-unabletoretrieveaggrs-events.html
 - title: hamsg events
   entries:
   - title: hamsg.diskcheckresp events
@@ -2069,6 +2123,8 @@ entries:
   entries:
   - title: hotplug.generic events
     url: /hotplug-generic-events.html
+  - title: hotplug.init events
+    url: /hotplug-init-events.html
   - title: hotplug.insert events
     url: /hotplug-insert-events.html
   - title: hotplug.remove events
@@ -2207,8 +2263,12 @@ entries:
     url: /km-keyretrieve-events.html
   - title: km.keyserver events
     url: /km-keyserver-events.html
+  - title: km.kmip events
+    url: /km-kmip-events.html
   - title: km.mcc events
     url: /km-mcc-events.html
+  - title: km.okm events
+    url: /km-okm-events.html
   - title: km.okmdb events
     url: /km-okmdb-events.html
   - title: km.onboard events
@@ -2301,6 +2361,8 @@ entries:
     url: /lmgr-ca-events.html
   - title: lmgr.cb events
     url: /lmgr-cb-events.html
+  - title: lmgr.clients events
+    url: /lmgr-clients-events.html
   - title: lmgr.delegations events
     url: /lmgr-delegations-events.html
   - title: lmgr.enable events
@@ -2327,6 +2389,8 @@ entries:
     url: /lmgr-mismatch-events.html
   - title: lmgr.move events
     url: /lmgr-move-events.html
+  - title: lmgr.nl events
+    url: /lmgr-nl-events.html
   - title: lmgr.notify events
     url: /lmgr-notify-events.html
   - title: lmgr.owners events
@@ -2971,6 +3035,8 @@ entries:
     url: /nblade-nfspathresmaxlinks-events.html
   - title: nblade.nfsrcchecksummismatch events
     url: /nblade-nfsrcchecksummismatch-events.html
+  - title: nblade.nfstlsdisabled events
+    url: /nblade-nfstlsdisabled-events.html
   - title: nblade.nfsv3writetoolarge events
     url: /nblade-nfsv3writetoolarge-events.html
   - title: nblade.nfsv4blockclient events
@@ -2993,10 +3059,14 @@ entries:
     url: /nblade-pcp-events.html
   - title: nblade.qosvioldetectregfail events
     url: /nblade-qosvioldetectregfail-events.html
+  - title: nblade.qtreefhnotused events
+    url: /nblade-qtreefhnotused-events.html
   - title: nblade.rcbinid events
     url: /nblade-rcbinid-events.html
   - title: nblade.recoverybegin events
     url: /nblade-recoverybegin-events.html
+  - title: nblade.s3bucketpathisstale events
+    url: /nblade-s3bucketpathisstale-events.html
   - title: nblade.s3bucketpathnotfound events
     url: /nblade-s3bucketpathnotfound-events.html
   - title: nblade.scannerconnected events
@@ -3021,6 +3091,8 @@ entries:
     url: /nblade-tlshandshakefailed-events.html
   - title: nblade.vifdel events
     url: /nblade-vifdel-events.html
+  - title: nblade.vifmove events
+    url: /nblade-vifmove-events.html
   - title: nblade.vldb events
     url: /nblade-vldb-events.html
   - title: nblade.vscanbadipprivaccess events
@@ -3069,6 +3141,8 @@ entries:
     url: /ndo-cr-events.html
 - title: net events
   entries:
+  - title: net.asymmetric events
+    url: /net-asymmetric-events.html
   - title: net.cg events
     url: /net-cg-events.html
   - title: net.fib events
@@ -3093,6 +3167,10 @@ entries:
     url: /netgroup-ldap-events.html
   - title: netgroup.nis events
     url: /netgroup-nis-events.html
+- title: netgroupbyname events
+  entries:
+  - title: netgroupbyname.cache events
+    url: /netgroupbyname-cache-events.html
 - title: netif events
   entries:
   - title: netif.autonegfailed events
@@ -3109,6 +3187,8 @@ entries:
     url: /netif-cprmaxeventsreached-events.html
   - title: netif.eepromreadfailed events
     url: /netif-eepromreadfailed-events.html
+  - title: netif.ena events
+    url: /netif-ena-events.html
   - title: netif.excesslinkinterrupts events
     url: /netif-excesslinkinterrupts-events.html
   - title: netif.fatal events
@@ -3245,6 +3325,8 @@ entries:
     url: /nse-op-events.html
 - title: nv events
   entries:
+  - title: nv.clam events
+    url: /nv-clam-events.html
   - title: nv.data events
     url: /nv-data-events.html
   - title: nv.extension events
@@ -3295,6 +3377,8 @@ entries:
     url: /nvme-link-events.html
   - title: nvme.ssd events
     url: /nvme-ssd-events.html
+  - title: nvme.subsystem events
+    url: /nvme-subsystem-events.html
 - title: nvmem events
   entries:
   - title: nvmem.battery events
@@ -3351,6 +3435,8 @@ entries:
     url: /nvmf-remote-events.html
   - title: nvmf.roce events
     url: /nvmf-roce-events.html
+  - title: nvmf.subsystem events
+    url: /nvmf-subsystem-events.html
   - title: nvmf.tcp events
     url: /nvmf-tcp-events.html
 - title: nvpm events
@@ -3367,6 +3453,8 @@ entries:
     url: /nvram-flash-events.html
   - title: nvram.hw events
     url: /nvram-hw-events.html
+  - title: nvram.parity events
+    url: /nvram-parity-events.html
 - title: oauth2 events
   entries:
   - title: oauth2.httpd events
@@ -3473,6 +3561,14 @@ entries:
     url: /pha-obj-events.html
   - title: pha.vsa events
     url: /pha-vsa-events.html
+- title: phdb events
+  entries:
+  - title: phdb.addedmailboxdisk events
+    url: /phdb-addedmailboxdisk-events.html
+  - title: phdb.removedmailboxdisk events
+    url: /phdb-removedmailboxdisk-events.html
+  - title: phdb.scsicmdfailed events
+    url: /phdb-scsicmdfailed-events.html
 - title: phf events
   entries:
   - title: phf.manage events
@@ -3647,6 +3743,8 @@ entries:
     url: /raid-olm-events.html
   - title: raid.partition events
     url: /raid-partition-events.html
+  - title: raid.partitioned events
+    url: /raid-partitioned-events.html
   - title: raid.plex events
     url: /raid-plex-events.html
   - title: raid.pmdopt events
@@ -3895,6 +3993,10 @@ entries:
     url: /repository-ns-events.html
   - title: repository.snapshot events
     url: /repository-snapshot-events.html
+- title: restore events
+  entries:
+  - title: restore.cluster events
+    url: /restore-cluster-events.html
 - title: revert events
   entries:
   - title: revert.ufmt events
@@ -4311,6 +4413,10 @@ entries:
     url: /ses-system-events.html
   - title: ses.unsupported events
     url: /ses-unsupported-events.html
+- title: set events
+  entries:
+  - title: set.cluster events
+    url: /set-cluster-events.html
 - title: sfo events
   entries:
   - title: sfo.aggr events
@@ -4533,6 +4639,10 @@ entries:
     url: /sm-c2c-events.html
   - title: sm.cascade events
     url: /sm-cascade-events.html
+  - title: sm.cg events
+    url: /sm-cg-events.html
+  - title: sm.cloud events
+    url: /sm-cloud-events.html
   - title: sm.disable events
     url: /sm-disable-events.html
   - title: sm.dst events
@@ -4577,6 +4687,8 @@ entries:
     url: /smc-dst-events.html
   - title: smc.frest events
     url: /smc-frest-events.html
+  - title: smc.gdd events
+    url: /smc-gdd-events.html
   - title: smc.restore events
     url: /smc-restore-events.html
   - title: smc.snap events
@@ -4771,8 +4883,6 @@ entries:
     url: /socket-sndbuflimit-events.html
 - title: sp events
   entries:
-  - title: sp.auth events
-    url: /sp-auth-events.html
   - title: sp.authlog events
     url: /sp-authlog-events.html
   - title: sp.autoconfig events
@@ -4917,6 +5027,10 @@ entries:
   entries:
   - title: spmgmt.driver events
     url: /spmgmt-driver-events.html
+- title: ssh events
+  entries:
+  - title: ssh.sshrsa events
+    url: /ssh-sshrsa-events.html
 - title: sshd events
   entries:
   - title: sshd.auth events
@@ -4953,6 +5067,8 @@ entries:
   entries:
   - title: sync.snapmirror events
     url: /sync-snapmirror-events.html
+  - title: sync.subsystem events
+    url: /sync-subsystem-events.html
 - title: sysconfig events
   entries:
   - title: sysconfig.sysconfigtab events
@@ -5289,6 +5405,8 @@ entries:
     url: /vnvram-flush-events.html
   - title: vnvram.flushed events
     url: /vnvram-flushed-events.html
+  - title: vnvram.jswap events
+    url: /vnvram-jswap-events.html
 - title: vol events
   entries:
   - title: vol.clone events
@@ -5509,6 +5627,8 @@ entries:
     url: /wafl-32bit-events.html
   - title: wafl.8 events
     url: /wafl-8-events.html
+  - title: wafl.aadir events
+    url: /wafl-aadir-events.html
   - title: wafl.access events
     url: /wafl-access-events.html
   - title: wafl.afs events
@@ -5555,6 +5675,8 @@ entries:
     url: /wafl-cde-events.html
   - title: wafl.cdemap events
     url: /wafl-cdemap-events.html
+  - title: wafl.cfvm events
+    url: /wafl-cfvm-events.html
   - title: wafl.check events
     url: /wafl-check-events.html
   - title: wafl.cleanup events
@@ -5597,6 +5719,8 @@ entries:
     url: /wafl-err-events.html
   - title: wafl.extent events
     url: /wafl-extent-events.html
+  - title: wafl.fa events
+    url: /wafl-fa-events.html
   - title: wafl.failed events
     url: /wafl-failed-events.html
   - title: wafl.fas events
@@ -5607,6 +5731,8 @@ entries:
     url: /wafl-fgmember-events.html
   - title: wafl.filecg events
     url: /wafl-filecg-events.html
+  - title: wafl.flexaggr events
+    url: /wafl-flexaggr-events.html
   - title: wafl.fs events
     url: /wafl-fs-events.html
   - title: wafl.fsa events
@@ -5615,6 +5741,8 @@ entries:
     url: /wafl-gd-events.html
   - title: wafl.giveback events
     url: /wafl-giveback-events.html
+  - title: wafl.gran events
+    url: /wafl-gran-events.html
   - title: wafl.gs events
     url: /wafl-gs-events.html
   - title: wafl.hya events
@@ -5711,6 +5839,8 @@ entries:
     url: /wafl-relocate-events.html
   - title: wafl.relocating events
     url: /wafl-relocating-events.html
+  - title: wafl.remote events
+    url: /wafl-remote-events.html
   - title: wafl.repl events
     url: /wafl-repl-events.html
   - title: wafl.replay events
@@ -5769,6 +5899,8 @@ entries:
     url: /wafl-takeover-events.html
   - title: wafl.timer events
     url: /wafl-timer-events.html
+  - title: wafl.toomany events
+    url: /wafl-toomany-events.html
   - title: wafl.trans events
     url: /wafl-trans-events.html
   - title: wafl.transition events

@@ -22,12 +22,15 @@ This message occurs when an async-delete job has finished on the specified path.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Async-delete "%s" has finished on inode: %llu in volume (DSID: %llu, MSID: %llu).
+Async-delete "%s" has finished on inode: %llu in volume (DSID: %llu, MSID: %llu). Number of files deleted: %llu, Number of directories deleted: %llu. Total number of bytes deleted: %llu.
 *Parameters*::
 *Job_Id* (STRING): Async-delete job ID.
-*Inode* (LONGINT): Inode to be deleted.
+*Inode* (LONGINT): Inode that is deleted.
 *volume_dsid* (LONGINT): DSID of the volume containing the directory.
 *volume_msid* (LONGINT): MSID of the volume containing the directory.
+*file_count* (LONGINT): Total number of files deleted.
+*dir_count* (LONGINT): Total number of directories deleted.
+*deleted_size* (LONGINT): Total number of bytes deleted.
 
 == asyncDelCli.message.start
 *Severity*::

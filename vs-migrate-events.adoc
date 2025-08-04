@@ -109,7 +109,7 @@ Point of no return on destination Vserver %s has been updated successfully.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the Vserver migrate operation fails.This can occur before/during cutover or during post cutover activity. If failure is before/during cutover then source Vserver is in still operational and if migrate fails during post cutover activity then destination vserver is up. Once migrate issues are fixed, migrate can be resumed back to its origional state.
+This message occurs when the Vserver migrate operation fails. This can occur before/during cutover or during post cutover activity. If the failure occurs before or during cutover then the source Vserver will still be operational. If the failure occurs during post cutover activity then the destination Vserver will be operational. Once the migrate issues are fixed, the migrate operation can be resumed from its prior state.
 *Corrective Action*::
 Run the "vserver migrate show -fields status-details" to view the error and follow the corrective action recommended.
 *Syslog Message*::
@@ -205,11 +205,11 @@ Migrate of Vserver:%s was resumed.
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when Vserver migrate operation moves back from ready-to-cutover to transferring state after cutover was triggerred. This can be due to high transfer duration or due to some failure that might have occured when cutover was triggered on destination cluster.
+This message occurs when a Vserver migrate operation rolls back to the transferring state from the transferring, ready-for-cutover, cutover-triggered, or cutover-started state (assuming the point of no return has not been reached). A rollback can be caused by high transfer duration or some other failure while in one of these states.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Migrate state for Vserver %s was rolled back to transferring. Run "vserver migrate show -fields status-details" to see the reason for rollback. If the rollback is due to high transfer duration, reduce the I/O operations at the migrate source cluster to a lower rate.
+Migrate state for Vserver %s was rolled back to transferring. Run "vserver migrate show -fields status-details" to see the reason for rollback. If the rollback was due to high transfer duration, reduce the I/O operations at the migrate source cluster to a lower rate.
 *Parameters*::
 *vserver_name* (STRING): Name of the Vserver.
 *migration_uuid* (STRING): Migration UUID.

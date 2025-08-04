@@ -88,7 +88,7 @@ FC target HBA %s failed to update the firmware version from %s to %s with the st
 *hba* (STRING): HBA where the firmware version update failure occurred.
 *currentversion* (STRING): Firmware version the HBA is running.
 *bundleversion* (STRING): Firmware version bundled with Data ONTAP(R).
-*status* (INTHEX): Status code of the firmware update process.
+*status* (INT): Status code of the firmware update process.
 *additional_status* (INTHEX): Additional status value communicated by the firmware after login processing.
 
 == scsitarget.slifct.linkBreak

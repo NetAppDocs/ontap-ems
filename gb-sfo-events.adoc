@@ -267,18 +267,6 @@ Volume move in progress for volume %s with DSID %llu prevents giveback.
 *vol_name* (STRING): Name of the source or destination volume.
 *volume_dsid* (LONGINT): Source or destination volume data set identifier (DSID).
 
-== gb.sfo.veto.vservermigrate
-*Severity*::
-ERROR
-*Description*::
-This message occurs when the vserver migrate cutover operation vetoes data aggregate giveback because vserver migration cannot be aborted during that time.
-*Corrective Action*::
-Reissue the 'storage failover giveback' command to initiate giveback to the partner when the vserver migrate cutover operation is completed.
-*Syslog Message*::
-Vserver migration in progress prevents giveback.
-*Parameters*::
-(None).
-
 == gb.sfo.veto.wafl.volconversion
 *Severity*::
 ERROR

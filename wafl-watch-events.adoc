@@ -26,3 +26,27 @@ Size of "change notify" requests in inode cache pool: %d, approaching the size l
 *Parameters*::
 *current_size* (INT): Current size of the inode cache pool.
 *max_size* (INT): Maximum size of the inode cache pool.
+
+== wafl.watch.remote.client.limit
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when when we hit the maximum limit of number of remote watch clients in the system.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The maximum limit of number of remote watch clients is hit.
+*Parameters*::
+(None).
+
+== wafl.watch.remote.msg.limit
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when when we hit the maximum limit of number of remote watch messages in the system.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The maximum limit of number of remote watch messages is hit.
+*Parameters*::
+(None).
