@@ -20,7 +20,7 @@ ERROR
 *Description*::
 This message occurs when a CIFS server fails to be configured and, therefore, CIFS access might not be available.
 *Corrective Action*::
-Check the reason for the error and take action accordingly. For further assistance, contact techinal support.
+Check the reason for the error and take action accordingly. For further assistance, contact technical support.
 *Syslog Message*::
 Failed to configure CIFS server. Error: %s.
 *Parameters*::

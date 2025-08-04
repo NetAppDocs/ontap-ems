@@ -18,7 +18,7 @@ summary: air.cleared events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the Automated Incremental Repair (AIR) subsytem clears an entry in the qtree metafile because of inconsistent data within that entry.
+This message occurs when the Automated Incremental Repair (AIR) subsystem clears an entry in the qtree metafile because of inconsistent data within that entry.
 *Corrective Action*::
 (None).
 *Syslog Message*::

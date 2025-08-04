@@ -57,3 +57,20 @@ Volume footprint estimator scan fails to start on "%s" - %s.
 *Parameters*::
 *vol* (STRING): Volume name.
 *fail_message* (STRING): Scan failure reason.
+
+== fp.est.scan.vvol.gc.est.done
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when an attempt to estimate the space that can be reclaimed for the volume was completed successfully.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Volume footprint estimator scan completed on '%s' (Total Reclaimable blocks: %llu, Total garbage collection reclaimable blocks: %llu);
+*Parameters*::
+*vol* (STRING): Volume name.
+*total_rclm_blks* (LONGINT): Total physical blocks to be reclaimed in the volume.
+*total_gc_rclm_blks* (LONGINT): Total physical blocks to be reclaimed by Garbage Collection on the volume.
+*total_repack_save_blks* (LONGINT): Total physical blocks to be reclaimed by repacking on the volume.
+*gc_logical_pending_blks* (LONGINT): Total logical blocks to be subjected for Garbage collection.
+*gc_physical_pending_blks* (LONGINT): Total physical blocks to be freed by Garbage collection.

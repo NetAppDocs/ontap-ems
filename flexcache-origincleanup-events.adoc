@@ -22,10 +22,11 @@ This message occurs when the origin of a FlexCache(R) volume cleanup job fails t
 *Corrective Action*::
 Use the "volume flexcache origin cleanup-cache-relationship -force-retry true" command on the origin cluster to cleanup origin of a FlexCache volume. If the problem persists then contact technical support for assistance.
 *Syslog Message*::
-Origin volume cleanup job failed to clean up the origin volume of the FlexCache volume %s in Vserver %s.
+Origin volume cleanup job failed to clean up the origin volume of the FlexCache volume %s in Vserver %s in the origin cluster %s.
 *Parameters*::
 *originVolName* (STRING): Name of the origin volume of the FlexCache volume.
 *originVserver* (STRING): Name of the Vserver hosting the origin of a FlexCache volume.
+*originClusterUuid* (STRING): UUID of the origin cluster of a FlexCache volume.
 
 == flexcache.origincleanup.retry
 *Severity*::

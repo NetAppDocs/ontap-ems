@@ -26,6 +26,21 @@ Contact technical support to bring this aggregate online.
 *Parameters*::
 *rg* (STRING): Name of the RAID group object that failed.
 
+== raid.rg.bigio.stalled
+*Severity*::
+ERROR
+*Description*::
+This message occurs when RAID group background long running I/O is not making progress due to missing ownership metadata. This has high impact on I/O and can lead to I/O requests timeout if the background I/O type is reconstruction whereas impact on I/O would be low if the background I/O type is scrub.
+*Corrective Action*::
+Contact NetApp technical support.
+*Syslog Message*::
+RAID group background long running I/O (%s) is not progressing on storage availability-zone %s, raidgroup %s for %d minutes.
+*Parameters*::
+*bigio_type* (STRING): Type of RAID group background long running I/O i.e. reconstruction or scrub.
+*storage_availability_zone* (STRING): Name of the storage availability-zone.
+*rg* (STRING): Name of the RAID group object on which RAID group background long running I/O is not progressing.
+*duration* (INT): The amount of time in minutes for which RAID group background long running I/O is not progressing.
+
 == raid.rg.context.clear
 *Severity*::
 NOTICE

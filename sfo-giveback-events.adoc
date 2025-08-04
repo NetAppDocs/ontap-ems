@@ -28,18 +28,18 @@ Giveback is aborted: %s took more than 120 seconds to finish the background disk
 
 == sfo.giveback.aggregatesAbort
 *Severity*::
-INFORMATIONAL
+NOTICE
 *Description*::
 This message occurs when a giveback of non-root aggregates is aborted by either another takeover or other conflicting operation.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Giveback of non-root aggregates to node %s was aborted due to another takeover or other conflicting operation. "override-vetoes" was set to %s, "require-partner-waiting" was set to %s, and "only_newly_acquired" was set to %s.
+Giveback of non-root aggregates to node %s was aborted due to another takeover or other conflicting operation. "override-vetoes" was set to %s, and "only_newly_acquired" was set to %s.
 *Parameters*::
 *partnerName* (STRING): Partner name.
 *override_vetoes* (STRING): Flag that indicates whether the system overrides veto checks during a giveback operation. This flag corresponds to the "-override-vetoes" parameter of the "storage failover giveback" command. When set to true, it might result in some veto checks made by subsystems on the source node getting overridden.
-*require_partner_waiting* (STRING): Flag that indicates whether, during a giveback, the storage is given back regardless of whether the partner node is available to take back the storage. This flag corresponds to the "-require-partner-waiting" parameter of the "storage failover giveback" command. When set to true, it might result in the giveback proceeding even if the destination node is not ready to receive the aggregate being migrated.
 *only_newly_acquired* (STRING): Flag that indicates whether, during a giveback, only aggregates acquired during the last takeover will be given back.
+*require_partner_waiting* (STRING): Flag that indicates whether, during a giveback, the storage is given back regardless of whether the partner node is available to take back the storage. This flag corresponds to the "-require-partner-waiting" parameter of the "storage failover giveback" command. When set to true, it might result in the giveback proceeding even if the destination node is not ready to receive the aggregate being migrated.
 
 == sfo.giveback.attemptExceeded
 *Severity*::
@@ -55,18 +55,18 @@ Attempts for automatic giveback of SFO aggregates exceeded the maximum number (%
 
 == sfo.giveback.complete
 *Severity*::
-INFORMATIONAL
+NOTICE
 *Description*::
 This message occurs when a giveback of storage failover (SFO) aggregates to the SFO partner controller finishes.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Giveback of SFO aggregates to partner (%s) is complete. override-vetoes: %s, require-partner-waiting: %s, and only_newly_acquired: %s.
+Giveback of SFO aggregates to partner (%s) is complete. override-vetoes: %s, and only_newly_acquired: %s.
 *Parameters*::
 *partnerName* (STRING): Partner's name.
 *override_vetoes* (STRING): Flag that indicates whether the system overrides vetoes during a giveback operation. This flag corresponds to the "-override-vetoes" parameter of the "storage failover giveback" command. When set to true, it might result in some veto checks made by subsystems on the source node getting overridden.
-*require_partner_waiting* (STRING): Flag that indicates whether, during a giveback, the storage is given back regardless of whether the partner node is available to take back the storage or not. This flag corresponds to the "-require-partner-waiting" parameter of the "storage failover giveback" command. When set to true, it might result in the giveback proceeding even if the destination node is not ready to receive the aggregate being migrated.
 *only_newly_acquired* (STRING): Flag that indicates whether, during a giveback, only aggregates acquired during the last takeover will be given back.
+*require_partner_waiting* (STRING): Flag that indicates whether, during a giveback, the storage is given back regardless of whether the partner node is available to take back the storage or not. This flag corresponds to the "-require-partner-waiting" parameter of the "storage failover giveback" command. When set to true, it might result in the giveback proceeding even if the destination node is not ready to receive the aggregate being migrated.
 
 == sfo.giveback.delayed.bdfu
 *Severity*::

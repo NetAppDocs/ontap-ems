@@ -18,7 +18,7 @@ summary: aws.dev events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when ONTAP(R) is running as an instance in Amazon Web Services (AWS), and a data disk failure occurs because of an I/O hang. ONTAP marks the disk as broken and marks the data aggregrate as partial or degraded.
+This message occurs when ONTAP(R) is running as an instance in Amazon Web Services (AWS), and a data disk failure occurs because of an I/O hang. ONTAP marks the disk as broken and marks the data aggregate as partial or degraded.
 *Corrective Action*::
 Detach the failed device from the AWS instance.
 *Syslog Message*::

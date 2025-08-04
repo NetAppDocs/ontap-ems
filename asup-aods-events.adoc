@@ -20,7 +20,7 @@ ERROR
 *Description*::
 This message occurs when the size of the response from the AutoSupport OnDemand Server (AODS) goes over the AOD response buffer size limit in ONTAP.
 *Corrective Action*::
-Contact Contact NetApp technical support. for assistance.
+Contact NetApp technical support for assistance.
 *Syslog Message*::
 AutoSupport OnDemand Server (AODS) response went over the response buffer size limit in ONTAP. Size limit: %u bytes.
 *Parameters*::

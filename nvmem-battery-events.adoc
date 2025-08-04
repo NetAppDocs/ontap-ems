@@ -509,7 +509,7 @@ EMERGENCY
 *Description*::
 This message occurs when the NVMEM battery temperature is critically high. If this issue is not resolved within the specified time, the system shuts down to prevent data loss.
 *Corrective Action*::
-Correct any environmental problems, such as a overheating. If the NVMEM battery temperature is still above normal, replace the NVMEM battery. If the problem persists, replace the controller module.
+Correct any environmental problems, such as an overheating. If the NVMEM battery temperature is still above normal, replace the NVMEM battery. If the problem persists, replace the controller module.
 *Syslog Message*::
 The NVMEM battery temperature is critically high (%s). To prevent data loss, the system will shut down in %d minutes.
 *Parameters*::

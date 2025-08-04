@@ -25,5 +25,5 @@ Inspect the clients that are experiencing a long delay in packet trace tools. In
 The HTTP subsystem on this node on vserver %u has exceeded its connection timeout limit of %llu times, currently %llu connection timeout failures observed since boot time. This might result in unexpected HTTP connection failures.
 *Parameters*::
 *vsId* (INT): Id of the vserver, on which this event occurred.
-*currentNumConnTimeouts* (LONGINT): Total number of connection timeouts that occured in the HTTP subsystem.
+*currentNumConnTimeouts* (LONGINT): Total number of connection timeouts that occurred in the HTTP subsystem.
 *totalNumConnTimeouts* (LONGINT): Maximum number of connection timeouts allowed in the HTTP subsystem.

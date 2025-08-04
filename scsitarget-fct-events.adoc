@@ -14,6 +14,18 @@ summary: scsitarget.fct events
 :linkattrs:
 :imagesdir: ./media/
 
+== scsitarget.fct.fabNameRSCN
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a Fibre Channel (FC) Registered State Change Notification (RSCN) frame is received, specifically for a fabric name change event.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Fibre Channel target adapter "%s" is receiving a fabric name change notification.
+*Parameters*::
+*hba* (STRING): Name of the HBA (host bus adapter) that is receiving the notification frame.
+
 == scsitarget.fct.fntimeout
 *Severity*::
 ERROR
@@ -49,7 +61,7 @@ FC target HBA: %s received unexpected error: %s, %s Status1: 0x%x, Status2: 0x%x
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the SLI Fibre Channel target driver encounters a FDISC or FLOGI failure. The failure can cause the FC target port or the LIF to be operationally down.
+This message occurs when the Fibre Channel target driver encounters a FDISC or FLOGI failure. The failure can cause the FC target port or the LIF to be operationally down.
 *Corrective Action*::
 Contact technical support for further analysis.
 *Syslog Message*::

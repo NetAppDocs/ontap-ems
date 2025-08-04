@@ -26,6 +26,18 @@ Entering HA-Active: Going online as active master in a high-availability (HA) co
 *Parameters*::
 (None).
 
+== rdb.ha.mbox.noAccess
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the system cannot access the on-disk mailboxes. Bidirectional failover is not possible without mailbox access. This is an expected event at system startup that automatically resolves after a few minutes during giveback.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The on-disk HA mailboxes are currently not accessible.
+*Parameters*::
+(None).
+
 == rdb.ha.mboxError
 *Severity*::
 ALERT

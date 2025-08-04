@@ -80,7 +80,7 @@ EMERGENCY
 *Description*::
 This message occurs when a takeover request is denied because the node cannot see some of the partner's drives.
 *Corrective Action*::
-Make sure that the local node has connectivity to all file system drives owned by the partner. Use the "storage failover show -fields local-missing-disks, partner-missing-disks" command to rescan the drive and to determine latest ownership. Drives might not be visible if partner drives have failed or the node is having issues accessing the partner node's drives. Verify that the HA interconnect cabling is correct, replace any failed drives and then check whether the issue is resolved. If you want to disable the drive inventory check instead, use the "storage failover takeover -allow-disk-inventory-mismatch true" command. However, disabling the drive inventory check during takeover is not advisable, because it might lead to client outage.
+Make sure that the local node has connectivity to all file system drives owned by the partner. Use the "storage failover show -fields local-missing-disks, partner-missing-disks" command to rescan the drive and to determine latest ownership. Drives might not be visible if partner drives have failed or the node is having issues accessing the partner node's drives. Verify that the HA interconnect cabling is correct, replace any failed drives and then check whether the issue is resolved.
 *Syslog Message*::
 Failover monitor: Takeover failed because the node cannot see some of the partner node's drives.
 *Parameters*::

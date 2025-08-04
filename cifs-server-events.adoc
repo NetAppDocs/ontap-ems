@@ -18,7 +18,7 @@ summary: cifs.server events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the Vserver DR subsystem detects that the authentcation style (domain or workgroup) of the source Vserver's CIFS server does not match the authentication style of the destination Vserver's CIFS server
+This message occurs when the Vserver DR subsystem detects that the authentication style (domain or workgroup) of the source Vserver's CIFS server does not match the authentication style of the destination Vserver's CIFS server.
 *Corrective Action*::
 Use the 'vserver cifs modify' command to configure the source or destination Vserver's CIFS server into a domain or workgroup as necessary for the authentication styles to match.
 *Syslog Message*::

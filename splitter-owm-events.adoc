@@ -18,7 +18,7 @@ summary: splitter.owm events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when ovelapping write manager recycling is activated as the allocation exceeds the threshold. This event is dependent on workload and resource mangagement. It is resolved automatically internally.
+This message occurs when overlapping write manager recycling is activated as the allocation exceeds the threshold. This event is dependent on workload and resource management. It is resolved automatically internally.
 *Corrective Action*::
 (None).
 *Syslog Message*::

@@ -18,7 +18,7 @@ summary: fm.cpuutilduringtransition events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs during various failover and aggregate mobility events, including start of a takeover, end of a successful takeover, start of a CFO giveback, after completion of SFO giveback and completion of an aggregate relocation. This message records the maximum, minimum, and average CPU and disk utilization on the node executing the failover or aggregate mobility operation.
+This message occurs during various failover and aggregate mobility events, including start of a takeover, end of a successful takeover, start of root aggregate giveback, after completion of data aggregate giveback and completion of an aggregate relocation. This message records the maximum, minimum, and average CPU and disk utilization on the node executing the failover or aggregate mobility operation.
 *Corrective Action*::
 (None).
 *Syslog Message*::

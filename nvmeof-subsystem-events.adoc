@@ -18,22 +18,24 @@ summary: nvmeof.subsystem events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when an NVMe-oF subsystem is added.
+This message occurs when an NVMe over Fabrics subsystem is added.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-NVMe-oF subsystem added at address %s.
+NVMe-oF subsystem added at address "%s" (port "%s").
 *Parameters*::
-*address* (STRING): IP address of susbsystem.
+*address* (STRING): IP address of subsystem.
+*port* (STRING): ONTAP Ethernet port connected to subsystem.
 
 == nvmeof.subsystem.delete
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when an NVMe-oF subsystem is deleted.
+This message occurs when an NVMe over Fabrics subsystem is deleted.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-NVMe-oF subsystem deleted at address %s.
+NVMe-oF subsystem deleted at address "%s" (port "%s").
 *Parameters*::
-*address* (STRING): IP address of susbsystem.
+*address* (STRING): IP address of subsystem.
+*port* (STRING): ONTAP Ethernet port connected to subsystem.

@@ -188,7 +188,7 @@ Cluster LIF %s is administratively "up".
 *Severity*::
 ALERT
 *Description*::
-This message occurs when the Maximum Transmition Unit (MTU) of a port assigned to a cluster logical interface (LIF) did not match the MTU of a port assigned to a different cluster logical interface but now does match.
+This message occurs when the Maximum Transmission Unit (MTU) of a port assigned to a cluster logical interface (LIF) did not match the MTU of a port assigned to a different cluster logical interface but now does match.
 *Corrective Action*::
 (None).
 *Syslog Message*::
@@ -205,7 +205,7 @@ MTU %s on cluster port %s (node %s) now matchs MTU %s on cluster port %s (node %
 *Severity*::
 ALERT
 *Description*::
-This message occurs when the Maximum Transmition Unit (MTU) of a port assigned to a cluster logical interface (LIF) does not match the MTU of a port assigned to a different cluster logical interface. This condition may cause loss of packets between these two LIFs.
+This message occurs when the Maximum Transmission Unit (MTU) of a port assigned to a cluster logical interface (LIF) does not match the MTU of a port assigned to a different cluster logical interface. This condition may cause loss of packets between these two LIFs.
 *Corrective Action*::
 Ensure the that MTUs of the LIFs are identical. The "network port show" command will display the port MTU settings. Any mismatched MTUs can modified from the "network port" subcommand.
 *Syslog Message*::

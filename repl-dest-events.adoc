@@ -26,6 +26,18 @@ SnapMirror transfer failed because the transfer snapshot contains CSS upload tab
 *Parameters*::
 (None).
 
+== repl.dest.dir.index.notsup
+*Severity*::
+ERROR
+*Description*::
+This message occurs when a snapshot that contains public directory indexes is being transferred to a destination volume that does not support them.
+*Corrective Action*::
+Update the destination node to a version of ONTAP that supports directory indexes in the public inospace.
+*Syslog Message*::
+SnapMirror transfer failed because the transfer snapshot contains directory indexes in public inospace and the destination volume does not support them.
+*Parameters*::
+(None).
+
 == repl.dest.ilabels.notsup
 *Severity*::
 ERROR
@@ -38,6 +50,18 @@ SnapMirror transfer with transfer ID %s will not send existing ilabels because t
 *Parameters*::
 *transferUuid* (STRING): UUID of the SnapMirror(R) transfer.
 *dstNode* (STRING): UUID of the node where the SnapMirror(R) destination is present.
+
+== repl.dest.lun.notsup
+*Severity*::
+ERROR
+*Description*::
+This message occurs when a LUN is being replicated to a Snapmirror destination on this platform that does not support LUNs.
+*Corrective Action*::
+To continue Snapmirror(R) transfers to this platform, delete LUNs and existing snapshots with LUNs on the source volume.
+*Syslog Message*::
+SnapMirror transfer with transfer ID %s encountered an error, since LUN replication is not supported on this platform.
+*Parameters*::
+*transferUuid* (STRING): UUID of the SnapMirror(R) transfer.
 
 == repl.dest.multipart.inodes.notsup
 *Severity*::
