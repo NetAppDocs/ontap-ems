@@ -45,7 +45,7 @@ ERROR
 *Description*::
 This message occurs when the user name cannot be resolved by any of the entities in the ns-switch for the virtual server.
 *Corrective Action*::
-If this is a Windows(R) name, make sure the name exists in Active Directory. If this is a UNIX(R) name, make sure it is in one of the configured ns-switch entities for the virtual server. Make sure that the name was entered locally as a unix-user, in the Network Infomration Service (NIS) maps, or in the Lightweight Directory Access Protocol (LDAP) server.
+If this is a Windows(R) name, make sure the name exists in Active Directory. If this is a UNIX(R) name, make sure it is in one of the configured ns-switch entities for the virtual server. Make sure that the name was entered locally as a unix-user, in the Network Information Service (NIS) maps, or in the Lightweight Directory Access Protocol (LDAP) server.
 *Syslog Message*::
 vserver (%s) could not resovle user name (%s).
 *Parameters*::
@@ -72,7 +72,7 @@ ERROR
 *Description*::
 This message occurs when the user name cannot be resolved by any of the entities in the ns-switch for the virtual server.
 *Corrective Action*::
-If this is a Windows(R) name, make sure that the name exists in Active Directory. If this is a UNIX(R) name, make sure that it is in one of the configured ns-switch entities for the virtual server. Make sure that it was entered locally as a unix-user, in the Network Information Service (NIS) maps, or in the Lightweight Directory Access Protocool (LDAP) server.
+If this is a Windows(R) name, make sure that the name exists in Active Directory. If this is a UNIX(R) name, make sure that it is in one of the configured ns-switch entities for the virtual server. Make sure that it was entered locally as a unix-user, in the Network Information Service (NIS) maps, or in the Lightweight Directory Access Protocol (LDAP) server.
 *Syslog Message*::
 vserver (%s) could not resolve the user name (%s) by any of the entities in the ns-switch for the virtual server
 *Parameters*::

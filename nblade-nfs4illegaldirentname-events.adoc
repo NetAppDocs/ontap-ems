@@ -15,6 +15,8 @@ summary: nblade.nfs4illegaldirentname events
 :imagesdir: ./media/
 
 == Nblade.Nfs4IllegalDirentName
+*Deprecated*::
+Event Nblade.Nfs4IllegalDirentName is no longer supported.
 *Severity*::
 ERROR
 *Description*::

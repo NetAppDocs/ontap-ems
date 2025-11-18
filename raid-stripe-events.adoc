@@ -69,7 +69,7 @@ Bad stripe entry in NVRAM.
 *Severity*::
 NOTICE
 *Description*::
-This message occcurs when RAID encounters an NVRAM generation mismatch for an aggregate during stripe replay. Reparity will start automatically and update parity in stripes involved in recent writes.
+This message occurs when RAID encounters an NVRAM generation mismatch for an aggregate during stripe replay. Reparity will start automatically and update parity in stripes involved in recent writes.
 *Corrective Action*::
 (None).
 *Syslog Message*::

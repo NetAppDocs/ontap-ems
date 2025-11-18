@@ -32,7 +32,7 @@ Cluster LIF %s (node %s) is now assigned to port %s.
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the ping test for cluster logical interface (LIF) interconnnectivity displays unexpected results.
+This message occurs when the ping test for cluster logical interface (LIF) interconnectivity displays unexpected results.
 *Corrective Action*::
 Ensure connectivity amoung the cluster LIFs. Several issues that can cause this problem. Some things to check include the following: - Port connectivity to the correct network or switch - Link connectivity - Proper switch configuration - Proper LIF configuration
 *Syslog Message*::

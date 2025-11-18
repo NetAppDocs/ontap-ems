@@ -42,7 +42,7 @@ Sparecore disk could not be reserved
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the system enounters an error while trying to release the disk reservation from a disk.
+This message occurs when the system encounters an error while trying to release the disk reservation from a disk.
 *Corrective Action*::
 (None).
 *Syslog Message*::

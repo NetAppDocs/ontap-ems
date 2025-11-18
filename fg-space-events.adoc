@@ -79,7 +79,7 @@ This message occurs when a resize of a FlexGroup member was blocked. This can oc
 *Corrective Action*::
 Monitor the constituent. If its space usage continues to grow and the filer is unable to add space, then writes to the constituent may start to fail. Evaluate the error reason identified in the event and determine if it can be corrected. If it's not clear how to correct the error, contact Support.
 *Syslog Message*::
-Constituent volume "%s" in FlexGroup volume "%s" (fg-uuid "%s") has had a resize failure of type "%s" with error: "%s". This constituent volume is %llu bytes in size with %llu bytes used (%u percent full). The FlexGroup volume is %llu bytes in size with %llu bytes used (%u percent full).
+Constituent volume "%s" in FlexGroup volume "%s" (fg-uuid "%s") has had a resize failure of type "%s" with error: "%s". This constituent volume is %llu bytes in size with %llu bytes used (%u percent full). The FlexGroup volume is %llu bytes in size with %llu bytes used (%u percent full). Resize failed for WAFL Message "%s".
 *Parameters*::
 *constituent_name* (STRING): Name of the constituent volume.
 *object_name* (STRING): Human-readable name of the FlexGroup volume.
@@ -92,4 +92,5 @@ Constituent volume "%s" in FlexGroup volume "%s" (fg-uuid "%s") has had a resize
 *flexgroup_size* (LONGINT): Size in bytes of the FlexGroup volume.
 *flexgroup_used* (LONGINT): Size used in bytes of the FlexGroup volume.
 *flexgroup_percent_full* (INT): Percentage of filled space in the FlexGroup volume.
+*wafl_message_type* (STRING): WAFL message type where resizing failed.
 *event_time* (LONGINT): When the event occurred, shown in system time.

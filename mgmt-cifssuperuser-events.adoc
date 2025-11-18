@@ -18,7 +18,7 @@ summary: mgmt.cifssuperuser events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when configuration of a CIFS super-user fails; CIFS access through this acccount may not grant full super-user privileges.
+This message occurs when configuration of a CIFS super-user fails; CIFS access through this account may not grant full super-user privileges.
 *Corrective Action*::
 Check the reason for the error and take action accordingly.
 *Syslog Message*::

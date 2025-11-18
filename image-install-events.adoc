@@ -56,7 +56,7 @@ ERROR
 *Description*::
 This message occurs when a software image installation fails because the node is in takeover state.
 *Corrective Action*::
-Ensure that all storage failover operations have been completed and that no nodes remain taken over by using the "storage failover show-giveback" command, and then try the installation again.
+Ensure that all storage failover operations have been completed and that no nodes remain taken over by using the "storage failover show-giveback" command, and then try the installation again. For ASA r2 and OAM systems, use the "storage failover show" command instead of the "storage failover show-giveback" command.
 *Syslog Message*::
 The node is taken over, cannot set to new image.
 *Parameters*::

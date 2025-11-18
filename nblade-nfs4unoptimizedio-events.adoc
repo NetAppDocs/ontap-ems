@@ -15,6 +15,8 @@ summary: nblade.nfs4unoptimizedio events
 :imagesdir: ./media/
 
 == Nblade.nfs4UnOptimizedIO
+*Deprecated*::
+Deprecated as of version 9.18 as this ems message need N2N infrastructure bootarg, but this is disabled completely and we cannot repro this ems message. Hence, ems message should be removed.
 *Severity*::
 ALERT
 *Description*::

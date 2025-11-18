@@ -14,6 +14,21 @@ summary: netif.ena events
 :linkattrs:
 :imagesdir: ./media/
 
+== netif.ena.allowance.exceeded
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the network throughput exceeds the bandwidth allowance for the node
+*Corrective Action*::
+(None).
+*Syslog Message*::
+"%s" AWS ENA metric "%s" changed from %llu to %llu.
+*Parameters*::
+*ifName* (STRING): Name of the network interface
+*metric* (STRING): Only one of the following metrics is displayed at a time. bw_in_allowance_exceeded: The number of packets queued or dropped because the inbound aggregate bandwidth exceeded the maximum for the instance. bw_out_allowance_exceeded: The number of packets queued or dropped because the outbound aggregate bandwidth exceeded the maximum for the instance. pps_allowance_exceeded: The number of packets queued or dropped because the bidirectional Packet-per-second exceeded the maximum for the instance.
+*oldValue* (LONGINT): old ena metric value
+*newValue* (LONGINT): new ena metric value
+
 == netif.ena.express.changed
 *Severity*::
 NOTICE

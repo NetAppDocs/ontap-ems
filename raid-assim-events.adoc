@@ -57,7 +57,7 @@ Deprecated as of version 9.17.1 to rename the event to raid.assim.root.aggr.offl
 *Severity*::
 INFORMATIONAL
 *Description*::
-This event occurs when a CFO aggregate which is orginally homed to the disaster recovery (DR) partner or DR auxiliary partner is taken offline during assimilation after switchover in a MetroCluster(tm) configuration. Switched over CFO aggregates are kept offline.
+This event occurs when a CFO aggregate which is originally homed to the disaster recovery (DR) partner or DR auxiliary partner is taken offline during assimilation after switchover in a MetroCluster(tm) configuration. Switched over CFO aggregates are kept offline.
 *Corrective Action*::
 (None).
 *Syslog Message*::
@@ -529,7 +529,7 @@ This message occurs when an offline disk within a RAID group fails verification 
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when a root aggregate which is orginally homed to the disaster recovery (DR) partner or DR auxiliary partner is taken offline during assimilation after switchover in a MetroCluster(tm) configuration. Switched over root aggregates are kept offline until the MetroCluster(tm) is switched back.
+This message occurs when a root aggregate which is originally homed to the disaster recovery (DR) partner or DR auxiliary partner is taken offline during assimilation after switchover in a MetroCluster(tm) configuration. Switched over root aggregates are kept offline until the MetroCluster(tm) is switched back.
 *Corrective Action*::
 (None).
 *Syslog Message*::

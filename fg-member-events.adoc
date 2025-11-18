@@ -40,12 +40,12 @@ This message occurs when a constituent volume in a FlexGroup volume undergoes el
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Constituent volume "%u" in FlexGroup volume "%s" was resized from %lu blocks to %lu blocks. This constituent volume (%s) %s by resizing the constituent volume "%s" (dsid "%u"). This constituent volume is %llu bytes in size with %llu bytes used (%u percent full). The FlexGroup volume is %llu bytes in size with %llu bytes used (%u percent full).
+Constituent volume "%u" in FlexGroup volume "%s" was resized from %lu bytes to %lu bytes. This constituent volume (%s) %s by resizing the constituent volume "%s" (dsid "%u"). This constituent volume is %llu bytes in size with %llu bytes used (%u percent full). The FlexGroup volume is %llu bytes in size with %llu bytes used (%u percent full). This event was triggered by the %s resize mechanism (total resize amount is %ld).
 *Parameters*::
 *constituent_dsid* (INT): DSID of the constituent volume undergoing elastic sizing.
 *object_name* (STRING): Name of the FlexGroup volume.
-*current_size* (LONGINT): Original block size of the constituent volume.
-*new_size* (LONGINT): New block size of the constituent volume.
+*current_size* (LONGINT): Original size in bytes of the constituent volume.
+*new_size* (LONGINT): New size in bytes of the constituent volume.
 *constituent_name* (STRING): Name of the constituent volume.
 *operation* (STRING): Indicates whether the constituent volume is being grown or shrunk.
 *partner_name* (STRING): Name of the constituent volume's partner.
@@ -56,6 +56,8 @@ Constituent volume "%u" in FlexGroup volume "%s" was resized from %lu blocks to 
 *flexgroup_size* (LONGINT): Size in bytes of the FlexGroup volume.
 *flexgroup_used* (LONGINT): Size in bytes of the used space in the FlexGroup volume.
 *flexgroup_percent_full* (INT): Percentage of filled space in the FlexGroup volume.
+*resize_mechanism* (STRING): Mechanism which caused resizing to occur.
+*total_resize* (LONGINT): Total resize in bytes of the constituent volume.
 *event_time* (LONGINT): When the event occurred, shown in system time.
 
 == fg.member.invalid.fgindex

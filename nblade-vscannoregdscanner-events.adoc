@@ -20,7 +20,7 @@ ERROR
 *Description*::
 This message occurs when AV Connector notifies ONTAP(R) that it does not have a registered scan-engine. This could happen if the scan-engine never registered or unregistered because of some reason like it is misconfigured or shutdown. This might cause data unavailability if the scan-mandatory option is enabled.
 *Corrective Action*::
-Ensure that the scan-engine software installed on the AV server is compatible with ONTAP(R). Also ensure that it is running and is configred to connect to the AV Connector over local loopback.
+Ensure that the scan-engine software installed on the AV server is compatible with ONTAP(R). Also ensure that it is running and is configured to connect to the AV Connector over local loopback.
 *Syslog Message*::
 For Vserver "%s", AV Connector running on the AV server "%s" does not have a registered scan-engine to it.
 *Parameters*::

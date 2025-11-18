@@ -20,9 +20,9 @@ ERROR
 *Description*::
 This message occurs in MetroCluster(tm) configurations of clustered Data ONTAP(R), when an FC LIF is created in the source cluster, but one of the Vservers in the destination cluster is already configured with an FC LIF having the same WWPN.
 *Corrective Action*::
-Provide a unique WWPN for the primary Vserver FC LIF when creating or modifying the LIF in the source cluster.
+Contact NetApp technical support for assistance in resolving the FC LIF WWPN conflict.
 *Syslog Message*::
-One of the Vservers in the destination cluster is configured with an FC LIF with the same WWPN %s. Provide a different unique WWPN for the primary Vserver FC LIF %s when creating or modifying the LIF in the source cluster.
+The WWPN %s of FC LIF %s conflicts with an FC LIF in a Vserver in the destination cluster. Contact NetApp technical support for assistance in resolving the FC LIF WWPN conflict.
 *Parameters*::
 *wwpn* (STRING): WWPN existing in the destination cluster.
 *lif* (STRING): Name of the primary Vserver FC LIF.

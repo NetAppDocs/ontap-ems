@@ -20,7 +20,7 @@ ERROR
 *Description*::
 This message occurs when a source cluster of SVMDR relationship is at higher version than destination cluster.
 *Corrective Action*::
-Upgrade source cluster and destination cluster to the same verion.
+Upgrade source cluster and destination cluster to the same version.
 *Syslog Message*::
 Resync failed becuase source cluster version "%s" is higher than destination cluster version "%s"
 *Parameters*::

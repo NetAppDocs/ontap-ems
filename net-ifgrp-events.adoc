@@ -33,9 +33,9 @@ ERROR
 *Description*::
 This message occurs when ONTAP receives differing system-ID or keys information from the Link Aggregation Control Protocol (LACP) peer, leading to one or more interfaces not being active in the port interface group (ifgrp). This can indicate a configuration error at the LACP peer.
 *Corrective Action*::
-Search the knowledgebase of the NetApp technical support support web site for the "LACP port down due to mismatched peer keys" phrase.
+Search the knowledgebase of the NetApp technical support website for the "LACP port down due to mismatched peer keys" phrase.
 *Syslog Message*::
-Partner mismatch occured on ifgrp "%s", port "%s". Expected by aggregate: system-priority "0x%02x", system-ID "%s", and key "0x%04x". Found at Port: system-priority "0x%02x", system-ID "%s", and key "0x%04x".
+Partner mismatch occurred on ifgrp "%s", port "%s". Expected by aggregate: system-priority "0x%02x", system-ID "%s", and key "0x%04x". Found at Port: system-priority "0x%02x", system-ID "%s", and key "0x%04x".
 *Parameters*::
 *ifgrpName* (STRING): Name of the ifgrp.
 *portName* (STRING): Name of the ifgrp member-port.
@@ -50,7 +50,7 @@ Partner mismatch occured on ifgrp "%s", port "%s". Expected by aggregate: system
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when a link in an Link Aggregation Control Protocol (LACP) aggregate becomes active.
+This message occurs when a link in a Link Aggregation Control Protocol (LACP) aggregate becomes active.
 *Corrective Action*::
 (None).
 *Syslog Message*::

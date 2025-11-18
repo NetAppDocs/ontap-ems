@@ -18,7 +18,7 @@ summary: netif.speeddowngraded events
 *Severity*::
 ERROR
 *Description*::
-This message occcurs when the interface is operating at a lower speed than expected.
+This message occurs when the interface is operating at a lower speed than expected.
 *Corrective Action*::
 The physical connection may be faulty. Replace the cable and check the switch port configuration for errors.
 *Syslog Message*::

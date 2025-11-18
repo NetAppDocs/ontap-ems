@@ -18,7 +18,7 @@ summary: coredump.segment events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the system enounters an error while trying to send a core segment request.
+This message occurs when the system encounters an error while trying to send a core segment request.
 *Corrective Action*::
 (None).
 *Syslog Message*::

@@ -14,36 +14,6 @@ summary: wafl.quota events
 :linkattrs:
 :imagesdir: ./media/
 
-== wafl.quota.control.inconsistent
-*Severity*::
-ERROR
-*Description*::
-This message occurs when the quota control file is inconsistent, or when it is consistent but the qtree metatdata file refers to a vFiler(tm) unit that no longer exists.
-*Corrective Action*::
-Reinitialize quotas for the volume.
-*Syslog Message*::
-Quota: /vol/%s%s%s or a quota tree on it referred to a nonexistent vFiler unit. Quota: Quotas have been turned off.
-*Parameters*::
-*vol* (STRING): Volume name.
-*app* (STRING): Application UUID.
-*volident* (STRING): To uniquely identify the volume in cases where the volume name itself is insufficient.
-
-== wafl.quota.control.invalid
-*Severity*::
-ERROR
-*Description*::
-This message occurs when the system discovers that an invalid quota control file exists.
-*Corrective Action*::
-Reinitialize quotas for the volume.
-*Syslog Message*::
-Quota: Invalid quota control file on %s %s%s%s%s. Quota: Quotas have been turned off.
-*Parameters*::
-*type* (STRING): Type of object (volume or aggregate).
-*owner* (STRING): Volume owner.
-*vol* (STRING): Volume name.
-*app* (STRING): Application UUID.
-*volident* (STRING): To uniquely identify the volume in cases where the volume name itself is insufficient.
-
 == wafl.quota.db.createFail
 *Severity*::
 NOTICE

@@ -169,6 +169,24 @@ Volume %s%s%s that was marked as in-nvfailed-state has been cleared.
 *app* (STRING): Application UUID.
 *volident* (STRING): If the volume belongs to a Vserver, the Vserver's Universal Unique Identifier (UUID).
 
+== wafl.vol.clone.lun.migrated
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when LUN is successfully migrated from parent volume to clone volume.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+LUN %s has been migrated successfully from volume %s, SVM %s to clone volume %s, clone SVM %s. Time taken to promote the LUN is %ld milliseconds. Time taken to migrate the LUN is %ld milliseconds.
+*Parameters*::
+*lun_name* (STRING): Name of the LUN which is undergoing migration.
+*parent_vol* (STRING): Name of the parent volume.
+*parent_vserver* (STRING): Name of the SVM on which the parent volume resides.
+*clone_vol* (STRING): Name of the clone volume where the LUN resides after migration.
+*clone_vserver* (STRING): Name of the SVM on which clone volume resides.
+*lun_promote_time* (LONGINT): Time taken to promote the LUN from parent volume to clone volume during LUN migration in milliseconds.
+*lun_cutover_time* (LONGINT): Time taken for migrating the LUN from parent volume to clone volume in milliseconds.
+
 == wafl.vol.clone.split.nospace
 *Severity*::
 NOTICE
