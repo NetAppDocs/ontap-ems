@@ -18,7 +18,7 @@ summary: tls.insecure events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when during the TLS handshake a peer negotiates a cipher suite that is no longer considered sufficiently secure to be enabled in the default configuration. TLS connections with this peer should be be presumed insecure, and could be disrupted.
+This message occurs when during the TLS handshake a peer negotiates a cipher suite that is no longer considered sufficiently secure to be enabled in the default configuration. TLS connections with this peer should be presumed insecure, and could be disrupted.
 *Corrective Action*::
 The issue primarily needs to be resolved on the peer side. Typically, the problem is that the SSL/TLS libraries on the peer are outdated and don't support more modern cipher suites. Once all peers identified by this event have been resolved and the event is no longer being observed, it is advised to disable the cipher suite in question on this system via the "security config modify" command.
 *Syslog Message*::
@@ -31,7 +31,7 @@ A TLS peer with IP %s has been connected with using the insecure cipher suite %s
 *Severity*::
 ERROR
 *Description*::
-This message occurs when during the TLS handshake a peer negotiates a protocol level that is no longer considered sufficiently secure to be enabled in the default configuration. TLS connections with this peer should be be presumed insecure, and could be disrupted.
+This message occurs when during the TLS handshake a peer negotiates a protocol level that is no longer considered sufficiently secure to be enabled in the default configuration. TLS connections with this peer should be presumed insecure, and could be disrupted.
 *Corrective Action*::
 The issue primarily needs to be resolved on the peer side. Typically, the problem is that the SSL/TLS libraries on the peer are outdated and don't support more modern protocol levels. Once all peers identified by this event have been resolved and the event is no longer being observed, it is advised to disable the protocol level in question on this system via the "security config modify" command.
 *Syslog Message*::

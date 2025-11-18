@@ -68,6 +68,19 @@ The Cloud Write option is enabled on volume %s.
 *Parameters*::
 *vol* (STRING): Name of the volume.
 
+== wafl.ca.cool.scan.aggr.noRun
+*Severity*::
+ERROR
+*Description*::
+This message occurs when a successful cooling scan has not been able to run on a FabricPool aggregate for an unexpectedly high number of days. This will impact the temperature tracking of aggregate data blocks to remain the same and blocks not getting tiered out in auto tiering policy. The cooling scanner marks each of the data blocks in the aggregate with Its temperature and the temperature is calculated based on the age of the data block and when it is accessed.
+*Corrective Action*::
+Contact NetApp technical support.
+*Syslog Message*::
+The cooling scan has not started on aggregate "%s" for the last %d days.
+*Parameters*::
+*aggr* (STRING): Aggregate name.
+*inactive_days* (INT): The number of inactive days passed without the cooling scan being started.
+
 == wafl.ca.cs.hdr.cfg.mismatch
 *Severity*::
 ALERT

@@ -45,9 +45,9 @@ ALERT
 *Description*::
 This message occurs when a takeover with the check-only flag detects an error that would prevent takeover.
 *Corrective Action*::
-Use the "storage failover check-takeover" command to identify the failures that occured along the takeover path. Perform corrective action based on error information shown by the command.
+Use the "storage failover check-takeover" command to identify the failures that occurred along the takeover path. Perform corrective action based on error information shown by the command.
 *Syslog Message*::
-This node is testing the takeover workflow. This test is a simulation only. The simulation has encountered and error that would disrupt takeover.
+This node is simulating the takeover workflow and has encountered an error that would disrupt takeover.
 *Parameters*::
 (None).
 

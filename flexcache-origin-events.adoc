@@ -18,9 +18,9 @@ summary: flexcache.origin events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the origin of the FlexCache volume expand operation fails to synchronize the configuration information between the newly created constituent volume and the cache cluster.
+This message occurs when the origin of the FlexCache volume expand operation fails to synchronize the configuration information between the newly created constituent volume and the FlexCache cluster.
 *Corrective Action*::
-Use the "volume flexcache config-refresh" command on the cache cluster to update the origin of the FlexCache configuration.
+Use the "volume 'flexcache config-refresh' command on the FlexCache cluster to update the origin of the FlexCache configuration.
 *Syslog Message*::
 Volume expand failed to create the origin configuration for the origin of the FlexCache volume "%s" in Vserver "%s" on the FlexCache cluster. Error: %s.
 *Parameters*::

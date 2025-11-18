@@ -18,7 +18,7 @@ summary: netif.autonegfailed events
 *Severity*::
 ERROR
 *Description*::
-This message occcurs when autonegotiation fails and the interface is operating at half-duplex, which might not be the desired mode.
+This message occurs when autonegotiation fails and the interface is operating at half-duplex, which might not be the desired mode.
 *Corrective Action*::
 Verify that autonegotiation is enabled on the switch or device to which the interface is connected. Or, if the desired speed is 10 or 100 Mbps, disable autonegotiation on the interface by setting the mediatype.
 *Syslog Message*::

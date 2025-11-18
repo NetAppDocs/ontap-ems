@@ -32,7 +32,7 @@ ERROR
 *Description*::
 This message occurs when starting or restarting the GPO Security Apply job fails.
 *Corrective Action*::
-Address the specific reason for the issue, and then start the job by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 Failed to start a GPO Security Apply job run for Vserver %s, reason: %s.
 *Parameters*::
@@ -45,7 +45,7 @@ ERROR
 *Description*::
 This message occurs when updating group policy object (GPO) tables fails.
 *Corrective Action*::
-Address the specific reason for the issue, and then update the tables by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 GPO tables update failed for Vserver %s, reason: %s.
 *Parameters*::
@@ -58,7 +58,7 @@ ERROR
 *Description*::
 This message occurs when updating group policy object (GPO) RSoP (Resultant Set of Policy) settings fails.
 *Corrective Action*::
-Address the specific reason for the issue, and then update the settings by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 GPO RSoP update failed for Vserver %s, reason: %s.
 *Parameters*::

@@ -248,6 +248,21 @@ This event is issued to indicate that an operation to split a clone flexible vol
 *app* (STRING): Application UUID.
 *volident* (STRING): To uniquely identify the volume in cases where volume name itself is insufficient.
 
+== wafl.scan.clone.split.resume
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the WAFL volume clone split scanner successfully resumes processing from a previously saved checkpoint after a volume clone split stopped. The scanner validates that the stored session ID is within the current consistency point epoch and continues processing from the last checkpointed virtual block number. This resumption capability minimizes redundant work and ensures efficient completion of clone split operations by avoiding the need to restart from the beginning after system interruptions.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Volume clone split resumed for FlexClone volume: "%s", session ID: "%u", current VBN: "%lu", pending remote refcount increment: "%lu".
+*Parameters*::
+*vol* (STRING): Volume name.
+*session_id* (INT): Unique session identifier for the clone split operation.
+*current_vbn* (LONGINT): Current virtual block number from which the scanner is resuming.
+*pending_remote_incr* (LONGINT): Pending remote refcount increment value.
+
 == wafl.scan.css.undo.complete
 *Severity*::
 INFORMATIONAL
@@ -698,6 +713,19 @@ Reallocate scan for volume %s%s has stopped because there is insufficient snapsh
 *vol* (STRING): The volume name
 *app* (STRING): Application UUID.
 *volident* (STRING): To uniquely identify the volume in cases where volume name itself is insufficient.
+
+== wafl.scan.rri.timedout
+*Severity*::
+ERROR
+*Description*::
+This message occurs when a WAFL scanner times out while waiting for a Remote Refcount Increment (RRI) operation to complete on a volume clone split. This timeout causes the scan operation to abort, which may delay clone split completion, prevent storage efficiency operations from proceeding, and could result in reduced storage space reclamation until the issue is resolved.
+*Corrective Action*::
+Monitor clone split operation status with 'volume clone split show -vserver [vserver_name] -flexclone [clone_name]' and check if the operation is still progressing. Use "volume show -volume [volume_name] -fields clone-parent,state" to verify volume clone relationship. Try to initiate a volume clone split again. If clone split operations are frequently timing out, consider scheduling them during lower system activity periods. Then enter diag mode by using the "set diagnostic" command. Monitor ongoing scans with "wafl scan status". If the problem persists, contact NetApp technical support.
+*Syslog Message*::
+The WAFL scanner timed out while waiting for the Remote Refcount Increment on volume "%s". The scan operation was aborted. Suspend reason code: %d.
+*Parameters*::
+*volume_name* (STRING): Name of the volume where the timeout occurred.
+*suspend_reason* (INT): Suspend reason code indicating the specific cause of the timeout.
 
 == wafl.scan.snap.vbnOutOfRange
 *Severity*::

@@ -86,3 +86,15 @@ An automated update of the cluster has been started on nodes:%s. Skipped nodes:%
 *Parameters*::
 *nodestoUpgrade* (STRING): Nodes that will be upgraded
 *nodesSkipped* (STRING): Nodes that will be skipped, or "none" if all nodes need an upgrade, or "disabled - MetroCluster" if the cluster is a MetroCluster configuration, or "disabled" if the "-skip-nodes-at-target-version" parameter is set to false.
+
+== upgrademgr.update.timedOut
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the automated update of the cluster has not progressed for the last 5 hours.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The automated update of the cluster has not progressed for the last 5 hours. Reason: %s
+*Parameters*::
+*timeoutSummary* (STRING): Summary of the event causing the update timeout.

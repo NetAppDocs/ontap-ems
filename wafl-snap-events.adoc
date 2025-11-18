@@ -87,6 +87,22 @@ Snapshot %s was created successfully for volume %s%s%s in %ld milliseconds.
 *volident* (STRING): Unique identifier of the volume when the volume name by itself is insufficient.
 *time* (LONGINT): Time taken to create the snapshot, in milliseconds.
 
+== wafl.snap.create.skip.clones.backed.snapshot
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the creation of a snapshot is skipped because there was active file system clones backed by snapshot.
+*Corrective Action*::
+Perform the following steps to delete the clones from the volume and retry snapshot creation operation. Repeat the steps until all the snapshot backed clone files are deleted. 1. Run "snapshot show -volume <volume name> -owners "SIS Clone" to know the snapshot which is used in the clone. 2. Run (privilege diag) "clone list -v <volume name> -f <snapshot name>" node shell command to know the fileid to remove. 3. Run "volume explore inode <volume name>.<fileid> -dump name" to know the file path. 4. Run (privilege diag) "rm -f <file path>" to the remove the file.
+*Syslog Message*::
+%s %s %s: Skipping creation of %s snapshot (%s).
+*Parameters*::
+*vol* (STRING): Volume name.
+*app* (STRING): Application UUID.
+*volident* (STRING): Unique volume identifier.
+*snapname* (STRING): Name of the snapshot being created.
+*reason* (STRING): Reason for skipping the snapshot.
+
 == wafl.snap.create.skip.reason
 *Severity*::
 ERROR

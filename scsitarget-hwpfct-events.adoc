@@ -92,7 +92,7 @@ Fibre Channel target adapter %s unable to register fc4_type with fabric and expo
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the FC HBA (host bus adapter) detectes a link down condition and all the initiators have logged out.
+This message occurs when the FC HBA (host bus adapter) detects a link down condition and all the initiators have logged out.
 *Corrective Action*::
 Confirm that the filer is still connected to the switch and that the switch is functional.
 *Syslog Message*::
