@@ -22,6 +22,6 @@ This message occurs when the disk ownership module gets a bad status when it tri
 *Corrective Action*::
 (None).
 *Syslog Message*::
-(None).
+The disk ownership module's fence check returned an error status: %s.
 *Parameters*::
 *status_str* (STRING): Status string for fence check.

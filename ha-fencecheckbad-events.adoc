@@ -18,10 +18,10 @@ summary: ha.fencecheckbad events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the check for local fence returns a bad status, in the Failover Monitor during boot. The system attempts to recover from this condition on its own.
+This message occurs when the check for local fence returns a bad status, in the failover monitor during boot. The system attempts to recover from this condition on its own.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-(None).
+The failover monitor fence check on this node returned an error status: %s
 *Parameters*::
 *status_str* (STRING): Status string for fence check.

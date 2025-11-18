@@ -54,7 +54,7 @@ HA interconnect: Local controller voted not to connect.
 *Severity*::
 ERROR
 *Description*::
-This message occurs when HA interconnects are reset due to NVRAM log being unsynchronized for longier time than 15seconds.
+This message occurs when HA interconnects are reset due to NVRAM log being unsynchronized for longer time than 15 seconds.
 *Corrective Action*::
 Contact NetApp technical support if the problem persists.
 *Syslog Message*::

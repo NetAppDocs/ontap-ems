@@ -132,6 +132,19 @@ Migrate of Vserver:%s was paused.
 *vserver_name* (STRING): Name of the Vserver.
 *migration_uuid* (STRING): Migration UUID.
 
+== vs.migrate.postcutover.patch.adjustment
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the attributes of a volume on the migrate destination cannot be patched to exactly match its attributes on the source post cutover. Rather than leave the volume unpatched, the system adjusts the attributes to the best possible values. For example, if the volume is almost full at cutover, it may grow slightly before the patching can take place. In this case, the system will patch the attributes to reflect the new size instead of the size on the source.
+*Corrective Action*::
+Run the "vserver migrate show -fields status-details" command to view the particular changes made by the system. In most cases, no corrective action is required.
+*Syslog Message*::
+(None).
+*Parameters*::
+*vserver_name* (STRING): Name of the Vserver.
+*volume_name* (STRING): Name of the volume.
+
 == vs.migrate.precheck.completed
 *Severity*::
 NOTICE

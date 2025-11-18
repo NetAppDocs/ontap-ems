@@ -18,9 +18,9 @@ summary: adt.stgvol events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when retreiving staging volume information fails. This might be due to an internal system problem or the staging volume creation failed.
+This message occurs when retrieving staging volume information fails. This might be due to an internal system problem or the staging volume creation failed.
 *Corrective Action*::
-Contact Cserver admin to check if staging volume has been created.
+Contact server admin to check if staging volume has been created.
 *Syslog Message*::
 Audit subsystem internal error: Either staging volume %s is not created or unable to retrieve staging volume information.
 *Parameters*::

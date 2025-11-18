@@ -32,7 +32,7 @@ ERROR
 *Description*::
 This message occurs when applying group policy object (GPO) central access policy (CAP) settings fails.
 *Corrective Action*::
-Address the specific reason for the issue, and then apply the settings again by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 Failed to apply CAP settings to Vserver %s failed, reason: %s.
 *Parameters*::

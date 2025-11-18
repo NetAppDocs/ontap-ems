@@ -31,7 +31,7 @@ NVDIMM controller in slot-%d failed to upgrade firmware because of %s.
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the NVDIMM controller sucessfully upgrades its own firmware image..
+This message occurs when the NVDIMM controller successfully upgrades its own firmware image..
 *Corrective Action*::
 (None).
 *Syslog Message*::

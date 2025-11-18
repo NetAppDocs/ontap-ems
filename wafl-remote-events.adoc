@@ -14,15 +14,15 @@ summary: wafl.remote events
 :linkattrs:
 :imagesdir: ./media/
 
-== wafl.remote.cannot.refill.reserves
+== wafl.remote.cannot.refill.fsps
 *Severity*::
 ERROR
 *Description*::
 This message occurs when WAFL cannot get enough storage space for remote caching to function properly. It can occur when a FlexGroup constituent volume is completely full, or when a thin constituent volume is mounted and the aggregate is full. This will cause some metadata operations to fail.
 *Corrective Action*::
-Free up constituent volume space by deleting files, moving files to a different constituent volume, or expanding the size of the constituent volume. For assistance, contact Support.
+Free up constituent volume space by deleting files, moving files to a different constituent volume, or use the "vol modify -volume <volume-name> -size <new-size-value>" command to expand the size of the constituent volume. If you need assistance, contact NetApp technical support.
 *Syslog Message*::
 Cannot refill the RAL FSP reserves for constituent volume with DSID "%u" and name "%s".
 *Parameters*::
-*constituent_volume_dsid* (LONGINT): Data Set Identifier (DSID) of the constituent voume.
+*constituent_volume_dsid* (LONGINT): Data Set Identifier (DSID) of the constituent volume.
 *constituent_volume_name* (STRING): Name of the constituent volume.

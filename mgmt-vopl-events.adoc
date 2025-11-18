@@ -86,6 +86,40 @@ The 'volume move' operation for volume '%s' with job ID '%jd' in Vserver '%s' ca
 *jobId* (LONGINT): Job ID of the 'volume move' operation.
 *vserverName* (STRING): Name of the source Vserver.
 
+== mgmt.vopl.lun.quiesce.migr
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the LUN is quiesced during data migration.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+LUN %s with uuid %s, present on volume %s, SVM %s has been successfully quiesced during data migration on to the Clone volume %s, Clone SVM %s.
+*Parameters*::
+*lun_name* (STRING): Name of the LUN which is quiesced.
+*lun_uuid* (STRING): Unique identifier of the LUN.
+*parent_vol* (STRING): Name of the parent volume.
+*parent_vserver* (STRING): Name of the SVM on which the parent volume resides.
+*clone_vol* (STRING): Name of the clone volume on which the LUN will be migrated.
+*clone_vserver* (STRING): Name of the SVM on which clone volume resides.
+
+== mgmt.vopl.lun.unquiesce.migr
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the LUN is unquiesced during data migration due to volume clone creation failure.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+LUN %s with uuid %s, present on volume %s, SVM %s has been successfully unquiesced during data migration on to the Clone volume: %s, Clone SVM: %s due to volume clone creation failure.
+*Parameters*::
+*lun_name* (STRING): Name of the LUN which is unquiesced.
+*lun_uuid* (STRING): Unique identifier of the LUN.
+*parent_vol* (STRING): Name of the parent volume.
+*parent_vserver* (STRING): Name of the SVM on which the parent volume resides.
+*clone_vol* (STRING): Name of the clone volume where the LUN resides after migration.
+*clone_vserver* (STRING): Name of the SVM on which clone volume resides.
+
 == mgmt.vopl.made.status.entry
 *Severity*::
 INFORMATIONAL
@@ -96,8 +130,8 @@ This message occurs when a 'volume move' operation makes an entry for the 'volum
 *Syslog Message*::
 Use the 'volume move show -vserver %s -volume %s' command to show the status of this 'volume move' operation.
 *Parameters*::
-*volName* (STRING): Name of the source volume.
 *vserverName* (STRING): Name of the source Vserver.
+*volName* (STRING): Name of the source volume.
 
 == mgmt.vopl.move.badDstVol
 *Severity*::

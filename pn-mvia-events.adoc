@@ -14,6 +14,21 @@ summary: pn.mvia events
 :linkattrs:
 :imagesdir: ./media/
 
+== pn.mvia.driver.rtt.high
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the round-trip-time (RTT) measured in pass-through network layer exceeds predefined threshold.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The Ping RTT %d microseconds exceeded the predefined Ping RTT threshold %d microseconds. Average Ping RTT: %d microseconds. ARP RTT: %d microseconds.
+*Parameters*::
+*ping_rtt* (INT): Ping RTT in microseconds.
+*ping_rtt_threshold* (INT): The ping RTT threshold.
+*ping_rtt_avg* (INT): Lifetime average of ping RTT.
+*arp_rtt* (INT): Address Resolution Protocol (ARP) RTT in microseconds.
+
 == pn.mvia.freeq.empty
 *Severity*::
 NOTICE

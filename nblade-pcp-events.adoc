@@ -25,3 +25,18 @@ If this problem persists, check the physical connections between the affected po
 Link thrashing detected on port %u.
 *Parameters*::
 *port* (INT): Port ID.
+
+== Nblade.pcp.rdma.connReject
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the system enters into RDMA Flow Control. Under this state, the system does not have enough resources to support new connections, therefore incoming connection requests are rejected. Once enough execution contexts become available, new connection requests will be serviced.
+*Corrective Action*::
+The system will keep rejecting new RDMA connection requests until the availability of resources improves with existing ongoing RDMA connections closing. Use the (privilege: advanced) "statistics show -object rpc_rdma -node [node-name] -raw true" command to follow the current node state. Wait until some connections release some resources. For further assistance, contact NetApp technical support.
+*Syslog Message*::
+Rejected RDMA connection request from "%s:%d" on SVM "%d" at lif "%d" due to low resource availability.
+*Parameters*::
+*rAddr* (STRING): Remote IP address rejected.
+*rAddrPort* (INT): Port on the remote rejected.
+*svmId* (INT): ID of the SVM.
+*lifId* (INT): ID of the Lif.

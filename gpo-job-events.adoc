@@ -59,7 +59,7 @@ ERROR
 *Description*::
 This message occurs when the Group Policy Object (GPO) Security Apply job run fails. Consequently, the security policies are not applied to the CIFS server, requiring a rerun of the apply job.
 *Corrective Action*::
-Make sure we are able to check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" command and the "vserver cifs check -vserver <vserver-name>" command. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 GPO Security Apply job (%s) run failed for Vserver %s, reason: %s.
 *Parameters*::

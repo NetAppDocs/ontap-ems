@@ -120,7 +120,7 @@ Cannot backup from volume '%s%s%s' because %s.
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs when the replication source engine encounters a disk error in the replication specifc metadata. Replication transfer will abort.
+This message occurs when the replication source engine encounters a disk error in the replication specific metadata. Replication transfer will abort.
 *Corrective Action*::
 (None).
 *Syslog Message*::

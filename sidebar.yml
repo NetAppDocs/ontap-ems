@@ -167,6 +167,8 @@ entries:
     url: /aps-aggr-events.html
   - title: aps.all events
     url: /aps-all-events.html
+  - title: aps.rebal events
+    url: /aps-rebal-events.html
   - title: aps.rebalance events
     url: /aps-rebalance-events.html
 - title: arl events
@@ -229,6 +231,8 @@ entries:
     url: /asup-aods-events.html
   - title: asup.config events
     url: /asup-config-events.html
+  - title: asup.dcn events
+    url: /asup-dcn-events.html
   - title: asup.general events
     url: /asup-general-events.html
   - title: asup.post events
@@ -365,6 +369,8 @@ entries:
     url: /bsdsocket-queuelimit-events.html
 - title: bucket events
   entries:
+  - title: bucket.snapshot events
+    url: /bucket-snapshot-events.html
   - title: bucket.soft events
     url: /bucket-soft-events.html
 - title: cache events
@@ -463,6 +469,8 @@ entries:
     url: /callhome-flash-events.html
   - title: callhome.fs events
     url: /callhome-fs-events.html
+  - title: callhome.ha events
+    url: /callhome-ha-events.html
   - title: callhome.hainterconnect events
     url: /callhome-hainterconnect-events.html
   - title: callhome.hba events
@@ -1053,8 +1061,6 @@ entries:
     url: /coredump-host-events.html
   - title: coredump.job events
     url: /coredump-job-events.html
-  - title: coredump.long events
-    url: /coredump-long-events.html
   - title: coredump.mcc events
     url: /coredump-mcc-events.html
   - title: coredump.micro events
@@ -1217,10 +1223,24 @@ entries:
   entries:
   - title: daregister.periph events
     url: /daregister-periph-events.html
+- title: dcn events
+  entries:
+  - title: dcn.callhome events
+    url: /dcn-callhome-events.html
 - title: dcs events
   entries:
   - title: dcs.framework events
     url: /dcs-framework-events.html
+- title: de events
+  entries:
+  - title: de.callhome events
+    url: /de-callhome-events.html
+  - title: de.job events
+    url: /de-job-events.html
+  - title: de.pod events
+    url: /de-pod-events.html
+  - title: de.storage events
+    url: /de-storage-events.html
 - title: dev events
   entries:
   - title: dev.driver events
@@ -1871,14 +1891,12 @@ entries:
   entries:
   - title: flexcache.attrib events
     url: /flexcache-attrib-events.html
-  - title: flexcache.autogrow events
-    url: /flexcache-autogrow-events.html
+  - title: flexcache.auto events
+    url: /flexcache-auto-events.html
   - title: flexcache.cacheconnected events
     url: /flexcache-cacheconnected-events.html
   - title: flexcache.cachedisconnected events
     url: /flexcache-cachedisconnected-events.html
-  - title: flexcache.capacity events
-    url: /flexcache-capacity-events.html
   - title: flexcache.cfg events
     url: /flexcache-cfg-events.html
   - title: flexcache.conf events
@@ -1893,8 +1911,6 @@ entries:
     url: /flexcache-mcc-events.html
   - title: flexcache.name events
     url: /flexcache-name-events.html
-  - title: flexcache.nearly events
-    url: /flexcache-nearly-events.html
   - title: flexcache.origin events
     url: /flexcache-origin-events.html
   - title: flexcache.origincleanup events
@@ -1909,6 +1925,8 @@ entries:
     url: /flexcache-originfull_1-events.html
   - title: flexcache.softevict events
     url: /flexcache-softevict-events.html
+  - title: flexcache.svmdr events
+    url: /flexcache-svmdr-events.html
 - title: fli events
   entries:
   - title: fli.lun events
@@ -2037,6 +2055,8 @@ entries:
     url: /ha-localnodeshutdown-events.html
   - title: ha.mbxresvreleasedelay events
     url: /ha-mbxresvreleasedelay-events.html
+  - title: ha.net events
+    url: /ha-net-events.html
   - title: ha.netpartition events
     url: /ha-netpartition-events.html
   - title: ha.netparttodisabled events
@@ -2235,6 +2255,8 @@ entries:
     url: /kern-cron-events.html
   - title: kern.log events
     url: /kern-log-events.html
+  - title: kern.process events
+    url: /kern-process-events.html
   - title: kern.rc events
     url: /kern-rc-events.html
   - title: kern.shutdown events
@@ -2243,6 +2265,8 @@ entries:
     url: /kern-syslog-events.html
   - title: kern.syslogd events
     url: /kern-syslogd-events.html
+  - title: kern.thread events
+    url: /kern-thread-events.html
   - title: kern.timezone events
     url: /kern-timezone-events.html
   - title: kern.uptime events
@@ -3703,6 +3727,8 @@ entries:
     url: /raid-flexvol-events.html
   - title: raid.fm events
     url: /raid-fm-events.html
+  - title: raid.foreign events
+    url: /raid-foreign-events.html
   - title: raid.foreignaggregate events
     url: /raid-foreignaggregate-events.html
   - title: raid.fs events
@@ -4063,6 +4089,14 @@ entries:
   entries:
   - title: rpt.disk events
     url: /rpt-disk-events.html
+- title: rri events
+  entries:
+  - title: rri.aggr events
+    url: /rri-aggr-events.html
+  - title: rri.mount events
+    url: /rri-mount-events.html
+  - title: rri.retry events
+    url: /rri-retry-events.html
 - title: rsh events
   entries:
   - title: rsh.enabled events
@@ -4371,6 +4405,8 @@ entries:
     url: /securepurge-started-events.html
 - title: security events
   entries:
+  - title: security.cluster events
+    url: /security-cluster-events.html
   - title: security.invalid events
     url: /security-invalid-events.html
 - title: ses events
@@ -4623,6 +4659,8 @@ entries:
     url: /sk-hog-events.html
   - title: sk.kt events
     url: /sk-kt-events.html
+  - title: sk.long events
+    url: /sk-long-events.html
   - title: sk.panic events
     url: /sk-panic-events.html
   - title: sk.ring events
@@ -5205,6 +5243,8 @@ entries:
     url: /upgrademgr-package-events.html
   - title: upgrademgr.two events
     url: /upgrademgr-two-events.html
+  - title: upgrademgr.upc events
+    url: /upgrademgr-upc-events.html
   - title: upgrademgr.update events
     url: /upgrademgr-update-events.html
 - title: usb events
@@ -5281,6 +5321,8 @@ entries:
     url: /vifmgr-dbase-events.html
   - title: vifmgr.displaced events
     url: /vifmgr-displaced-events.html
+  - title: vifmgr.dns events
+    url: /vifmgr-dns-events.html
   - title: vifmgr.extroute events
     url: /vifmgr-extroute-events.html
   - title: vifmgr.gcp events
@@ -5707,8 +5749,6 @@ entries:
     url: /wafl-dirent-events.html
   - title: wafl.disable events
     url: /wafl-disable-events.html
-  - title: wafl.dosname events
-    url: /wafl-dosname-events.html
   - title: wafl.enc events
     url: /wafl-enc-events.html
   - title: wafl.encrypted events
@@ -5771,6 +5811,8 @@ entries:
     url: /wafl-latest-events.html
   - title: wafl.lmgr events
     url: /wafl-lmgr-events.html
+  - title: wafl.log events
+    url: /wafl-log-events.html
   - title: wafl.lookup events
     url: /wafl-lookup-events.html
   - title: wafl.make events
@@ -5831,10 +5873,16 @@ entries:
     url: /wafl-raid-events.html
   - title: wafl.rclm events
     url: /wafl-rclm-events.html
+  - title: wafl.rclone events
+    url: /wafl-rclone-events.html
+  - title: wafl.read events
+    url: /wafl-read-events.html
   - title: wafl.readdir events
     url: /wafl-readdir-events.html
   - title: wafl.reallocate events
     url: /wafl-reallocate-events.html
+  - title: wafl.rebalance events
+    url: /wafl-rebalance-events.html
   - title: wafl.relocate events
     url: /wafl-relocate-events.html
   - title: wafl.relocating events
@@ -5877,6 +5925,8 @@ entries:
     url: /wafl-snapshot_xlation_duplicate_entry-events.html
   - title: wafl.snapshot_xlation_setupfailed events
     url: /wafl-snapshot_xlation_setupfailed-events.html
+  - title: wafl.space events
+    url: /wafl-space-events.html
   - title: wafl.spacemgmnt events
     url: /wafl-spacemgmnt-events.html
   - title: wafl.spacetax events

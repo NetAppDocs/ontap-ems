@@ -20,7 +20,7 @@ EMERGENCY
 *Description*::
 This message occurs when the Cluster Transaction Manager (CTRAN) Group Coordinator (GC) of a group runs a prop-done probe for a proposal longer than anticipated.
 *Corrective Action*::
-KCS CTRAN logs need to be collected for further analysis. Trigger an ALL AutoSupport(R) message by using the "autosupport invoke -node * -message "ctran.gc.proposal.stuck" -type all" command. Also trigger a diagnostic AutoSupport by using the "autosupport invoke-diagnostic -node * -message "ctran.gc.proposal.stuck" -subsystem kcs" command. Then contact NetApp technical support support.
+KCS CTRAN logs need to be collected for further analysis. Trigger an ALL AutoSupport(R) message by using the "autosupport invoke -node * -message "ctran.gc.proposal.stuck" -type all" command. Also trigger a diagnostic AutoSupport by using the "autosupport invoke-diagnostic -node * -message "ctran.gc.proposal.stuck" -subsystem kcs" command. Then contact NetApp technical support
 *Syslog Message*::
 CTRAN group %s has attempted a prop_done probe %d times against gm_id %ld on node %s with UUID %s for txn %ld with opcode %d.
 *Parameters*::

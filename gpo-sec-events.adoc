@@ -32,7 +32,7 @@ ERROR
 *Description*::
 This message occurs when applying group policy object (GPO) event audit policy settings fails.
 *Corrective Action*::
-Address the specific reason for the issue, and then apply the settings again by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 Failed to apply event audit and log settings to Vserver %s, reason: %s.
 *Parameters*::
@@ -57,7 +57,7 @@ ERROR
 *Description*::
 This message occurs when applying group policy object (GPO) file security setings fails.
 *Corrective Action*::
-Address the specific reason for the issue, and then apply the settings again by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 Failed to apply file security settings to Vserver %s, reason: %s.
 *Parameters*::
@@ -70,7 +70,7 @@ NOTICE
 *Description*::
 This message occurs when applying a group policy object (GPO) security descriptor to a given file fails.
 *Corrective Action*::
-Address the specific reason for the issue, and then apply the settings again by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 Failed to apply file security settings to path %s in Vserver %s, reason: %s.
 *Parameters*::
@@ -96,7 +96,7 @@ ERROR
 *Description*::
 This message occurs when applying group policy object (GPO) Kerberos settings fails.
 *Corrective Action*::
-Address the specific reason for the issue, and then apply the settings again by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 Failed to apply Kerberos settings to Vserver %s, reason: %s.
 *Parameters*::
@@ -121,7 +121,7 @@ ERROR
 *Description*::
 This message occurs when applying group policy object (GPO) privilege-rights settings fails.
 *Corrective Action*::
-Address the specific reason for the issue, and then apply the settings again by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 Failed to apply privilege-rights settings to Vserver %s, reason: %s.
 *Parameters*::
@@ -134,7 +134,7 @@ NOTICE
 *Description*::
 This message occurs when applying group policy object (GPO) privilege-rights fails for a supported setting.
 *Corrective Action*::
-Address the specific reason for the issue, and then apply the settings again by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 Failed to apply privilege-rights %s setting to Vserver %s, reason: %s.
 *Parameters*::
@@ -160,7 +160,7 @@ ERROR
 *Description*::
 This message occurs when applying a group policy object (GPO) security registry setting fails.
 *Corrective Action*::
-Address the specific reason for the issue, and then apply the settings again by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 Failed to apply security registry %s setting to Vserver %s, reason: %s.
 *Parameters*::
@@ -186,7 +186,7 @@ ERROR
 *Description*::
 This message occurs when applying group policy object (GPO) security restrict anonymous settings fails.
 *Corrective Action*::
-Address the specific reason for the issue, and then apply the settings again by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 Failed to apply restrict anonymous settings to Vserver %s, reason: %s.
 *Parameters*::
@@ -211,7 +211,7 @@ ERROR
 *Description*::
 This message occurs when applying group policy object (GPO) restricted-groups settings fails.
 *Corrective Action*::
-Address the specific reason for the issue, and then apply the settings again by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 Failed to apply restricted-groups settings to Vserver %s, reason: %s.
 *Parameters*::
@@ -224,7 +224,7 @@ NOTICE
 *Description*::
 This message occurs when applying group policy object (GPO) restricted-groups settings fails for a given group.
 *Corrective Action*::
-Address the specific reason for the issue, and then apply the settings again by entering the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
+Check the CIFS configuration by running the "vserver cifs show -vserver <vserver-name>" and "vserver cifs check -vserver <vserver-name>" commands. Run the job again using the "vserver cifs group-policy update -force-reapply-all-settings true -vserver <vserver-name>" command.
 *Syslog Message*::
 Failed to apply restricted-groups settings for group %s in Vserver %s, reason: %s.
 *Parameters*::

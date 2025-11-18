@@ -787,7 +787,7 @@ This event is issued when we encounter an NVRAM checksum for an offline aggregat
 *Severity*::
 ERROR
 *Description*::
-This event is issued when WAFL accesses a block that could not be verified because of medium error on the checkusm block.
+This event is issued when WAFL accesses a block that could not be verified because of medium error on the checksum block.
 *Corrective Action*::
 Please restore the corrupted file from snapshot or from the backup media.
 *Syslog Message*::

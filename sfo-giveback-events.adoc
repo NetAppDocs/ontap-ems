@@ -47,7 +47,7 @@ ALERT
 *Description*::
 This message occurs when the number of attempts for automatic giveback of storage failover (SFO) aggregates exceeds the maximum allowed.
 *Corrective Action*::
-Use the "storage failover show-giveback" command to identify the subsystems that failed the giveback. Follow the corrective action specified in the EMS message displayed by those subsystems. For ASA r2, use the "storage failover show" command instead of the "storage failover show-giveback" command. Then retry giveback by using the "storage failover giveback" command.
+Use the "storage failover show-giveback" command to identify the subsystems that failed the giveback. Follow the corrective action specified in the EMS message displayed by those subsystems. For ASA r2 and OAM systems, use the "storage failover show" command instead of the "storage failover show-giveback" command. Then retry giveback by using the "storage failover giveback" command.
 *Syslog Message*::
 Attempts for automatic giveback of SFO aggregates exceeded the maximum number (%d) of allowed attempts.
 *Parameters*::

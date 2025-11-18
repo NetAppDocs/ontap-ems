@@ -18,7 +18,7 @@ summary: vsdr.volume events
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the the volume to be created on the destination cluster fails because of an internal identity conflict with another volume in the system.
+This message occurs when the volume to be created on the destination cluster fails because of an internal identity conflict with another volume in the system.
 *Corrective Action*::
 Log in to the source cluster and delete the volume by using the "volume delete" command.
 *Syslog Message*::
