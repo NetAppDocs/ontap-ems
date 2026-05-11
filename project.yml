@@ -14,8 +14,10 @@ settings:
     lipi_enabled: false
   versions:
     # This Repo
-    - version-number: "9.18.1"
+    - version-number: "9.19.1"
       url: /ontap-ems
+    - version-number: "9.18.1"
+      url: /ontap-ems-9181
     - version-number: "9.17.1"
       url: /ontap-ems-9171
     - version-number: "9.16.1"
