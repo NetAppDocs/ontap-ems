@@ -1,0 +1,32 @@
+---
+sidebar: sidebar
+permalink: nblade-fpols3-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: nblade.fpols3 events
+---
+
+= nblade.fpols3 events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Nblade.fpolS3.notif.dropped
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when FPolicy S3 notifications were dropped due to error. This can occur due to internal system issues, such as the unavailability of shared memory slots or other processing errors. As a result, important notifications to the external server might not be delivered.
+*Corrective Action*::
+If the situation persists, revisit the FPolicy configuration to reduce the number of operations going through FPolicy.
+*Syslog Message*::
+For storage virtual machine (SVM) [%s], the FPolicy notification for S3 command [%s] coming from client [%s] for the bucket [%s] was dropped because of error [%s], error code [%d].
+*Parameters*::
+*vserverName* (STRING): Storage virtual machine (SVM) associated with this operation.
+*s3CommandName* (STRING): S3 command for which the notification was dropped.
+*clientIp* (STRING): IP address of the client.
+*bucketName* (STRING): Name of the S3 bucket associated with this operation.
+*errorDescription* (STRING): Description of the error that caused the notification to be dropped.
+*errorCode* (INT): Error code that describes the reason for the notification getting dropped.

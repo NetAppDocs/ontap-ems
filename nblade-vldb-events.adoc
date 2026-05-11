@@ -35,6 +35,6 @@ This message occurs when a request from the network module to the volume locatio
 *Corrective Action*::
 Contact NetApp technical support.
 *Syslog Message*::
-Request from the network module to the volume location database (VLDB) timed out.
+%s request from the network module to the VLDB times out.
 *Parameters*::
-(None).
+*pMessage* (STRING): Message to indicate the function that triggers the error.

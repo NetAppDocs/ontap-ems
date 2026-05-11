@@ -14,8 +14,10 @@ settings:
     lipi_enabled: false
   versions:
     # This Repo
-    - version-number: "9.18.1"
+    - version-number: "9.19.1"
       url: /ontap-ems
+    - version-number: "9.18.1"
+      url: /ontap-ems-9181
     - version-number: "9.17.1"
       url: /ontap-ems-9171
     - version-number: "9.16.1"
@@ -50,7 +52,7 @@ product-family:
 
 sidebar: 
  entries:
-  - title: ONTAP 9.18.1 EMS reference
+  - title: ONTAP 9.19.1 EMS reference
     url: /index.html
   - title: accesscache events
     entries:
@@ -488,6 +490,8 @@ sidebar:
       url: /callhome-data-events.html
     - title: callhome.dbs events
       url: /callhome-dbs-events.html
+    - title: callhome.dcn events
+      url: /callhome-dcn-events.html
     - title: callhome.device events
       url: /callhome-device-events.html
     - title: callhome.disk events
@@ -830,6 +834,8 @@ sidebar:
       url: /clam-mailbox-events.html
     - title: clam.node events
       url: /clam-node-events.html
+    - title: clam.nway events
+      url: /clam-nway-events.html
     - title: clam.partner events
       url: /clam-partner-events.html
     - title: clam.peer events
@@ -1210,6 +1216,10 @@ sidebar:
       url: /cs-create-events.html
     - title: cs.endpoint events
       url: /cs-endpoint-events.html
+  - title: cshm events
+    entries:
+    - title: cshm.snmp events
+      url: /cshm-snmp-events.html
   - title: csm events
     entries:
     - title: csm.badauthaccess events
@@ -1218,6 +1228,10 @@ sidebar:
       url: /csm-badconnection-events.html
     - title: csm.badplainaccess events
       url: /csm-badplainaccess-events.html
+    - title: csm.connscalingdone events
+      url: /csm-connscalingdone-events.html
+    - title: csm.connscalingtriggered events
+      url: /csm-connscalingtriggered-events.html
     - title: csm.ctfallbackactiveopen events
       url: /csm-ctfallbackactiveopen-events.html
     - title: csm.ctfallbackswitchless events
@@ -1278,6 +1292,8 @@ sidebar:
     entries:
     - title: dcn.callhome events
       url: /dcn-callhome-events.html
+    - title: dcn.service events
+      url: /dcn-service-events.html
   - title: dcs events
     entries:
     - title: dcs.framework events
@@ -1286,12 +1302,28 @@ sidebar:
     entries:
     - title: de.callhome events
       url: /de-callhome-events.html
+    - title: de.dsai events
+      url: /de-dsai-events.html
     - title: de.job events
       url: /de-job-events.html
+    - title: de.mongodb events
+      url: /de-mongodb-events.html
+    - title: de.node events
+      url: /de-node-events.html
     - title: de.pod events
       url: /de-pod-events.html
     - title: de.storage events
       url: /de-storage-events.html
+    - title: de.svm events
+      url: /de-svm-events.html
+    - title: de.volume events
+      url: /de-volume-events.html
+  - title: dense events
+    entries:
+    - title: dense.rri events
+      url: /dense-rri-events.html
+    - title: dense.wait events
+      url: /dense-wait-events.html
   - title: dev events
     entries:
     - title: dev.driver events
@@ -1764,6 +1796,8 @@ sidebar:
       url: /extcache-disabled-events.html
     - title: extcache.enabled events
       url: /extcache-enabled-events.html
+    - title: extcache.fal events
+      url: /extcache-fal-events.html
     - title: extcache.io events
       url: /extcache-io-events.html
     - title: extcache.offline events
@@ -2118,6 +2152,8 @@ sidebar:
       url: /ha-nomediatormbx-events.html
     - title: ha.noprogrammaticto events
       url: /ha-noprogrammaticto-events.html
+    - title: ha.nway events
+      url: /ha-nway-events.html
     - title: ha.panicinfonotsent events
       url: /ha-panicinfonotsent-events.html
     - title: ha.panicinfonotsentic events
@@ -2318,6 +2354,8 @@ sidebar:
       url: /kern-syslogd-events.html
     - title: kern.thread events
       url: /kern-thread-events.html
+    - title: kern.time events
+      url: /kern-time-events.html
     - title: kern.timezone events
       url: /kern-timezone-events.html
     - title: kern.uptime events
@@ -2404,6 +2442,8 @@ sidebar:
       url: /license-cert-events.html
     - title: license.check events
       url: /license-check-events.html
+    - title: license.de events
+      url: /license-de-events.html
     - title: license.feat events
       url: /license-feat-events.html
     - title: license.fpool events
@@ -2476,6 +2516,8 @@ sidebar:
       url: /lmgr-persistent-events.html
     - title: lmgr.precommit events
       url: /lmgr-precommit-events.html
+    - title: lmgr.pruner events
+      url: /lmgr-pruner-events.html
     - title: lmgr.pruning events
       url: /lmgr-pruning-events.html
     - title: lmgr.recons events
@@ -3070,6 +3112,8 @@ sidebar:
       url: /nblade-fpolpsvolnotfound-events.html
     - title: nblade.fpolpsvolofflined events
       url: /nblade-fpolpsvolofflined-events.html
+    - title: nblade.fpols3 events
+      url: /nblade-fpols3-events.html
     - title: nblade.gracebegin events
       url: /nblade-gracebegin-events.html
     - title: nblade.graceend events
@@ -3450,6 +3494,8 @@ sidebar:
       url: /nvme-fw-events.html
     - title: nvme.link events
       url: /nvme-link-events.html
+    - title: nvme.lowmem events
+      url: /nvme-lowmem-events.html
     - title: nvme.ssd events
       url: /nvme-ssd-events.html
     - title: nvme.subsystem events
@@ -4516,6 +4562,8 @@ sidebar:
       url: /sfo-ignoretakeover-events.html
     - title: sfo.partialgiveback events
       url: /sfo-partialgiveback-events.html
+    - title: sfo.peering events
+      url: /sfo-peering-events.html
     - title: sfo.reassignfailed events
       url: /sfo-reassignfailed-events.html
     - title: sfo.reassignnopartner events
@@ -5048,6 +5096,8 @@ sidebar:
     entries:
     - title: spm.avs events
       url: /spm-avs-events.html
+    - title: spm.bcomd events
+      url: /spm-bcomd-events.html
     - title: spm.bgpd events
       url: /spm-bgpd-events.html
     - title: spm.coresegd events
@@ -5224,6 +5274,10 @@ sidebar:
       url: /telnet-socket-events.html
     - title: telnet.threadcreate events
       url: /telnet-threadcreate-events.html
+  - title: time events
+    entries:
+    - title: time.stamp events
+      url: /time-stamp-events.html
   - title: tls events
     entries:
     - title: tls.insecure events
@@ -6096,3 +6150,4 @@ sidebar:
       url: /ztl-smap-events.html
   - title: Legal notices
     url: /legal-notices.html
+

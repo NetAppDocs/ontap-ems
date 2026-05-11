@@ -106,15 +106,15 @@ Partial packet loss when pinging from cluster lif %s (node %s) to cluster lif %s
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when where was some ping test failure that is now no longer occuring.
+This message occurs when all packets of the ping test are now successfully received. The ping test verifies the connectivity of a cluster logical interface (LIF) to all other cluster LIFs.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-No packet loss when pinging from cluster lif %s (node %s) to cluster lif %s (node %s).
+No packet loss when pinging from cluster LIF: %s (node: %s) to cluster LIF: %s (node: %s).
 *Parameters*::
 *src_vif* (STRING): Name of the source cluster LIF.
 *src_node* (STRING): Node name of the source cluster LIF.
-*dst_vif* (STRING): Name of the desination cluster LIF.
+*dst_vif* (STRING): Name of the destination cluster LIF.
 *dst_node* (STRING): Node name of the destination cluster LIF.
 
 == vifmgr.cluscheck.hwerrors

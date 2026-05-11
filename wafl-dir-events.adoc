@@ -39,6 +39,36 @@ Access to large directory on volume MSID:%u, file ID:%u rejected for requiring c
 *msid* (LONGINTHEX): Volume master data set identifier (MSID) of the volume experiencing the rejected access.
 *fileid* (INT): File identifier of the directory experiencing the rejected access.
 
+== wafl.dir.convert.failed
+*Severity*::
+ERROR
+*Description*::
+This message occurs when unicode conversion fails for a specific directory during directory unicode conversion scanner run.
+*Corrective Action*::
+Check the EMS log for wafl.convert.directory.failed events. If no such events are found, check if the volume has sufficient space. If the volume is at capacity, consider freeing up space or increasing the volume size. If problems persist, or you need further assistance, contact NetApp technical support
+*Syslog Message*::
+Failed to perform unicode conversion for directory inode %d in volume %s%s%s.
+*Parameters*::
+*inum* (INT): Inode number of the directory.
+*vol* (STRING): Volume name.
+*app* (STRING): Application universally unique identifier (UUID).
+*volident* (STRING): Unique volume identifier when the volume name by itself is insufficient.
+
+== wafl.dir.convert.i2p.failed
+*Severity*::
+ERROR
+*Description*::
+This message occurs when inode-to-parent (i2p) information fixup fails for a specific directory during directory unicode conversion scanner run.
+*Corrective Action*::
+Check the EMS log for wafl.i2p.scan.inode.error events. If no such events are found, check if the volume has sufficient space. If the volume is at capacity, consider freeing up space or increasing the volume size. If problems persist, or you need further assistance, contact NetApp technical support
+*Syslog Message*::
+Failed to perform i2p information fixup for directory inode %d in volume %s%s%s during Unicode conversion.
+*Parameters*::
+*inum* (INT): Inode number of the directory.
+*vol* (STRING): Volume name.
+*app* (STRING): Application universally unique identifier (UUID).
+*volident* (STRING): Unique volume identifier when the volume name by itself is insufficient.
+
 == wafl.dir.depth.max
 *Severity*::
 ERROR

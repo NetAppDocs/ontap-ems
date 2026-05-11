@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: clam-nway-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: clam.nway events
+---
+
+= clam.nway events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== clam.nway.ha.config
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when the Kernel Cluster Services (KCS) Connectivity, Liveliness, Availability Monitor (CLAM) is operating in an N-Way HA Configuration. This EMS should be seen ONLY on OAM N-Way Clusters.
+*Corrective Action*::
+No action is needed.
+*Syslog Message*::
+CLAM is operating in an N-Way HA configuration.
+*Parameters*::
+(None).

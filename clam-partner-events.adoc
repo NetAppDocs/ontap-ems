@@ -18,7 +18,7 @@ summary: clam.partner events
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs when the Kernel Cluster Services (KCS) Connectivity, Liveness, Availability Monitor (CLAM) is notified that its high-availability (HA) partner node is undergoing a planned shutdown.
+This message occurs when the Kernel Cluster Services (KCS) Connectivity, Liveliness, Availability Monitor (CLAM) is notified that its high-availability (HA) partner node is undergoing a planned shutdown.
 *Corrective Action*::
 (None).
 *Syslog Message*::

@@ -1,0 +1,48 @@
+---
+sidebar: sidebar
+permalink: ha-nway-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: ha.nway events
+---
+
+= ha.nway events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== ha.nway.sfo.event.completion
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when planned takeover, giveback or aggregate relocation (ARL) of a storage pod is completed successfully. More details about the storage pod and storage failover event can be checked using "storage failover operation history show" command.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+%s operation with operation UUID %s for storage pod "%s" on node "%s" to node "%s" completed.
+*Parameters*::
+*eventType* (STRING): Planned takeover, giveback or ARL event type.
+*operationUUID* (STRING): Operation universal unique identifier (UUID) of the storage failover (SFO) operation.
+*storagePod* (STRING): Name of the storage pod that is involved in the SFO operation.
+*sourceNode* (STRING): Node where the storage pod was present before takeover, giveback or ARL.
+*destinationNode* (STRING): Target node to which the storage pod is relocated.
+
+== ha.nway.sfo.event.failure
+*Severity*::
+ERROR
+*Description*::
+This message occurs when planned takeover, giveback or aggregate relocation (ARL) of a storage pod fails. More details about the storage pod and storage failover (SFO) event can be checked using "storage failover operation history show" command.
+*Corrective Action*::
+1) For replicated database (RDB) related failures, ensure that RDB is in quorum. 2) Use the "storage failover operation show" command to verify that there is no other instance of takeover, giveback, or ARL running for the same storage pod. 3) Ensure there is no conflicting operation like storage virtual machine (SVM) migration, high-availability (HA peering), volume cutover, volume encryption or SnapMirror failover in progress.
+*Syslog Message*::
+%s operation with operation UUID %s for storage pod "%s" on node "%s" to node "%s", failed with error "%s".
+*Parameters*::
+*eventType* (STRING): Planned takeover, giveback or ARL event type.
+*operationUUID* (STRING): Operation universal unique identifier (UUID) of the SFO operation.
+*aggregate* (STRING): Name of the storage pod that was attempted for SFO operation.
+*sourceNode* (STRING): Node where the storage pod resides.
+*destinationNode* (STRING): Target node to which takeover, giveback or ARL was attempted. Target node can be empty if the destination peer selection fails.
+*errorStr* (STRING): Error message for the failure encountered during planned takeover, giveback or ARL operation.

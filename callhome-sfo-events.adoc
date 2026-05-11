@@ -14,6 +14,18 @@ summary: callhome.sfo events
 :linkattrs:
 :imagesdir: ./media/
 
+== callhome.sfo.disabled.freq
+*Severity*::
+ALERT
+*Description*::
+This message occurs when HA controller takeover is disabled frequently on the node - over 24 times in 1 day.
+*Corrective Action*::
+Check the event log using "event log show" to identify the specific reasons for takeover being disabled. Use the "storage failover show -fields local-missing-disks,partner-missing-disks" and "system ha interconnect show" commands to gather more diagnostic information. For further information about correcting the problem, search the knowledgebase of the NetApp technical support support web site for the "callhome.sfo.disabled.freq" keyword.
+*Syslog Message*::
+Callhome for %s.
+*Parameters*::
+*subject* (STRING): AutoSupport subject or title for this event.
+
 == callhome.sfo.downrev
 *Severity*::
 ERROR

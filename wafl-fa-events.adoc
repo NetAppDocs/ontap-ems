@@ -14,6 +14,19 @@ summary: wafl.fa events
 :linkattrs:
 :imagesdir: ./media/
 
+== wafl.fa.iron.sync.waiting
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a FlexAggregate is waiting for other FlexAggregates to reach the same iron state. Failure to reach the same iron state stalls wafliron running on the storage pod.
+*Corrective Action*::
+Run "wafliron status" on the storage pod to check state of other FlexAggregates.
+*Syslog Message*::
+FlexAggregate "%s" is waiting for other FlexAggregates to reach the iron state : %s.
+*Parameters*::
+*flexaggrname* (STRING): FlexAggregate name.
+*iron_state* (STRING): Current iron state of the FlexAggregate.
+
 == wafl.fa.mark.inconsistent
 *Severity*::
 ALERT

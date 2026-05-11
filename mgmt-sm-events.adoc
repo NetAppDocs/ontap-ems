@@ -28,6 +28,20 @@ Job ID %lld failed to disable auto-initialize for SnapMirror relationship on vol
 *srcpath* (STRING): Path name of the source volume to be protected.
 *dstvserver* (STRING): Destination Vserver name.
 
+== mgmt.sm.cg.child.dtch.rename
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when SnapMirror geometry change job attempts to detach a child Consistency-group from a parent Consistency-group and there exists another Consistency-group with the same name as the child Consistency-group in the same SVM. SnapMirror job will rename the detaching child Consistency-group to a unique name so that there are no standalone Consistency-groups with the same name in an SVM.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Consistency-group "%s" has been detached from parent Consistency-group "%s" and renamed to "%s".
+*Parameters*::
+*cg_name* (STRING): Existing Name of Consistency-group before detach from parent consistency-group
+*parent_cg_name* (STRING): Name of the Parent Consistency-group
+*cg_renamed_to* (STRING): New Name of the Consistency-group
+
 == mgmt.sm.cg.force.delete
 *Severity*::
 ERROR
@@ -66,6 +80,18 @@ Number of Consistency Group item SnapMirror and/or FlexGroup item relationships 
 *Parameters*::
 *max_count* (INT): Maximum number of item relationships supported on cluster.
 *cur_count* (LONGINT): Current count of item relationships on cluster.
+
+== mgmt.sm.create.crs.rel.absnt
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the creation of a SnapMirror(R) relationship as part of configuration replication from a partner site fails in a MetroCluster(tm) configuration, potentially causing failures in switchback operations.
+*Corrective Action*::
+Delete the failed relationship from the partner site using the "snapmirror delete -destination-path <path>" command, and then recreate the relationship on this site.
+*Syslog Message*::
+SnapMirror relationship creation during configuration replication failed on destination "%s" due to empty relationship list received from partner site.
+*Parameters*::
+*dstpath* (STRING): Destination path name of the SnapMirror relationship.
 
 == mgmt.sm.dp.depr.msg
 *Severity*::
@@ -225,6 +251,20 @@ SnapMirror restore from source volume '%s' to destination volume '%s' failed wit
 *srcpath* (STRING): Path name of the source volume for restore.
 *dstpath* (STRING): Path name of the destination volume for restore.
 *error* (STRING): Error message.
+
+== mgmt.sm.rst.cleanup.timeout
+*Severity*::
+ALERT
+*Description*::
+This message occurs when a SnapMirror(R) restore relationship cleanup request times out, because the system was unable to determine whether the cleanup was successful. The DELETE API that deletes a SnapMirror restore relationship might return as failed even though the restore relationship was ultimately successfully deleted. The cleanup process might still be continuing in the background.
+*Corrective Action*::
+Use the "snapmirror show" command or the GET /api/snapmirror/relationships/ REST API to check whether the restore relationship has been deleted. If the restore relationship still exists, check the unhealthy_reason field in the response from the above GET API - this might indicate issues you can resolve before retrying the delete of the restore relationship. In "snapmirror show", the equivalent information is shown in the "last-transfer-error" field. If the problem persists, contact NetApp technical support.
+*Syslog Message*::
+Delete of restore relationship "%s" with source-path "%s" and destination-path "%s" took longer than expected.
+*Parameters*::
+*relID* (STRING): UUID of the restore relationship that timed out during cleanup.
+*srcpath* (STRING): Source path of the restore relationship that timed out during cleanup.
+*dstpath* (STRING): Destination path of the restore relationship that timed out during cleanup.
 
 == mgmt.sm.schd.invalid
 *Severity*::

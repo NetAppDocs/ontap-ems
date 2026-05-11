@@ -45,6 +45,22 @@ Bucket snapshot restore failed [jobid %s]. S3 bucket "%s" in SVM "%s" could not 
 *snapshotName* (STRING): Snapshot name.
 *error* (STRING): Error message.
 
+== bucket.snapshot.restore.newer.del
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the object server deletes a snapshot because it is newer than the snapshot being restored.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Deleted newer snapshot [jobid %s]: S3 bucket "%s" in SVM "%s" deleted snapshot "%s" because it is newer than restore snapshot "%s".
+*Parameters*::
+*jobId* (STRING): Job ID.
+*bucketName* (STRING): Bucket name.
+*vserverName* (STRING): Storage virtual machine (SVM) name.
+*deletedSnapshotName* (STRING): Name of the snapshot that was deleted.
+*restoreSnapshotName* (STRING): Name of the snapshot being restored.
+
 == bucket.snapshot.restore.start
 *Severity*::
 NOTICE

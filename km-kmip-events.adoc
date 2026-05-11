@@ -20,7 +20,7 @@ ALERT
 *Description*::
 This message occurs in a NetApp MetroCluster configuration where both peer clusters are configured with the external key manager on the admin Vserver, but the NSE-AK keys do not match between the local and remote clusters. A mismatch in the NSE-AK keys can cause a failure during a reboot or future switchover/switchback event.
 *Corrective Action*::
-Contact Contact NetApp technical support. for assistance.
+Contact NetApp technical support.
 *Syslog Message*::
 In a MetroCluster configuration with the external key manager enabled on the admin Vserver, the NSE-AK key digests do not match between the local and remote clusters.
 *Parameters*::
@@ -32,7 +32,7 @@ ALERT
 *Description*::
 This message occurs in a NetApp MetroCluster configuration where both peer clusters are configured with the external key manager on the admin Vserver, but one or more NSE-AK keys are missing on either the local or remote cluster. A missing key can cause a failure during a reboot or future switchover/switchback event.
 *Corrective Action*::
-Contact Contact NetApp technical support. for assistance.
+Contact NetApp technical support.
 *Syslog Message*::
 In a MetroCluster configuration with the external key manager enabled on the admin Vserver, an NSE-AK key is missing on cluster %s.
 *Parameters*::
