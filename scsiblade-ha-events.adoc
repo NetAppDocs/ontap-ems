@@ -14,14 +14,14 @@ summary: scsiblade.ha events
 :linkattrs:
 :imagesdir: ./media/
 
-== scsiblade.ha.partner.dblade.id.retrive.error
+== scsiblade.ha.partner.dblade.id.retrieve.error
 *Severity*::
 ERROR
 *Description*::
-Unable to retrive HA Partner DBlade ID.
+Unable to retrieve HA Partner DBlade ID.
 *Corrective Action*::
 No corrective action
 *Syslog Message*::
-Unable to retrive HA Partner DBlade ID.
+Unable to retrieve HA Partner DBlade ID.
 *Parameters*::
 (None).

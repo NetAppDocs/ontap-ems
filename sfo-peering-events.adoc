@@ -1,0 +1,45 @@
+---
+sidebar: sidebar
+permalink: sfo-peering-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: sfo.peering events
+---
+
+= sfo.peering events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== sfo.peering.rm.delay
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the removal of a storage failover peering relationship is taking longer than expected to complete on one or more nodes. The system continues retrying for up to five minutes.
+*Corrective Action*::
+The system continues retrying the removal operation. Monitor the nodes that have not completed the removal operation. Use the "storage failover show" command to verify storage failover status. If the delay persists beyond five minutes, contact NetApp technical support.
+*Syslog Message*::
+Storage failover peering removal is delayed for peering relationship src=%s, dst=%s, level=%d. %d node(s) pending.
+*Parameters*::
+*srcUuid* (STRING): Unique identifier (UUID) of the source node in the peering relationship.
+*dstUuid* (STRING): Unique identifier (UUID) of the destination node in the peering relationship.
+*level* (INT): The node peering level of the peering relationship.
+*remainingCount* (INT): Number of nodes with removal pending.
+
+== sfo.peering.rm.timeout
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the removal of a storage failover peering relationship has timed out after exhausting all retry attempts. One or more nodes failed to complete the removal notification within the retry period.
+*Corrective Action*::
+Check the health of the nodes that did not complete the removal notification. Use the "storage failover show" command to verify storage failover status and check node health. Review system logs for errors related to the affected nodes. Contact NetApp technical support for assistance.
+*Syslog Message*::
+Timed out waiting for storage failover peering removal to complete for peering relationship src=%s, dst=%s, level=%d. %d node(s) failed to complete.
+*Parameters*::
+*srcUuid* (STRING): Unique identifier (UUID) of the source node in the peering relationship.
+*dstUuid* (STRING): Unique identifier (UUID) of the destination node in the peering relationship.
+*level* (INT): The node peering level of the peering relationship.
+*remainingCount* (INT): Number of nodes that failed to complete the removal.

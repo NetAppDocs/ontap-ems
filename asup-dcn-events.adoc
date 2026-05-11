@@ -18,11 +18,11 @@ summary: asup.dcn events
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the AutoSupport configurations in the ONTAP cluster fail to propagate to the Data Compute nodes and the AI Data Engine cluster.
+This message occurs when the AutoSupport configurations in the ONTAP cluster fail to propagate to the data compute nodes and the AI Data Engine cluster. The system will automatically retry the propagation in the background using exponentially increasing intervals until it is successful.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-AutoSupport configurations failed to propagate to Data Compute nodes and AI Data Engine cluster. Error: %s
+AutoSupport configurations failed to propagate to data compute nodes and AI Data Engine cluster. Error: %s
 *Parameters*::
 *FailureReason* (STRING): Sync failure reason.
 
@@ -30,10 +30,10 @@ AutoSupport configurations failed to propagate to Data Compute nodes and AI Data
 *Severity*::
 NOTICE
 *Description*::
-This message occurs when the AutoSupport configurations in the ONTAP cluster have successfully propagated to the Data Compute nodes and the AI Data Engine cluster after a previous failure.
+This message occurs when the AutoSupport configurations in the ONTAP cluster have successfully propagated to the data compute nodes and the AI Data Engine cluster after a previous failure.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-AutoSupport configurations successfully propagated to Data Compute nodes and AI Data Engine cluster.
+AutoSupport configurations successfully propagated to data compute nodes and AI Data Engine cluster.
 *Parameters*::
 (None).

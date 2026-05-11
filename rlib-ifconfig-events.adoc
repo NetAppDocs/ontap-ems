@@ -18,7 +18,7 @@ summary: rlib.ifconfig events
 *Severity*::
 NOTICE
 *Description*::
-This event is generated when there is a link event on the MCC/IP managed interface.
+This event is generated when there is a link event on the MCC/IP or HA managed interface.
 *Corrective Action*::
 (None).
 *Syslog Message*::

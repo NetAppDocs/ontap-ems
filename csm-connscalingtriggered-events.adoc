@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: csm-connscalingtriggered-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: csm.connscalingtriggered events
+---
+
+= csm.connscalingtriggered events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== csm.connScalingTriggered
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a Cluster Session Manager (CSM) session triggers dynamic connection scaling to increase the connection count.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+CSM session %s triggered dynamic connection scaling.
+*Parameters*::
+*uniquifier* (STRING): Unique Identifier for this session.

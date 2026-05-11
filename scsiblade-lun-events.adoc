@@ -14,6 +14,20 @@ summary: scsiblade.lun events
 :linkattrs:
 :imagesdir: ./media/
 
+== scsiblade.lun.dup.serial
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the system detects a LUN with a duplicate serial number. This can happen when a LUN mapping operation fails because the LUN's serial number is already in use by an existing mapped LUN.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The LUN being mapped with UUID %s in volume with MSID 0x%llx has a serial number %s that is already in use. The operation is rejected to prevent serial number conflicts.
+*Parameters*::
+*lun_uuid* (STRING): Universally Unique Identifier (UUID) of the LUN.
+*volumeMSID* (LONGINTHEX): Master data set ID (MSID) of the volume containing the LUN.
+*lunSerial* (STRING): Serial number that is duplicated.
+
 == scsiblade.lun.ids.change
 *Severity*::
 ERROR

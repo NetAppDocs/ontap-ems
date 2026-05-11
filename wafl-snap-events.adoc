@@ -107,17 +107,17 @@ Perform the following steps to delete the clones from the volume and retry snaps
 *Severity*::
 ERROR
 *Description*::
-This message occurs when the creation of a snapshot is skipped.
+This message occurs when the creation of a Snapshot copy is skipped.
 *Corrective Action*::
 Address the issue identified by the "reason" parameter. For example, if the reason is "Volume is too full", increase the volume size or free up disk space on the target volume.
 *Syslog Message*::
-%s %s %s: Skipping creation of %s snapshot (%s).
+%s %s %s: Skipping creation of Snapshot %s (%s).
 *Parameters*::
 *vol* (STRING): Volume name.
 *app* (STRING): Application UUID.
-*volident* (STRING): Unique volume identifier.
-*snapname* (STRING): Name of the snapshot being created.
-*reason* (STRING): Reason for skipping the snapshot.
+*volident* (STRING): The SVM's UUID, if the volume belongs to an SVM. Empty otherwise.
+*snapname* (STRING): Name of the Snapshot copy being created.
+*reason* (STRING): Reason for skipping the Snapshot copy.
 
 == wafl.snap.delete
 *Severity*::

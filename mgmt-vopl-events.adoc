@@ -364,6 +364,23 @@ The volume move operation with ID '%jd' on volume '%s' on Vserver '%s' to destin
 *cutoverAttempt* (INT): Number of cutover attempts.
 *forcedCutoverAttempt* (INT): Number of forced cutover attempts.
 
+== mgmt.vopl.move.cutover.start
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the volume move enters the cutover phase. In the cutover phase, client I/O to the volume is briefly restricted while the final synchronization and switch-over to the destination volume occurs.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Volume move cutover started for job %jd, volume "%s" in Vserver "%s" to aggregate "%s". Cutover attempt %d of %d.
+*Parameters*::
+*jobID* (LONGINT): Job ID of the volume move operation.
+*volName* (STRING): Source volume name.
+*vserverName* (STRING): Vserver name where the move takes place.
+*aggrName* (STRING): Destination aggregate name.
+*cutoverAttemptCount* (INT): Current cutover attempt number.
+*maxCutoverAttempts* (INT): Maximum configured cutover attempts.
+
 == mgmt.vopl.move.cutoverMod
 *Severity*::
 INFORMATIONAL
