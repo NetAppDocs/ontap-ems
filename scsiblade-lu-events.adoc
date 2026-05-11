@@ -91,6 +91,20 @@ Access to LUN %s is restricted because an internal reset of the LUN was not comp
 *lu_int_rst_pending_time* (INT): Duration of the internal reset attempt in milliseconds.
 *nodeName* (STRING): Names of the nodes on which the internal reset of the LUN was not completed.
 
+== scsiblade.lu.map.ns.unexp
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the system detects an NVMe namespace mapped to an initiator group. Only LUNs should be mapped to igroups; a mapped namespace can lead to system disruption and instability. As a precaution, the namespace map is ignored.
+*Corrective Action*::
+Contact NetApp technical support.
+*Syslog Message*::
+Ignoring LUN map with Vdisk ID: %s in Volume MSID 0x%llx on storage virtual machine(SVM) %s.
+*Parameters*::
+*vdiskId* (STRING): Vdisk ID of the LUN.
+*volumeMSID* (LONGINTHEX): Master set ID(MSID) of the volume that contains the namespace.
+*vserver* (STRING): Universal unique identifier(UUID) of the storage virtual machine(SVM) that hosts the LUN.
+
 == scsiblade.lu.resync.end
 *Severity*::
 NOTICE

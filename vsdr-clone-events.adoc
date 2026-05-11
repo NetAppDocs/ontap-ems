@@ -28,6 +28,18 @@ Clone create job failed prematurely for volume "%s" (Vserver Id %d). Reason:%s.
 *vserver_id* (INT): ID of the Vserver that owns the volume.
 *errmsg* (STRING): Error message string.
 
+== vsdr.clone.create.during.andu
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a volume clone create operation is initiated while an automated ONTAP upgrade is in progress on the system. The clone operation proceeds, but might experience an unexpected failure due to the ongoing system update.
+*Corrective Action*::
+No immediate action is required. The volume clone create operation continues. If you want to avoid potential failures, consider retrying the clone operation after the automated ONTAP upgrade completes.
+*Syslog Message*::
+Volume clone create operation for volume %s initiated during automated ONTAP upgrade. The operation might experience failures.
+*Parameters*::
+*volume* (STRING): Name of the volume being cloned.
+
 == vsdr.clone.splitOnSource
 *Severity*::
 ERROR

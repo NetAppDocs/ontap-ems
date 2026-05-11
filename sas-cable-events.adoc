@@ -20,7 +20,7 @@ ERROR
 *Description*::
 This message occurs when the cable attached to SAS (Serial Attached SCSI) adapter port is functioning in a degraded mode.
 *Corrective Action*::
-This condition implies one or more of the lanes in a 4-wide cable is fuctioning at a less-than-optimal speed, or is not functioning and has been disabled. The port will continue functioning but in a degraded, lower-performing mode. The cable should be replaced at some point in the future.
+This condition implies one or more of the lanes in a 4-wide cable is functioning at a less-than-optimal speed, or is not functioning and has been disabled. The port will continue functioning but in a degraded, lower-performing mode. The cable should be replaced at some point in the future.
 *Syslog Message*::
 Cable attached to SAS port "%s" is functioning in a degraded mode.
 *Parameters*::

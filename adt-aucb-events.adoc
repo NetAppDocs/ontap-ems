@@ -18,7 +18,7 @@ summary: adt.aucb events
 *Severity*::
 INFORMATIONAL
 *Description*::
-This message occurs in the auditing subsytem, when the subsystem overwrite an existing audit control block during audit control block creation. The overwriting of the audit control block is because of a failure in audit control block deletion.
+This message occurs in the auditing subsystem, when the subsystem overwrites an existing audit control block during audit control block creation. The overwriting of the audit control block is because of a failure in audit control block deletion.
 *Corrective Action*::
 (None).
 *Syslog Message*::

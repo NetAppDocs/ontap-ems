@@ -22,9 +22,9 @@ This message occurs when a client tries to access a FlexCache volume through an 
 *Corrective Action*::
 Make sure a FlexCache-supported protocol is specified for all client mount operations through which a FlexCache volume can be accessed. If using FlexCache, specify 'nfsvers=3' or 'nfsvers=4' or 'nfsvers=4.1' as an option for the 'mount' command on all clients accessing a FlexCache volume.
 *Syslog Message*::
-Attempt to access FlexCache volume %s in SVM %s via %s denied for client %s.
+Attempt to access FlexCache volume with Master Data Set ID %u in SVM %s via %s denied for client %s.
 *Parameters*::
-*volName* (STRING): Name of the FlexCache volume being accessed.
+*volMsid* (INT): Master Data Set ID of the FlexCache volume being accessed.
 *vserverName* (STRING): Name of the vserver associated with this operation.
 *protocol* (STRING): Client protocol.
 *clientIpAddress* (STRING): IP address of the client machine.

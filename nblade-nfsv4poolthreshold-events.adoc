@@ -16,7 +16,7 @@ summary: nblade.nfsv4poolthreshold events
 
 == Nblade.nfsV4PoolThreshold
 *Severity*::
-NOTICE
+ERROR
 *Description*::
 This message occurs when one of the NFSv4 store pools is nearing exhaustion (80% of max size). If the condition is allowed to continue, the store pool limits will be reached leading certain NFSv4 request failures.
 *Corrective Action*::

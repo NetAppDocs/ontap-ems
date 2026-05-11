@@ -345,6 +345,35 @@ The deswizzler scanner on flexvol %s, snapshot %s (ID %d) encountered a volume i
 *snapname* (STRING): Inconsistent snapshot name.
 *snapid* (INT): Inconsistent snapshot snapid.
 
+== wafl.scan.dir.convert.abort
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the directory unicode conversion scanner is aborted before completion.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Directory unicode conversion scanner aborted on volume %s%s%s.
+*Parameters*::
+*vol* (STRING): Volume name.
+*app* (STRING): Application universally unique identifier (UUID).
+*volident* (STRING): Unique volume identifier when the volume name by itself is insufficient.
+
+== wafl.scan.dir.convert.failed
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the directory Unicode conversion scanner completes with one or more conversion failures. The directories remain in their original encoding format and continue to be available.
+*Corrective Action*::
+Review the EMS log for wafl.dir.convert.failed events to identify specific inode numbers of directories that failed the unicode conversion and the failure reason. Based on the failure reason, the corrective action can include increasing/freeing-up volume space if the volume is at capacity, or creation of a new directory and moving the contents of the older directory to the new directory, with subsequent deletion of the older directory. If problems persist, or you need further assistance, contact NetApp technical support
+*Syslog Message*::
+Directory unicode conversion scanner completed on volume %s%s%s with %lu failed conversions.
+*Parameters*::
+*vol* (STRING): Volume name.
+*app* (STRING): Application universally unique identifier (UUID).
+*volident* (STRING): Unique volume identifier when the volume name by itself is insufficient.
+*error_count* (LONGINT): Number of directories that failed conversion.
+
 == wafl.scan.done
 *Severity*::
 NOTICE

@@ -69,6 +69,34 @@ The LIF %s in DR partner Vserver of Vserver %s is not reachable from the local c
 *lif* (STRING): The LIF name.
 *vserver_name* (STRING): The Vserver name.
 
+== vsdr.net.LifPlacedOnDifferentIfgroup
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a logical interface (LIF) is placed on a different ifgroup than the source during replication. These ifgroups could be in different broadcast domains.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+LIF %s in Vserver %s was placed on a different ifgroup (source: %s). Different ifgroups could be in different broadcast domains.
+*Parameters*::
+*lif* (STRING): LIF name.
+*vserver_name* (STRING): Vserver name.
+*source_ifgroup* (STRING): The ifgroup name of the LIF on the source cluster.
+
+== vsdr.net.LifPlacedOnDifferentVlanTag
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a logical interface (LIF) is placed on a VLAN port with a different VLAN tag than the source during replication. Different VLAN tags may indicate different broadcast domains.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+LIF %s in Vserver %s was placed on a port with a different VLAN tag (source tag: %s). Different VLAN tags may indicate different broadcast domains.
+*Parameters*::
+*lif* (STRING): LIF name.
+*vserver_name* (STRING): Vserver name.
+*source_vlan_tag* (STRING): The VLAN tag of the LIF on the source cluster.
+
 == vsdr.net.NoPortsInBD
 *Severity*::
 ERROR

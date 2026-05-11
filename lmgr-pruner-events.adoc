@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: lmgr-pruner-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: lmgr.pruner events
+---
+
+= lmgr.pruner events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== lmgr.pruner.abort.exovol
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when the pruner process is aborted because the Exovol transfer has commenced for SMAS-NAS or SVM Migrate.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Abort purner as exovol transfer has commenced.
+*Parameters*::
+(None).

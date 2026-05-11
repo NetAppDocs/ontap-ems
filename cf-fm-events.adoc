@@ -165,7 +165,6 @@ This message occurs when giveback succeeds.
 *Syslog Message*::
 Failover monitor: giveback completed
 *Parameters*::
-*token* (STRING): Unique token that identifies a failover instance.
 *partner_node_uuid* (STRING): UUID of the partner node.
 
 == cf.fm.givebackDuration
@@ -188,10 +187,9 @@ This message occurs when the failover monitor determines that a giveback has fai
 *Corrective Action*::
 Resolve the issue based on the reason logged in the message.
 *Syslog Message*::
-Failover monitor: giveback failed '%s'
+Failover monitor: giveback failed. Reason: %s.
 *Parameters*::
 *reason* (STRING): Internal reason code for the failure.
-*token* (STRING): Unique token that identifies a failover instance.
 *partner_node_uuid* (STRING): UUID of the partner node.
 
 == cf.fm.givebackForced
@@ -214,9 +212,8 @@ This message occurs when the failover monitor initiates a giveback.
 *Corrective Action*::
 (None).
 *Syslog Message*::
-Failover monitor: giveback started with token %s. "override-vetoes" set to %s.
+Failover monitor: giveback started. "override-vetoes" set to %s.
 *Parameters*::
-*token* (STRING): Unique token that identifies a failover instance.
 *override_vetoes* (STRING): Flag that indicates whether the system overrides veto checks during a giveback operation. This flag corresponds to the "-override-vetoes" parameter of the "storage failover giveback" command. When the parameter is set to true, some veto checks made by subsystems on the source node might be overridden.
 *require_partner_waiting* (STRING): Flag that indicates whether, during a giveback, the storage is given back regardless of whether the partner node is available to take back the storage. This flag corresponds to the "-require-partner-waiting" parameter of the "storage failover giveback" command. When set to true, the parameter might cause the giveback to proceed, even if the destination node is not ready to receive the aggregate being migrated.
 *partner_node_uuid* (STRING): UUID of the partner node.
@@ -540,6 +537,21 @@ Re-enable NVRAM mirroring
 Failover monitor: nvram mirror disabled
 *Parameters*::
 (None).
+
+== cf.fm.nwayPeerFwTransition
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when there is a change in firmware state (i.e. failover state machine) of the HA peer node.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Firmware state of the HA peer node %s changed from %s to %s, progress counter: %u
+*Parameters*::
+*nodeuuid* (STRING): UUID of the HA peer node.
+*prevstate* (STRING): Previously reported HA peer node's firmware state.
+*newstate* (STRING): New firmware state, as reported by the HA peer node.
+*progresscounter* (LONGINT): New progress counter, as reported by the HA peer node.
 
 == cf.fm.overwriteState
 *Severity*::

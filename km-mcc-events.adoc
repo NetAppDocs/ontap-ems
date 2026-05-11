@@ -44,7 +44,7 @@ ALERT
 *Description*::
 This message occurs in a NetApp MetroCluster configuration, where both peer clusters are configured with Onboard Key Manager (OKM) and an SVM key encryption key is created on the remote peer, but due to various conditions, is not replicated to the local cluster. Creation of a new SVM key encryption key (KEK) on the local cluster is prevented to avoid failure during a reboot or future switchover/switchback event.
 *Corrective Action*::
-Contact Contact NetApp technical support. for assistance.
+Contact NetApp technical support.
 *Syslog Message*::
 This cluster is part of a MetroCluster configuration. An SVM key encryption key created on the remote cluster has not been replicated to the local cluster.
 *Parameters*::

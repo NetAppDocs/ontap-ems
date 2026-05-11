@@ -28,3 +28,18 @@ Access is denied for user '%s' (Vserver %d), from client IP %s accessing resourc
 *vserverId* (INT): ID of the Vserver.
 *ipAddress* (STRING): IP address of the client.
 *resource* (STRING): Resource that the user is trying to access.
+
+== nblade.css.s3.ExpiredKeys
+*Severity*::
+ERROR
+*Description*::
+This message occurs when ONTAP(R) object store server denies access to a user, because the access keys have expired.
+*Corrective Action*::
+Verify that the access key associated with the user is valid with the "vserver object-store-server user show" command. If the access key has expired, regenerate the access key with the "vserver object-store-server user regenerate-keys" command.
+*Syslog Message*::
+Access is denied for user "%s" (Vserver %d), from client IP %s accessing resource "%s", because the client sent an expired access key.
+*Parameters*::
+*userName* (STRING): Name of the user.
+*vserverId* (INT): ID of the SVM (storage virtual machine).
+*ipAddress* (STRING): IP address of the client.
+*resource* (STRING): Resource that the user is trying to access.

@@ -1,0 +1,32 @@
+---
+sidebar: sidebar
+permalink: cshm-snmp-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: cshm.snmp events
+---
+
+= cshm.snmp events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== cshm.snmp.agentFailure
+*Severity*::
+ALERT
+*Description*::
+This message occurs when the Ethernet switch health monitor (CSHM) detects a failure in the switch's SNMP agent. As a result, the CSHM daemon may crash or some information may not be available for the Ethernet switch.
+*Corrective Action*::
+Restarting the snmp-agent service on the switch mitigates the issue.
+*Syslog Message*::
+CSHM detected a failure in the SNMP agent running inside switch ('%s').
+*Parameters*::
+*device* (STRING): Device name.
+*address* (STRING): IP address.
+*snmp_version* (STRING): SNMP version.
+*community_or_username* (STRING): SNMPv2c Community String or SNMPv3 Username.
+*rcf_version* (STRING): Reference config file version.
+*fw_version* (STRING): Firmware version.

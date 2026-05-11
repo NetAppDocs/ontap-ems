@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: dense-wait-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: dense.wait events
+---
+
+= dense.wait events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== dense.wait.for.gbc.timedout
+*Severity*::
+NOTICE
+*Description*::
+This message occurs while mounting a volume, when an in-memory buftree id cache was not able to be refreshed for SIS metafile operation.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Failed to refresh the in-memory buftree id cache while mounting the volume %s during the SIS metafile operation.
+*Parameters*::
+*vol* (STRING): Volume name.
