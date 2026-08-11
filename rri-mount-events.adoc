@@ -15,7 +15,7 @@ summary: rri.mount events
 :imagesdir: ./media/
 
 [.lead]
-rri.mount events are presented when this event is issued to indicate that flexaggr RRI mount failed which typically does not require corrective action.
+rri.mount events are presented when to indicate that flexaggr RRI mount failed, which typically does not require corrective action.
 
 
 == rri.mount.fail

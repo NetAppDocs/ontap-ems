@@ -15,7 +15,7 @@ summary: dense.wait events
 :imagesdir: ./media/
 
 [.lead]
-dense.wait events are presented when while mounting a volume, when an in-memory buftree id cache was not able to be refreshed for SIS metafile operation which typically does not require corrective action.
+dense.wait events are presented when, while mounting a volume, an in-memory buftree id cache was not able to be refreshed for SIS metafile operation, which typically does not require corrective action.
 
 
 == dense.wait.for.gbc.timedout

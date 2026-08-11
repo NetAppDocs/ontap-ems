@@ -15,7 +15,7 @@ summary: lun.serial events
 :imagesdir: ./media/
 
 [.lead]
-lun.serial events are presented when this event occurs when the system clock has been set back in time which typically does not require corrective action.
+lun.serial events are presented when the system clock has been set back in time, which typically does not require corrective action.
 
 
 == lun.serial.timeWentBack

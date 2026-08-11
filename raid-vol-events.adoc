@@ -15,7 +15,7 @@ summary: raid.vol events
 :imagesdir: ./media/
 
 [.lead]
-raid.vol events are presented when this event is issued when a disk is added to a aggregate which typically does not require corrective action.
+raid.vol events are presented when a disk is added to a aggregate, which typically does not require corrective action.
 
 
 == raid.vol.disk.add.done

@@ -15,7 +15,7 @@ summary: fmmb.payload events
 :imagesdir: ./media/
 
 [.lead]
-fmmb.payload events are presented when this event is issued when the outbound FM payload area is found to be corrupted which typically does not require corrective action.
+fmmb.payload events are presented when the outbound FM payload area is found to be corrupted, which typically does not require corrective action.
 
 
 == fmmb.payload.outbound.bad

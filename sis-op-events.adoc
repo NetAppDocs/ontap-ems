@@ -15,7 +15,7 @@ summary: sis.op events
 :imagesdir: ./media/
 
 [.lead]
-sis.op events are presented when this event is issued when a SIS volume operation is aborted due to unexpected conditions which typically does not require corrective action.
+sis.op events are presented when a SIS volume operation is aborted due to unexpected conditions, which typically does not require corrective action.
 
 
 == sis.op.aborted

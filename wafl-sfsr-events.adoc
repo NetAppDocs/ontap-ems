@@ -15,7 +15,7 @@ summary: wafl.sfsr events
 :imagesdir: ./media/
 
 [.lead]
-wafl.sfsr events are presented when this event is issued when the system is forced to abort a file restore which typically does not require corrective action.
+wafl.sfsr events are presented when the system is forced to abort a file restore, which typically does not require corrective action.
 
 
 == wafl.sfsr.abort.ino

@@ -15,7 +15,7 @@ summary: rshd.failure events
 :imagesdir: ./media/
 
 [.lead]
-rshd.failure events are presented when this event is generated after rshd failed to start which may require restarting affected services or nodes.
+rshd.failure events are presented when after rshd failed to start, which may require restarting affected services or nodes.
 
 
 == rshd.failure

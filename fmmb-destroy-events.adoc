@@ -15,7 +15,7 @@ summary: fmmb.destroy events
 :imagesdir: ./media/
 
 [.lead]
-fmmb.destroy events are presented when this event is issued when the high-availability (HA) Mailbox contents are cleared, typically by the 'mailbox destroy' command which typically does not require corrective action.
+fmmb.destroy events are presented when the high-availability (HA) Mailbox contents are cleared, typically by the 'mailbox destroy' command, which typically does not require corrective action.
 
 
 == fmmb.destroy.mbx

@@ -15,7 +15,7 @@ summary: snaplock.state events
 :imagesdir: ./media/
 
 [.lead]
-snaplock.state events are presented when this event is generated if SnapLock is cannot destroy the SnapLock state for a SnapLock volume which typically does not require corrective action.
+snaplock.state events are presented when if SnapLock is cannot destroy the SnapLock state for a SnapLock volume, which typically does not require corrective action.
 
 
 == snaplock.state.dir.destroyFail

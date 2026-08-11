@@ -15,7 +15,7 @@ summary: wafl.incomplete events
 :imagesdir: ./media/
 
 [.lead]
-wafl.incomplete events are presented when this event occurs when the WAFL(R) kernel detects incomplete inode to path information for an inode on disk which may require contacting NetApp support.
+wafl.incomplete events are presented when the WAFL(R) kernel detects incomplete inode to path information for an inode on disk, which may require contacting NetApp support.
 
 
 == wafl.incomplete.i2p

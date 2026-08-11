@@ -15,7 +15,7 @@ summary: wafliron.summary events
 :imagesdir: ./media/
 
 [.lead]
-wafliron.summary events are presented when periodically when wafliron is running and its state is "starting" or "scanning" which typically does not require corrective action.
+wafliron.summary events are presented when wafliron is running and its state is "starting" or "scanning" periodically, which typically does not require corrective action.
 
 
 == waflIron.summary.scanStatus
