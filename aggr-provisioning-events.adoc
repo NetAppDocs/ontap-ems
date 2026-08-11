@@ -14,6 +14,10 @@ summary: aggr.provisioning events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+aggr.provisioning events are presented when is issued when the aggregate provisioning recommendation generated for the cluster is found to be incomplete due to the presence of unassigned disks which is typically fixed by verifying system state and connectivity.
+
+
 == aggr.provisioning.unassigned.detected
 *Severity*::
 NOTICE

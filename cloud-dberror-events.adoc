@@ -14,6 +14,10 @@ summary: cloud.dberror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cloud.dberror events are presented when the cloud database service fails the update request and returns this error which is typically fixed by verifying system state and connectivity.
+
+
 == cloud.DBError
 *Severity*::
 ERROR

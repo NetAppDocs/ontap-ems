@@ -14,6 +14,10 @@ summary: osc.tcp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+osc.tcp events are presented when oNTAP is cannot connect to the IP address that the object store server hostname resolves to which is typically fixed by verifying system state and connectivity.
+
+
 == osc.tcp.connectFailed
 *Severity*::
 ERROR

@@ -14,6 +14,10 @@ summary: diskown.bayctrlr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskown.bayctrlr events are presented when if the controller address is determined when the bay policy override option has been set which typically does not require corrective action.
+
+
 == diskown.bayctrlr
 *Severity*::
 NOTICE

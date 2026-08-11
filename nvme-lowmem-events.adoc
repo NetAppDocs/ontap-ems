@@ -14,6 +14,10 @@ summary: nvme.lowmem events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+nvme.lowmem events are presented when eC is disabled on low memory cloud instance types which typically does not require corrective action.
+
+
 == nvme.lowmem.ec.disabled
 *Severity*::
 NOTICE

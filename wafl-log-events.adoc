@@ -14,6 +14,10 @@ summary: wafl.log events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.log events are presented when wAFL reports suspended messages that have been languishing for more than 30 seconds (represented by the macro MAX_SUSP_TIME_REPORT_THRESHOLD) which typically does not require corrective action.
+
+
 == wafl.log.languish.messages
 *Severity*::
 NOTICE

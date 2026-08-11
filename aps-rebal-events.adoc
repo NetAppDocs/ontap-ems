@@ -14,6 +14,10 @@ summary: aps.rebal events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+aps.rebal events are presented when the performance rebalancing service detects that a node is at risk in an advisory mode which typically does not require corrective action.
+
+
 == aps.rebal.perf.advise
 *Severity*::
 NOTICE

@@ -14,6 +14,10 @@ summary: ha.nway events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ha.nway events are presented when planned takeover, giveback or aggregate relocation (ARL) of a storage pod is completed successfully which typically does not require corrective action.
+
+
 == ha.nway.sfo.event.completion
 *Severity*::
 NOTICE

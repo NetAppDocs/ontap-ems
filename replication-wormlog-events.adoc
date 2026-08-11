@@ -14,6 +14,10 @@ summary: replication.wormlog events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+replication.wormlog events are presented when this event is issued when failed to append to the replication worm log file which is typically fixed by verifying system state and connectivity.
+
+
 == replication.wormlog.appendFail
 *Severity*::
 ERROR

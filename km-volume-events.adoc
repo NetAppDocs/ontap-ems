@@ -14,6 +14,10 @@ summary: km.volume events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+km.volume events are presented when during the recovery of the key manager when a volume is placed online, but fails to mount which is typically fixed by following the documented corrective steps.
+
+
 == km.volume.mount.fail
 *Severity*::
 ALERT

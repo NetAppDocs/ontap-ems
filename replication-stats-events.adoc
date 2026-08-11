@@ -14,6 +14,10 @@ summary: replication.stats events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+replication.stats events are presented when during system boot when SnapMirror(R) or SnapVault(R) cannot load the statistics (for example which typically does not require corrective action.
+
+
 == replication.stats.notLoaded
 *Severity*::
 INFORMATIONAL

@@ -14,6 +14,10 @@ summary: de.node events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+de.node events are presented when the AIDE cluster loses communication with one of its Data Compute Nodes (DCN) which is typically fixed by verifying system state and connectivity.
+
+
 == de.node.unreachable
 *Severity*::
 ERROR

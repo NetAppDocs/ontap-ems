@@ -14,6 +14,10 @@ summary: de.callhome events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+de.callhome events are presented when you invoke an AutoSupport(R) message on the AI Data Engine, and the "type" of that message is set to "test" which typically does not require corrective action.
+
+
 == de.callhome.invoke
 *Severity*::
 NOTICE

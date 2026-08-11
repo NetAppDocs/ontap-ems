@@ -14,6 +14,10 @@ summary: netif.hv events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+netif.hv events are presented when the heartbeat between hypervisor and the guest virtual machine (VM) fails which may require a reboot.
+
+
 == netif.hv.heartbeatFail
 *Severity*::
 ERROR

@@ -14,6 +14,10 @@ summary: wafl.asserts events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.asserts events are presented when on development kernels when some of the asserts are disabled which typically does not require corrective action.
+
+
 == wafl.asserts.disabled
 *Severity*::
 INFORMATIONAL

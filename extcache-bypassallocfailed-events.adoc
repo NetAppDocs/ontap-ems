@@ -14,6 +14,10 @@ summary: extcache.bypassallocfailed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+extcache.bypassallocfailed events are presented when external Cache cannot be enabled due to a memory allocation error which typically does not require corrective action.
+
+
 == extCache.BypassAllocFailed
 *Severity*::
 ERROR

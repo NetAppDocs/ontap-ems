@@ -14,6 +14,10 @@ summary: fg.svmdr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fg.svmdr events are presented when during FlexGroup volume replication in an SVM DR setup when the available QoS workloads are insufficient on the secondary cluster which may require contacting NetApp support.
+
+
 == fg.svmdr.qos.wklds.insuff
 *Severity*::
 NOTICE

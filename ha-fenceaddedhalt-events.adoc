@@ -14,6 +14,10 @@ summary: ha.fenceaddedhalt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ha.fenceaddedhalt events are presented when the node halts itself after it finds that another node has fenced this node which typically does not require corrective action.
+
+
 == ha.fenceAddedHalt
 *Severity*::
 NOTICE

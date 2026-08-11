@@ -14,6 +14,10 @@ summary: raid.partitioned events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.partitioned events are presented when a partitioned disk has failed upon assimilation by RAID which may require contacting NetApp support.
+
+
 == raid.partitioned.disk.failed
 *Severity*::
 ERROR

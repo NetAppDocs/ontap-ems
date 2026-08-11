@@ -14,6 +14,10 @@ summary: san.lifmoveafterswitchback events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+san.lifmoveafterswitchback events are presented when during MetroCluster(tm) switchback, when a LIF cannot be placed on one of the disaster recovery (DR) nodes because it is offline which is typically fixed by updating configuration.
+
+
 == san.lifmoveafterswitchback
 *Severity*::
 ERROR

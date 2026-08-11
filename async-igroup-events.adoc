@@ -14,6 +14,10 @@ summary: async.igroup events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+async.igroup events are presented when an error occurs asynchronously replicating an initiator group which is typically fixed by verifying system state and connectivity.
+
+
 == async.igroup.replication.error
 *Severity*::
 ALERT

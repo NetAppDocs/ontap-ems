@@ -14,6 +14,10 @@ summary: phdb.removedmailboxdisk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+phdb.removedmailboxdisk events are presented when cloud Volume ONTAP (CVO) removes a cloud mailbox disk which typically does not require corrective action.
+
+
 == phdb.removedMailboxDisk
 *Severity*::
 NOTICE

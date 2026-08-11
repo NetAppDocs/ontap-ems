@@ -14,6 +14,10 @@ summary: cfvm.cutover events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cfvm.cutover events are presented when a copy free volume move operation languishes beyond the volume move cutover outage window which may require contacting NetApp support.
+
+
 == cfvm.cutover.languish
 *Severity*::
 ALERT

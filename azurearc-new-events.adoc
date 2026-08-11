@@ -14,6 +14,10 @@ summary: azurearc.new events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+azurearc.new events are presented when a new Microsoft Azure Connected Machine Agent has been onboarded to Azure Arc which typically does not require corrective action.
+
+
 == azurearc.new.agent.created
 *Severity*::
 NOTICE

@@ -14,6 +14,10 @@ summary: netif.ena events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+netif.ena events are presented when the network throughput exceeds the bandwidth allowance for the node which typically does not require corrective action.
+
+
 == netif.ena.allowance.exceeded
 *Severity*::
 NOTICE

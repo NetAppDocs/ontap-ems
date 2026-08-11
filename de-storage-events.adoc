@@ -14,6 +14,10 @@ summary: de.storage events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+de.storage events are presented when oNTAP volume used by AI Data Engine (AIDE) is close to full capacity which may require contacting NetApp support.
+
+
 == de.storage.vol.full
 *Severity*::
 ERROR

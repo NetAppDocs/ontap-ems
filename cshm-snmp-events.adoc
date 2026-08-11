@@ -14,6 +14,10 @@ summary: cshm.snmp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+cshm.snmp events are presented when the Ethernet switch health monitor (CSHM) detects a failure in the switch's SNMP agent which is typically fixed by following the documented corrective steps.
+
+
 == cshm.snmp.agentFailure
 *Severity*::
 ALERT

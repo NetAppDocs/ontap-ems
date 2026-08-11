@@ -14,6 +14,10 @@ summary: lmgr.pruner events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lmgr.pruner events are presented when the pruner process is aborted because the Exovol transfer has commenced for SMAS-NAS or SVM Migrate which typically does not require corrective action.
+
+
 == lmgr.pruner.abort.exovol
 *Severity*::
 INFORMATIONAL

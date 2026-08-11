@@ -14,6 +14,10 @@ summary: extcache.bypassstate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+extcache.bypassstate events are presented when external Cache Bypass is enabled/disabled which typically does not require corrective action.
+
+
 == extCache.BypassState
 *Severity*::
 INFORMATIONAL

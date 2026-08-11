@@ -14,6 +14,10 @@ summary: sk.panic events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sk.panic events are presented when this event is issued when a panic occurs which typically does not require corrective action.
+
+
 == sk.panic
 *Severity*::
 ALERT

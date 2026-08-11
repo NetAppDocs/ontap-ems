@@ -14,6 +14,10 @@ summary: wafl.fas events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.fas events are presented when a FAS system has a high number of FlexVol volumes receiving concurrent modify operations during a monitoring interval which typically does not require corrective action.
+
+
 == wafl.fas.high.concurrency
 *Severity*::
 NOTICE

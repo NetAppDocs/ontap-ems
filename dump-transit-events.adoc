@@ -14,6 +14,10 @@ summary: dump.transit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dump.transit events are presented when this event is generated when the failover is still in transit while waiting for the dump to be initialized which typically does not require corrective action.
+
+
 == dump.transit.fail
 *Severity*::
 ERROR

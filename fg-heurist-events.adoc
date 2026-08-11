@@ -14,6 +14,10 @@ summary: fg.heurist events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fg.heurist events are presented when a FlexGroup volume enables or disables squelch optimization which typically does not require corrective action.
+
+
 == fg.heurist.squelch.changed
 *Severity*::
 NOTICE

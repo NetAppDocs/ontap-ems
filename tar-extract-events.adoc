@@ -14,6 +14,10 @@ summary: tar.extract events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+tar.extract events are presented when during the process of extracting a TAR archive, when an error while processing a particular entry causes the extraction of the archive to fail which typically does not require corrective action.
+
+
 == tar.extract.failure
 *Severity*::
 ERROR

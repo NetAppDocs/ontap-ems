@@ -14,6 +14,10 @@ summary: ha.fencecheckbad events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ha.fencecheckbad events are presented when the check for local fence returns a bad status, in the failover monitor during boot which typically does not require corrective action.
+
+
 == ha.fenceCheckBad
 *Severity*::
 NOTICE

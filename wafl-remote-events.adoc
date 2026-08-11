@@ -14,6 +14,10 @@ summary: wafl.remote events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.remote events are presented when wAFL cannot get enough storage space for remote caching to function properly which is typically fixed by updating configuration.
+
+
 == wafl.remote.cannot.refill.fsps
 *Severity*::
 ERROR

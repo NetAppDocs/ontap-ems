@@ -14,6 +14,10 @@ summary: scsiblade.ha events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+scsiblade.ha events are presented when cannot retrieve HA Partner DBlade ID which is typically fixed by following the documented corrective steps.
+
+
 == scsiblade.ha.partner.dblade.id.retrieve.error
 *Severity*::
 ERROR

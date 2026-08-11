@@ -14,6 +14,10 @@ summary: diskown.replayingownership events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+diskown.replayingownership events are presented when this event occurs during a boot or takeover when a disk ownership request is replayed from NVRAM which typically does not require corrective action.
+
+
 == diskown.replayingOwnership
 *Severity*::
 INFORMATIONAL

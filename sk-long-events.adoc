@@ -14,6 +14,10 @@ summary: sk.long events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+sk.long events are presented when an SK process detects that a message has been queued longer than expected, as defined by an internal threshold which typically does not require corrective action.
+
+
 == sk.long.queued.msg
 *Severity*::
 NOTICE

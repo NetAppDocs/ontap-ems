@@ -14,6 +14,10 @@ summary: mgmtgwd.bootmedia events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+mgmtgwd.bootmedia events are presented when the system detects that the boot media is dangerously low on space which may require contacting NetApp support.
+
+
 == mgmtgwd.bootmedia.low.space
 *Severity*::
 EMERGENCY

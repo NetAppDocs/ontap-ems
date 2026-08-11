@@ -14,6 +14,10 @@ summary: callhome.fg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.fg events are presented when the system attempts to add or update a member in a FlexGroup using an internal FlexGroup index that is already in use or is invalid which may require contacting NetApp support.
+
+
 == callhome.fg.memb.bad.fgindex
 *Severity*::
 EMERGENCY

@@ -14,6 +14,10 @@ summary: flexcache.svmdr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+flexcache.svmdr events are presented when flexCache volumes residing on a cluster are not notified about origin vserver going through SVMDR FO/FB events because ECV of FlexCache cluster is less than 9.18.1 which is typically fixed by updating configuration.
+
+
 == flexcache.svmdr.ecv.warn
 *Severity*::
 ERROR

@@ -14,6 +14,10 @@ summary: fmmb.major events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+fmmb.major events are presented when this event is issued when the HA Mailbox major reset data should exist and it doesn't which typically does not require corrective action.
+
+
 == fmmb.major.reset.invalid
 *Severity*::
 ALERT

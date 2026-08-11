@@ -14,6 +14,10 @@ summary: wafl.fa events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.fa events are presented when a FlexAggregate is waiting for other FlexAggregates to reach the same iron state which is typically fixed by verifying system state and connectivity.
+
+
 == wafl.fa.iron.sync.waiting
 *Severity*::
 NOTICE

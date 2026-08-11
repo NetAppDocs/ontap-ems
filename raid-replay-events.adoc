@@ -14,6 +14,10 @@ summary: raid.replay events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+raid.replay events are presented when this event is issued when an aggregate becomes available and system successfully replayed the preserved NVRAM entries associated with that aggregate which typically does not require corrective action.
+
+
 == raid.replay.nvfile.done
 *Severity*::
 INFORMATIONAL

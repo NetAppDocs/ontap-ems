@@ -14,6 +14,10 @@ summary: vnvram.jswap events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vnvram.jswap events are presented when ever a journal swap event takes place which typically does not require corrective action.
+
+
 == vnvram.jswap
 *Severity*::
 NOTICE

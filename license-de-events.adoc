@@ -14,6 +14,10 @@ summary: license.de events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+license.de events are presented when the licensing information in the ONTAP cluster has successfully propagated to the AI Data Engine cluster after a previous failure which typically does not require corrective action.
+
+
 == license.de.sync.success
 *Severity*::
 NOTICE

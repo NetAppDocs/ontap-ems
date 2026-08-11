@@ -14,6 +14,10 @@ summary: vsa.sriov events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+vsa.sriov events are presented when oNTAP(R) software running in the guest virtual machine (VM) detects an SR-IOV NIC detach event which typically does not require corrective action.
+
+
 == vsa.sriov.nic.detach
 *Severity*::
 NOTICE

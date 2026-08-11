@@ -14,6 +14,10 @@ summary: set.cluster events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+set.cluster events are presented when during an ONTAP upgrade to 9.17.1 or a later release, when the existing auto-enable-analytics configuration parameter is changed from "false" to "-" (not set) which typically does not require corrective action.
+
+
 == set.cluster.fsa.default
 *Severity*::
 NOTICE

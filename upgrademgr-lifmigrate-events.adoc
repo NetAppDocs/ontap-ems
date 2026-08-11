@@ -14,6 +14,10 @@ summary: upgrademgr.lifmigrate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+upgrademgr.lifmigrate events are presented when an ONTAP automated nondisruptive upgrade (ANDU) of ONTAP finishes the data LIF migration or failover stage which typically does not require corrective action.
+
+
 == upgrademgr.LIFmigrate.end
 *Severity*::
 NOTICE

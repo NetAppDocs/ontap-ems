@@ -14,6 +14,10 @@ summary: callhome.ha events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+callhome.ha events are presented when the HA network security is enabled which typically does not require corrective action.
+
+
 == callhome.ha.net.sec.enabled
 *Severity*::
 NOTICE

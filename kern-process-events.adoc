@@ -14,6 +14,10 @@ summary: kern.process events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+kern.process events are presented when a process creation has the system close to the maximum limit for the number of processes which typically does not require corrective action.
+
+
 == kern.process.alloc.limit
 *Severity*::
 NOTICE

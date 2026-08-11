@@ -14,6 +14,10 @@ summary: security.cluster events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+security.cluster events are presented when a digital certificate associated with a node for cluster-network security is already expired which is typically fixed by updating configuration.
+
+
 == security.cluster.network.cert.expired
 *Severity*::
 ERROR

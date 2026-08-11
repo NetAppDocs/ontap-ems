@@ -14,6 +14,10 @@ summary: wafl.flexaggr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+wafl.flexaggr events are presented when the system found multiple local root flexaggregates from volume location database (VLDB) during the mount process which may require contacting NetApp support.
+
+
 == wafl.flexaggr.multi.root
 *Severity*::
 ERROR

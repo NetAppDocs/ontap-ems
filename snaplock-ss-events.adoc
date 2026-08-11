@@ -14,6 +14,10 @@ summary: snaplock.ss events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+snaplock.ss events are presented when this event is generated if an attempt is made to lock a snapshot on a SnapLock volume that has previously failed to find or load its SnapLock snapshot state which is typically fixed by following the documented corrective steps.
+
+
 == snaplock.ss.lockBadVolume
 *Severity*::
 ALERT

@@ -14,6 +14,10 @@ summary: ha.net events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ha.net events are presented when hA network security is disabled which typically does not require corrective action.
+
+
 == ha.net.sec.disabled
 *Severity*::
 NOTICE
