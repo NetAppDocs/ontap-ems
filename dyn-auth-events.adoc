@@ -15,7 +15,7 @@ summary: dyn.auth events
 :imagesdir: ./media/
 
 [.lead]
-dyn.auth events are presented when the custom trust score component of the Dynamic Authorization feature encounters an error which is typically fixed by verifying system state and connectivity.
+dyn.auth events occur when the custom trust score component of the Dynamic Authorization feature encounters an error.
 
 
 == dyn.auth.custom.comp.error

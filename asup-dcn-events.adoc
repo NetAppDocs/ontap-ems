@@ -15,7 +15,7 @@ summary: asup.dcn events
 :imagesdir: ./media/
 
 [.lead]
-asup.dcn events are presented when the AutoSupport configurations in the ONTAP cluster fail to propagate to the data compute nodes and the AI Data Engine cluster which typically does not require corrective action.
+asup.dcn events occur when the AutoSupport configurations in the ONTAP cluster fail to propagate to the data compute nodes and the AI Data Engine cluster.
 
 
 == asup.dcn.sync.failed

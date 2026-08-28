@@ -15,7 +15,7 @@ summary: csm.connscalingdone events
 :imagesdir: ./media/
 
 [.lead]
-csm.connscalingdone events are presented when a Cluster Session Manager (CSM) session completes dynamic connection scaling to increase the connection count which typically does not require corrective action.
+csm.connscalingdone events occur when a Cluster Session Manager (CSM) session completes dynamic connection scaling to increase the connection count.
 
 
 == csm.connScalingDone

@@ -15,7 +15,7 @@ summary: wafl.memory events
 :imagesdir: ./media/
 
 [.lead]
-wafl.memory events are presented when periodically to inform the administrator about the amount of WAFL memory that is currently available which typically does not require corrective action.
+wafl.memory events occur periodically to inform the administrator about the amount of WAFL memory that is currently available.
 
 
 == wafl.memory.status

@@ -15,7 +15,7 @@ summary: ndo.cr events
 :imagesdir: ./media/
 
 [.lead]
-ndo.cr events are presented when a controller replacement operation is canceled by the operator which typically does not require corrective action.
+ndo.cr events occur when a controller replacement operation is canceled by the operator.
 
 
 == ndo.cr.canceled

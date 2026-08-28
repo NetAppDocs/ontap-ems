@@ -15,7 +15,7 @@ summary: cf.mccip events
 :imagesdir: ./media/
 
 [.lead]
-cf.mccip events are presented when automatic switchover in a MetroCluster(tm) IP configuration is disabled because the mediator mailbox disk is not healthy which is typically fixed by verifying system state and connectivity.
+cf.mccip events occur when automatic switchover in a MetroCluster(tm) IP configuration is disabled because the mediator mailbox disk is not healthy.
 
 
 == cf.mccip.med.auso.stDisabled

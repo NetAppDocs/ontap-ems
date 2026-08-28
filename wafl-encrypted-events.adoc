@@ -15,7 +15,7 @@ summary: wafl.encrypted events
 :imagesdir: ./media/
 
 [.lead]
-wafl.encrypted events are presented when a NetApp(R) Aggregate Encryption (NAE) aggregate is created which typically does not require corrective action.
+wafl.encrypted events occur when a NetApp(R) Aggregate Encryption (NAE) aggregate is created.
 
 
 == wafl.encrypted.aggr.created

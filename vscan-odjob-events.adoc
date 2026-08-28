@@ -15,7 +15,7 @@ summary: vscan.odjob events
 :imagesdir: ./media/
 
 [.lead]
-vscan.odjob events are presented when the system fails to delete queued Vscan On-Demand job which is typically fixed by following the documented corrective steps.
+vscan.odjob events occur when the system fails to delete queued Vscan On-Demand job.
 
 
 == vscan.odJob.delete.failed

@@ -15,7 +15,7 @@ summary: perf.ccma events
 :imagesdir: ./media/
 
 [.lead]
-perf.ccma events are presented when the performance archiver is not enabled, which makes it difficult for technical support to troubleshoot performance issues on the system which may require a reboot.
+perf.ccma events occur when the performance archiver is not enabled, which makes it difficult for technical support to troubleshoot performance issues on the system.
 
 
 == perf.ccma.off

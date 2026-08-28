@@ -15,7 +15,7 @@ summary: wafl.inode events
 :imagesdir: ./media/
 
 [.lead]
-wafl.inode events are presented when the in-memory inode cache is under high load and fully utilized which typically does not require corrective action.
+wafl.inode events occur when the in-memory inode cache is under high load and fully utilized.
 
 
 == wafl.inode.cache.highLoad

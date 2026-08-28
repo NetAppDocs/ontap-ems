@@ -15,7 +15,7 @@ summary: callhome.aggr events
 :imagesdir: ./media/
 
 [.lead]
-callhome.aggr events are presented when after WAFL(R) Iron (wafliron) detects and repairs corruption in an aggregate metafile which is typically fixed by verifying system state and connectivity.
+callhome.aggr events occur after WAFL(R) Iron (wafliron) detects and repairs corruption in an aggregate metafile.
 
 
 == callhome.aggr.meta.repair

@@ -15,7 +15,7 @@ summary: mgmt.cr events
 :imagesdir: ./media/
 
 [.lead]
-mgmt.cr events are presented when a constituent volume is added to the Infinite Volume which typically does not require corrective action.
+mgmt.cr events occur when a constituent volume is added to the Infinite Volume.
 
 
 == mgmt.cr.constituent.added

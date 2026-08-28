@@ -15,7 +15,7 @@ summary: migrate.root events
 :imagesdir: ./media/
 
 [.lead]
-migrate.root events are presented when the migration of a root aggregate has completed successfully which typically does not require corrective action.
+migrate.root events occur when the migration of a root aggregate has completed successfully.
 
 
 == migrate.root.completed

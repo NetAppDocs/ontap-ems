@@ -15,7 +15,7 @@ summary: gpo.sec events
 :imagesdir: ./media/
 
 [.lead]
-gpo.sec events are presented when applying group policy object (GPO) event audit policy settings succeeds which typically does not require corrective action.
+gpo.sec events occur when applying group policy object (GPO) event audit policy settings succeeds.
 
 
 == gpo.sec.EvtAdt.applied

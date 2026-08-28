@@ -15,7 +15,7 @@ summary: nblade.fpols3 events
 :imagesdir: ./media/
 
 [.lead]
-nblade.fpols3 events are presented when fPolicy S3 notifications were dropped due to error which is typically fixed by following the documented corrective steps.
+nblade.fpols3 events occur when FPolicy S3 notifications were dropped due to error.
 
 
 == Nblade.fpolS3.notif.dropped

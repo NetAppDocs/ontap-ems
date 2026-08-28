@@ -15,7 +15,7 @@ summary: de.pod events
 :imagesdir: ./media/
 
 [.lead]
-de.pod events are presented when a Kubernetes pod in AI Data Engine (AIDE) enters CrashLoopBackOff state which may require contacting NetApp support.
+de.pod events occur when a Kubernetes pod in AI Data Engine (AIDE) enters CrashLoopBackOff state.
 
 
 == de.pod.crashloopbackoff

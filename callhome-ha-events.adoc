@@ -15,7 +15,7 @@ summary: callhome.ha events
 :imagesdir: ./media/
 
 [.lead]
-callhome.ha events are presented when the HA network security is enabled which typically does not require corrective action.
+callhome.ha events occur when the HA network security is enabled.
 
 
 == callhome.ha.net.sec.enabled

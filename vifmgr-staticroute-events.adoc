@@ -15,7 +15,7 @@ summary: vifmgr.staticroute events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.staticroute events are presented when a static route is added to a Vserver which typically does not require corrective action.
+vifmgr.staticroute events occur when a static route is added to a Vserver.
 
 
 == vifmgr.staticRoute.add

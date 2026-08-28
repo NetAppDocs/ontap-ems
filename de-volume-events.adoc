@@ -15,7 +15,7 @@ summary: de.volume events
 :imagesdir: ./media/
 
 [.lead]
-de.volume events are presented when a volume is inaccessible within the AI Data Engine (AIDE) cluster, hindering access to entities (files) and preventing retrieval-augmented generation (RAG) queries on the data contained within these entities which is typically fixed by verifying system state and connectivity.
+de.volume events occur when a volume is inaccessible within the AI Data Engine (AIDE) cluster, hindering access to entities (files) and preventing retrieval-augmented generation (RAG) queries on the data contained within these entities.
 
 
 == de.volume.inaccessible

@@ -15,7 +15,7 @@ summary: scsiblade.san events
 :imagesdir: ./media/
 
 [.lead]
-scsiblade.san events are presented when the SAN active-active state has changed which typically does not require corrective action.
+scsiblade.san events occur when the SAN active-active state has changed.
 
 
 == scsiblade.san.config.active

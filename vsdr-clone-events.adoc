@@ -15,7 +15,7 @@ summary: vsdr.clone events
 :imagesdir: ./media/
 
 [.lead]
-vsdr.clone events are presented when a clone create job fails prematurely which is typically fixed by verifying system state and connectivity.
+vsdr.clone events occur when a clone create job fails prematurely.
 
 
 == vsdr.clone.cleanup.fail

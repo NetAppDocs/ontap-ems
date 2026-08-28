@@ -15,7 +15,7 @@ summary: vifmgr.dns events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.dns events are presented when lIF changes cause the ONTAP DNS server to be reconfigured which typically does not require corrective action.
+vifmgr.dns events occur when LIF changes cause the ONTAP DNS server to be reconfigured.
 
 
 == vifmgr.dns.reconfigured

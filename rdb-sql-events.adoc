@@ -15,7 +15,7 @@ summary: rdb.sql events
 :imagesdir: ./media/
 
 [.lead]
-rdb.sql events are presented when the cluster management Data Replication Module could not upgrade its database from RDB to SQL which may require contacting NetApp support.
+rdb.sql events occur when the cluster management Data Replication Module could not upgrade its database from RDB to SQL.
 
 
 == rdb.sql.upgrade.failed

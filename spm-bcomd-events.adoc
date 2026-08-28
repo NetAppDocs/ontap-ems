@@ -15,7 +15,7 @@ summary: spm.bcomd events
 :imagesdir: ./media/
 
 [.lead]
-spm.bcomd events are presented when the Blocks Configuration and Operations Manager Daemon (BCOMd) aborts which may require contacting NetApp support.
+spm.bcomd events occur when the Blocks Configuration and Operations Manager Daemon (BCOMd) aborts.
 
 
 == spm.bcomd.process.exit

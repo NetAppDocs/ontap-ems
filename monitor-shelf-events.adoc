@@ -15,7 +15,7 @@ summary: monitor.shelf events
 :imagesdir: ./media/
 
 [.lead]
-monitor.shelf events are presented when the monitor detects that a disk shelf access error has occurred which is typically fixed by verifying system state and connectivity.
+monitor.shelf events occur when the monitor detects that a disk shelf access error has occurred.
 
 
 == monitor.shelf.accessError

@@ -15,7 +15,7 @@ summary: ha.net events
 :imagesdir: ./media/
 
 [.lead]
-ha.net events are presented when hA network security is disabled which typically does not require corrective action.
+ha.net events occur when HA network security is disabled.
 
 
 == ha.net.sec.disabled

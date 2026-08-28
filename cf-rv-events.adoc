@@ -15,7 +15,7 @@ summary: cf.rv events
 :imagesdir: ./media/
 
 [.lead]
-cf.rv events are presented when an HA connection agent connects on an HA interconnect device which typically does not require corrective action.
+cf.rv events occur when an HA connection agent connects on an HA interconnect device.
 
 
 == cf.rv.connected

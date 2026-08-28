@@ -15,7 +15,7 @@ summary: time.stamp events
 :imagesdir: ./media/
 
 [.lead]
-time.stamp events are presented when base timestamp event occurred which typically does not require corrective action.
+time.stamp events occur when base timestamp event occurred.
 
 
 == time.stamp.micro.base

@@ -15,7 +15,7 @@ summary: mgmtgwd.vol events
 :imagesdir: ./media/
 
 [.lead]
-mgmtgwd.vol events are presented when one of the volume upgrade tasks fails which is typically fixed by following the documented corrective steps.
+mgmtgwd.vol events occur when one of the volume upgrade tasks fails.
 
 
 == mgmtgwd.vol.upgrade.failed

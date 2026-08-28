@@ -15,7 +15,7 @@ summary: flexcache.svmdr events
 :imagesdir: ./media/
 
 [.lead]
-flexcache.svmdr events are presented when flexCache volumes residing on a cluster are not notified about origin vserver going through SVMDR FO/FB events because ECV of FlexCache cluster is less than 9.18.1 which is typically fixed by updating configuration.
+flexcache.svmdr events occur when FlexCache volumes residing on a cluster are not notified about origin vserver going through SVMDR FO/FB events because ECV of FlexCache cluster is less than 9.18.1.
 
 
 == flexcache.svmdr.ecv.warn

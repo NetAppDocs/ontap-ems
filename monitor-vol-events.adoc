@@ -15,7 +15,7 @@ summary: monitor.vol events
 :imagesdir: ./media/
 
 [.lead]
-monitor.vol events are presented when one or more file systems are full, typically indicating at least 98% full which is typically fixed by updating configuration.
+monitor.vol events occur when one or more file systems are full, typically indicating at least 98% full.
 
 
 == monitor.vol.full.inc.sav

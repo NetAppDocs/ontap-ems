@@ -15,7 +15,7 @@ summary: mcc.sb events
 :imagesdir: ./media/
 
 [.lead]
-mcc.sb events are presented when dump/restore is aborted during a MetroCluster switchback operation which typically does not require corrective action.
+mcc.sb events occur when dump/restore is aborted during a MetroCluster switchback operation.
 
 
 == mcc.sb.abort.dump

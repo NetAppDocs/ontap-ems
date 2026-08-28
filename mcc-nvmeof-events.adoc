@@ -15,7 +15,7 @@ summary: mcc.nvmeof events
 :imagesdir: ./media/
 
 [.lead]
-mcc.nvmeof events are presented when the mode of an NVMe-oF port is changed which typically does not require corrective action.
+mcc.nvmeof events occur when the mode of an NVMe-oF port is changed.
 
 
 == mcc.nvmeof.port.modify

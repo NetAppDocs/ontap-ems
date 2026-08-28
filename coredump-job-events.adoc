@@ -15,7 +15,7 @@ summary: coredump.job events
 :imagesdir: ./media/
 
 [.lead]
-coredump.job events are presented when the system cannot automatically save a core which is typically fixed by following the documented corrective steps.
+coredump.job events occur when the system cannot automatically save a core.
 
 
 == coredump.job.notstarted

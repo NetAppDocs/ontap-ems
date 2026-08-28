@@ -15,7 +15,7 @@ summary: snaplock.sys events
 :imagesdir: ./media/
 
 [.lead]
-snaplock.sys events are presented when the system's compliance clock time and date is set which typically does not require corrective action.
+snaplock.sys events occur when the system's compliance clock time and date is set.
 
 
 == snaplock.sys.compclock.set

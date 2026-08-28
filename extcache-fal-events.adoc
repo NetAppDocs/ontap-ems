@@ -15,7 +15,7 @@ summary: extcache.fal events
 :imagesdir: ./media/
 
 [.lead]
-extcache.fal events are presented when the external cache is informed that the Flash Adaptation Layer (FAL) has been taken offline which typically does not require corrective action.
+extcache.fal events occur when the external cache is informed that the Flash Adaptation Layer (FAL) has been taken offline.
 
 
 == extCache.fal.offline

@@ -15,7 +15,7 @@ summary: asyncdelete.message events
 :imagesdir: ./media/
 
 [.lead]
-asyncdelete.message events are presented when an async delete job fails which is typically fixed by following the documented corrective steps.
+asyncdelete.message events occur when an async delete job fails.
 
 
 == asyncDelete.message.fail

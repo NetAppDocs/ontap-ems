@@ -15,7 +15,7 @@ summary: vifmgr.bgp events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.bgp events are presented when logical Interface Manager (VifMgr) connects to BGP daemon which typically does not require corrective action.
+vifmgr.bgp events occur when Logical Interface Manager (VifMgr) connects to BGP daemon.
 
 
 == vifmgr.bgp.connected

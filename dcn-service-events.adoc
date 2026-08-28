@@ -15,7 +15,7 @@ summary: dcn.service events
 :imagesdir: ./media/
 
 [.lead]
-dcn.service events are presented when a service has failed on the Data Compute Node (DCN) which may require restarting affected services or nodes.
+dcn.service events occur when a service has failed on the Data Compute Node (DCN).
 
 
 == dcn.service.failure

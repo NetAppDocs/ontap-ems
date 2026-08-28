@@ -15,7 +15,7 @@ summary: azurearc.himds events
 :imagesdir: ./media/
 
 [.lead]
-azurearc.himds events are presented when the Hybrid Instance Metadata service (HIMDS) failed to start up at boot time which may require a reboot.
+azurearc.himds events occur when the Hybrid Instance Metadata service (HIMDS) failed to start up at boot time.
 
 
 == azurearc.himds.startup.failed

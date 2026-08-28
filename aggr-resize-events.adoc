@@ -15,7 +15,7 @@ summary: aggr.resize events
 :imagesdir: ./media/
 
 [.lead]
-aggr.resize events are presented when a request to resize an aggregate is sent to the REST server as part of the storage thin provisioning feature in Quark which typically does not require corrective action.
+aggr.resize events occur when a request to resize an aggregate is sent to the REST server as part of the storage thin provisioning feature in Quark.
 
 
 == aggr.resize.request.sent

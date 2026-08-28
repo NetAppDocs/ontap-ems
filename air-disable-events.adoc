@@ -15,7 +15,7 @@ summary: air.disable events
 :imagesdir: ./media/
 
 [.lead]
-air.disable events are presented when any inconsistency is found with the async delete trashbin directory of a volume which is typically fixed by following the documented corrective steps.
+air.disable events occur when any inconsistency is found with the async delete trashbin directory of a volume.
 
 
 == air.disable.async.delete.cli

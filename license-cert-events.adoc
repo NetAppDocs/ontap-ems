@@ -15,7 +15,7 @@ summary: license.cert events
 :imagesdir: ./media/
 
 [.lead]
-license.cert events are presented when the license validation certificate is expired which is typically fixed by following the documented corrective steps.
+license.cert events occur when the license validation certificate is expired.
 
 
 == license.cert.expired

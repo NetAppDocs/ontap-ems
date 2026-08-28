@@ -15,7 +15,7 @@ summary: tsse.scan events
 :imagesdir: ./media/
 
 [.lead]
-tsse.scan events are presented when inactive data compression scan related information failed to be updated on the catalog file which typically does not require corrective action.
+tsse.scan events occur when inactive data compression scan related information failed to be updated on the catalog file.
 
 
 == tsse.scan.catalog.failed

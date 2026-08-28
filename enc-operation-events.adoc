@@ -15,7 +15,7 @@ summary: enc.operation events
 :imagesdir: ./media/
 
 [.lead]
-enc.operation events are presented when rekey or conversion to encryption operation is completed in a flexible volume which typically does not require corrective action.
+enc.operation events occur when rekey or conversion to encryption operation is completed in a flexible volume.
 
 
 == enc.operation.completed

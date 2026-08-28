@@ -15,7 +15,7 @@ summary: bucket.soft events
 :imagesdir: ./media/
 
 [.lead]
-bucket.soft events are presented when a bucket exceeds the soft quota limit (block) which typically does not require corrective action.
+bucket.soft events occur when a bucket exceeds the soft quota limit (block).
 
 
 == bucket.soft.limit.exceeded

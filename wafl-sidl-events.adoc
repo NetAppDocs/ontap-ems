@@ -15,7 +15,7 @@ summary: wafl.sidl events
 :imagesdir: ./media/
 
 [.lead]
-wafl.sidl events are presented when a volume or aggregate with single instance data logging enabled encounters a problem in a metafile required for the functioning of the single instance data logging feature which typically does not require corrective action.
+wafl.sidl events occur when a volume or aggregate with single instance data logging enabled encounters a problem in a metafile required for the functioning of the single instance data logging feature.
 
 
 == wafl.sidl.blkincons.recovery

@@ -15,7 +15,7 @@ summary: lmgr.gb events
 :imagesdir: ./media/
 
 [.lead]
-lmgr.gb events are presented when giveback veto is overridden which typically does not require corrective action.
+lmgr.gb events occur when giveback veto is overridden.
 
 
 == lmgr.gb.CA.locks.lost

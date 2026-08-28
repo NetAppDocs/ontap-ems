@@ -15,7 +15,7 @@ summary: nblade.css events
 :imagesdir: ./media/
 
 [.lead]
-nblade.css events are presented when oNTAP(R) object-store-server denies access to a user which is typically fixed by verifying system state and connectivity.
+nblade.css events occur when ONTAP(R) object-store-server denies access to a user.
 
 
 == nblade.css.s3.AccessDenied

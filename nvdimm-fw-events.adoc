@@ -15,7 +15,7 @@ summary: nvdimm.fw events
 :imagesdir: ./media/
 
 [.lead]
-nvdimm.fw events are presented when nVDIMM controller firmware failed to upgrade which may require a reboot.
+nvdimm.fw events occur when NVDIMM controller firmware failed to upgrade.
 
 
 == nvdimm.fw.upgrade.failure

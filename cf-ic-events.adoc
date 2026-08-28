@@ -15,7 +15,7 @@ summary: cf.ic events
 :imagesdir: ./media/
 
 [.lead]
-cf.ic events are presented when the controller configuration is changed from a single enclosure HA configuration to a dual enclosure HA configuration which may require a reboot.
+cf.ic events occur when the controller configuration is changed from a single enclosure HA configuration to a dual enclosure HA configuration.
 
 
 == cf.ic.cc.config.changed

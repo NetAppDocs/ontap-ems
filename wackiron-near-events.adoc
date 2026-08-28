@@ -15,7 +15,7 @@ summary: wackiron.near events
 :imagesdir: ./media/
 
 [.lead]
-wackiron.near events are presented when the number of hours since wafliron was last run on the specified volume is approaching its limit which is typically fixed by following the documented corrective steps.
+wackiron.near events occur when the number of hours since wafliron was last run on the specified volume is approaching its limit.
 
 
 == wackiron.near.hour.limit

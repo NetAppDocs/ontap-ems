@@ -15,7 +15,7 @@ summary: ipmultipath.init events
 :imagesdir: ./media/
 
 [.lead]
-ipmultipath.init events are presented when an INIT packet with an unknown checksum type is received during IP Multipath session initialization, which is typically fixed by following the documented corrective steps.
+ipmultipath.init events occur during IP Multipath session initialization, when an INIT packet with an unknown checksum type is received.
 
 
 == ipmultipath.init.badChksumType

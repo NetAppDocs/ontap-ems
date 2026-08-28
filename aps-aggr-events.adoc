@@ -15,7 +15,7 @@ summary: aps.aggr events
 :imagesdir: ./media/
 
 [.lead]
-aps.aggr events are presented when the space rebalancing service detects that a flexaggr is at risk of running out of space over the next space exhaustion window which may require contacting NetApp support.
+aps.aggr events occur when the space rebalancing service detects that a flexaggr is at risk of running out of space over the next space exhaustion window.
 
 
 == aps.aggr.full.advisory

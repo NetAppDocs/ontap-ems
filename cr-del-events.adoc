@@ -15,7 +15,7 @@ summary: cr.del events
 :imagesdir: ./media/
 
 [.lead]
-cr.del events are presented when an attempt to delete corrupt stream data fails which typically does not require corrective action.
+cr.del events occur when an attempt to delete corrupt stream data fails.
 
 
 == CR.Del.CrptStreamData.Fail

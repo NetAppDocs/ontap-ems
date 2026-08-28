@@ -15,7 +15,7 @@ summary: raid.ns events
 :imagesdir: ./media/
 
 [.lead]
-raid.ns events are presented when the system removes ownership of its disks during initialization of a non-shared HA system which typically does not require corrective action.
+raid.ns events occur when the system removes ownership of its disks during initialization of a non-shared HA system.
 
 
 == raid.ns.init.removeOwnership

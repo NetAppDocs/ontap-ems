@@ -15,7 +15,7 @@ summary: raid.config events
 :imagesdir: ./media/
 
 [.lead]
-raid.config events are presented when the system discovers that all plexes have failed in an aggregate during a mirror check, which may require reseating or replacing affected hardware.
+raid.config events occur during a mirror check, when the system discovers that all plexes have failed in an aggregate.
 
 
 == raid.config.check.failed

@@ -15,7 +15,7 @@ summary: vifmgr.cluscheck events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.cluscheck events are presented when the named cluster logical interface (LIF) was not assigned to any network port and is now assigned to a port which typically does not require corrective action.
+vifmgr.cluscheck events occur when the named cluster logical interface (LIF) was not assigned to any network port and is now assigned to a port.
 
 
 == vifmgr.cluscheck.assigned

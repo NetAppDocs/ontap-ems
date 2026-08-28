@@ -15,7 +15,7 @@ summary: wafl.reallocate events
 :imagesdir: ./media/
 
 [.lead]
-wafl.reallocate events are presented when an aggregate reallocation scan is interrupted which is typically fixed by following the documented corrective steps.
+wafl.reallocate events occur when an aggregate reallocation scan is interrupted.
 
 
 == wafl.reallocate.aggr.interrupt

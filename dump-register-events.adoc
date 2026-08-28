@@ -15,7 +15,7 @@ summary: dump.register events
 :imagesdir: ./media/
 
 [.lead]
-dump.register events are presented when a registry transaction failed to commit, which typically does not require corrective action.
+dump.register events occur when a registry transaction failed to commit.
 
 
 == dump.register.commit

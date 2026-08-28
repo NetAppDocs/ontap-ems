@@ -15,7 +15,7 @@ summary: cr.fix events
 :imagesdir: ./media/
 
 [.lead]
-cr.fix events are presented when corrective action for corrupt redirector file failed which typically does not require corrective action.
+cr.fix events occur when correction of a corrupt redirector file fails.
 
 
 == CR.Fix.Corrupt.Redir.Failed

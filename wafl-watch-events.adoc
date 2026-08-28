@@ -15,7 +15,7 @@ summary: wafl.watch events
 :imagesdir: ./media/
 
 [.lead]
-wafl.watch events are presented when wAFL(R) "change notify" requests approach the size limit of the inode cache pool which may require contacting NetApp support.
+wafl.watch events occur when WAFL(R) "change notify" requests approach the size limit of the inode cache pool.
 
 
 == wafl.watch.cache.limit.near

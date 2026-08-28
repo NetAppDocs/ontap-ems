@@ -15,7 +15,7 @@ summary: vm.dev events
 :imagesdir: ./media/
 
 [.lead]
-vm.dev events are presented when data ONTAP(R) is running on a virtual platform, and slow I/O is detected which may require contacting NetApp support.
+vm.dev events occur when Data ONTAP(R) is running on a virtual platform, and slow I/O is detected.
 
 
 == vm.dev.diskSlowIO

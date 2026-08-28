@@ -15,7 +15,7 @@ summary: cr.rdb events
 :imagesdir: ./media/
 
 [.lead]
-cr.rdb events are presented when the RDB (replicated database) cannot be updated with the inode counters for a particular scan which typically does not require corrective action.
+cr.rdb events occur when the RDB (replicated database) cannot be updated with the inode counters for a particular scan.
 
 
 == CR.RDB.Counters.Not.Updated

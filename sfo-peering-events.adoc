@@ -15,7 +15,7 @@ summary: sfo.peering events
 :imagesdir: ./media/
 
 [.lead]
-sfo.peering events are presented when the removal of a storage failover peering relationship is taking longer than expected to complete on one or more nodes which is typically fixed by verifying system state and connectivity.
+sfo.peering events occur when the removal of a storage failover peering relationship is taking longer than expected to complete on one or more nodes.
 
 
 == sfo.peering.rm.delay

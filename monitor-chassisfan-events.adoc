@@ -15,7 +15,7 @@ summary: monitor.chassisfan events
 :imagesdir: ./media/
 
 [.lead]
-monitor.chassisfan events are presented when a chassis fan is degraded which may require reseating or replacing affected hardware.
+monitor.chassisfan events occur when a chassis fan is degraded.
 
 
 == monitor.chassisFan.degraded

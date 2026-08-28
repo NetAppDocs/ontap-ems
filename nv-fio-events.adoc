@@ -15,7 +15,7 @@ summary: nv.fio events
 :imagesdir: ./media/
 
 [.lead]
-nv.fio events are presented when the write to VNVRAM fails and the retry count has been exhausted which typically does not require corrective action.
+nv.fio events occur when the write to VNVRAM fails and the retry count has been exhausted.
 
 
 == nv.fio.write.err

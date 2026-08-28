@@ -15,7 +15,7 @@ summary: coredump.segment events
 :imagesdir: ./media/
 
 [.lead]
-coredump.segment events are presented when the system encounters an error while trying to send a core segment request which typically does not require corrective action.
+coredump.segment events occur when the system encounters an error while trying to send a core segment request.
 
 
 == coredump.segment.auto.fail

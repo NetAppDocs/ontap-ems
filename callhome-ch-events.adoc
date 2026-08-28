@@ -15,7 +15,7 @@ summary: callhome.ch events
 :imagesdir: ./media/
 
 [.lead]
-callhome.ch events are presented when a degraded chassis power supply unit (PSU) state exists which may require reseating or replacing affected hardware.
+callhome.ch events occur when a degraded chassis power supply unit (PSU) state exists.
 
 
 == callhome.ch.ps.degraded

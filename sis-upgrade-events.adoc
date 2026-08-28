@@ -15,7 +15,7 @@ summary: sis.upgrade events
 :imagesdir: ./media/
 
 [.lead]
-sis.upgrade events are presented when single Instance Storage (SIS) metafiles cannot be created in the aggregate containing the volume, during a Data ONTAP(R) upgrade which is typically fixed by following the documented corrective steps.
+sis.upgrade events occur when Single Instance Storage (SIS) metafiles cannot be created in the aggregate containing the volume, during a Data ONTAP(R) upgrade.
 
 
 == sis.upgrade.aggr.metafile.failed

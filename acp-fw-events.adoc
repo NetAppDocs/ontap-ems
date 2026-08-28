@@ -15,7 +15,7 @@ summary: acp.fw events
 :imagesdir: ./media/
 
 [.lead]
-acp.fw events are presented when the Alternate Control Path (ACP) Processor receives a command to initiate a firmware download which typically does not require corrective action.
+acp.fw events occur when the Alternate Control Path (ACP) Processor receives a command to initiate a firmware download.
 
 
 == acp.fw.download

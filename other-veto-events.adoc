@@ -15,7 +15,7 @@ summary: other.veto events
 :imagesdir: ./media/
 
 [.lead]
-other.veto events are presented when a giveback or aggregate relocation operation fails but ONTAP(R) software cannot determine the specific operation type which is typically fixed by following the documented corrective steps.
+other.veto events occur when a giveback or aggregate relocation operation fails but ONTAP(R) software cannot determine the specific operation type.
 
 
 == other.veto.kmgr.keysmissing

@@ -15,7 +15,7 @@ summary: repl.cloud events
 :imagesdir: ./media/
 
 [.lead]
-repl.cloud events are presented when the replication engine encounters an inconsistent block in the cloud which may require contacting NetApp support.
+repl.cloud events occur when the replication engine encounters an inconsistent block in the cloud.
 
 
 == repl.cloud.incons.buf

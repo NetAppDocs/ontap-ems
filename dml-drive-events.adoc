@@ -15,7 +15,7 @@ summary: dml.drive events
 :imagesdir: ./media/
 
 [.lead]
-dml.drive events are presented when drive offline completes which typically does not require corrective action.
+dml.drive events occur when drive offline completes.
 
 
 == dml.drive.offline.status

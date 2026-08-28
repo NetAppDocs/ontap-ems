@@ -15,7 +15,7 @@ summary: hm.alert events
 :imagesdir: ./media/
 
 [.lead]
-hm.alert events are presented when a system health monitor alert is successfully cleared which typically does not require corrective action.
+hm.alert events occur when a system health monitor alert is successfully cleared.
 
 
 == hm.alert.cleared

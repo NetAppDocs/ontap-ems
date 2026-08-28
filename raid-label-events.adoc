@@ -15,7 +15,7 @@ summary: raid.label events
 :imagesdir: ./media/
 
 [.lead]
-raid.label events are presented when a RAID label read I/O failure is detected which typically does not require corrective action.
+raid.label events occur when a RAID label read I/O failure is detected.
 
 
 == raid.label.io.readError

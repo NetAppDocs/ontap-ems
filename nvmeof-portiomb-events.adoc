@@ -15,7 +15,7 @@ summary: nvmeof.portiomb events
 :imagesdir: ./media/
 
 [.lead]
-nvmeof.portiomb events are presented when there are no longer two ports cabled incorrectly from a node to bottom module (B) on a shelf which typically does not require corrective action.
+nvmeof.portiomb events occur when there are no longer two ports cabled incorrectly from a node to bottom module (B) on a shelf.
 
 
 == nvmeof.portiomb.clear

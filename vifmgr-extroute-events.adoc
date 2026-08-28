@@ -15,7 +15,7 @@ summary: vifmgr.extroute events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.extroute events are presented when a new external route table is added successfully which typically does not require corrective action.
+vifmgr.extroute events occur when a new external route table is added successfully.
 
 
 == vifmgr.extRoute.addTable

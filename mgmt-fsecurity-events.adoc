@@ -15,7 +15,7 @@ summary: mgmt.fsecurity events
 :imagesdir: ./media/
 
 [.lead]
-mgmt.fsecurity events are presented when applying configuration of fsecurity fails which may require contacting NetApp support.
+mgmt.fsecurity events occur when applying configuration of fsecurity fails.
 
 
 == mgmt.fsecurity.failure

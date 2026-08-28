@@ -15,7 +15,7 @@ summary: shm.bypassed events
 :imagesdir: ./media/
 
 [.lead]
-shm.bypassed events are presented when the system recommends that a disk be failed because it has been bypassed which typically does not require corrective action.
+shm.bypassed events occur when the system recommends that a disk be failed because it has been bypassed.
 
 
 == shm.bypassed.disk.fail

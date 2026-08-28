@@ -15,7 +15,7 @@ summary: snmp.link events
 :imagesdir: ./media/
 
 [.lead]
-snmp.link events are presented when a network interface is down which is typically fixed by verifying system state and connectivity.
+snmp.link events occur when a network interface is down.
 
 
 == snmp.link.down

@@ -15,7 +15,7 @@ summary: availability.zone events
 :imagesdir: ./media/
 
 [.lead]
-availability.zone events are presented when the storage availability zone space usage has exceeded the full threshold value which is typically fixed by following the documented corrective steps.
+availability.zone events occur when the storage availability zone space usage has exceeded the full threshold value.
 
 
 == availability.zone.full

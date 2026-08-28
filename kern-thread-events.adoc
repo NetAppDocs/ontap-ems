@@ -15,7 +15,7 @@ summary: kern.thread events
 :imagesdir: ./media/
 
 [.lead]
-kern.thread events are presented when a thread creation has the system close to the maximum limit for the number of threads which typically does not require corrective action.
+kern.thread events occur when a thread creation has the system close to the maximum limit for the number of threads.
 
 
 == kern.thread.alloc.limit

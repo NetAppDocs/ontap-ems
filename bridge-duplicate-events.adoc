@@ -15,7 +15,7 @@ summary: bridge.duplicate events
 :imagesdir: ./media/
 
 [.lead]
-bridge.duplicate events are presented when the system discovers an ATTO FibreBridge using the same IP address as some other device in the network which may require contacting NetApp support.
+bridge.duplicate events occur when the system discovers an ATTO FibreBridge using the same IP address as some other device in the network.
 
 
 == bridge.duplicate.ip.address

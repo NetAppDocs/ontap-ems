@@ -15,7 +15,7 @@ summary: sas.device events
 :imagesdir: ./media/
 
 [.lead]
-sas.device events are presented when a disk's vmdisk header is bad which is typically fixed by following the documented corrective steps.
+sas.device events occur when a disk's vmdisk header is bad.
 
 
 == sas.device.bad.vmdisk.header

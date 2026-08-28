@@ -15,7 +15,7 @@ summary: nvme.fw events
 :imagesdir: ./media/
 
 [.lead]
-nvme.fw events are presented when new firmware has been successfully activated on the drive and running normally which typically does not require corrective action.
+nvme.fw events occur when new firmware has been successfully activated on the drive and running normally.
 
 
 == nvme.fw.activate.complete

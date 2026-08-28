@@ -15,7 +15,7 @@ summary: callhome.dcn events
 :imagesdir: ./media/
 
 [.lead]
-callhome.dcn events are presented when a Data Compute Node (DCN) encounters a problem which typically does not require corrective action.
+callhome.dcn events occur when a Data Compute Node (DCN) encounters a problem.
 
 
 == callhome.dcn.error

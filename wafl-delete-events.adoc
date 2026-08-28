@@ -15,7 +15,7 @@ summary: wafl.delete events
 :imagesdir: ./media/
 
 [.lead]
-wafl.delete events are presented when the system encounters a lost indirect block while deleting a file which is typically fixed by following the documented corrective steps.
+wafl.delete events occur when the system encounters a lost indirect block while deleting a file.
 
 
 == wafl.delete.bad.indirect

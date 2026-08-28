@@ -15,7 +15,7 @@ summary: nvmf.mgmt events
 :imagesdir: ./media/
 
 [.lead]
-nvmf.mgmt events are presented when a management operation fails in an NVMe-oF subsystem which may require a reboot.
+nvmf.mgmt events occur when a management operation fails in an NVMe-oF subsystem.
 
 
 == nvmf.mgmt.op.failed

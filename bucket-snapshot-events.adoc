@@ -15,7 +15,7 @@ summary: bucket.snapshot events
 :imagesdir: ./media/
 
 [.lead]
-bucket.snapshot events are presented when the object server completes a snapshot restore operation which typically does not require corrective action.
+bucket.snapshot events occur when the object server completes a snapshot restore operation.
 
 
 == bucket.snapshot.restore.complete

@@ -15,7 +15,7 @@ summary: wafl.rebalance events
 :imagesdir: ./media/
 
 [.lead]
-wafl.rebalance events are presented when a volume rebalance event has happened which typically does not require corrective action.
+wafl.rebalance events occur when a volume rebalance event has happened.
 
 
 == wafl.rebalance.vol_affi

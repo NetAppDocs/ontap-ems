@@ -15,7 +15,7 @@ summary: diskown.drawer events
 :imagesdir: ./media/
 
 [.lead]
-diskown.drawer events are presented when drawer-based drive assignment for shelves with drawers is enabled or disabled which typically does not require corrective action.
+diskown.drawer events occur when drawer-based drive assignment for shelves with drawers is enabled or disabled.
 
 
 == diskown.drawer.assignStatus

@@ -15,7 +15,7 @@ summary: quota.softlimit events
 :imagesdir: ./media/
 
 [.lead]
-quota.softlimit events are presented when a user exceeds the soft quota limit (file and/or block limit) which typically does not require corrective action.
+quota.softlimit events occur when a user exceeds the soft quota limit (file and/or block limit).
 
 
 == quota.softlimit.exceeded

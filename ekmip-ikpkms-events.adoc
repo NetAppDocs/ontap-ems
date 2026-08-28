@@ -15,7 +15,7 @@ summary: ekmip.ikpkms events
 :imagesdir: ./media/
 
 [.lead]
-ekmip.ikpkms events are presented when trying to access the key owned by the IBM Key Protect (IKP) Key Management Service (KMS) and an "OK" response (code 200) is received but one field of the response is not populated which may require contacting NetApp support.
+ekmip.ikpkms events occur when trying to access the key owned by the IBM Key Protect (IKP) Key Management Service (KMS) and an "OK" response (code 200) is received but one field of the response is not populated.
 
 
 == ekmip.ikpkms.200.missingField

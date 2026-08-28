@@ -15,7 +15,7 @@ summary: lun.vol events
 :imagesdir: ./media/
 
 [.lead]
-lun.vol events are presented when an operation on a LUN or NVMe namespace fails due to insufficient space in the volume which is typically fixed by following the documented corrective steps.
+lun.vol events occur when an operation on a LUN or NVMe namespace fails due to insufficient space in the volume.
 
 
 == LUN.vol.no.space

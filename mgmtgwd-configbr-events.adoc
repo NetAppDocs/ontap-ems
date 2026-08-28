@@ -15,7 +15,7 @@ summary: mgmtgwd.configbr events
 :imagesdir: ./media/
 
 [.lead]
-mgmtgwd.configbr events are presented when a scheduled configuration backup is successfully created which typically does not require corrective action.
+mgmtgwd.configbr events occur when a scheduled configuration backup is successfully created.
 
 
 == mgmtgwd.configbr.backupCompleted

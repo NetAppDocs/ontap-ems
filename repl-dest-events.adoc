@@ -15,7 +15,7 @@ summary: repl.dest events
 :imagesdir: ./media/
 
 [.lead]
-repl.dest events are presented when replication Engine encounters CSS Upload Table in a snapshot which typically does not require corrective action.
+repl.dest events occur when Replication Engine encounters CSS Upload Table in a snapshot.
 
 
 == repl.dest.css.upload.notsup

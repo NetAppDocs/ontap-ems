@@ -15,7 +15,7 @@ summary: splog.sp events
 :imagesdir: ./media/
 
 [.lead]
-splog.sp events are presented when the local or remote node Service Processor (SP) cannot be accessed which may require a reboot.
+splog.sp events occur when the local or remote node Service Processor (SP) cannot be accessed.
 
 
 == splog.sp.not.accessible

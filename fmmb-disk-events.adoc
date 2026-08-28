@@ -15,7 +15,7 @@ summary: fmmb.disk events
 :imagesdir: ./media/
 
 [.lead]
-fmmb.disk events are presented when the unique identifier of one of the disks used by the HA mailbox has changed, which typically does not require corrective action.
+fmmb.disk events occur when the unique identifier of one of the disks used by the HA mailbox has changed.
 
 
 == fmmb.disk.IDchange

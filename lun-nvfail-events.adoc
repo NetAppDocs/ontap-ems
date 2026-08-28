@@ -15,7 +15,7 @@ summary: lun.nvfail events
 :imagesdir: ./media/
 
 [.lead]
-lun.nvfail events are presented when the nvfail option for the named volume is turned on which typically does not require corrective action.
+lun.nvfail events occur when the nvfail option for the named volume is turned on.
 
 
 == LUN.nvfail.option.on

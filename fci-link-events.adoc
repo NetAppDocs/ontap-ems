@@ -15,7 +15,7 @@ summary: fci.link events
 :imagesdir: ./media/
 
 [.lead]
-fci.link events are presented when the Fibre Channel adapter detects a break in the link which is typically fixed by verifying system state and connectivity.
+fci.link events occur when the Fibre Channel adapter detects a break in the link.
 
 
 == fci.link.break

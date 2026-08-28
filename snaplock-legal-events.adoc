@@ -15,7 +15,7 @@ summary: snaplock.legal events
 :imagesdir: ./media/
 
 [.lead]
-snaplock.legal events are presented when on completion of a legal-hold dump-files operation on a SnapLock(R) compliance volume which typically does not require corrective action.
+snaplock.legal events occur on completion of a legal-hold dump-files operation on a SnapLock(R) compliance volume.
 
 
 == snaplock.legal.hold.dump.files.op.status

@@ -15,7 +15,7 @@ summary: callhome.management events
 :imagesdir: ./media/
 
 [.lead]
-callhome.management events are presented when the MANAGEMENT_LOG AutoSupport or 'call home' event is sent which typically does not require corrective action.
+callhome.management events occur when the MANAGEMENT_LOG AutoSupport or 'call home' event is sent.
 
 
 == callhome.management.log

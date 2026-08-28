@@ -15,7 +15,7 @@ summary: ses.shelf events
 :imagesdir: ./media/
 
 [.lead]
-ses.shelf events are presented when one of the drive in bay 1 or 2 is missing which typically does not require corrective action.
+ses.shelf events occur when one of the drive in bay 1 or 2 is missing.
 
 
 == ses.shelf.bay.populate
