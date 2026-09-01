@@ -15,7 +15,7 @@ summary: wafl.takeover events
 :imagesdir: ./media/
 
 [.lead]
-wafl.takeover events occur when the system does not find any WAFL(R) nvlog records to replay during takeover processing.
+wafl.takeover events occur when ONTAP encounters issues associated with high-availability takeover operations.
 
 
 == wafl.takeover.nvram.missing

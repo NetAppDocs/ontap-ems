@@ -15,7 +15,7 @@ summary: ktls.health events
 :imagesdir: ./media/
 
 [.lead]
-ktls.health events occur when the depth of the action queue in the ktlsd subsystem is increasing in the majority of time intervals.
+ktls.health events occur when ONTAP encounters issues associated with the Kernel Transport Layer Security (KTLS) subsystem.
 
 
 == ktls.health.actionQGrowing

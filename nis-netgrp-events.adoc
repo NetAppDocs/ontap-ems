@@ -15,7 +15,7 @@ summary: nis.netgrp events
 :imagesdir: ./media/
 
 [.lead]
-nis.netgrp events occur when the Network Information Service (NIS) netgroup database build fails.
+nis.netgrp events occur when ONTAP encounters issues associated with NIS netgroup database operations.
 
 
 == nis.netgrp.db.build.failure

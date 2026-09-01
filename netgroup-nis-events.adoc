@@ -15,7 +15,7 @@ summary: netgroup.nis events
 :imagesdir: ./media/
 
 [.lead]
-netgroup.nis events occur when the netgroup.byhost remote procedure call to the Network Information Service (NIS) server returns a response that cannot be decoded.
+netgroup.nis events occur when ONTAP encounters issues associated with NIS netgroup configuration.
 
 
 == netgroup.nis.byhost.decode

@@ -15,7 +15,7 @@ summary: nblade.pcp events
 :imagesdir: ./media/
 
 [.lead]
-nblade.pcp events occur when a network port undergoes multiple link state transitions within a short period of time.
+nblade.pcp events occur when ONTAP encounters issues associated with network port connectivity and RDMA connections.
 
 
 == Nblade.pcp.linkThrashing

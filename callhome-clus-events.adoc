@@ -15,7 +15,7 @@ summary: callhome.clus events
 :imagesdir: ./media/
 
 [.lead]
-callhome.clus events occur when the cluster network has experienced an issue that could potentially affect connectivity, reliability, redundancy, or performance, as observed from the local node.
+callhome.clus events occur when ONTAP encounters issues associated with cluster network degradation or cluster-wide storage volume creation and deletion.
 
 
 == callhome.clus.net.degraded

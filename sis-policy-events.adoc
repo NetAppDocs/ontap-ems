@@ -15,7 +15,7 @@ summary: sis.policy events
 :imagesdir: ./media/
 
 [.lead]
-sis.policy events occur during system software upgrade to Data ONTAP(R) 8.1 or later, while creating predefined policies.
+sis.policy events occur when ONTAP encounters issues associated with efficiency policy management.
 
 
 == sis.policy.predef.create.upgradeError

@@ -15,7 +15,7 @@ summary: sis.cfg events
 :imagesdir: ./media/
 
 [.lead]
-sis.cfg events occur when the configuration file for a Single Instance Storage (SIS) volume is deleted.
+sis.cfg events occur when ONTAP encounters issues associated with Single Instance Storage (SIS) volume configuration.
 
 
 == sis.cfg.deleted

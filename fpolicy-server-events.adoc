@@ -15,7 +15,7 @@ summary: fpolicy.server events
 :imagesdir: ./media/
 
 [.lead]
-fpolicy.server events occur when the FPolicy server has applied backpressure which means that the server is busy and does not want to receive requests until it removes backpressure.
+fpolicy.server events occur when ONTAP encounters issues associated with FPolicy server communication and state.
 
 
 == fpolicy.server.bkPressApply

@@ -15,7 +15,7 @@ summary: mgmtgwd.rootvol events
 :imagesdir: ./media/
 
 [.lead]
-mgmtgwd.rootvol events occur when the system detects that a root volume might have changed, causing the local management databases to be out of sync with the replicated databases.
+mgmtgwd.rootvol events occur when ONTAP encounters issues associated with root volume changes and management database synchronization.
 
 
 == mgmtgwd.rootvol.recovery.changed

@@ -15,7 +15,7 @@ summary: tapemc.alias events
 :imagesdir: ./media/
 
 [.lead]
-tapemc.alias events occur when the automatic addition of a tape or medium changer alias fails.
+tapemc.alias events occur when ONTAP encounters issues associated with tape and medium changer aliases.
 
 
 == tapemc.alias.addFail

@@ -15,7 +15,7 @@ summary: cmds.software events
 :imagesdir: ./media/
 
 [.lead]
-cmds.software events occur because the system cannot create the directory at the designated path.
+cmds.software events occur when ONTAP encounters issues associated with software installation operations.
 
 
 == cmds.software.dirErr

@@ -15,7 +15,7 @@ summary: rdb.ha events
 :imagesdir: ./media/
 
 [.lead]
-rdb.ha events occur when the management process goes online as the master under two-node 'cluster HA' failover.
+rdb.ha events occur when ONTAP encounters issues associated with cluster HA failover in two-node configurations.
 
 
 == rdb.ha.active

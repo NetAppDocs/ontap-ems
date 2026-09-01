@@ -15,7 +15,7 @@ summary: cf.fsm events
 :imagesdir: ./media/
 
 [.lead]
-cf.fsm events occur when a node initiates an automatic giveback to its partner following a takeover that was due to a panic on the partner.
+cf.fsm events occur when ONTAP encounters issues associated with failover state machine operations.
 
 
 == cf.fsm.autoGBTkoverOnPanic

@@ -15,7 +15,7 @@ summary: flexcache.softevict events
 :imagesdir: ./media/
 
 [.lead]
-flexcache.softevict events occur when soft evicting a cache volume fails.
+flexcache.softevict events occur when ONTAP encounters issues associated with FlexCache volume soft eviction.
 
 
 == flexcache.softEvict.failed

@@ -15,7 +15,7 @@ summary: cf.nm events
 :imagesdir: ./media/
 
 [.lead]
-cf.nm events occur when the controller performs a soft reset of the HA interconnect card as part of automatic recovery from a timeout or link error.
+cf.nm events occur when ONTAP encounters issues associated with HA interconnect network interface card operations.
 
 
 == cf.nm.nicReset

@@ -15,7 +15,7 @@ summary: diskown.shlf events
 :imagesdir: ./media/
 
 [.lead]
-diskown.shlf events occur when shelf granular-based drive assignment is enabled or disabled.
+diskown.shlf events occur when ONTAP encounters issues associated with shelf-based drive assignment.
 
 
 == diskown.Shlf.assignStatus

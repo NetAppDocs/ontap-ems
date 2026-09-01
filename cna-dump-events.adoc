@@ -15,7 +15,7 @@ summary: cna.dump events
 :imagesdir: ./media/
 
 [.lead]
-cna.dump events occur when an unexpected event or illegal condition is detected by the Converged Network Adapter (CNA) driver.
+cna.dump events occur when ONTAP encounters issues associated with Converged Network Adapter (CNA) driver operations.
 
 
 == cna.dump

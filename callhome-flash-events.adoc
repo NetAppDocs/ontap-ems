@@ -15,7 +15,7 @@ summary: callhome.flash events
 :imagesdir: ./media/
 
 [.lead]
-callhome.flash events occur when Flash Management Module (FMM) detects that a percentage of a Flash Cache is offline that is above a warning threshold.
+callhome.flash events occur when ONTAP encounters issues associated with Flash Cache degradation, failures, or offline status.
 
 
 == callhome.flash.cache.degraded

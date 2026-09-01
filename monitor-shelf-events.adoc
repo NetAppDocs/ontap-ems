@@ -15,7 +15,7 @@ summary: monitor.shelf events
 :imagesdir: ./media/
 
 [.lead]
-monitor.shelf events occur when the monitor detects that a disk shelf access error has occurred.
+monitor.shelf events occur when ONTAP encounters issues associated with disk shelf access and configuration.
 
 
 == monitor.shelf.accessError

@@ -15,7 +15,7 @@ summary: gpo.reg events
 :imagesdir: ./media/
 
 [.lead]
-gpo.reg events occur when the group policy object (GPO) registry policy settings are applied.
+gpo.reg events occur when ONTAP encounters issues associated with Group Policy Object (GPO) registry policy settings.
 
 
 == gpo.reg.applied

@@ -15,7 +15,7 @@ summary: mcc.sb events
 :imagesdir: ./media/
 
 [.lead]
-mcc.sb events occur when dump/restore is aborted during a MetroCluster switchback operation.
+mcc.sb events occur when ONTAP encounters issues associated with dump or restore operations during MetroCluster switchback.
 
 
 == mcc.sb.abort.dump

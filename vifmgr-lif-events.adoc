@@ -15,7 +15,7 @@ summary: vifmgr.lif events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.lif events occur when a LIF's failover policy has been modified.
+vifmgr.lif events occur when ONTAP encounters issues associated with logical interface (LIF) configuration modifications or inconsistencies.
 
 
 == vifmgr.lif.foPolicyMod

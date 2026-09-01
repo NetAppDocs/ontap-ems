@@ -15,7 +15,7 @@ summary: repl.large events
 :imagesdir: ./media/
 
 [.lead]
-repl.large events occur when the replication engine encounters a destination that cannot handle large 600TB volume limits.
+repl.large events occur when ONTAP encounters issues associated with large volume limits on replication destinations.
 
 
 == repl.large.vol.600tb.limits.unsup

@@ -15,7 +15,7 @@ summary: wafl.voltrans events
 :imagesdir: ./media/
 
 [.lead]
-wafl.voltrans events occur when a volume transition clears the noi2p option on a volume.
+wafl.voltrans events occur when ONTAP encounters issues associated with volume transition operations.
 
 
 == wafl.voltrans.clear.noi2p

@@ -15,7 +15,7 @@ summary: ha.tkover events
 :imagesdir: ./media/
 
 [.lead]
-ha.tkover events occur when a pending takeover is waiting for an in-progress aggregate relocation (ARL) operation to complete or abort before proceeding with the takeover.
+ha.tkover events occur when ONTAP encounters issues associated with high-availability (HA) takeover waiting for in-progress operations.
 
 
 == ha.tkover.waitARLabort

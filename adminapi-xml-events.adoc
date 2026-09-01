@@ -15,7 +15,7 @@ summary: adminapi.xml events
 :imagesdir: ./media/
 
 [.lead]
-adminapi.xml events occur when in case of a mismatched XML encoding received by ONTAP server.
+adminapi.xml events occur when ONTAP encounters issues associated with mismatched XML encoding or namespace received by the ONTAP server.
 
 
 == adminapi.xml.encoding

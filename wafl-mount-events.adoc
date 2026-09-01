@@ -15,7 +15,7 @@ summary: wafl.mount events
 :imagesdir: ./media/
 
 [.lead]
-wafl.mount events occur when the flexaggregate cannot be mounted; the flexaggregate is marked as inconsistent.
+wafl.mount events occur when ONTAP encounters issues associated with volume and aggregate mount operations.
 
 
 == wafl.mount.fa.incons

@@ -15,7 +15,7 @@ summary: fg.quota events
 :imagesdir: ./media/
 
 [.lead]
-fg.quota events occur when a FlexGroup cannot enforce its quota as expected.
+fg.quota events occur when ONTAP encounters issues associated with FlexGroup quota enforcement.
 
 
 == fg.quota.cannot.enforce

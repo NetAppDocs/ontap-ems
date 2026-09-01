@@ -15,7 +15,7 @@ summary: ekmip.gckms events
 :imagesdir: ./media/
 
 [.lead]
-ekmip.gckms events occur when a configured Google Cloud Key Management Service (GCKMS) that was previously reported as unavailable for key operations is now available.
+ekmip.gckms events occur when ONTAP encounters issues associated with Google Cloud Key Management Service (GCKMS) operations.
 
 
 == ekmip.gckms.available

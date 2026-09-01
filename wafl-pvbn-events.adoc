@@ -15,7 +15,7 @@ summary: wafl.pvbn events
 :imagesdir: ./media/
 
 [.lead]
-wafl.pvbn events occur when to inform the user that the pvbn check has completed.
+wafl.pvbn events occur when ONTAP encounters issues associated with physical volume block number (pvbn) verification.
 
 
 == wafl.pvbn.check.done

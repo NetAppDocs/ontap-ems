@@ -15,7 +15,7 @@ summary: lun.metafile events
 :imagesdir: ./media/
 
 [.lead]
-lun.metafile events occur when lun metafile directory creation failed.
+lun.metafile events occur when ONTAP encounters issues associated with LUN metafile operations.
 
 
 == lun.metafile.dirCreateFailed

@@ -15,7 +15,7 @@ summary: wafl.metadata events
 :imagesdir: ./media/
 
 [.lead]
-wafl.metadata events occur when the space reserved for volume metadata is decreased when the value of "space-guarantee" for a FlexClone volume is changed from "volume" to "none".
+wafl.metadata events occur when ONTAP encounters issues associated with volume metadata space reservation.
 
 
 == wafl.metadata.rsrv.decreased

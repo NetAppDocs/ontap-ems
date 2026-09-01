@@ -15,7 +15,7 @@ summary: callhome.mccip events
 :imagesdir: ./media/
 
 [.lead]
-callhome.mccip events occur when automatic unplanned switchover (AUSO) in a MetroCluster(tm) IP configuration is disabled because the mediator mailbox disk is not healthy.
+callhome.mccip events occur when ONTAP encounters issues associated with MetroCluster(tm) IP configuration.
 
 
 == callhome.mccip.auso.disabled

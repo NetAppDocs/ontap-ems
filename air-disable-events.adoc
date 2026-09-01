@@ -15,7 +15,7 @@ summary: air.disable events
 :imagesdir: ./media/
 
 [.lead]
-air.disable events occur when any inconsistency is found with the async delete trashbin directory of a volume.
+air.disable events occur when ONTAP encounters issues associated with inconsistencies in the async delete trashbin directory or the preserve unlink trash directory.
 
 
 == air.disable.async.delete.cli

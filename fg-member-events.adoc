@@ -15,7 +15,7 @@ summary: fg.member events
 :imagesdir: ./media/
 
 [.lead]
-fg.member events occur when a members available space is below the threshold.
+fg.member events occur when ONTAP encounters issues associated with FlexGroup member volume management.
 
 
 == fg.member.below.threshold

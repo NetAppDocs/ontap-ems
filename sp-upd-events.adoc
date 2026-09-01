@@ -15,7 +15,7 @@ summary: sp.upd events
 :imagesdir: ./media/
 
 [.lead]
-sp.upd events occur when the Service Processor (SP) daemon cannot extract the SP firmware version from the metadata file.
+sp.upd events occur when ONTAP encounters issues associated with Service Processor (SP) firmware update operations.
 
 
 == sp.upd.bad.fw.package

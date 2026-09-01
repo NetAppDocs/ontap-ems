@@ -15,7 +15,7 @@ summary: api.output events
 :imagesdir: ./media/
 
 [.lead]
-api.output events occur when An invalid character was detected while checking the output for a Data ONTAP(R) API.
+api.output events occur when ONTAP encounters issues associated with invalid characters or schema violations in Data ONTAP API output.
 
 
 == api.output.invalid

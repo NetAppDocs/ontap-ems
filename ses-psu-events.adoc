@@ -15,7 +15,7 @@ summary: ses.psu events
 :imagesdir: ./media/
 
 [.lead]
-ses.psu events occur when the power supplies that are installed in a disk shelf are not compatible with each other.
+ses.psu events occur when ONTAP encounters issues associated with disk shelf power supply units.
 
 
 == ses.psu.comboError

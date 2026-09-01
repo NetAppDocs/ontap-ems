@@ -15,7 +15,7 @@ summary: sis.logical events
 :imagesdir: ./media/
 
 [.lead]
-sis.logical events occur when the deduplication engine's logical data limit is nearly reached on a volume.
+sis.logical events occur when ONTAP encounters issues associated with deduplication logical data limits.
 
 
 == sis.logical.limit.near

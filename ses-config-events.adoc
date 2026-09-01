@@ -15,7 +15,7 @@ summary: ses.config events
 :imagesdir: ./media/
 
 [.lead]
-ses.config events occur when a stack of shelves contains more disk bays than the maximum number that are allowed.
+ses.config events occur when ONTAP encounters issues associated with disk shelf configuration.
 
 
 == ses.config.diskStackMaxError

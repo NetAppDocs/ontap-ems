@@ -15,7 +15,7 @@ summary: wafl.quota events
 :imagesdir: ./media/
 
 [.lead]
-wafl.quota events occur when the system cannot create the quota database file.
+wafl.quota events occur when ONTAP encounters issues associated with quota database management and quota limits.
 
 
 == wafl.quota.db.createFail

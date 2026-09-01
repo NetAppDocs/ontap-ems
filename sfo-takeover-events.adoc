@@ -15,7 +15,7 @@ summary: sfo.takeover events
 :imagesdir: ./media/
 
 [.lead]
-sfo.takeover events occur when the taking over node cannot complete an attempted optimized negotiated takeover.
+sfo.takeover events occur when ONTAP encounters issues associated with optimized negotiated takeover operations.
 
 
 == sfo.takeover.aborted

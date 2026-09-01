@@ -15,7 +15,7 @@ summary: config.repl events
 :imagesdir: ./media/
 
 [.lead]
-config.repl events occur when the configuration replication bypass has been disabled.
+config.repl events occur when ONTAP encounters issues associated with configuration replication bypass operations.
 
 
 == config.repl.bypass.disabled

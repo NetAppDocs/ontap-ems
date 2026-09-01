@@ -15,7 +15,7 @@ summary: license.cert events
 :imagesdir: ./media/
 
 [.lead]
-license.cert events occur when the license validation certificate is expired.
+license.cert events occur when ONTAP encounters issues associated with the license validation certificate.
 
 
 == license.cert.expired

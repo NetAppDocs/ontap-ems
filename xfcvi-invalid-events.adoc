@@ -15,7 +15,7 @@ summary: xfcvi.invalid events
 :imagesdir: ./media/
 
 [.lead]
-xfcvi.invalid events occur when xfcvi driver receives invalid advertisement.
+xfcvi.invalid events occur when ONTAP encounters issues associated with FC-VI adapter advertisements and SFP modules.
 
 
 == xfcvi.invalid.advertisement

@@ -15,7 +15,7 @@ summary: vserver.ipspace events
 :imagesdir: ./media/
 
 [.lead]
-vserver.ipspace events occur in a MetroCluster(R) configuration when attempting to replicate a "vserver create" operation onto the destination cluster, but the configured IPspace cannot be found on the destination cluster.
+vserver.ipspace events occur when ONTAP encounters issues associated with IPspace availability during Vserver creation in MetroCluster configurations.
 
 
 == vserver.ipspace.lookupfailed

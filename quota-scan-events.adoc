@@ -15,7 +15,7 @@ summary: quota.scan events
 :imagesdir: ./media/
 
 [.lead]
-quota.scan events occur after the administrator uses the "volume quota on" command, when the quota scanner aborts without finishing due to an error condition.
+quota.scan events occur when ONTAP encounters issues associated with quota scanner operations.
 
 
 == quota.scan.abort

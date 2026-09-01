@@ -15,7 +15,7 @@ summary: shm.bypassed events
 :imagesdir: ./media/
 
 [.lead]
-shm.bypassed events occur when the system recommends that a disk be failed because it has been bypassed.
+shm.bypassed events occur when ONTAP encounters issues associated with bypassed disk operations.
 
 
 == shm.bypassed.disk.fail

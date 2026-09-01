@@ -15,7 +15,7 @@ summary: monitor.globalstatus events
 :imagesdir: ./media/
 
 [.lead]
-monitor.globalstatus events occur when the system's global health is critical; for example, if a fan failed.
+monitor.globalstatus events occur when ONTAP encounters issues associated with system global health status.
 
 
 == monitor.globalStatus.critical

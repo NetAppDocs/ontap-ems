@@ -15,7 +15,7 @@ summary: encryption.op events
 :imagesdir: ./media/
 
 [.lead]
-encryption.op events occur when a rekey or conversion to encryption operation is completed on a volume.
+encryption.op events occur when ONTAP encounters issues associated with volume encryption and rekey operations.
 
 
 == encryption.op.completed

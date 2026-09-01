@@ -15,7 +15,7 @@ summary: quota.resize events
 :imagesdir: ./media/
 
 [.lead]
-quota.resize events occur when quota resize starts.
+quota.resize events occur when ONTAP encounters issues associated with quota resize operations.
 
 
 == quota.resize.start

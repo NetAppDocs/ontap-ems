@@ -15,7 +15,7 @@ summary: raid.aggr events
 :imagesdir: ./media/
 
 [.lead]
-raid.aggr events occur when the usable size of an aggregate does not expand after a corresponding increase in the size of the underlying storage.
+raid.aggr events occur when ONTAP encounters issues associated with aggregate sizing and configuration operations.
 
 
 == raid.aggr.autoGrow.abort

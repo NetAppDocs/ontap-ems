@@ -15,7 +15,7 @@ summary: snapvault.dst events
 :imagesdir: ./media/
 
 [.lead]
-snapvault.dst events occur when SnapVault(R) creates a backup snapshot for a given backup schedule.
+snapvault.dst events occur when ONTAP encounters issues associated with SnapVault(R) destination operations.
 
 
 == snapvault.dst.bkpSnapCreate

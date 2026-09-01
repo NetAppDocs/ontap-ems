@@ -15,7 +15,7 @@ summary: arl.netra events
 :imagesdir: ./media/
 
 [.lead]
-arl.netra events occur during the relocation of an aggregate, when the destination node cannot reach the object stores.
+arl.netra events occur when ONTAP encounters issues associated with aggregate relocation failures due to destination node validation checks or resource availability.
 
 
 == arl.netra.ca.check.failed

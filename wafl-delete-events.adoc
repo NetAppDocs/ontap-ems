@@ -15,7 +15,7 @@ summary: wafl.delete events
 :imagesdir: ./media/
 
 [.lead]
-wafl.delete events occur when the system encounters a lost indirect block while deleting a file.
+wafl.delete events occur when ONTAP encounters issues associated with file deletion operations and space reclamation.
 
 
 == wafl.delete.bad.indirect

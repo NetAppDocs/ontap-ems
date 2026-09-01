@@ -15,7 +15,7 @@ summary: nblade.cifs events
 :imagesdir: ./media/
 
 [.lead]
-nblade.cifs events occur when there is a budget allocation failure for a CIFS subsystem because other CIFS subsystems are consuming too much memory.
+nblade.cifs events occur when ONTAP encounters issues associated with CIFS subsystem memory allocation and logon operations.
 
 
 == Nblade.cifs.budgetAllocFailure

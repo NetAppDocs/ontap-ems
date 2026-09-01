@@ -15,7 +15,7 @@ summary: scsiblade.vol events
 :imagesdir: ./media/
 
 [.lead]
-scsiblade.vol events occur when SAN initialization fails for the specified volume on this node.
+scsiblade.vol events occur when ONTAP encounters issues associated with SAN volume initialization.
 
 
 == scsiblade.vol.init.failed

@@ -15,7 +15,7 @@ summary: malloc.failure events
 :imagesdir: ./media/
 
 [.lead]
-malloc.failure events occur when if malloc is called unsafely.
+malloc.failure events occur when ONTAP encounters issues associated with unsafe malloc calls.
 
 
 == malloc.failure

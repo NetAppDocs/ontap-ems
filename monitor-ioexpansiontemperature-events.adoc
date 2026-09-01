@@ -15,7 +15,7 @@ summary: monitor.ioexpansiontemperature events
 :imagesdir: ./media/
 
 [.lead]
-monitor.ioexpansiontemperature events occur when this warning message occurs when the I/O expansion module is too cold.
+monitor.ioexpansiontemperature events occur when ONTAP encounters issues associated with I/O expansion module temperature.
 
 
 == monitor.ioexpansionTemperature.cool

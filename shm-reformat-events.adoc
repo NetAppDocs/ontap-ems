@@ -15,7 +15,7 @@ summary: shm.reformat events
 :imagesdir: ./media/
 
 [.lead]
-shm.reformat events occur when the system tries to reformat a disk, but an error is returned.
+shm.reformat events occur when ONTAP encounters issues associated with disk reformatting operations.
 
 
 == shm.reformat.diskError

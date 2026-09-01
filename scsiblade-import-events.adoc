@@ -15,7 +15,7 @@ summary: scsiblade.import events
 :imagesdir: ./media/
 
 [.lead]
-scsiblade.import events occur when attributes of a SAN LUN under LUN import are modified.
+scsiblade.import events occur when ONTAP encounters issues associated with SAN LUN import operations.
 
 
 == scsiblade.import.attr.mod

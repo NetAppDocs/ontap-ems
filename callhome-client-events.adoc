@@ -15,7 +15,7 @@ summary: callhome.client events
 :imagesdir: ./media/
 
 [.lead]
-callhome.client events occur when a remote client accesses the node using Manage ONTAP(R) and triggers an event using the ems-autosupport-log API call with "auto-support" field set to "true".
+callhome.client events occur when ONTAP encounters issues associated with remote clients triggering events using the Manage ONTAP API.
 
 
 == callhome.client.app.alert

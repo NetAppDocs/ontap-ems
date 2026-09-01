@@ -15,7 +15,7 @@ summary: s3.schedsnap events
 :imagesdir: ./media/
 
 [.lead]
-s3.schedsnap events occur when the system fails to create a scheduled S3 bucket snapshot for the given S3 bucket.
+s3.schedsnap events occur when ONTAP encounters issues associated with scheduled S3 bucket snapshot creation.
 
 
 == s3.schedSnap.create.fail

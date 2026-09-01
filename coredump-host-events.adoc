@@ -15,7 +15,7 @@ summary: coredump.host events
 :imagesdir: ./media/
 
 [.lead]
-coredump.host events occur when no sparecore disk is found at boot/takeover time.
+coredump.host events occur when ONTAP encounters issues associated with locating and identifying sparecore disks at boot or takeover time.
 
 
 == coredump.host.spare.none

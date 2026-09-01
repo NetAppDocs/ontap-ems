@@ -15,7 +15,7 @@ summary: callhome.syncsm events
 :imagesdir: ./media/
 
 [.lead]
-callhome.syncsm events occur when critical thresholds are breached for a SnapMirror(R) Synchronous relationship.
+callhome.syncsm events occur when ONTAP encounters issues associated with SnapMirror(R) Synchronous relationship thresholds.
 
 
 == callhome.syncsm.exception

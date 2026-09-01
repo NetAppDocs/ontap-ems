@@ -15,7 +15,7 @@ summary: san.noconnectedfcport events
 :imagesdir: ./media/
 
 [.lead]
-san.noconnectedfcport events occur in MetroCluster(tm) configurations on clustered Data ONTAP(R) systems, when Data ONTAP cannot replicate an FC/FC-NVMe (Nonvolatile Memory Express) logical interface (LIF) to a candidate port in the destination cluster.
+san.noconnectedfcport events occur when ONTAP encounters issues associated with FC/FC-NVMe LIF replication in MetroCluster(tm) configurations.
 
 
 == san.NoConnectedFCport

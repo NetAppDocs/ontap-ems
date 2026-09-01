@@ -15,7 +15,7 @@ summary: usb.device events
 :imagesdir: ./media/
 
 [.lead]
-usb.device events occur when multiple consecutive commands to the specified universal serial bus (USB) device are not completed within the allotted time.
+usb.device events occur when ONTAP encounters issues associated with USB device operations.
 
 
 == usb.device.failed

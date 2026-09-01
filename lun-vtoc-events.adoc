@@ -15,7 +15,7 @@ summary: lun.vtoc events
 :imagesdir: ./media/
 
 [.lead]
-lun.vtoc events occur when the rebuilding of the Vdisk Table of Contents (VTOC) file is complete.
+lun.vtoc events occur when ONTAP encounters issues associated with the Vdisk Table of Contents (VTOC) metafile.
 
 
 == LUN.vtoc.rebuild.done

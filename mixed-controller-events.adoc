@@ -15,7 +15,7 @@ summary: mixed.controller events
 :imagesdir: ./media/
 
 [.lead]
-mixed.controller events occur when the system detects a different type of partner controller and will shut down in 24 hours.
+mixed.controller events occur when ONTAP encounters issues associated with mixed controller models in the same chassis.
 
 
 == mixed.controller.halt

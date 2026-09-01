@@ -15,7 +15,7 @@ summary: volume.check events
 :imagesdir: ./media/
 
 [.lead]
-volume.check events occur when a 'volume check' scan successfully runs to completion.
+volume.check events occur when ONTAP encounters issues associated with volume check scan operations on Infinite Volumes.
 
 
 == Volume.Check.Completed

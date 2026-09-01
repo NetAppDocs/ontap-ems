@@ -15,7 +15,7 @@ summary: esh.xfer events
 :imagesdir: ./media/
 
 [.lead]
-esh.xfer events occur when an element is unreachable during an I/O request.
+esh.xfer events occur when ONTAP encounters issues associated with embedded switched hub (ESH) I/O operations.
 
 
 == esh.xfer.element.fault

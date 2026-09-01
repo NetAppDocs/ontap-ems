@@ -15,7 +15,7 @@ summary: license.fpool events
 :imagesdir: ./media/
 
 [.lead]
-license.fpool events occur when the maximum storage capacity limit for FabricPool is changed.
+license.fpool events occur when ONTAP encounters issues associated with the FabricPool storage capacity limit.
 
 
 == license.fpool.changed

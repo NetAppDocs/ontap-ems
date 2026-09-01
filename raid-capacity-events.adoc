@@ -15,7 +15,7 @@ summary: raid.capacity events
 :imagesdir: ./media/
 
 [.lead]
-raid.capacity events occur when the system creates a new aggregate, or registers a new capacity for an existing aggregate.
+raid.capacity events occur when ONTAP encounters issues associated with licensed capacity registration for aggregates.
 
 
 == raid.capacity.license.alloc

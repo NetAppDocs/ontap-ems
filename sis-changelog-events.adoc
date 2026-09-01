@@ -15,7 +15,7 @@ summary: sis.changelog events
 :imagesdir: ./media/
 
 [.lead]
-sis.changelog events occur when the Single Instance Storage (SIS) change logging metafile is full.
+sis.changelog events occur when ONTAP encounters issues associated with Single Instance Storage (SIS) change logging.
 
 
 == sis.changelog.full

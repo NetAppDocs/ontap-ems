@@ -15,7 +15,7 @@ summary: sfo.sendhome events
 :imagesdir: ./media/
 
 [.lead]
-sfo.sendhome events occur when the giveback request fails because there are no disks that belong to the partner.
+sfo.sendhome events occur when ONTAP encounters issues associated with storage failover giveback operations.
 
 
 == sfo.sendhome.NoPartnerDisks

@@ -15,7 +15,7 @@ summary: sis.max events
 :imagesdir: ./media/
 
 [.lead]
-sis.max events occur when Single Instance Storage (SIS) savings on the volume is nearing its maximum limit.
+sis.max events occur when ONTAP encounters issues associated with Single Instance Storage (SIS) savings limits.
 
 
 == sis.max.saving.near

@@ -15,7 +15,7 @@ summary: ipmultipath.init events
 :imagesdir: ./media/
 
 [.lead]
-ipmultipath.init events occur during IP Multipath session initialization, when an INIT packet with an unknown checksum type is received.
+ipmultipath.init events occur when ONTAP encounters issues associated with IP Multipath session initialization.
 
 
 == ipmultipath.init.badChksumType

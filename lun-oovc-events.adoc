@@ -15,7 +15,7 @@ summary: lun.oovc events
 :imagesdir: ./media/
 
 [.lead]
-lun.oovc events occur when the rebuilding of the Out Of Volume Container (OOVC) file is complete.
+lun.oovc events occur when ONTAP encounters issues associated with the Out Of Volume Container (OOVC) metafile.
 
 
 == LUN.oovc.rebuild.done

@@ -15,7 +15,7 @@ summary: nblade.dbladenoresponse events
 :imagesdir: ./media/
 
 [.lead]
-nblade.dbladenoresponse events occur when a CIFS network data protocol operation times out because the requesting node cannot communicate with the data-serving node to complete the file operation.
+nblade.dbladenoresponse events occur when ONTAP encounters issues associated with network protocol operations timing out due to inter-node communication failures.
 
 
 == Nblade.dBladeNoResponse.CIFS

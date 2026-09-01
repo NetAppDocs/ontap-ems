@@ -15,7 +15,7 @@ summary: snapmirror.log events
 :imagesdir: ./media/
 
 [.lead]
-snapmirror.log events occur when an error is encountered when opening the SnapMirror log file for writing.
+snapmirror.log events occur when ONTAP encounters issues associated with the SnapMirror(R) log file.
 
 
 == snapmirror.log.openErr

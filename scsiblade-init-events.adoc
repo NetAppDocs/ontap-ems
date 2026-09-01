@@ -15,7 +15,7 @@ summary: scsiblade.init events
 :imagesdir: ./media/
 
 [.lead]
-scsiblade.init events occur when the specified Vserver initialization was skipped due to a user-initiated abort.
+scsiblade.init events occur when ONTAP encounters issues associated with SAN Kernel Agent initialization.
 
 
 == scsiblade.init.abort

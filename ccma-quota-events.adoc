@@ -15,7 +15,7 @@ summary: ccma.quota events
 :imagesdir: ./media/
 
 [.lead]
-ccma.quota events occur when a datastore has been orphaned due to the system not having sufficient memory to keep track of it in the quota system.
+ccma.quota events occur when ONTAP encounters issues associated with quota system memory and performance archive data collection.
 
 
 == ccma.quota.datastore.leak

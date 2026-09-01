@@ -15,7 +15,7 @@ summary: smtape.rst events
 :imagesdir: ./media/
 
 [.lead]
-smtape.rst events occur when an SMTape restore operation from tape is aborted due to checksum error.
+smtape.rst events occur when ONTAP encounters issues associated with SMTape restore operations.
 
 
 == smtape.rst.abort.chksum.err

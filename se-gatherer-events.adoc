@@ -15,7 +15,7 @@ summary: se.gatherer events
 :imagesdir: ./media/
 
 [.lead]
-se.gatherer events occur when Single Instance Storage (SIS) auto gathering scanner completed on the auto adaptive volume.
+se.gatherer events occur when ONTAP encounters issues associated with Single Instance Storage (SIS) auto gathering scanner operations.
 
 
 == se.gatherer.done

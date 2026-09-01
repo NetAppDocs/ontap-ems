@@ -15,7 +15,7 @@ summary: callhome.dbs events
 :imagesdir: ./media/
 
 [.lead]
-callhome.dbs events occur when the Distributed Block Store (DBS) assignments reports a validation error.
+callhome.dbs events occur when ONTAP encounters issues associated with the Distributed Block Store (DBS) assignments, capacity, data consistency, or cluster faults.
 
 
 == callhome.dbs.assign.error

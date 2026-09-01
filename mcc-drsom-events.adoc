@@ -15,7 +15,7 @@ summary: mcc.drsom events
 :imagesdir: ./media/
 
 [.lead]
-mcc.drsom events occur when it cannot be determined whether a disk belongs to a root aggregate.
+mcc.drsom events occur when ONTAP encounters issues associated with the disaster recovery Switchover Monitor (DRSOM).
 
 
 == mcc.drsom.disk.filter.fail

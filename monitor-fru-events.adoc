@@ -15,7 +15,7 @@ summary: monitor.fru events
 :imagesdir: ./media/
 
 [.lead]
-monitor.fru events occur when the inventory information about a field-replaceable unit (FRU) that was previously unreadable becomes readable.
+monitor.fru events occur when ONTAP encounters issues associated with field-replaceable unit (FRU) inventory information.
 
 
 == monitor.fru.info.readable

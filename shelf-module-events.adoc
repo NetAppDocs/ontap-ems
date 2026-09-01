@@ -15,7 +15,7 @@ summary: shelf.module events
 :imagesdir: ./media/
 
 [.lead]
-shelf.module events occur when the system cannot complete the configuration of a disk shelf module with the desired parameters.
+shelf.module events occur when ONTAP encounters issues associated with disk shelf module configuration.
 
 
 == shelf.module.configuration.failure

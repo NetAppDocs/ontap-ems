@@ -15,7 +15,7 @@ summary: wafl.failed events
 :imagesdir: ./media/
 
 [.lead]
-wafl.failed events occur when the ONTAP(R) kernel cannot mount a volume because of file system inconsistency.
+wafl.failed events occur when ONTAP encounters issues associated with volume mounting and online operations.
 
 
 == wafl.failed.mount

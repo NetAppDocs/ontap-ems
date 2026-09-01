@@ -15,7 +15,7 @@ summary: virtual.limits events
 :imagesdir: ./media/
 
 [.lead]
-virtual.limits events occur when the process virtual memory limit calculations are disabled on a given node.
+virtual.limits events occur when ONTAP encounters issues associated with process virtual memory limit calculations.
 
 
 == virtual.limits.disabled

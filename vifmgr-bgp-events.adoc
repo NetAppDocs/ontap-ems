@@ -15,7 +15,7 @@ summary: vifmgr.bgp events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.bgp events occur when Logical Interface Manager (VifMgr) connects to BGP daemon.
+vifmgr.bgp events occur when ONTAP encounters issues associated with Border Gateway Protocol (BGP) operations.
 
 
 == vifmgr.bgp.connected

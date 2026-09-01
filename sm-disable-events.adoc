@@ -15,7 +15,7 @@ summary: sm.disable events
 :imagesdir: ./media/
 
 [.lead]
-sm.disable events occur when the "storage efficiency" feature on a destination volume is automatically disabled successfully by the SnapMirror(R) resync or update operation.
+sm.disable events occur when ONTAP encounters issues associated with storage efficiency disablement during SnapMirror(R) operations.
 
 
 == sm.disable.se

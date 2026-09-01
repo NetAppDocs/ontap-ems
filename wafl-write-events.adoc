@@ -15,7 +15,7 @@ summary: wafl.write events
 :imagesdir: ./media/
 
 [.lead]
-wafl.write events occur when a write to a file with CIFS-style space reservations fails due to a lack of space in the volume or aggregate.
+wafl.write events occur when ONTAP encounters issues associated with space-reserved file write operations.
 
 
 == wafl.write.fail.cifsSpace

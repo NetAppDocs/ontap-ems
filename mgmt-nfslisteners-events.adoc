@@ -15,7 +15,7 @@ summary: mgmt.nfslisteners events
 :imagesdir: ./media/
 
 [.lead]
-mgmt.nfslisteners events occur when the listener for the NFS service is not configured.
+mgmt.nfslisteners events occur when ONTAP encounters issues associated with NFS service listener configuration.
 
 
 == mgmt.nfslisteners.failure

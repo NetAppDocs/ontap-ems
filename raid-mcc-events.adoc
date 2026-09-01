@@ -15,7 +15,7 @@ summary: raid.mcc events
 :imagesdir: ./media/
 
 [.lead]
-raid.mcc events occur when this message reports the summary information for the MetroCluster(tm) switchover operation.
+raid.mcc events occur when ONTAP encounters issues associated with MetroCluster(tm) switchover and switchback operations.
 
 
 == raid.mcc.disasterSummary

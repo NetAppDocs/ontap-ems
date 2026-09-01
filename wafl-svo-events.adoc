@@ -15,7 +15,7 @@ summary: wafl.svo events
 :imagesdir: ./media/
 
 [.lead]
-wafl.svo events occur when if a write to a svo enabled volume fails to pass a check.
+wafl.svo events occur when ONTAP encounters issues associated with SnapValidator for Oracle (svo) operations.
 
 
 == wafl.svo.checkFailed

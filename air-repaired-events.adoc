@@ -15,7 +15,7 @@ summary: air.repaired events
 :imagesdir: ./media/
 
 [.lead]
-air.repaired events occur when ONTAP(R) discovers an inconsistency in a metadata bucket header record.
+air.repaired events occur when ONTAP encounters issues associated with metadata inconsistencies that are automatically repaired immediately upon detection.
 
 
 == air.repaired.bucket.header

@@ -15,7 +15,7 @@ summary: reg.options events
 :imagesdir: ./media/
 
 [.lead]
-reg.options events occur when an option is changed on one cluster node but applies to both the local and partner when the cluster is in takeover mode.
+reg.options events occur when ONTAP encounters issues associated with option changes in cluster configurations.
 
 
 == reg.options.cf.change

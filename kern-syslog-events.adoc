@@ -15,7 +15,7 @@ summary: kern.syslog events
 :imagesdir: ./media/
 
 [.lead]
-kern.syslog events occur when we detect that syslog messages were dropped before being logged.
+kern.syslog events occur when ONTAP encounters issues associated with kernel syslog message handling.
 
 
 == kern.syslog.drops

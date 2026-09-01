@@ -15,7 +15,7 @@ summary: vsa.azure events
 :imagesdir: ./media/
 
 [.lead]
-vsa.azure events occur when ONTAP(R) Cloud on Microsoft(R) Azure(R) receives a probe, indicating that a transition to the expected normal state has occurred.
+vsa.azure events occur when ONTAP encounters issues associated with Microsoft Azure Load Balancer health probes on ONTAP Cloud.
 
 
 == vsa.azure.nlb.probeActive

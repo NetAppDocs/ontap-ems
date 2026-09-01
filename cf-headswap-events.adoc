@@ -15,7 +15,7 @@ summary: cf.headswap events
 :imagesdir: ./media/
 
 [.lead]
-cf.headswap events occur when the headswap on the partner node is aborted.
+cf.headswap events occur when ONTAP encounters issues associated with head swap operations.
 
 
 == cf.headswap.abort

@@ -15,7 +15,7 @@ summary: callhome.fcp events
 :imagesdir: ./media/
 
 [.lead]
-callhome.fcp events occur when a Fibre Channel Protocol (FCP) HBA Host Bus Adapter (HBA) in this node has failed to read a critical setting from the adapter's internal configuration.
+callhome.fcp events occur when ONTAP encounters issues associated with Fibre Channel Protocol (FCP) HBA adapter failures or SRAM dumps.
 
 
 == callhome.fcp.adapter.failed

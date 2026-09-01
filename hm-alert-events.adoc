@@ -15,7 +15,7 @@ summary: hm.alert events
 :imagesdir: ./media/
 
 [.lead]
-hm.alert events occur when a system health monitor alert is successfully cleared.
+hm.alert events occur when ONTAP encounters issues associated with system health monitor alerts.
 
 
 == hm.alert.cleared

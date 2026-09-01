@@ -15,7 +15,7 @@ summary: disk.maint events
 :imagesdir: ./media/
 
 [.lead]
-disk.maint events occur when maintenance testing has completed.
+disk.maint events occur when ONTAP encounters issues associated with disk maintenance testing.
 
 
 == disk.maint.test.end

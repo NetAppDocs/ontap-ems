@@ -15,7 +15,7 @@ summary: vol.language events
 :imagesdir: ./media/
 
 [.lead]
-vol.language events occur when the language of an aggregate or a volume is changed.
+vol.language events occur when ONTAP encounters issues associated with the language configuration of aggregates or volumes.
 
 
 == vol.language.changed

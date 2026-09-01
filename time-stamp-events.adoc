@@ -15,7 +15,7 @@ summary: time.stamp events
 :imagesdir: ./media/
 
 [.lead]
-time.stamp events occur when base timestamp event occurred.
+time.stamp events occur when ONTAP encounters issues associated with timestamp operations.
 
 
 == time.stamp.micro.base

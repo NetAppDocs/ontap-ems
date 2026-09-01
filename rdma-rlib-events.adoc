@@ -15,7 +15,7 @@ summary: rdma.rlib events
 :imagesdir: ./media/
 
 [.lead]
-rdma.rlib events occur when the system fails to start the advertisement service for the high-availability (HA) interconnect.
+rdma.rlib events occur when ONTAP encounters issues associated with the high-availability (HA) interconnect advertisement service.
 
 
 == rdma.rlib.adv.failed

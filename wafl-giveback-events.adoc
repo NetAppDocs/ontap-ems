@@ -15,7 +15,7 @@ summary: wafl.giveback events
 :imagesdir: ./media/
 
 [.lead]
-wafl.giveback events occur when the system cannot perform a giveback due to vol create, and must abort giveback.
+wafl.giveback events occur when ONTAP encounters issues associated with high-availability giveback operations.
 
 
 == wafl.giveback.create.fail

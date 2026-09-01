@@ -15,7 +15,7 @@ summary: vifmgr.bd events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.bd events occur when an MTU is entered on a Broadcast Domain that its member ports cannot support.
+vifmgr.bd events occur when ONTAP encounters issues associated with broadcast domain configuration.
 
 
 == vifmgr.bd.badmtu

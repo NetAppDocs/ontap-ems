@@ -15,7 +15,7 @@ summary: smbc.aufo events
 :imagesdir: ./media/
 
 [.lead]
-smbc.aufo events occur when the SnapMirror(R) active sync automatic unplanned failover operation completes.
+smbc.aufo events occur when ONTAP encounters issues associated with SnapMirror(R) active sync automatic unplanned failover operations.
 
 
 == smbc.aufo.completed

@@ -15,7 +15,7 @@ summary: wafl.dir events
 :imagesdir: ./media/
 
 [.lead]
-wafl.dir events occur when this message indicates that CIFS directory conversion is in progress and WAFL will not hang due to timeout.
+wafl.dir events occur when ONTAP encounters issues associated with directory operations, size limits, or Unicode conversion.
 
 
 == wafl.dir.convert

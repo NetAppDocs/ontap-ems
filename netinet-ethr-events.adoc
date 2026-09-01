@@ -15,7 +15,7 @@ summary: netinet.ethr events
 :imagesdir: ./media/
 
 [.lead]
-netinet.ethr events occur when a high arrival rate of address resolution protocol (ARP) frames has been detected (possible ARP storm).
+netinet.ethr events occur when ONTAP encounters issues associated with Ethernet address resolution and IP address conflicts.
 
 
 == netinet.ethr.arpstorm

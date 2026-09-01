@@ -15,7 +15,7 @@ summary: quota.softlimit events
 :imagesdir: ./media/
 
 [.lead]
-quota.softlimit events occur when a user exceeds the soft quota limit (file and/or block limit).
+quota.softlimit events occur when ONTAP encounters issues associated with soft quota limits.
 
 
 == quota.softlimit.exceeded

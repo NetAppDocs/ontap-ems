@@ -15,7 +15,7 @@ summary: fmmb.mediator events
 :imagesdir: ./media/
 
 [.lead]
-fmmb.mediator events occur when a mailbox disk from the mediator site is selected to be included in the mailbox disk list.
+fmmb.mediator events occur when ONTAP encounters issues associated with mediator mailbox disk operations.
 
 
 == fmmb.mediator.lckdiskSuggest

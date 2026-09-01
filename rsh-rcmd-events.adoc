@@ -15,7 +15,7 @@ summary: rsh.rcmd events
 :imagesdir: ./media/
 
 [.lead]
-rsh.rcmd events occur when there is an error in binding a reserved port.
+rsh.rcmd events occur when ONTAP encounters issues associated with reserved port binding operations.
 
 
 == rsh.rcmd.port.bind

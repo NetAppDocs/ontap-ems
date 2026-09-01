@@ -15,7 +15,7 @@ summary: ha.nway events
 :imagesdir: ./media/
 
 [.lead]
-ha.nway events occur when planned takeover, giveback or aggregate relocation (ARL) of a storage pod is completed successfully.
+ha.nway events occur when ONTAP encounters issues associated with storage pod takeover, giveback, and aggregate relocation operations.
 
 
 == ha.nway.sfo.event.completion

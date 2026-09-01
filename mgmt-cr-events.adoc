@@ -15,7 +15,7 @@ summary: mgmt.cr events
 :imagesdir: ./media/
 
 [.lead]
-mgmt.cr events occur when a constituent volume is added to the Infinite Volume.
+mgmt.cr events occur when ONTAP encounters issues associated with Infinite Volume constituent volume operations.
 
 
 == mgmt.cr.constituent.added

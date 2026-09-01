@@ -15,7 +15,7 @@ summary: monitor.cluster events
 :imagesdir: ./media/
 
 [.lead]
-monitor.cluster events occur when the cluster is full after consuming space beyond the threshold value.
+monitor.cluster events occur when ONTAP encounters issues associated with cluster space utilization.
 
 
 == monitor.cluster.full

@@ -15,7 +15,7 @@ summary: monitor.ioexpansionpower events
 :imagesdir: ./media/
 
 [.lead]
-monitor.ioexpansionpower events occur when this message indicates that power on the I/O expansion module is degraded.
+monitor.ioexpansionpower events occur when ONTAP encounters issues associated with I/O expansion module power.
 
 
 == monitor.ioexpansionPower.degraded

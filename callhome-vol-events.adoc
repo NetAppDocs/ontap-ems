@@ -15,7 +15,7 @@ summary: callhome.vol events
 :imagesdir: ./media/
 
 [.lead]
-callhome.vol events occur when the system detects an inconsistent volume and takes it offline.
+callhome.vol events occur when ONTAP encounters issues associated with volume consistency and space.
 
 
 == callhome.vol.offline

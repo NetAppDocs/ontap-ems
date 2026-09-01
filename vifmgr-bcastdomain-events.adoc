@@ -15,7 +15,7 @@ summary: vifmgr.bcastdomain events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.bcastdomain events occur when a network port is added to a broadcast domain.
+vifmgr.bcastdomain events occur when ONTAP encounters issues associated with broadcast domain operations.
 
 
 == vifmgr.bcastdomain.portadd

@@ -15,7 +15,7 @@ summary: rlib.mccip events
 :imagesdir: ./media/
 
 [.lead]
-rlib.mccip events occur when if any error occurs while configuring MCC/IP.
+rlib.mccip events occur when ONTAP encounters issues associated with MetroCluster IP configuration.
 
 
 == rlib.mccip.config.failure

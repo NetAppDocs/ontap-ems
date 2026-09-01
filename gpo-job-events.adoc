@@ -15,7 +15,7 @@ summary: gpo.job events
 :imagesdir: ./media/
 
 [.lead]
-gpo.job events occur when the Group Policy Object (GPO) Main Update job run fails.
+gpo.job events occur when ONTAP encounters issues associated with Group Policy Object (GPO) job execution.
 
 
 == gpo.job.mainUpdateFailed

@@ -15,7 +15,7 @@ summary: sm.cloud events
 :imagesdir: ./media/
 
 [.lead]
-sm.cloud events occur when the ONTAP cloud mediator is deployed in an environment where network latency between ONTAP and the BlueXP cloud server exceeds the acceptable threshold for operation.
+sm.cloud events occur when ONTAP encounters issues associated with ONTAP cloud mediator operations.
 
 
 == sm.cloud.med.added.high.lat

@@ -15,7 +15,7 @@ summary: rpc.xprt events
 :imagesdir: ./media/
 
 [.lead]
-rpc.xprt events occur when the number of active connections to a side band Remote Procedure Call (RPC) reaches the limit.
+rpc.xprt events occur when ONTAP encounters issues associated with side band Remote Procedure Call (RPC) connection limits.
 
 
 == rpc.xprt.limit

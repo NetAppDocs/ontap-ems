@@ -15,7 +15,7 @@ summary: wafl.attr events
 :imagesdir: ./media/
 
 [.lead]
-wafl.attr events occur when the large directory report fails to be cleared for a volume when this feature is turned off due to an internal error.
+wafl.attr events occur when ONTAP encounters issues associated with large directory report operations.
 
 
 == wafl.attr.topK.clear.fail

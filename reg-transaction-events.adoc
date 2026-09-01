@@ -15,7 +15,7 @@ summary: reg.transaction events
 :imagesdir: ./media/
 
 [.lead]
-reg.transaction events occur when ONTAP(R) cannot commit a registry transaction.
+reg.transaction events occur when ONTAP encounters issues associated with registry transaction commits.
 
 
 == reg.transaction.commitFail

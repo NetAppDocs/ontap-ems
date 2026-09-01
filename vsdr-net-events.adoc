@@ -15,7 +15,7 @@ summary: vsdr.net events
 :imagesdir: ./media/
 
 [.lead]
-vsdr.net events occur when the system tries to automatically replicate a logical interface (LIF) in a MetroCluster(TM) configuration or Vserver DR setup and the IP address of the LIF that is being created already exists in another Vserver.
+vsdr.net events occur when ONTAP encounters issues associated with logical interface (LIF) replication in MetroCluster or Vserver DR configurations.
 
 
 == vsdr.net.IPInDiffVserver

@@ -15,7 +15,7 @@ summary: disk.fli events
 :imagesdir: ./media/
 
 [.lead]
-disk.fli events occur when an I/O operation below the SCSI layer is aborted because a Foreign LUN Import (FLI) abort message was issued.
+disk.fli events occur when ONTAP encounters issues associated with Foreign LUN Import (FLI) operations.
 
 
 == disk.fli.abort.ioSent

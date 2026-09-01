@@ -15,7 +15,7 @@ summary: raid.tetris events
 :imagesdir: ./media/
 
 [.lead]
-raid.tetris events occur when the system detects a block number mismatch during a write operation.
+raid.tetris events occur when ONTAP encounters issues associated with write operations and block verification.
 
 
 == raid.tetris.cksum.bno

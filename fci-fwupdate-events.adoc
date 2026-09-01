@@ -15,7 +15,7 @@ summary: fci.fwupdate events
 :imagesdir: ./media/
 
 [.lead]
-fci.fwupdate events occur when the Service Level Initiator Fibre Channel (SLIFC) Initiator driver successfully updates the firmware of the host bus adapter (HBA).
+fci.fwupdate events occur when ONTAP encounters issues associated with Fibre Channel host bus adapter (HBA) firmware updates.
 
 
 == fci.fwupdate.AutoBoot

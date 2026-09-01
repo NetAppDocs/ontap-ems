@@ -15,7 +15,7 @@ summary: wafl.cop events
 :imagesdir: ./media/
 
 [.lead]
-wafl.cop events occur when the system is out of the flow control mode which was earlier initiated as a high number of volumes were receiving modify operations concurrently beyond a certain threshold.
+wafl.cop events occur when ONTAP encounters issues associated with high concurrency operations and flow control on volumes.
 
 
 == wafl.cop.flowcontrol.end

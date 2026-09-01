@@ -15,7 +15,7 @@ summary: vifmgr.portdeg events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.portdeg events occur when an administrative action adds a port with a degraded health status to an interface group.
+vifmgr.portdeg events occur when ONTAP encounters issues associated with ports that have a degraded health status.
 
 
 == vifmgr.portDeg.ifgrpAdded

@@ -15,7 +15,7 @@ summary: fcadmin.bridge events
 :imagesdir: ./media/
 
 [.lead]
-fcadmin.bridge events occur when this event reports the WWN written to a device.
+fcadmin.bridge events occur when ONTAP encounters issues associated with programming World Wide Names (WWNs) to disk devices.
 
 
 == fcadmin.bridge.prog.disk

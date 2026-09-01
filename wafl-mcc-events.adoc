@@ -15,7 +15,7 @@ summary: wafl.mcc events
 :imagesdir: ./media/
 
 [.lead]
-wafl.mcc events occur when WAFL(R) does not find the MetroCluster configuration information on this node.
+wafl.mcc events occur when ONTAP encounters issues associated with MetroCluster(tm) configuration and operations.
 
 
 == wafl.mcc.config.notFound

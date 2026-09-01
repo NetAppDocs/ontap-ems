@@ -15,7 +15,7 @@ summary: vserver.config events
 :imagesdir: ./media/
 
 [.lead]
-vserver.config events occur when the Vserver create operation cannot create the Vserver-specific configuration directory.
+vserver.config events occur when ONTAP encounters issues associated with Vserver configuration directory creation.
 
 
 == vserver.config.createDirectoryFailed

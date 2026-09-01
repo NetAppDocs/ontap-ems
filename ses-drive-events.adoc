@@ -15,7 +15,7 @@ summary: ses.drive events
 :imagesdir: ./media/
 
 [.lead]
-ses.drive events occur when disk drives are placed in locations that do not provide for proper signal integrity.
+ses.drive events occur when ONTAP encounters issues associated with disk drive placement and addressing.
 
 
 == ses.drive.badPlacement

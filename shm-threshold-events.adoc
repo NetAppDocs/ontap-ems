@@ -15,7 +15,7 @@ summary: shm.threshold events
 :imagesdir: ./media/
 
 [.lead]
-shm.threshold events occur when the system detects a disk that exceeds the threshold count of high aggressive IO latencies.
+shm.threshold events occur when ONTAP encounters issues associated with disk health threshold monitoring.
 
 
 == shm.threshold.agrsvIOCount

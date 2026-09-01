@@ -15,7 +15,7 @@ summary: mgmtgwd.vol events
 :imagesdir: ./media/
 
 [.lead]
-mgmtgwd.vol events occur when one of the volume upgrade tasks fails.
+mgmtgwd.vol events occur when ONTAP encounters issues associated with volume upgrade tasks.
 
 
 == mgmtgwd.vol.upgrade.failed

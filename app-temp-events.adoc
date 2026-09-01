@@ -15,7 +15,7 @@ summary: app.temp events
 :imagesdir: ./media/
 
 [.lead]
-app.temp events occur when a S3 Bucket cannot be deleted as a part of an application destroy operation.
+app.temp events occur when ONTAP encounters issues associated with application destroy operations.
 
 
 == app.temp.delete.s3bucket.fail
