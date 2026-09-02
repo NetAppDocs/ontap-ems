@@ -15,7 +15,7 @@ summary: cloud.creds events
 :imagesdir: ./media/
 
 [.lead]
-cloud.creds events occur when ONTAP encounters issues associated with cloud provider credential acquisition.
+cloud.creds EMS events occur when ONTAP encounters issues associated with cloud provider credential acquisition.
 
 
 == cloud.creds.metadataConnFail

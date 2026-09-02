@@ -15,7 +15,7 @@ summary: tcp.change events
 :imagesdir: ./media/
 
 [.lead]
-tcp.change events occur when an attempt to change the TCP congestion control algorithm fails.
+tcp.change EMS events occur when an attempt to change the TCP congestion control algorithm fails.
 
 
 == tcp.change.cc.algorithm

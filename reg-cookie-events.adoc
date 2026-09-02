@@ -15,7 +15,7 @@ summary: reg.cookie events
 :imagesdir: ./media/
 
 [.lead]
-reg.cookie events occur when allocation of cookies for traversing all keys under a prefix fails.
+reg.cookie EMS events occur when allocation of cookies for traversing all keys under a prefix fails.
 
 
 == reg.cookie.null

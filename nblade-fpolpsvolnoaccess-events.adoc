@@ -15,7 +15,7 @@ summary: nblade.fpolpsvolnoaccess events
 :imagesdir: ./media/
 
 [.lead]
-nblade.fpolpsvolnoaccess events occur when events cannot be written into persistent store volume due to insufficient permissions.
+nblade.fpolpsvolnoaccess EMS events occur when events cannot be written into persistent store volume due to insufficient permissions.
 
 
 == Nblade.fpolPsVolNoAccess

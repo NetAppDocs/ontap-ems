@@ -15,7 +15,7 @@ summary: secd.nfs events
 :imagesdir: ./media/
 
 [.lead]
-secd.nfs events occur when Data ONTAP(R) truncates the number of groups to which a user belongs.
+secd.nfs EMS events occur when Data ONTAP(R) truncates the number of groups to which a user belongs.
 
 
 == secd.nfs.groupLimit

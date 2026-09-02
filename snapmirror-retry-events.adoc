@@ -15,7 +15,7 @@ summary: snapmirror.retry events
 :imagesdir: ./media/
 
 [.lead]
-snapmirror.retry events occur when metadata replay fails in the process of making a Synchronous SnapMirror(R) destination flexible volume writable.
+snapmirror.retry EMS events occur when metadata replay fails in the process of making a Synchronous SnapMirror(R) destination flexible volume writable.
 
 
 == snapmirror.retry.replay

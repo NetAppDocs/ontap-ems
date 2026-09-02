@@ -15,7 +15,7 @@ summary: perfstatd.start events
 :imagesdir: ./media/
 
 [.lead]
-perfstatd.start events occur when the perfstat daemon (perfstatd) startup fails.
+perfstatd.start EMS events occur when the perfstat daemon (perfstatd) startup fails.
 
 
 == perfstatd.start.unsuccessful

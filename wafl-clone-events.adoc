@@ -15,7 +15,7 @@ summary: wafl.clone events
 :imagesdir: ./media/
 
 [.lead]
-wafl.clone events occur when ONTAP encounters issues associated with clone flexible volume operations, base snapshots, or quota management.
+wafl.clone EMS events occur when ONTAP encounters issues associated with clone flexible volume operations, base snapshots, or quota management.
 
 
 == wafl.clone.invalid.inherited.counters

@@ -15,7 +15,7 @@ summary: extcache.bypassstate events
 :imagesdir: ./media/
 
 [.lead]
-extcache.bypassstate events occur when External Cache Bypass is enabled/disabled.
+extcache.bypassstate EMS events occur when External Cache Bypass is enabled/disabled.
 
 
 == extCache.BypassState

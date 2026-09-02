@@ -15,7 +15,7 @@ summary: adt.wrkrq events
 :imagesdir: ./media/
 
 [.lead]
-adt.wrkrq events occur when an internal audit worker queue fails to initialize.
+adt.wrkrq EMS events occur when an internal audit worker queue fails to initialize.
 
 
 == adt.wrkrq.init.fail

@@ -15,7 +15,7 @@ summary: callhome.kernel events
 :imagesdir: ./media/
 
 [.lead]
-callhome.kernel events occur when ONTAP encounters issues associated with kernel coredump file collection.
+callhome.kernel EMS events occur when ONTAP encounters issues associated with kernel coredump file collection.
 
 
 == callhome.kernel.core

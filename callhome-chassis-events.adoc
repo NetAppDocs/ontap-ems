@@ -15,7 +15,7 @@ summary: callhome.chassis events
 :imagesdir: ./media/
 
 [.lead]
-callhome.chassis events occur when ONTAP encounters issues associated with chassis temperature, power supply units, or environmental conditions.
+callhome.chassis EMS events occur when ONTAP encounters issues associated with chassis temperature, power supply units, or environmental conditions.
 
 
 == callhome.chassis.hitemp

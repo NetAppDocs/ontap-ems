@@ -15,7 +15,7 @@ summary: raid.recons events
 :imagesdir: ./media/
 
 [.lead]
-raid.recons events occur when ONTAP encounters issues associated with RAID group reconstruction operations.
+raid.recons EMS events occur when ONTAP encounters issues associated with RAID group reconstruction operations.
 
 
 == raid.recons.lw.id.inconsist

@@ -15,7 +15,7 @@ summary: sk.long events
 :imagesdir: ./media/
 
 [.lead]
-sk.long events occur when ONTAP encounters issues associated with SK process message processing.
+sk.long EMS events occur when ONTAP encounters issues associated with SK process message processing.
 
 
 == sk.long.queued.msg

@@ -15,7 +15,7 @@ summary: asyncdelcli.permscheck events
 :imagesdir: ./media/
 
 [.lead]
-asyncdelcli.permscheck events occur when an async-delete job fails to delete file/directory due to permission issues.
+asyncdelcli.permscheck EMS events occur when an async-delete job fails to delete file/directory due to permission issues.
 
 
 == asyncDelCli.permsCheck.fail

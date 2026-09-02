@@ -15,7 +15,7 @@ summary: wafl.ino events
 :imagesdir: ./media/
 
 [.lead]
-wafl.ino events occur when ONTAP encounters issues associated with inode upgrade operations.
+wafl.ino EMS events occur when ONTAP encounters issues associated with inode upgrade operations.
 
 
 == wafl.ino.upgrade.aborted

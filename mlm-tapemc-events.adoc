@@ -15,7 +15,7 @@ summary: mlm.tapemc events
 :imagesdir: ./media/
 
 [.lead]
-mlm.tapemc events occur when ONTAP encounters issues associated with tape and media changer logical units.
+mlm.tapemc EMS events occur when ONTAP encounters issues associated with tape and media changer logical units.
 
 
 == mlm.tapemc.lun.discovery

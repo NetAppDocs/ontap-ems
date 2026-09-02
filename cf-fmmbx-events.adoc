@@ -15,7 +15,7 @@ summary: cf.fmmbx events
 :imagesdir: ./media/
 
 [.lead]
-cf.fmmbx events occur when the system has enabled MCCIP mailbox disk IO policy.
+cf.fmmbx EMS events occur when the system has enabled MCCIP mailbox disk IO policy.
 
 
 == cf.fmmbx.mccip.policy.enabled

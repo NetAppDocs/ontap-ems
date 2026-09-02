@@ -15,7 +15,7 @@ summary: pn.mvia events
 :imagesdir: ./media/
 
 [.lead]
-pn.mvia events occur when ONTAP encounters issues associated with pass-through network layer operations.
+pn.mvia EMS events occur when ONTAP encounters issues associated with pass-through network layer operations.
 
 
 == pn.mvia.driver.rtt.high

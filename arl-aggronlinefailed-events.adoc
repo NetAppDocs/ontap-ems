@@ -15,7 +15,7 @@ summary: arl.aggronlinefailed events
 :imagesdir: ./media/
 
 [.lead]
-arl.aggronlinefailed events occur when the RAID or WAFL(R) subsystem fails to bring online the aggregate or its containing volumes after relocation.
+arl.aggronlinefailed EMS events occur when the RAID or WAFL(R) subsystem fails to bring online the aggregate or its containing volumes after relocation.
 
 
 == arl.aggrOnlineFailed

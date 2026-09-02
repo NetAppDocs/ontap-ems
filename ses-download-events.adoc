@@ -15,7 +15,7 @@ summary: ses.download events
 :imagesdir: ./media/
 
 [.lead]
-ses.download events occur when ONTAP encounters issues associated with disk shelf firmware updates.
+ses.download EMS events occur when ONTAP encounters issues associated with disk shelf firmware updates.
 
 
 == ses.download.powerCyclingChannel

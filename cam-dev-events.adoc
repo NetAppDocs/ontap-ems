@@ -15,7 +15,7 @@ summary: cam.dev events
 :imagesdir: ./media/
 
 [.lead]
-cam.dev events occur when ONTAP encounters issues associated with the Forced Unit Access (FUA) feature bit.
+cam.dev EMS events occur when ONTAP encounters issues associated with the Forced Unit Access (FUA) feature bit.
 
 
 == cam.dev.fuaNotSupported

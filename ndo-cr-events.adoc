@@ -15,7 +15,7 @@ summary: ndo.cr events
 :imagesdir: ./media/
 
 [.lead]
-ndo.cr events occur when ONTAP encounters issues associated with controller replacement operations.
+ndo.cr EMS events occur when ONTAP encounters issues associated with controller replacement operations.
 
 
 == ndo.cr.canceled

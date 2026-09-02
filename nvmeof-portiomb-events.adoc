@@ -15,7 +15,7 @@ summary: nvmeof.portiomb events
 :imagesdir: ./media/
 
 [.lead]
-nvmeof.portiomb events occur when ONTAP encounters issues associated with port connections to bottom module (B) on shelves.
+nvmeof.portiomb EMS events occur when ONTAP encounters issues associated with port connections to bottom module (B) on shelves.
 
 
 == nvmeof.portiomb.clear

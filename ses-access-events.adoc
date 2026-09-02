@@ -15,7 +15,7 @@ summary: ses.access events
 :imagesdir: ./media/
 
 [.lead]
-ses.access events occur when ONTAP encounters issues associated with Enclosure Services communications with disk shelves.
+ses.access EMS events occur when ONTAP encounters issues associated with Enclosure Services communications with disk shelves.
 
 
 == ses.access.noEnclServ

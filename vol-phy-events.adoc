@@ -15,7 +15,7 @@ summary: vol.phy events
 :imagesdir: ./media/
 
 [.lead]
-vol.phy events occur when the volume is running dangerously low on free blocks to write to.
+vol.phy EMS events occur when the volume is running dangerously low on free blocks to write to.
 
 
 == vol.phy.overalloc.inc.sav

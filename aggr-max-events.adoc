@@ -15,7 +15,7 @@ summary: aggr.max events
 :imagesdir: ./media/
 
 [.lead]
-aggr.max events occur as a reminder that the maximum aggregate size limit is increased from the default value defined in the Platform Specific Module (PSM) table.
+aggr.max EMS events occur as a reminder that the maximum aggregate size limit is increased from the default value defined in the Platform Specific Module (PSM) table.
 
 
 == aggr.max.size.increased

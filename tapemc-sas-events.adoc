@@ -15,7 +15,7 @@ summary: tapemc.sas events
 :imagesdir: ./media/
 
 [.lead]
-tapemc.sas events occur when ONTAP encounters issues associated with SAS tape and media changer devices.
+tapemc.sas EMS events occur when ONTAP encounters issues associated with SAS tape and media changer devices.
 
 
 == tapemc.SAS.dedicatedPort

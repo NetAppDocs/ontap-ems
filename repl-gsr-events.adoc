@@ -15,7 +15,7 @@ summary: repl.gsr events
 :imagesdir: ./media/
 
 [.lead]
-repl.gsr events occur when ONTAP encounters issues associated with SnapMirror Granular Sync operations.
+repl.gsr EMS events occur when ONTAP encounters issues associated with SnapMirror Granular Sync operations.
 
 
 == repl.gsr.cache.modify.gs.enfrc.failed

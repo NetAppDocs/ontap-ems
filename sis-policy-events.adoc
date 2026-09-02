@@ -15,7 +15,7 @@ summary: sis.policy events
 :imagesdir: ./media/
 
 [.lead]
-sis.policy events occur when ONTAP encounters issues associated with efficiency policy management.
+sis.policy EMS events occur when ONTAP encounters issues associated with efficiency policy management.
 
 
 == sis.policy.predef.create.upgradeError

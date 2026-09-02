@@ -15,7 +15,7 @@ summary: monitor.globalstatus events
 :imagesdir: ./media/
 
 [.lead]
-monitor.globalstatus events occur when ONTAP encounters issues associated with system global health status.
+monitor.globalstatus EMS events occur when ONTAP encounters issues associated with system global health status.
 
 
 == monitor.globalStatus.critical

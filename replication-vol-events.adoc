@@ -15,7 +15,7 @@ summary: replication.vol events
 :imagesdir: ./media/
 
 [.lead]
-replication.vol events occur when ONTAP encounters issues associated with volume replication and disk errors.
+replication.vol EMS events occur when ONTAP encounters issues associated with volume replication and disk errors.
 
 
 == replication.vol.activemapdelta.err

@@ -15,7 +15,7 @@ summary: cf.partner events
 :imagesdir: ./media/
 
 [.lead]
-cf.partner events occur when ONTAP encounters issues associated with HA partner operations.
+cf.partner EMS events occur when ONTAP encounters issues associated with HA partner operations.
 
 
 == cf.partner.login

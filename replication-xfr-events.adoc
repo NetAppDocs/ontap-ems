@@ -15,7 +15,7 @@ summary: replication.xfr events
 :imagesdir: ./media/
 
 [.lead]
-replication.xfr events occur when ONTAP encounters issues associated with SnapMirror(R) or SnapVault(tm) transfer operations.
+replication.xfr EMS events occur when ONTAP encounters issues associated with SnapMirror(R) or SnapVault(tm) transfer operations.
 
 
 == replication.xfr.checksum.fail

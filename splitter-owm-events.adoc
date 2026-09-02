@@ -15,7 +15,7 @@ summary: splitter.owm events
 :imagesdir: ./media/
 
 [.lead]
-splitter.owm events occur when overlapping write manager recycling is activated as the allocation exceeds the threshold.
+splitter.owm EMS events occur when overlapping write manager recycling is activated as the allocation exceeds the threshold.
 
 
 == splitter.owm.recycle.start

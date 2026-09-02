@@ -15,7 +15,7 @@ summary: configbr.backupfailed events
 :imagesdir: ./media/
 
 [.lead]
-configbr.backupfailed events occur when the configuration backup cannot be created.
+configbr.backupfailed EMS events occur when the configuration backup cannot be created.
 
 
 == configbr.backupFailed

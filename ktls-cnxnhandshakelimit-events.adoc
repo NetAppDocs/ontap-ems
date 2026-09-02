@@ -15,7 +15,7 @@ summary: ktls.cnxnhandshakelimit events
 :imagesdir: ./media/
 
 [.lead]
-ktls.cnxnhandshakelimit events occur when the concurrent TLS connection handshake limit is reached.
+ktls.cnxnhandshakelimit EMS events occur when the concurrent TLS connection handshake limit is reached.
 
 
 == ktls.cnxnHandshakeLimit

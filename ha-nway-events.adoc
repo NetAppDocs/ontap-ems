@@ -15,7 +15,7 @@ summary: ha.nway events
 :imagesdir: ./media/
 
 [.lead]
-ha.nway events occur when ONTAP encounters issues associated with storage pod takeover, giveback, and aggregate relocation operations.
+ha.nway EMS events occur when ONTAP encounters issues associated with storage pod takeover, giveback, and aggregate relocation operations.
 
 
 == ha.nway.sfo.event.completion

@@ -15,7 +15,7 @@ summary: monitor.brokendisk events
 :imagesdir: ./media/
 
 [.lead]
-monitor.brokendisk events occur when a node is in a degraded state because of a broken disk.
+monitor.brokendisk EMS events occur when a node is in a degraded state because of a broken disk.
 
 
 == monitor.brokenDisk.notice

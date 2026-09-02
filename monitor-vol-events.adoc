@@ -15,7 +15,7 @@ summary: monitor.vol events
 :imagesdir: ./media/
 
 [.lead]
-monitor.vol events occur when ONTAP encounters issues associated with volume space utilization including storage efficiency savings.
+monitor.vol EMS events occur when ONTAP encounters issues associated with volume space utilization including storage efficiency savings.
 
 
 == monitor.vol.full.inc.sav

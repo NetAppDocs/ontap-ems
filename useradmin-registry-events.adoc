@@ -15,7 +15,7 @@ summary: useradmin.registry events
 :imagesdir: ./media/
 
 [.lead]
-useradmin.registry events occur when ONTAP encounters issues associated with the useradmin registry.
+useradmin.registry EMS events occur when ONTAP encounters issues associated with the useradmin registry.
 
 
 == useradmin.registry

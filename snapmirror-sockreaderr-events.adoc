@@ -15,7 +15,7 @@ summary: snapmirror.sockreaderr events
 :imagesdir: ./media/
 
 [.lead]
-snapmirror.sockreaderr events occur when SnapMirror tries to read a very large chunk from the network.
+snapmirror.sockreaderr EMS events occur when SnapMirror tries to read a very large chunk from the network.
 
 
 == snapmirror.sockReadErr

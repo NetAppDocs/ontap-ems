@@ -15,7 +15,7 @@ summary: disk.healthtrigger events
 :imagesdir: ./media/
 
 [.lead]
-disk.healthtrigger events occur when the disk returns a health trigger event.
+disk.healthtrigger EMS events occur when the disk returns a health trigger event.
 
 
 == disk.healthTrigger

@@ -15,7 +15,7 @@ summary: kern.process events
 :imagesdir: ./media/
 
 [.lead]
-kern.process events occur when a process creation has the system close to the maximum limit for the number of processes.
+kern.process EMS events occur when a process creation has the system close to the maximum limit for the number of processes.
 
 
 == kern.process.alloc.limit

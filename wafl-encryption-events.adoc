@@ -15,7 +15,7 @@ summary: wafl.encryption events
 :imagesdir: ./media/
 
 [.lead]
-wafl.encryption events occur when the system takes offline an encrypted virtual volume because encryption became unsupported.
+wafl.encryption EMS events occur when the system takes offline an encrypted virtual volume because encryption became unsupported.
 
 
 == wafl.encryption.unsupported

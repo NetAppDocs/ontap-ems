@@ -15,7 +15,7 @@ summary: sfo.aggr events
 :imagesdir: ./media/
 
 [.lead]
-sfo.aggr events occur when ONTAP encounters issues associated with storage failover (SFO) aggregate relocation.
+sfo.aggr EMS events occur when ONTAP encounters issues associated with storage failover (SFO) aggregate relocation.
 
 
 == sfo.aggr.relocated.cu

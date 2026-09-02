@@ -15,7 +15,7 @@ summary: arl.netra events
 :imagesdir: ./media/
 
 [.lead]
-arl.netra events occur when ONTAP encounters issues associated with aggregate relocation failures due to destination node validation checks or resource availability.
+arl.netra EMS events occur when ONTAP encounters issues associated with aggregate relocation failures due to destination node validation checks or resource availability.
 
 
 == arl.netra.ca.check.failed

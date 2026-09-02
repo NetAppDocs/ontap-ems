@@ -15,7 +15,7 @@ summary: disk.fence events
 :imagesdir: ./media/
 
 [.lead]
-disk.fence events occur when a node's access to a disk is blocked due to a high-availability (HA) takeover event.
+disk.fence EMS events occur when a node's access to a disk is blocked due to a high-availability (HA) takeover event.
 
 
 == disk.fence.BridgeIOBlocked

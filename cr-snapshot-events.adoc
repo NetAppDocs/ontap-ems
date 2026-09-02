@@ -15,7 +15,7 @@ summary: cr.snapshot events
 :imagesdir: ./media/
 
 [.lead]
-cr.snapshot events occur when a temporary Snapshot(tm) copy created by the 'volume check' command could not be deleted.
+cr.snapshot EMS events occur when a temporary Snapshot(tm) copy created by the 'volume check' command could not be deleted.
 
 
 == CR.Snapshot.Not.Deleted

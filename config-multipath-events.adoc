@@ -15,7 +15,7 @@ summary: config.multipath events
 :imagesdir: ./media/
 
 [.lead]
-config.multipath events occur when the filer configuration is configured for High Availability (HA) multipathing.
+config.multipath EMS events occur when the filer configuration is configured for High Availability (HA) multipathing.
 
 
 == config.MultiPath

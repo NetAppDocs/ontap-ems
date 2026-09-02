@@ -15,7 +15,7 @@ summary: vsa.azure events
 :imagesdir: ./media/
 
 [.lead]
-vsa.azure events occur when ONTAP encounters issues associated with Microsoft Azure Load Balancer health probes on ONTAP Cloud.
+vsa.azure EMS events occur when ONTAP encounters issues associated with Microsoft Azure Load Balancer health probes on ONTAP Cloud.
 
 
 == vsa.azure.nlb.probeActive

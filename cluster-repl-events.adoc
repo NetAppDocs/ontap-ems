@@ -15,7 +15,7 @@ summary: cluster.repl events
 :imagesdir: ./media/
 
 [.lead]
-cluster.repl events occur when ONTAP encounters issues associated with cluster replication heartbeat operations.
+cluster.repl EMS events occur when ONTAP encounters issues associated with cluster replication heartbeat operations.
 
 
 == cluster.repl.localNW.unreachable

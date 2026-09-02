@@ -15,7 +15,7 @@ summary: download.request events
 :imagesdir: ./media/
 
 [.lead]
-download.request events occur when a user-initiated download is initiated.
+download.request EMS events occur when a user-initiated download is initiated.
 
 
 == download.request

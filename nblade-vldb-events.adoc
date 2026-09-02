@@ -15,7 +15,7 @@ summary: nblade.vldb events
 :imagesdir: ./media/
 
 [.lead]
-nblade.vldb events occur when ONTAP encounters issues associated with volume location database (VLDB) operations.
+nblade.vldb EMS events occur when ONTAP encounters issues associated with volume location database (VLDB) operations.
 
 
 == Nblade.vldb.LeakedBladeList

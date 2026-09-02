@@ -15,7 +15,7 @@ summary: cshm.snmp events
 :imagesdir: ./media/
 
 [.lead]
-cshm.snmp events occur when the Ethernet switch health monitor (CSHM) detects a failure in the switch's SNMP agent.
+cshm.snmp EMS events occur when the Ethernet switch health monitor (CSHM) detects a failure in the switch's SNMP agent.
 
 
 == cshm.snmp.agentFailure

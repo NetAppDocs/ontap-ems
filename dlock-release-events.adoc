@@ -15,7 +15,7 @@ summary: dlock.release events
 :imagesdir: ./media/
 
 [.lead]
-dlock.release events occur when ONTAP(R) software reports an error while attempting to release an internal lock.
+dlock.release EMS events occur when ONTAP(R) software reports an error while attempting to release an internal lock.
 
 
 == dlock.release.error

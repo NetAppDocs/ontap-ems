@@ -15,7 +15,7 @@ summary: sp.log events
 :imagesdir: ./media/
 
 [.lead]
-sp.log events occur when ONTAP encounters issues associated with the Service Processor (SP) or Baseboard Management Controller (BMC) log partition.
+sp.log EMS events occur when ONTAP encounters issues associated with the Service Processor (SP) or Baseboard Management Controller (BMC) log partition.
 
 
 == sp.log.partition.full

@@ -15,7 +15,7 @@ summary: moveagent.exceed events
 :imagesdir: ./media/
 
 [.lead]
-moveagent.exceed events occur when the time window for a volume move operation exceeds the specified limit.
+moveagent.exceed EMS events occur when the time window for a volume move operation exceeds the specified limit.
 
 
 == moveagent.exceed.window

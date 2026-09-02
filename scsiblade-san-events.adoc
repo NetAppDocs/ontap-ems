@@ -15,7 +15,7 @@ summary: scsiblade.san events
 :imagesdir: ./media/
 
 [.lead]
-scsiblade.san events occur when ONTAP encounters issues associated with SAN active-active state and SnapMirror(R) Active Synchronous operations.
+scsiblade.san EMS events occur when ONTAP encounters issues associated with SAN active-active state and SnapMirror(R) Active Synchronous operations.
 
 
 == scsiblade.san.config.active

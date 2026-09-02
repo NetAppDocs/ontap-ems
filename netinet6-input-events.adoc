@@ -15,7 +15,7 @@ summary: netinet6.input events
 :imagesdir: ./media/
 
 [.lead]
-netinet6.input events occur when ONTAP encounters issues associated with IPv6 packet input processing.
+netinet6.input EMS events occur when ONTAP encounters issues associated with IPv6 packet input processing.
 
 
 == netinet6.input.addr.notReady

@@ -15,7 +15,7 @@ summary: revertto.force events
 :imagesdir: ./media/
 
 [.lead]
-revertto.force events occur when a revert-to process is being initiated with the "force" flag, and configuration errors have been detected.
+revertto.force EMS events occur when a revert-to process is being initiated with the "force" flag, and configuration errors have been detected.
 
 
 == revertTo.force

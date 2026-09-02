@@ -15,7 +15,7 @@ summary: nv.fake events
 :imagesdir: ./media/
 
 [.lead]
-nv.fake events occur when the nonvolatile (NV) driver detects that system memory is being used to simulate NVRAM.
+nv.fake EMS events occur when the nonvolatile (NV) driver detects that system memory is being used to simulate NVRAM.
 
 
 == nv.fake

@@ -15,7 +15,7 @@ summary: config.disknoswitch events
 :imagesdir: ./media/
 
 [.lead]
-config.disknoswitch events occur when a disk is found to be attached to a switch, but it's not supported for a switch configuration.
+config.disknoswitch EMS events occur when a disk is found to be attached to a switch, but it's not supported for a switch configuration.
 
 
 == config.DiskNoSwitch

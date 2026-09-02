@@ -15,7 +15,7 @@ summary: pcie.link events
 :imagesdir: ./media/
 
 [.lead]
-pcie.link events occur when PCI Express link errors are detected.
+pcie.link EMS events occur when PCI Express link errors are detected.
 
 
 == pcie.link.errors

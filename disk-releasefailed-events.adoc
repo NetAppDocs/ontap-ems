@@ -15,7 +15,7 @@ summary: disk.releasefailed events
 :imagesdir: ./media/
 
 [.lead]
-disk.releasefailed events occur when a SCSI release reservation fails.
+disk.releasefailed EMS events occur when a SCSI release reservation fails.
 
 
 == disk.releaseFailed

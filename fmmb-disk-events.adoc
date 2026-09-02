@@ -15,7 +15,7 @@ summary: fmmb.disk events
 :imagesdir: ./media/
 
 [.lead]
-fmmb.disk events occur when ONTAP encounters issues associated with HA mailbox disk identification and accessibility.
+fmmb.disk EMS events occur when ONTAP encounters issues associated with HA mailbox disk identification and accessibility.
 
 
 == fmmb.disk.IDchange

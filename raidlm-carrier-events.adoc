@@ -15,7 +15,7 @@ summary: raidlm.carrier events
 :imagesdir: ./media/
 
 [.lead]
-raidlm.carrier events occur when ONTAP encounters issues associated with multidisk carrier operations and disk copy.
+raidlm.carrier EMS events occur when ONTAP encounters issues associated with multidisk carrier operations and disk copy.
 
 
 == raidlm.carrier.copy.abort

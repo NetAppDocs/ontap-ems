@@ -15,7 +15,7 @@ summary: token.pit events
 :imagesdir: ./media/
 
 [.lead]
-token.pit events occur when ONTAP encounters issues associated with token point-in-time (PIT) file operations.
+token.pit EMS events occur when ONTAP encounters issues associated with token point-in-time (PIT) file operations.
 
 
 == token.pit.file.create.info

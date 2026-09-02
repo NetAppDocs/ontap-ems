@@ -15,7 +15,7 @@ summary: sas.cable events
 :imagesdir: ./media/
 
 [.lead]
-sas.cable events occur when ONTAP encounters issues associated with SAS cable functionality and qualification.
+sas.cable EMS events occur when ONTAP encounters issues associated with SAS cable functionality and qualification.
 
 
 == sas.cable.degraded

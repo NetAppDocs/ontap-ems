@@ -15,7 +15,7 @@ summary: wafl.shutdown events
 :imagesdir: ./media/
 
 [.lead]
-wafl.shutdown events occur during shutdown, to indicate that a volume has not been marked clean.
+wafl.shutdown EMS events occur during shutdown, to indicate that a volume has not been marked clean.
 
 
 == wafl.shutdown.notClean

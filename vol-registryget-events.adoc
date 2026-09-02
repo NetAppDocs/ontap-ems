@@ -15,7 +15,7 @@ summary: vol.registryget events
 :imagesdir: ./media/
 
 [.lead]
-vol.registryget events occur when ONTAP encounters issues associated with registry requests for disk sector size or volume checksum configuration.
+vol.registryget EMS events occur when ONTAP encounters issues associated with registry requests for disk sector size or volume checksum configuration.
 
 
 == vol.registryGet.no512520BPS

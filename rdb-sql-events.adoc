@@ -15,7 +15,7 @@ summary: rdb.sql events
 :imagesdir: ./media/
 
 [.lead]
-rdb.sql events occur when ONTAP encounters issues associated with Data Replication Module database upgrades from RDB to SQL.
+rdb.sql EMS events occur when ONTAP encounters issues associated with Data Replication Module database upgrades from RDB to SQL.
 
 
 == rdb.sql.upgrade.failed

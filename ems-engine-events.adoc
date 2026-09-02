@@ -15,7 +15,7 @@ summary: ems.engine events
 :imagesdir: ./media/
 
 [.lead]
-ems.engine events occur when ONTAP encounters issues associated with Event Management System (EMS) operations.
+ems.engine EMS events occur when ONTAP encounters issues associated with Event Management System (EMS) operations.
 
 
 == ems.engine.event.dnsLkupFail

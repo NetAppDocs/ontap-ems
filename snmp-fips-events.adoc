@@ -15,7 +15,7 @@ summary: snmp.fips events
 :imagesdir: ./media/
 
 [.lead]
-snmp.fips events occur when ONTAP encounters issues associated with SNMP FIPS compliance.
+snmp.fips EMS events occur when ONTAP encounters issues associated with SNMP FIPS compliance.
 
 
 == snmp.fips.objs.del.failed

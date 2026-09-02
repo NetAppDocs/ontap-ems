@@ -15,7 +15,7 @@ summary: nblade.gracebegin events
 :imagesdir: ./media/
 
 [.lead]
-nblade.gracebegin events occur when the NFS server enters the grace state.
+nblade.gracebegin EMS events occur when the NFS server enters the grace state.
 
 
 == Nblade.graceBegin

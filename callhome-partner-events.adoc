@@ -15,7 +15,7 @@ summary: callhome.partner events
 :imagesdir: ./media/
 
 [.lead]
-callhome.partner events occur when the storage failover partner is down and takeover cannot begin.
+callhome.partner EMS events occur when the storage failover partner is down and takeover cannot begin.
 
 
 == callhome.partner.down

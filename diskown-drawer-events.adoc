@@ -15,7 +15,7 @@ summary: diskown.drawer events
 :imagesdir: ./media/
 
 [.lead]
-diskown.drawer events occur when ONTAP encounters issues associated with drawer-based drive assignment.
+diskown.drawer EMS events occur when ONTAP encounters issues associated with drawer-based drive assignment.
 
 
 == diskown.drawer.assignStatus

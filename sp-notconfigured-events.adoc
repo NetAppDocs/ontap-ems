@@ -15,7 +15,7 @@ summary: sp.notconfigured events
 :imagesdir: ./media/
 
 [.lead]
-sp.notconfigured events occur weekly to remind you to configure the Service Processor (SP).
+sp.notconfigured EMS events occur weekly to remind you to configure the Service Processor (SP).
 
 
 == sp.notConfigured

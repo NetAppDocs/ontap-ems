@@ -15,7 +15,7 @@ summary: xfcvi.cm events
 :imagesdir: ./media/
 
 [.lead]
-xfcvi.cm events occur when connection requests times out.
+xfcvi.cm EMS events occur when connection requests times out.
 
 
 == xfcvi.cm.timedout

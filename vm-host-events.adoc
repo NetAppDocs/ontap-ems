@@ -15,7 +15,7 @@ summary: vm.host events
 :imagesdir: ./media/
 
 [.lead]
-vm.host events occur when a VM is paused by the hypervisor.
+vm.host EMS events occur when a VM is paused by the hypervisor.
 
 
 == vm.host.error

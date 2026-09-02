@@ -15,7 +15,7 @@ summary: wafl.cp events
 :imagesdir: ./media/
 
 [.lead]
-wafl.cp events occur when a WAFL(R) consistency point (CP) takes longer than 30 seconds.
+wafl.cp EMS events occur when a WAFL(R) consistency point (CP) takes longer than 30 seconds.
 
 
 == wafl.cp.toolong

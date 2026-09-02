@@ -15,7 +15,7 @@ summary: callhome.data events
 :imagesdir: ./media/
 
 [.lead]
-callhome.data events occur when the system detects that it has encountered an outage prior to this boot.
+callhome.data EMS events occur when the system detects that it has encountered an outage prior to this boot.
 
 
 == callhome.data.outage.detected

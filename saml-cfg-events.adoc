@@ -15,7 +15,7 @@ summary: saml.cfg events
 :imagesdir: ./media/
 
 [.lead]
-saml.cfg events occur when ONTAP encounters issues associated with Security Assertion Markup Language (SAML) Service Provider (SP) configuration.
+saml.cfg EMS events occur when ONTAP encounters issues associated with Security Assertion Markup Language (SAML) Service Provider (SP) configuration.
 
 
 == saml.cfg.idp.download

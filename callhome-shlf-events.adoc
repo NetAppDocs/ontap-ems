@@ -15,7 +15,7 @@ summary: callhome.shlf events
 :imagesdir: ./media/
 
 [.lead]
-callhome.shlf events occur when ONTAP encounters issues associated with disk shelf hardware.
+callhome.shlf EMS events occur when ONTAP encounters issues associated with disk shelf hardware.
 
 
 == callhome.shlf.fan

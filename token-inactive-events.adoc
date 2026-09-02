@@ -15,7 +15,7 @@ summary: token.inactive events
 :imagesdir: ./media/
 
 [.lead]
-token.inactive events occur when a reference is deleted on a token that has existed for longer than the timeout window.
+token.inactive EMS events occur when a reference is deleted on a token that has existed for longer than the timeout window.
 
 
 == token.inactive.ref.deleted

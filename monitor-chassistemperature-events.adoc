@@ -15,7 +15,7 @@ summary: monitor.chassistemperature events
 :imagesdir: ./media/
 
 [.lead]
-monitor.chassistemperature events occur when ONTAP encounters issues associated with chassis temperature monitoring.
+monitor.chassistemperature EMS events occur when ONTAP encounters issues associated with chassis temperature monitoring.
 
 
 == monitor.chassisTemperature.cool

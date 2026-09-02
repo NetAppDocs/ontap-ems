@@ -15,7 +15,7 @@ summary: netport.eth events
 :imagesdir: ./media/
 
 [.lead]
-netport.eth events occur when a physical network port has been discovered.
+netport.eth EMS events occur when a physical network port has been discovered.
 
 
 == netport.eth.discovered

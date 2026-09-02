@@ -15,7 +15,7 @@ summary: savecore.completed events
 :imagesdir: ./media/
 
 [.lead]
-savecore.completed events occur when a synchronous savecore operation has completed.
+savecore.completed EMS events occur when a synchronous savecore operation has completed.
 
 
 == savecore.completed

@@ -15,7 +15,7 @@ summary: repl.logical events
 :imagesdir: ./media/
 
 [.lead]
-repl.logical events occur when ONTAP encounters issues associated with data warehouse rebuilds and logical replication.
+repl.logical EMS events occur when ONTAP encounters issues associated with data warehouse rebuilds and logical replication.
 
 
 == repl.logical.dw.rebuild

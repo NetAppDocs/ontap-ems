@@ -15,7 +15,7 @@ summary: mgmtgwd.rootvol events
 :imagesdir: ./media/
 
 [.lead]
-mgmtgwd.rootvol events occur when ONTAP encounters issues associated with root volume changes and management database synchronization.
+mgmtgwd.rootvol EMS events occur when ONTAP encounters issues associated with root volume changes and management database synchronization.
 
 
 == mgmtgwd.rootvol.recovery.changed

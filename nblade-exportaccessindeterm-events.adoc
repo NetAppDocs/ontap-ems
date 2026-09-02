@@ -15,7 +15,7 @@ summary: nblade.exportaccessindeterm events
 :imagesdir: ./media/
 
 [.lead]
-nblade.exportaccessindeterm events occur when client access cannot be evaluated because of an error while matching the client against export rules.
+nblade.exportaccessindeterm EMS events occur when client access cannot be evaluated because of an error while matching the client against export rules.
 
 
 == Nblade.exportAccessIndeterm

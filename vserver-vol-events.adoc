@@ -15,7 +15,7 @@ summary: vserver.vol events
 :imagesdir: ./media/
 
 [.lead]
-vserver.vol events occur when ONTAP encounters issues associated with destination DP volume size modifications in storage-limit enabled SVMs.
+vserver.vol EMS events occur when ONTAP encounters issues associated with destination DP volume size modifications in storage-limit enabled SVMs.
 
 
 == vserver.vol.max.size.reduced

@@ -15,7 +15,7 @@ summary: scsitarget.fct events
 :imagesdir: ./media/
 
 [.lead]
-scsitarget.fct events occur when ONTAP encounters issues associated with Fibre Channel (FC) target adapter operations and fabric connectivity.
+scsitarget.fct EMS events occur when ONTAP encounters issues associated with Fibre Channel (FC) target adapter operations and fabric connectivity.
 
 
 == scsitarget.fct.fabNameRSCN

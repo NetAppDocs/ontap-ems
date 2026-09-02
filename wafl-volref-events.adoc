@@ -15,7 +15,7 @@ summary: wafl.volref events
 :imagesdir: ./media/
 
 [.lead]
-wafl.volref events occur when wafliron is started on aggregate containing volumes, which are in-use by other subsystems.
+wafl.volref EMS events occur when wafliron is started on aggregate containing volumes, which are in-use by other subsystems.
 
 
 == wafl.volref.subsystem.string

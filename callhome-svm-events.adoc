@@ -15,7 +15,7 @@ summary: callhome.svm events
 :imagesdir: ./media/
 
 [.lead]
-callhome.svm events occur when ONTAP encounters issues associated with Vserver migration operations.
+callhome.svm EMS events occur when ONTAP encounters issues associated with Vserver migration operations.
 
 
 == callhome.svm.mig.abort.fail

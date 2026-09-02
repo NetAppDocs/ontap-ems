@@ -15,7 +15,7 @@ summary: arl.connecttodestfailed events
 :imagesdir: ./media/
 
 [.lead]
-arl.connecttodestfailed events occur when the local node cannot connect over the cluster network to the d-blade of the destination node while relocating an aggregate.
+arl.connecttodestfailed EMS events occur when the local node cannot connect over the cluster network to the d-blade of the destination node while relocating an aggregate.
 
 
 == arl.connectToDestFailed

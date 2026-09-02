@@ -15,7 +15,7 @@ summary: pac.peer events
 :imagesdir: ./media/
 
 [.lead]
-pac.peer events occur when the protocol access control fails to get the peer name.
+pac.peer EMS events occur when the protocol access control fails to get the peer name.
 
 
 == pac.peer.getName

@@ -15,7 +15,7 @@ summary: nvram.excessive events
 :imagesdir: ./media/
 
 [.lead]
-nvram.excessive events occur when ONTAP encounters issues associated with correctable error-correcting code (ECC) memory errors in the NVRAM complex.
+nvram.excessive EMS events occur when ONTAP encounters issues associated with correctable error-correcting code (ECC) memory errors in the NVRAM complex.
 
 
 == nvram.excessive.cecc.errs

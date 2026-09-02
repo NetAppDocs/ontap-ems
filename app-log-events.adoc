@@ -15,7 +15,7 @@ summary: app.log events
 :imagesdir: ./media/
 
 [.lead]
-app.log events occur when ONTAP encounters issues associated with application events and messages from remote client applications.
+app.log EMS events occur when ONTAP encounters issues associated with application events and messages from remote client applications.
 
 
 == app.log.alert

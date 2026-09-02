@@ -15,7 +15,7 @@ summary: gpo.security events
 :imagesdir: ./media/
 
 [.lead]
-gpo.security events occur when ONTAP encounters issues associated with Group Policy Object (GPO) security template file format.
+gpo.security EMS events occur when ONTAP encounters issues associated with Group Policy Object (GPO) security template file format.
 
 
 == gpo.security.unrecogFileForm

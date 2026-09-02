@@ -15,7 +15,7 @@ summary: configbr.snapshotdelfailed events
 :imagesdir: ./media/
 
 [.lead]
-configbr.snapshotdelfailed events occur when a Snapshot(tm) copy on the root volume cannot be deleted.
+configbr.snapshotdelfailed EMS events occur when a Snapshot(tm) copy on the root volume cannot be deleted.
 
 
 == configbr.snapshotDelFailed

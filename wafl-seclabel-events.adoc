@@ -15,7 +15,7 @@ summary: wafl.seclabel events
 :imagesdir: ./media/
 
 [.lead]
-wafl.seclabel events occur when the mutual exclusion has failed between the SnapMirror Synchronous and NFS v4.2 Security Labels features.
+wafl.seclabel EMS events occur when the mutual exclusion has failed between the SnapMirror Synchronous and NFS v4.2 Security Labels features.
 
 
 == wafl.seclabel.syncsm.mutex

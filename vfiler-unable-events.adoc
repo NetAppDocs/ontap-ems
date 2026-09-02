@@ -15,7 +15,7 @@ summary: vfiler.unable events
 :imagesdir: ./media/
 
 [.lead]
-vfiler.unable events occur during vFiler(tm) unit discovery, if one of the vFiler(tm) unit module initialization functions fails.
+vfiler.unable EMS events occur during vFiler(tm) unit discovery, if one of the vFiler(tm) unit module initialization functions fails.
 
 
 == vFiler.unable.initModules

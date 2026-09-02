@@ -15,7 +15,7 @@ summary: moveagent.commitdst events
 :imagesdir: ./media/
 
 [.lead]
-moveagent.commitdst events occur when a 'volume move' operation finishes moving the volume to the destination but fails to update the appropriate information on the destination.
+moveagent.commitdst EMS events occur when a 'volume move' operation finishes moving the volume to the destination but fails to update the appropriate information on the destination.
 
 
 == moveagent.commitdst.fail

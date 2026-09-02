@@ -15,7 +15,7 @@ summary: fpolicy.eagain events
 :imagesdir: ./media/
 
 [.lead]
-fpolicy.eagain events occur when ONTAP encounters issues associated with FPolicy server connectivity EAGAIN errors.
+fpolicy.eagain EMS events occur when ONTAP encounters issues associated with FPolicy server connectivity EAGAIN errors.
 
 
 == fpolicy.eagain.disconnect

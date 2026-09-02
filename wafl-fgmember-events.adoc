@@ -15,7 +15,7 @@ summary: wafl.fgmember events
 :imagesdir: ./media/
 
 [.lead]
-wafl.fgmember events occur when a member of a FlexGroup experiences an unexpected rollback in its state due to a loss of the NVRAM log for the member.
+wafl.fgmember EMS events occur when a member of a FlexGroup experiences an unexpected rollback in its state due to a loss of the NVRAM log for the member.
 
 
 == wafl.fgmember.rollback

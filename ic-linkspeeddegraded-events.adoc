@@ -15,7 +15,7 @@ summary: ic.linkspeeddegraded events
 :imagesdir: ./media/
 
 [.lead]
-ic.linkspeeddegraded events occur when the high-availability (HA) interconnect detects a degraded link speed.
+ic.linkspeeddegraded EMS events occur when the high-availability (HA) interconnect detects a degraded link speed.
 
 
 == ic.linkSpeedDegraded

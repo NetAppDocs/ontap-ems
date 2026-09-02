@@ -15,7 +15,7 @@ summary: shm.threshold events
 :imagesdir: ./media/
 
 [.lead]
-shm.threshold events occur when ONTAP encounters issues associated with disk health threshold monitoring.
+shm.threshold EMS events occur when ONTAP encounters issues associated with disk health threshold monitoring.
 
 
 == shm.threshold.agrsvIOCount

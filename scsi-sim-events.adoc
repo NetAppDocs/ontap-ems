@@ -15,7 +15,7 @@ summary: scsi.sim events
 :imagesdir: ./media/
 
 [.lead]
-scsi.sim events occur when a Check Condition is the mechanism whereby a target device reports an informational condition or error status to the requesting host.
+scsi.sim EMS events occur when a Check Condition is the mechanism whereby a target device reports an informational condition or error status to the requesting host.
 
 
 == scsi.sim.checkCondition

@@ -15,7 +15,7 @@ summary: mcc.auso events
 :imagesdir: ./media/
 
 [.lead]
-mcc.auso events occur when ONTAP encounters issues associated with automatic unplanned switchover operations.
+mcc.auso EMS events occur when ONTAP encounters issues associated with automatic unplanned switchover operations.
 
 
 == mcc.auso.trigFailed

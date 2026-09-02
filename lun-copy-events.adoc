@@ -15,7 +15,7 @@ summary: lun.copy events
 :imagesdir: ./media/
 
 [.lead]
-lun.copy events occur when ONTAP encounters issues associated with LUN copy operations.
+lun.copy EMS events occur when ONTAP encounters issues associated with LUN copy operations.
 
 
 == LUN.copy.dstPresent

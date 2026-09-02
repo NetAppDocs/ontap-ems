@@ -15,7 +15,7 @@ summary: lun.vtoc events
 :imagesdir: ./media/
 
 [.lead]
-lun.vtoc events occur when ONTAP encounters issues associated with the Vdisk Table of Contents (VTOC) metafile.
+lun.vtoc EMS events occur when ONTAP encounters issues associated with the Vdisk Table of Contents (VTOC) metafile.
 
 
 == LUN.vtoc.rebuild.done

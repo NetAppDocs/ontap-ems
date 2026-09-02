@@ -15,7 +15,7 @@ summary: rlib.remote events
 :imagesdir: ./media/
 
 [.lead]
-rlib.remote events occur when ONTAP encounters issues associated with remote node communication and sysid changes.
+rlib.remote EMS events occur when ONTAP encounters issues associated with remote node communication and sysid changes.
 
 
 == rlib.remote.node.event

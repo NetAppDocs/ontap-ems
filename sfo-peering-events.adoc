@@ -15,7 +15,7 @@ summary: sfo.peering events
 :imagesdir: ./media/
 
 [.lead]
-sfo.peering events occur when ONTAP encounters issues associated with storage failover peering relationship operations.
+sfo.peering EMS events occur when ONTAP encounters issues associated with storage failover peering relationship operations.
 
 
 == sfo.peering.rm.delay

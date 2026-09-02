@@ -15,7 +15,7 @@ summary: sp.eth events
 :imagesdir: ./media/
 
 [.lead]
-sp.eth events occur when ONTAP encounters issues associated with the Service Processor (SP) or Baseboard Management Controller (BMC) Ethernet switch.
+sp.eth EMS events occur when ONTAP encounters issues associated with the Service Processor (SP) or Baseboard Management Controller (BMC) Ethernet switch.
 
 
 == sp.eth.switch.upd.failed

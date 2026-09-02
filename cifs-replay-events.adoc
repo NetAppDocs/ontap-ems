@@ -15,7 +15,7 @@ summary: cifs.replay events
 :imagesdir: ./media/
 
 [.lead]
-cifs.replay events occur when configuration is not synchronized.
+cifs.replay EMS events occur when configuration is not synchronized.
 
 
 == cifs.replay.failure

@@ -15,7 +15,7 @@ summary: tls.unused events
 :imagesdir: ./media/
 
 [.lead]
-tls.unused events occur when ONTAP encounters issues associated with unused TLS cipher suites and protocols.
+tls.unused EMS events occur when ONTAP encounters issues associated with unused TLS cipher suites and protocols.
 
 
 == tls.unused.cipher

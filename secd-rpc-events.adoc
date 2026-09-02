@@ -15,7 +15,7 @@ summary: secd.rpc events
 :imagesdir: ./media/
 
 [.lead]
-secd.rpc events occur when ONTAP encounters issues associated with Security Daemon (SecD) remote procedure call (RPC) processing.
+secd.rpc EMS events occur when ONTAP encounters issues associated with Security Daemon (SecD) remote procedure call (RPC) processing.
 
 
 == secd.rpc.authRequest.blocked

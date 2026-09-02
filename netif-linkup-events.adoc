@@ -15,7 +15,7 @@ summary: netif.linkup events
 :imagesdir: ./media/
 
 [.lead]
-netif.linkup events occur when the state of a network link changes to "up".
+netif.linkup EMS events occur when the state of a network link changes to "up".
 
 
 == netif.linkUp

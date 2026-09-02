@@ -15,7 +15,7 @@ summary: asup.config events
 :imagesdir: ./media/
 
 [.lead]
-asup.config events occur when ONTAP encounters issues associated with parsing or accessing the /etc/asup_content.conf file.
+asup.config EMS events occur when ONTAP encounters issues associated with parsing or accessing the /etc/asup_content.conf file.
 
 
 == asup.config.minimal.parse

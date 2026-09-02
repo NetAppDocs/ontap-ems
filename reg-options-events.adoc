@@ -15,7 +15,7 @@ summary: reg.options events
 :imagesdir: ./media/
 
 [.lead]
-reg.options events occur when ONTAP encounters issues associated with option changes in cluster configurations.
+reg.options EMS events occur when ONTAP encounters issues associated with option changes in cluster configurations.
 
 
 == reg.options.cf.change

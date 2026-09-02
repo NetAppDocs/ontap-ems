@@ -15,7 +15,7 @@ summary: sfo.reassignnopartner events
 :imagesdir: ./media/
 
 [.lead]
-sfo.reassignnopartner events occur during the Storage Failover takeover process, when the disks from the failed node cannot be reassigned because they are unaccessible to the surviving node.
+sfo.reassignnopartner EMS events occur during the Storage Failover takeover process, when the disks from the failed node cannot be reassigned because they are unaccessible to the surviving node.
 
 
 == sfo.reassignNoPartner

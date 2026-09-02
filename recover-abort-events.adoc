@@ -15,7 +15,7 @@ summary: recover.abort events
 :imagesdir: ./media/
 
 [.lead]
-recover.abort events occur when ONTAP encounters issues associated with restore operations being aborted.
+recover.abort EMS events occur when ONTAP encounters issues associated with restore operations being aborted.
 
 
 == recover.abort.ROOLR

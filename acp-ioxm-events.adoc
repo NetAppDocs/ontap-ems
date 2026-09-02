@@ -15,7 +15,7 @@ summary: acp.ioxm events
 :imagesdir: ./media/
 
 [.lead]
-acp.ioxm events occur when ONTAP encounters issues associated with the link status changes of IOXM switch ports.
+acp.ioxm EMS events occur when ONTAP encounters issues associated with the link status changes of IOXM switch ports.
 
 
 == acp.ioxm.port.down

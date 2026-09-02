@@ -15,7 +15,7 @@ summary: disk.toomanyreassignments events
 :imagesdir: ./media/
 
 [.lead]
-disk.toomanyreassignments events occur when a reassignment fails due to table overflow.
+disk.toomanyreassignments EMS events occur when a reassignment fails due to table overflow.
 
 
 == disk.tooManyReassignments

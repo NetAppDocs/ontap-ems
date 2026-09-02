@@ -15,7 +15,7 @@ summary: arl.abort events
 :imagesdir: ./media/
 
 [.lead]
-arl.abort events occur when a relocation of an aggregate is canceled due to activity in RAID.
+arl.abort EMS events occur when a relocation of an aggregate is canceled due to activity in RAID.
 
 
 == arl.abort.raid

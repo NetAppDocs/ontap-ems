@@ -15,7 +15,7 @@ summary: nvmens.offline events
 :imagesdir: ./media/
 
 [.lead]
-nvmens.offline events occur when an NVMe namespace has been brought offline manually.
+nvmens.offline EMS events occur when an NVMe namespace has been brought offline manually.
 
 
 == NVMeNS.offline

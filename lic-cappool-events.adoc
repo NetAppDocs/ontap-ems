@@ -15,7 +15,7 @@ summary: lic.cappool events
 :imagesdir: ./media/
 
 [.lead]
-lic.cappool events occur when ONTAP encounters issues associated with capacity pool license reassignment operations.
+lic.cappool EMS events occur when ONTAP encounters issues associated with capacity pool license reassignment operations.
 
 
 == lic.cappool.reassign.abort

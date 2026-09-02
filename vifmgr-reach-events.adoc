@@ -15,7 +15,7 @@ summary: vifmgr.reach events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.reach events occur when ONTAP encounters issues associated with network port reachability scanning and broadcast domain connectivity.
+vifmgr.reach EMS events occur when ONTAP encounters issues associated with network port reachability scanning and broadcast domain connectivity.
 
 
 == vifmgr.reach.avail

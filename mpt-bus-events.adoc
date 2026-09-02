@@ -15,7 +15,7 @@ summary: mpt.bus events
 :imagesdir: ./media/
 
 [.lead]
-mpt.bus events occur when the message processing technology (MPT) adapter driver registration fails.
+mpt.bus EMS events occur when the message processing technology (MPT) adapter driver registration fails.
 
 
 == mpt.bus.reg

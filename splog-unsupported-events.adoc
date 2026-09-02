@@ -15,7 +15,7 @@ summary: splog.unsupported events
 :imagesdir: ./media/
 
 [.lead]
-splog.unsupported events occur when the current firmware of the Service Processor (SP) does not support the log collection function.
+splog.unsupported EMS events occur when the current firmware of the Service Processor (SP) does not support the log collection function.
 
 
 == splog.unsupported

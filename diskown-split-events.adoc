@@ -15,7 +15,7 @@ summary: diskown.split events
 :imagesdir: ./media/
 
 [.lead]
-diskown.split events occur when any type of split-shelf automatic drive assignment is disabled.
+diskown.split EMS events occur when any type of split-shelf automatic drive assignment is disabled.
 
 
 == diskown.split.shelf.assignStatus

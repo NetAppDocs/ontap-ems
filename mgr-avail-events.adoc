@@ -15,7 +15,7 @@ summary: mgr.avail events
 :imagesdir: ./media/
 
 [.lead]
-mgr.avail events occur when this message is emitted when statistics is reset.
+mgr.avail EMS events occur when this message is emitted when statistics is reset.
 
 
 == mgr.avail.stat.reset

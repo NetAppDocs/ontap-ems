@@ -15,7 +15,7 @@ summary: callhome.ondemand events
 :imagesdir: ./media/
 
 [.lead]
-callhome.ondemand events occur when ONTAP encounters issues associated with remotely requested AutoSupport messages.
+callhome.ondemand EMS events occur when ONTAP encounters issues associated with remotely requested AutoSupport messages.
 
 
 == callhome.ondemand.invoke

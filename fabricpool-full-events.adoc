@@ -15,7 +15,7 @@ summary: fabricpool.full events
 :imagesdir: ./media/
 
 [.lead]
-fabricpool.full events occur when the total, cluster-wide FabricPool space usage of object stores from capacity-licensed providers has reached the license limit.
+fabricpool.full EMS events occur when the total, cluster-wide FabricPool space usage of object stores from capacity-licensed providers has reached the license limit.
 
 
 == fabricpool.full

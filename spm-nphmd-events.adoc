@@ -15,7 +15,7 @@ summary: spm.nphmd events
 :imagesdir: ./media/
 
 [.lead]
-spm.nphmd events occur when the Controller Health Monitor process (nphmd) involuntarily terminates.
+spm.nphmd EMS events occur when the Controller Health Monitor process (nphmd) involuntarily terminates.
 
 
 == spm.nphmd.process.exit

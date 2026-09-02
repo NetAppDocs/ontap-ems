@@ -15,7 +15,7 @@ summary: callhome.mdb events
 :imagesdir: ./media/
 
 [.lead]
-callhome.mdb events occur after an unsuccessful recovery of an inconsistent management database.
+callhome.mdb EMS events occur after an unsuccessful recovery of an inconsistent management database.
 
 
 == callhome.mdb.recovery.unsuccessful

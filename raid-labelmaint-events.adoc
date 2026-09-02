@@ -15,7 +15,7 @@ summary: raid.labelmaint events
 :imagesdir: ./media/
 
 [.lead]
-raid.labelmaint events occur when ONTAP encounters issues associated with online label maintenance mode.
+raid.labelmaint EMS events occur when ONTAP encounters issues associated with online label maintenance mode.
 
 
 == raid.labelmaint.isolate.aggr

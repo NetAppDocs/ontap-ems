@@ -15,7 +15,7 @@ summary: callhome.clus events
 :imagesdir: ./media/
 
 [.lead]
-callhome.clus events occur when ONTAP encounters issues associated with cluster network degradation or cluster-wide storage volume creation and deletion.
+callhome.clus EMS events occur when ONTAP encounters issues associated with cluster network degradation or cluster-wide storage volume creation and deletion.
 
 
 == callhome.clus.net.degraded

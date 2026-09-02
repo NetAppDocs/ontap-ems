@@ -15,7 +15,7 @@ summary: sp.servprocd events
 :imagesdir: ./media/
 
 [.lead]
-sp.servprocd events occur in the following cases: 1.
+sp.servprocd EMS events occur in the following cases: 1.
 
 
 == sp.servprocd.upd.error

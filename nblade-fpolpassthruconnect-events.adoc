@@ -15,7 +15,7 @@ summary: nblade.fpolpassthruconnect events
 :imagesdir: ./media/
 
 [.lead]
-nblade.fpolpassthruconnect events occur when a pass-through read channel is established between the node and the FPolicy server.
+nblade.fpolpassthruconnect EMS events occur when a pass-through read channel is established between the node and the FPolicy server.
 
 
 == Nblade.fpolPassthruConnect

@@ -15,7 +15,7 @@ summary: rpt.disk events
 :imagesdir: ./media/
 
 [.lead]
-rpt.disk events occur when the generation of a disk UUID fails.
+rpt.disk EMS events occur when the generation of a disk UUID fails.
 
 
 == rpt.disk.uuid.gen.failed

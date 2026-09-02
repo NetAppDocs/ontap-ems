@@ -15,7 +15,7 @@ summary: callhome.dumptriage events
 :imagesdir: ./media/
 
 [.lead]
-callhome.dumptriage events occur when kernel dumptriage files are collected for a coredump event.
+callhome.dumptriage EMS events occur when kernel dumptriage files are collected for a coredump event.
 
 
 == callhome.dumptriage

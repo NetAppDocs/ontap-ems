@@ -15,7 +15,7 @@ summary: esh.element events
 :imagesdir: ./media/
 
 [.lead]
-esh.element events occur when ONTAP encounters issues associated with embedded switched hub (ESH) module communication.
+esh.element EMS events occur when ONTAP encounters issues associated with embedded switched hub (ESH) module communication.
 
 
 == esh.element.fault

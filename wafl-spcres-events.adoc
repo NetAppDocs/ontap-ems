@@ -15,7 +15,7 @@ summary: wafl.spcres events
 :imagesdir: ./media/
 
 [.lead]
-wafl.spcres events occur when this event indicates that the new space reservation guarantee was unabled to be obtained, so the old reservation type was kept unchanged.
+wafl.spcres EMS events occur when this event indicates that the new space reservation guarantee was unabled to be obtained, so the old reservation type was kept unchanged.
 
 
 == wafl.spcres.not.changed

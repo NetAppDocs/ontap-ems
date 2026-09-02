@@ -15,7 +15,7 @@ summary: nvmeof.cabling events
 :imagesdir: ./media/
 
 [.lead]
-nvmeof.cabling events occur when ONTAP encounters issues associated with storage shelf cabling.
+nvmeof.cabling EMS events occur when ONTAP encounters issues associated with storage shelf cabling.
 
 
 == nvmeof.cabling.clear

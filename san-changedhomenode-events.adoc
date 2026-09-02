@@ -15,7 +15,7 @@ summary: san.changedhomenode events
 :imagesdir: ./media/
 
 [.lead]
-san.changedhomenode events occur when the home node of an existing SAN LIF is modified during LIF placement.
+san.changedhomenode EMS events occur when the home node of an existing SAN LIF is modified during LIF placement.
 
 
 == san.ChangedHomeNode

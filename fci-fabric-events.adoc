@@ -15,7 +15,7 @@ summary: fci.fabric events
 :imagesdir: ./media/
 
 [.lead]
-fci.fabric events occur when ONTAP encounters issues associated with Fibre Channel fabric configuration limits.
+fci.fabric EMS events occur when ONTAP encounters issues associated with Fibre Channel fabric configuration limits.
 
 
 == fci.fabric.max.ports

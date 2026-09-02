@@ -15,7 +15,7 @@ summary: license.capac events
 :imagesdir: ./media/
 
 [.lead]
-license.capac events occur when ONTAP encounters issues associated with capacity license limits.
+license.capac EMS events occur when ONTAP encounters issues associated with capacity license limits.
 
 
 == license.capac.enforce

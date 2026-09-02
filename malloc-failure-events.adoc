@@ -15,7 +15,7 @@ summary: malloc.failure events
 :imagesdir: ./media/
 
 [.lead]
-malloc.failure events occur when ONTAP encounters issues associated with unsafe malloc calls.
+malloc.failure EMS events occur when ONTAP encounters issues associated with unsafe malloc calls.
 
 
 == malloc.failure

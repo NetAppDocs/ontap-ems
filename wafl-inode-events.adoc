@@ -15,7 +15,7 @@ summary: wafl.inode events
 :imagesdir: ./media/
 
 [.lead]
-wafl.inode events occur when ONTAP encounters issues associated with the in-memory inode cache.
+wafl.inode EMS events occur when ONTAP encounters issues associated with the in-memory inode cache.
 
 
 == wafl.inode.cache.highLoad

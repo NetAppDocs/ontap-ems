@@ -15,7 +15,7 @@ summary: cr.rdb events
 :imagesdir: ./media/
 
 [.lead]
-cr.rdb events occur when ONTAP encounters issues associated with updating the replicated database with volume check scan information.
+cr.rdb EMS events occur when ONTAP encounters issues associated with updating the replicated database with volume check scan information.
 
 
 == CR.RDB.Counters.Not.Updated

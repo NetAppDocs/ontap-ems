@@ -15,7 +15,7 @@ summary: raid.fdr events
 :imagesdir: ./media/
 
 [.lead]
-raid.fdr events occur when ONTAP encounters issues associated with failed disk registry operations.
+raid.fdr EMS events occur when ONTAP encounters issues associated with failed disk registry operations.
 
 
 == raid.fdr.failed.ok

@@ -15,7 +15,7 @@ summary: ses.giveback events
 :imagesdir: ./media/
 
 [.lead]
-ses.giveback events occur when ONTAP encounters issues associated with SCSI Enclosure Services (SES) operations during storage failover giveback.
+ses.giveback EMS events occur when ONTAP encounters issues associated with SCSI Enclosure Services (SES) operations during storage failover giveback.
 
 
 == ses.giveback.restartAfter

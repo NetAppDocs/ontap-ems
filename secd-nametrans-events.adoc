@@ -15,7 +15,7 @@ summary: secd.nametrans events
 :imagesdir: ./media/
 
 [.lead]
-secd.nametrans events occur when ONTAP encounters issues associated with name mapping and resolution.
+secd.nametrans EMS events occur when ONTAP encounters issues associated with name mapping and resolution.
 
 
 == secd.nameTrans.groupNotFound

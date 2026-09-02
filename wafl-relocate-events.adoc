@@ -15,7 +15,7 @@ summary: wafl.relocate events
 :imagesdir: ./media/
 
 [.lead]
-wafl.relocate events occur when ONTAP encounters issues associated with aggregate relocation operations.
+wafl.relocate EMS events occur when ONTAP encounters issues associated with aggregate relocation operations.
 
 
 == wafl.relocate.statusvol.fail

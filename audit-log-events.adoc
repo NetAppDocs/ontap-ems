@@ -15,7 +15,7 @@ summary: audit.log events
 :imagesdir: ./media/
 
 [.lead]
-audit.log events occur when ONTAP encounters issues associated with message auditing, log file management, and queue operations.
+audit.log EMS events occur when ONTAP encounters issues associated with message auditing, log file management, and queue operations.
 
 
 == audit.log.event

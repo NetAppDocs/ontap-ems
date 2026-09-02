@@ -15,7 +15,7 @@ summary: csm.connscalingtriggered events
 :imagesdir: ./media/
 
 [.lead]
-csm.connscalingtriggered events occur when a Cluster Session Manager (CSM) session triggers dynamic connection scaling to increase the connection count.
+csm.connscalingtriggered EMS events occur when a Cluster Session Manager (CSM) session triggers dynamic connection scaling to increase the connection count.
 
 
 == csm.connScalingTriggered

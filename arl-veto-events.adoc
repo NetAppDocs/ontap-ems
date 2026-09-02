@@ -15,7 +15,7 @@ summary: arl.veto events
 :imagesdir: ./media/
 
 [.lead]
-arl.veto events occur when ONTAP encounters issues associated with conditions that veto or prevent aggregate relocation operations.
+arl.veto EMS events occur when ONTAP encounters issues associated with conditions that veto or prevent aggregate relocation operations.
 
 
 == arl.veto.coredump.saveinprog

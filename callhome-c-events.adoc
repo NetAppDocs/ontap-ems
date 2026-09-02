@@ -15,7 +15,7 @@ summary: callhome.c events
 :imagesdir: ./media/
 
 [.lead]
-callhome.c events occur when ONTAP encounters issues associated with chassis fan failures or degraded operation.
+callhome.c EMS events occur when ONTAP encounters issues associated with chassis fan failures or degraded operation.
 
 
 == callhome.c.fan

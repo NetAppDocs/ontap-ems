@@ -15,7 +15,7 @@ summary: prov.rollback events
 :imagesdir: ./media/
 
 [.lead]
-prov.rollback events occur when ONTAP encounters issues associated with provisioning operation rollback.
+prov.rollback EMS events occur when ONTAP encounters issues associated with provisioning operation rollback.
 
 
 == prov.rollback.fail.cmd

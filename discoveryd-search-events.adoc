@@ -15,7 +15,7 @@ summary: discoveryd.search events
 :imagesdir: ./media/
 
 [.lead]
-discoveryd.search events occur when the discoveryd service is contacted during the initial cluster setup phase with an M-SEARCH multicast and a follow up HTTP GET to get the device description document.
+discoveryd.search EMS events occur when the discoveryd service is contacted during the initial cluster setup phase with an M-SEARCH multicast and a follow up HTTP GET to get the device description document.
 
 
 == discoveryd.search.request

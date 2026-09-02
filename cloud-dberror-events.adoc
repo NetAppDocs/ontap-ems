@@ -15,7 +15,7 @@ summary: cloud.dberror events
 :imagesdir: ./media/
 
 [.lead]
-cloud.dberror events occur when the cloud database service fails the update request and returns this error.
+cloud.dberror EMS events occur when the cloud database service fails the update request and returns this error.
 
 
 == cloud.DBError

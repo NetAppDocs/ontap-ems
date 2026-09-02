@@ -15,7 +15,7 @@ summary: nodewatchdog.node events
 :imagesdir: ./media/
 
 [.lead]
-nodewatchdog.node events occur when ONTAP encounters issues associated with node internal service failures.
+nodewatchdog.node EMS events occur when ONTAP encounters issues associated with node internal service failures.
 
 
 == nodewatchdog.node.failure

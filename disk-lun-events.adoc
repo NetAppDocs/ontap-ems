@@ -15,7 +15,7 @@ summary: disk.lun events
 :imagesdir: ./media/
 
 [.lead]
-disk.lun events occur when ONTAP encounters issues associated with array LUN configuration and memory allocation.
+disk.lun EMS events occur when ONTAP encounters issues associated with array LUN configuration and memory allocation.
 
 
 == disk.lun.allMemoryAvailable

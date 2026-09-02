@@ -15,7 +15,7 @@ summary: air.qtm events
 :imagesdir: ./media/
 
 [.lead]
-air.qtm events occur when the state of a scanner used to rebuild the qtree metafile changes.
+air.qtm EMS events occur when the state of a scanner used to rebuild the qtree metafile changes.
 
 
 == air.qtm.rebuild.scan.state

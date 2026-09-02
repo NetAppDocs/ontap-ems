@@ -15,7 +15,7 @@ summary: callhome.vdom events
 :imagesdir: ./media/
 
 [.lead]
-callhome.vdom events occur when the virtual disk infrastructure (vdom) unsuccessfully reconciles the Out Of Volume Container (OOVC) and the Vdisk Table Of Contents (VTOC).
+callhome.vdom EMS events occur when the virtual disk infrastructure (vdom) unsuccessfully reconciles the Out Of Volume Container (OOVC) and the Vdisk Table Of Contents (VTOC).
 
 
 == callhome.vdom.reconcile

@@ -15,7 +15,7 @@ summary: mgmtgwd.vreport events
 :imagesdir: ./media/
 
 [.lead]
-mgmtgwd.vreport events occur when the 'debug vreport' command found that some nodes were unreachable.
+mgmtgwd.vreport EMS events occur when the 'debug vreport' command found that some nodes were unreachable.
 
 
 == mgmtgwd.vreport.nodesUnreachable

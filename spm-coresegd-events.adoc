@@ -15,7 +15,7 @@ summary: spm.coresegd events
 :imagesdir: ./media/
 
 [.lead]
-spm.coresegd events occur when the core segment server (coresegd) involuntarily terminates.
+spm.coresegd EMS events occur when the core segment server (coresegd) involuntarily terminates.
 
 
 == spm.coresegd.process.exit

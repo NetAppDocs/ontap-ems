@@ -15,7 +15,7 @@ summary: lun.out events
 :imagesdir: ./media/
 
 [.lead]
-lun.out events occur when a LUN is brought offline by the SCSI layer because of a write failure due to lack of space.
+lun.out EMS events occur when a LUN is brought offline by the SCSI layer because of a write failure due to lack of space.
 
 
 == LUN.out.of.space

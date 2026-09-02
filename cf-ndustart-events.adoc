@@ -15,7 +15,7 @@ summary: cf.ndustart events
 :imagesdir: ./media/
 
 [.lead]
-cf.ndustart events occur when a nondisruptive upgrade starts.
+cf.ndustart EMS events occur when a nondisruptive upgrade starts.
 
 
 == cf.nduStart

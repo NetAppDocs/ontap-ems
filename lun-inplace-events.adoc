@@ -15,7 +15,7 @@ summary: lun.inplace events
 :imagesdir: ./media/
 
 [.lead]
-lun.inplace events occur when ONTAP encounters issues associated with in-place restore operations on LUNs or NVMe namespaces.
+lun.inplace EMS events occur when ONTAP encounters issues associated with in-place restore operations on LUNs or NVMe namespaces.
 
 
 == LUN.inplace.dmpRstrLUNonNS

@@ -15,7 +15,7 @@ summary: snapmirror.dst events
 :imagesdir: ./media/
 
 [.lead]
-snapmirror.dst events occur when ONTAP encounters issues associated with SnapMirror(R) destination operations.
+snapmirror.dst EMS events occur when ONTAP encounters issues associated with SnapMirror(R) destination operations.
 
 
 == snapmirror.dst.abortOps

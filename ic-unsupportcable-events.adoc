@@ -15,7 +15,7 @@ summary: ic.unsupportcable events
 :imagesdir: ./media/
 
 [.lead]
-ic.unsupportcable events occur when an unsupported cable is detected on the high-availability interconnect port.
+ic.unsupportcable EMS events occur when an unsupported cable is detected on the high-availability interconnect port.
 
 
 == ic.unsupportCable

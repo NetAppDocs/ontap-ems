@@ -15,7 +15,7 @@ summary: snapvault.qtree events
 :imagesdir: ./media/
 
 [.lead]
-snapvault.qtree events occur when ONTAP encounters issues associated with SnapVault(R) qtree operations.
+snapvault.qtree EMS events occur when ONTAP encounters issues associated with SnapVault(R) qtree operations.
 
 
 == snapvault.qtree.initiate

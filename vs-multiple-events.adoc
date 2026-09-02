@@ -15,7 +15,7 @@ summary: vs.multiple events
 :imagesdir: ./media/
 
 [.lead]
-vs.multiple events occur when more than one Vserver audit consolidation jobs is found.
+vs.multiple EMS events occur when more than one Vserver audit consolidation jobs is found.
 
 
 == vs.multiple.adtjobs

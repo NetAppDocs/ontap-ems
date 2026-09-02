@@ -15,7 +15,7 @@ summary: gb.cfo events
 :imagesdir: ./media/
 
 [.lead]
-gb.cfo events occur when ONTAP encounters issues associated with controller failover (CFO) giveback operations.
+gb.cfo EMS events occur when ONTAP encounters issues associated with controller failover (CFO) giveback operations.
 
 
 == gb.cfo.abort.raid.fm

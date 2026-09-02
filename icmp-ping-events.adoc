@@ -15,7 +15,7 @@ summary: icmp.ping events
 :imagesdir: ./media/
 
 [.lead]
-icmp.ping events occur when the system receives a burst of ICMP ping packet within a one-second interval.
+icmp.ping EMS events occur when the system receives a burst of ICMP ping packet within a one-second interval.
 
 
 == icmp.ping.throttle

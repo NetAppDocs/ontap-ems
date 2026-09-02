@@ -15,7 +15,7 @@ summary: mcc.check events
 :imagesdir: ./media/
 
 [.lead]
-mcc.check events occur when the MetroCluster (tm) check job has failed to complete all checks for the system.
+mcc.check EMS events occur when the MetroCluster (tm) check job has failed to complete all checks for the system.
 
 
 == mcc.check.failed

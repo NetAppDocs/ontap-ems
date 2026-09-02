@@ -15,7 +15,7 @@ summary: unowned.disk events
 :imagesdir: ./media/
 
 [.lead]
-unowned.disk events occur when the system has unowned/unassigned disks.
+unowned.disk EMS events occur when the system has unowned/unassigned disks.
 
 
 == unowned.disk.reminder

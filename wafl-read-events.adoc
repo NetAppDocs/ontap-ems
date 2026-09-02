@@ -15,7 +15,7 @@ summary: wafl.read events
 :imagesdir: ./media/
 
 [.lead]
-wafl.read events occur when potential incorrect data read is detected.
+wafl.read EMS events occur when potential incorrect data read is detected.
 
 
 == wafl.read.incorrect.data

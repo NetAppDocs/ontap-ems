@@ -15,7 +15,7 @@ summary: wafl.snaplock events
 :imagesdir: ./media/
 
 [.lead]
-wafl.snaplock events occur when this event indicates that the snaplock scan has completed.
+wafl.snaplock EMS events occur when this event indicates that the snaplock scan has completed.
 
 
 == wafl.snaplock.scan.complete

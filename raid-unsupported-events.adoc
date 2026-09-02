@@ -15,7 +15,7 @@ summary: raid.unsupported events
 :imagesdir: ./media/
 
 [.lead]
-raid.unsupported events occur when ONTAP encounters issues associated with unsupported aggregate formats.
+raid.unsupported EMS events occur when ONTAP encounters issues associated with unsupported aggregate formats.
 
 
 == raid.unsupported.bitformat

@@ -15,7 +15,7 @@ summary: nblade.css events
 :imagesdir: ./media/
 
 [.lead]
-nblade.css events occur when ONTAP encounters issues associated with object-store-server access control.
+nblade.css EMS events occur when ONTAP encounters issues associated with object-store-server access control.
 
 
 == nblade.css.s3.AccessDenied

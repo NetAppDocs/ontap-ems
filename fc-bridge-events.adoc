@@ -15,7 +15,7 @@ summary: fc.bridge events
 :imagesdir: ./media/
 
 [.lead]
-fc.bridge events occur when ONTAP encounters issues associated with FC-to-SAS bridges.
+fc.bridge EMS events occur when ONTAP encounters issues associated with FC-to-SAS bridges.
 
 
 == fc.bridge.fc.port.alert

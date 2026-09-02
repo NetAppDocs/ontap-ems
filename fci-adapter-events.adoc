@@ -15,7 +15,7 @@ summary: fci.adapter events
 :imagesdir: ./media/
 
 [.lead]
-fci.adapter events occur when ONTAP encounters issues associated with the Fibre Channel adapter driver.
+fci.adapter EMS events occur when ONTAP encounters issues associated with the Fibre Channel adapter driver.
 
 
 == fci.adapter.bootarg.option

@@ -15,7 +15,7 @@ summary: nblade.fpolicy events
 :imagesdir: ./media/
 
 [.lead]
-nblade.fpolicy events occur when ONTAP encounters issues associated with FPolicy(tm) file operation monitoring.
+nblade.fpolicy EMS events occur when ONTAP encounters issues associated with FPolicy(tm) file operation monitoring.
 
 
 == nblade.fpolicy.extn.failed

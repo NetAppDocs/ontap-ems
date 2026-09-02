@@ -15,7 +15,7 @@ summary: coredump.sparecoreinit events
 :imagesdir: ./media/
 
 [.lead]
-coredump.sparecoreinit events occur when sparecore initialization is completed.
+coredump.sparecoreinit EMS events occur when sparecore initialization is completed.
 
 
 == coredump.sparecoreinit.times

@@ -15,7 +15,7 @@ summary: disk.ioreassignfailed events
 :imagesdir: ./media/
 
 [.lead]
-disk.ioreassignfailed events occur when a disk reports a medium error and the sector reassignment fails.
+disk.ioreassignfailed EMS events occur when a disk reports a medium error and the sector reassignment fails.
 
 
 == disk.ioReassignFailed

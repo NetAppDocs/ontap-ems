@@ -15,7 +15,7 @@ summary: vsdr.periodic events
 :imagesdir: ./media/
 
 [.lead]
-vsdr.periodic events occur when ONTAP encounters issues associated with Vserver DR subsystem periodic health checks.
+vsdr.periodic EMS events occur when ONTAP encounters issues associated with Vserver DR subsystem periodic health checks.
 
 
 == vsdr.periodic.check.errors

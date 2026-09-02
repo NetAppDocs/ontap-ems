@@ -15,7 +15,7 @@ summary: monitor.ioxmtemp events
 :imagesdir: ./media/
 
 [.lead]
-monitor.ioxmtemp events occur when the I/O module is above the recommended operating temperature.
+monitor.ioxmtemp EMS events occur when the I/O module is above the recommended operating temperature.
 
 
 == monitor.ioxmTemp.warm

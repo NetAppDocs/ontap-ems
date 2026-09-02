@@ -15,7 +15,7 @@ summary: vldb.aggregateuuid events
 :imagesdir: ./media/
 
 [.lead]
-vldb.aggregateuuid events occur when ONTAP encounters issues associated with aggregate Universally Unique Identifier (UUID) mismatches or missing entries in the Volume Location Database.
+vldb.aggregateuuid EMS events occur when ONTAP encounters issues associated with aggregate Universally Unique Identifier (UUID) mismatches or missing entries in the Volume Location Database.
 
 
 == vldb.aggregateUUID.mismatch

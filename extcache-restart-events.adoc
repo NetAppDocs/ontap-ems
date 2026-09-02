@@ -15,7 +15,7 @@ summary: extcache.restart events
 :imagesdir: ./media/
 
 [.lead]
-extcache.restart events occur when the external cache encounters an internal consistency issue and triggers an automatic reset.
+extcache.restart EMS events occur when the external cache encounters an internal consistency issue and triggers an automatic reset.
 
 
 == extCache.restart

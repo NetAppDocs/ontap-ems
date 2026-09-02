@@ -15,7 +15,7 @@ summary: pcie.errors events
 :imagesdir: ./media/
 
 [.lead]
-pcie.errors events occur when correctable PCI Express errors are detected.
+pcie.errors EMS events occur when correctable PCI Express errors are detected.
 
 
 == pcie.errors

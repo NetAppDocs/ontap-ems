@@ -15,7 +15,7 @@ summary: fci.nserr events
 :imagesdir: ./media/
 
 [.lead]
-fci.nserr events occur when ONTAP encounters issues associated with Fibre Channel fabric Name Server operations.
+fci.nserr EMS events occur when ONTAP encounters issues associated with Fibre Channel fabric Name Server operations.
 
 
 == fci.nserr.general

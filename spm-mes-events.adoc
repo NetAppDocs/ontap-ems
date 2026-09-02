@@ -15,7 +15,7 @@ summary: spm.mes events
 :imagesdir: ./media/
 
 [.lead]
-spm.mes events occur when the SPD MES daemon (spd) involuntarily terminates.
+spm.mes EMS events occur when the SPD MES daemon (spd) involuntarily terminates.
 
 
 == spm.mes.process.exit

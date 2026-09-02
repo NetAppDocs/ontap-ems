@@ -15,7 +15,7 @@ summary: callhome.aggr events
 :imagesdir: ./media/
 
 [.lead]
-callhome.aggr events occur when ONTAP encounters issues associated with aggregate metafile corruption repairs and inconsistent aggregates being taken offline.
+callhome.aggr EMS events occur when ONTAP encounters issues associated with aggregate metafile corruption repairs and inconsistent aggregates being taken offline.
 
 
 == callhome.aggr.meta.repair

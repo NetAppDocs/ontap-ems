@@ -15,7 +15,7 @@ summary: netif.badoversizepacket events
 :imagesdir: ./media/
 
 [.lead]
-netif.badoversizepacket events occur when the network interface card (NIC) receives a bad oversize packet.
+netif.badoversizepacket EMS events occur when the network interface card (NIC) receives a bad oversize packet.
 
 
 == netif.badOversizePacket

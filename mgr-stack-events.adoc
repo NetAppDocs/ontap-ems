@@ -15,7 +15,7 @@ summary: mgr.stack events
 :imagesdir: ./media/
 
 [.lead]
-mgr.stack events occur when ONTAP encounters issues associated with panic information.
+mgr.stack EMS events occur when ONTAP encounters issues associated with panic information.
 
 
 == mgr.stack.at

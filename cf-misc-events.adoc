@@ -15,7 +15,7 @@ summary: cf.misc events
 :imagesdir: ./media/
 
 [.lead]
-cf.misc events occur when ONTAP encounters issues associated with miscellaneous high-availability operations.
+cf.misc EMS events occur when ONTAP encounters issues associated with miscellaneous high-availability operations.
 
 
 == cf.misc.givebackPartnerNotReady

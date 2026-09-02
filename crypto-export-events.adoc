@@ -15,7 +15,7 @@ summary: crypto.export events
 :imagesdir: ./media/
 
 [.lead]
-crypto.export events occur when the export of a cryptographic key fails.
+crypto.export EMS events occur when the export of a cryptographic key fails.
 
 
 == crypto.export.failed

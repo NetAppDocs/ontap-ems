@@ -15,7 +15,7 @@ summary: spm.vldb events
 :imagesdir: ./media/
 
 [.lead]
-spm.vldb events occur when Volume Location Database (VLDB) subsystem stops running.
+spm.vldb EMS events occur when Volume Location Database (VLDB) subsystem stops running.
 
 
 == spm.vldb.process.exit

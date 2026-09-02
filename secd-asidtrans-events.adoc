@@ -15,7 +15,7 @@ summary: secd.asidtrans events
 :imagesdir: ./media/
 
 [.lead]
-secd.asidtrans events occur when ONTAP(R) software cannot translate an abbreviated SID to a Windows SID.
+secd.asidtrans EMS events occur when ONTAP(R) software cannot translate an abbreviated SID to a Windows SID.
 
 
 == secd.asidTrans.invalidAsid

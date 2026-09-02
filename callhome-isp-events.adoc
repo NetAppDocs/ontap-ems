@@ -15,7 +15,7 @@ summary: callhome.isp events
 :imagesdir: ./media/
 
 [.lead]
-callhome.isp events occur when the system detects multiple Static Random Access Memory (SRAM) parity errors within a 30 day period.
+callhome.isp EMS events occur when the system detects multiple Static Random Access Memory (SRAM) parity errors within a 30 day period.
 
 
 == callhome.isp.adapter.bad

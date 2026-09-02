@@ -15,7 +15,7 @@ summary: scsiblade.lun events
 :imagesdir: ./media/
 
 [.lead]
-scsiblade.lun events occur when ONTAP encounters issues associated with LUN serial numbers and state management.
+scsiblade.lun EMS events occur when ONTAP encounters issues associated with LUN serial numbers and state management.
 
 
 == scsiblade.lun.dup.serial

@@ -15,7 +15,7 @@ summary: cifs.shadowcopy events
 :imagesdir: ./media/
 
 [.lead]
-cifs.shadowcopy events occur when ONTAP encounters issues associated with shadow copy operations.
+cifs.shadowcopy EMS events occur when ONTAP encounters issues associated with shadow copy operations.
 
 
 == cifs.shadowcopy.abort

@@ -15,7 +15,7 @@ summary: diskshelf.psu events
 :imagesdir: ./media/
 
 [.lead]
-diskshelf.psu events occur when ONTAP encounters issues associated with disk shelf power supply units.
+diskshelf.psu EMS events occur when ONTAP encounters issues associated with disk shelf power supply units.
 
 
 == diskShelf.psu.added

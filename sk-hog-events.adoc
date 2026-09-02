@@ -15,7 +15,7 @@ summary: sk.hog events
 :imagesdir: ./media/
 
 [.lead]
-sk.hog events occur when a process runs too long.
+sk.hog EMS events occur when a process runs too long.
 
 
 == sk.hog.runtime

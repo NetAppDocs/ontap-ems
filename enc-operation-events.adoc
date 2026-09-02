@@ -15,7 +15,7 @@ summary: enc.operation events
 :imagesdir: ./media/
 
 [.lead]
-enc.operation events occur when ONTAP encounters issues associated with volume encryption operations.
+enc.operation EMS events occur when ONTAP encounters issues associated with volume encryption operations.
 
 
 == enc.operation.completed

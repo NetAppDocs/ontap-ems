@@ -15,7 +15,7 @@ summary: acp.need events
 :imagesdir: ./media/
 
 [.lead]
-acp.need events occur when ONTAP encounters issues associated with the Alternate Control Path (ACP) processor requiring firmware or module upgrades.
+acp.need EMS events occur when ONTAP encounters issues associated with the Alternate Control Path (ACP) processor requiring firmware or module upgrades.
 
 
 == acp.need.firmware.update

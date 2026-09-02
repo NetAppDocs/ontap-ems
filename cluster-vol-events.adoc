@@ -15,7 +15,7 @@ summary: cluster.vol events
 :imagesdir: ./media/
 
 [.lead]
-cluster.vol events occur when ONTAP encounters issues associated with cluster-wide storage volumes.
+cluster.vol EMS events occur when ONTAP encounters issues associated with cluster-wide storage volumes.
 
 
 == cluster.vol.create.success

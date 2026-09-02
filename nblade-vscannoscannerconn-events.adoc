@@ -15,7 +15,7 @@ summary: nblade.vscannoscannerconn events
 :imagesdir: ./media/
 
 [.lead]
-nblade.vscannoscannerconn events occur when ONTAP(R) has no vscan connection for servicing virus scan-requests.
+nblade.vscannoscannerconn EMS events occur when ONTAP(R) has no vscan connection for servicing virus scan-requests.
 
 
 == Nblade.vscanNoScannerConn

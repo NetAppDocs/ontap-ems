@@ -15,7 +15,7 @@ summary: license.ontapi events
 :imagesdir: ./media/
 
 [.lead]
-license.ontapi events occur when ONTAP encounters issues associated with ONTAPI enablement license operations.
+license.ontapi EMS events occur when ONTAP encounters issues associated with ONTAPI enablement license operations.
 
 
 == license.ontapi.eval

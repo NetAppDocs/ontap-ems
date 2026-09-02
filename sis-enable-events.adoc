@@ -15,7 +15,7 @@ summary: sis.enable events
 :imagesdir: ./media/
 
 [.lead]
-sis.enable events occur when ONTAP encounters issues associated with storage efficiency feature enablement.
+sis.enable EMS events occur when ONTAP encounters issues associated with storage efficiency feature enablement.
 
 
 == sis.enable.post.sm.break

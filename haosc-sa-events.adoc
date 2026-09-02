@@ -15,7 +15,7 @@ summary: haosc.sa events
 :imagesdir: ./media/
 
 [.lead]
-haosc.sa events occur when nonvolatile memory on a stand-alone system is configured for a high-availability system.
+haosc.sa EMS events occur when nonvolatile memory on a stand-alone system is configured for a high-availability system.
 
 
 == haosc.sa.config

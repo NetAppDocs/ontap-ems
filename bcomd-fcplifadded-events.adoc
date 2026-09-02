@@ -15,7 +15,7 @@ summary: bcomd.fcplifadded events
 :imagesdir: ./media/
 
 [.lead]
-bcomd.fcplifadded events occur when a Fibre Channel logical interface (LIF) is added.
+bcomd.fcplifadded EMS events occur when a Fibre Channel logical interface (LIF) is added.
 
 
 == bcomd.fcpLifAdded

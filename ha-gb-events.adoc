@@ -15,7 +15,7 @@ summary: ha.gb events
 :imagesdir: ./media/
 
 [.lead]
-ha.gb events occur when ONTAP encounters issues associated with high-availability (HA) giveback mailbox disk access.
+ha.gb EMS events occur when ONTAP encounters issues associated with high-availability (HA) giveback mailbox disk access.
 
 
 == ha.gb.mbxAccessErr

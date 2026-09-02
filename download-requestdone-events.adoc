@@ -15,7 +15,7 @@ summary: download.requestdone events
 :imagesdir: ./media/
 
 [.lead]
-download.requestdone events occur when a user-initiated download has completed.
+download.requestdone EMS events occur when a user-initiated download has completed.
 
 
 == download.requestDone

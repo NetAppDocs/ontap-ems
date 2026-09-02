@@ -15,7 +15,7 @@ summary: callhome.shutdown events
 :imagesdir: ./media/
 
 [.lead]
-callhome.shutdown events occur when a disk drive fails but there are no suitable spares available for reconstruction.
+callhome.shutdown EMS events occur when a disk drive fails but there are no suitable spares available for reconstruction.
 
 
 == callhome.shutdown.pending

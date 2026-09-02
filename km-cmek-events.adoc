@@ -15,7 +15,7 @@ summary: km.cmek events
 :imagesdir: ./media/
 
 [.lead]
-km.cmek events occur when ONTAP encounters issues associated with Customer Managed Encryption Key (CMEK) operations.
+km.cmek EMS events occur when ONTAP encounters issues associated with Customer Managed Encryption Key (CMEK) operations.
 
 
 == km.cmek.akvkms.active

@@ -15,7 +15,7 @@ summary: bridge.removed events
 :imagesdir: ./media/
 
 [.lead]
-bridge.removed events occur when an FC-to-SAS bridge is removed from the system.
+bridge.removed EMS events occur when an FC-to-SAS bridge is removed from the system.
 
 
 == bridge.removed

@@ -15,7 +15,7 @@ summary: ccma.quota events
 :imagesdir: ./media/
 
 [.lead]
-ccma.quota events occur when ONTAP encounters issues associated with quota system memory and performance archive data collection.
+ccma.quota EMS events occur when ONTAP encounters issues associated with quota system memory and performance archive data collection.
 
 
 == ccma.quota.datastore.leak

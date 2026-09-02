@@ -15,7 +15,7 @@ summary: aggr.full events
 :imagesdir: ./media/
 
 [.lead]
-aggr.full events occur when an aggregate is full.
+aggr.full EMS events occur when an aggregate is full.
 
 
 == aggr.full

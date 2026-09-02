@@ -15,7 +15,7 @@ summary: noderun.login events
 :imagesdir: ./media/
 
 [.lead]
-noderun.login events occur when a cluster user successfully logs in to the node using the 'run' command.
+noderun.login EMS events occur when a cluster user successfully logs in to the node using the 'run' command.
 
 
 == noderun.login.success

@@ -15,7 +15,7 @@ summary: sis.revert events
 :imagesdir: ./media/
 
 [.lead]
-sis.revert events occur when ONTAP encounters issues associated with Single Instance Storage (SIS) revert operations.
+sis.revert EMS events occur when ONTAP encounters issues associated with Single Instance Storage (SIS) revert operations.
 
 
 == sis.revert.to.has.Aborted

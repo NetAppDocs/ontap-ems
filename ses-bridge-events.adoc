@@ -15,7 +15,7 @@ summary: ses.bridge events
 :imagesdir: ./media/
 
 [.lead]
-ses.bridge events occur when ONTAP encounters issues associated with bridge firmware.
+ses.bridge EMS events occur when ONTAP encounters issues associated with bridge firmware.
 
 
 == ses.bridge.fw.getFailWarn

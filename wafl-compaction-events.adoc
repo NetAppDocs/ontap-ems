@@ -15,7 +15,7 @@ summary: wafl.compaction events
 :imagesdir: ./media/
 
 [.lead]
-wafl.compaction events occur when the aggregates compaction CP value is changed.
+wafl.compaction EMS events occur when the aggregates compaction CP value is changed.
 
 
 == wafl.compaction.CP.value

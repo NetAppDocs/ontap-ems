@@ -15,7 +15,7 @@ summary: arl.opaborted events
 :imagesdir: ./media/
 
 [.lead]
-arl.opaborted events occur when an aggregate relocation operation is aborted.
+arl.opaborted EMS events occur when an aggregate relocation operation is aborted.
 
 
 == arl.OpAborted

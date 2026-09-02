@@ -15,7 +15,7 @@ summary: zsm.socket events
 :imagesdir: ./media/
 
 [.lead]
-zsm.socket events occur when ONTAP encounters issues associated with the ZAPI Socket Manager (ZSM) service listener socket.
+zsm.socket EMS events occur when ONTAP encounters issues associated with the ZAPI Socket Manager (ZSM) service listener socket.
 
 
 == zsm.socket.listener.create

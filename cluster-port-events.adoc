@@ -15,7 +15,7 @@ summary: cluster.port events
 :imagesdir: ./media/
 
 [.lead]
-cluster.port events occur when the cluster ports are operating at an unsupported speed.
+cluster.port EMS events occur when the cluster ports are operating at an unsupported speed.
 
 
 == cluster.port.unsupport.speed

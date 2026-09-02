@@ -15,7 +15,7 @@ summary: upgrademgr.lifmigrate events
 :imagesdir: ./media/
 
 [.lead]
-upgrademgr.lifmigrate events occur when ONTAP encounters issues associated with automated nondisruptive upgrade (ANDU) data LIF migration.
+upgrademgr.lifmigrate EMS events occur when ONTAP encounters issues associated with automated nondisruptive upgrade (ANDU) data LIF migration.
 
 
 == upgrademgr.LIFmigrate.end

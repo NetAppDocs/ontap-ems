@@ -15,7 +15,7 @@ summary: wafl.watch events
 :imagesdir: ./media/
 
 [.lead]
-wafl.watch events occur when ONTAP encounters issues associated with WAFL(R) change notify requests.
+wafl.watch EMS events occur when ONTAP encounters issues associated with WAFL(R) change notify requests.
 
 
 == wafl.watch.cache.limit.near

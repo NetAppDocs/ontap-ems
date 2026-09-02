@@ -15,7 +15,7 @@ summary: raid.switchovernodisks events
 :imagesdir: ./media/
 
 [.lead]
-raid.switchovernodisks events occur when a MetroCluster(tm) switchover finds no disks during RAID assimilation.
+raid.switchovernodisks EMS events occur when a MetroCluster(tm) switchover finds no disks during RAID assimilation.
 
 
 == raid.switchoverNoDisks

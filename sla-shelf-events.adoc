@@ -15,7 +15,7 @@ summary: sla.shelf events
 :imagesdir: ./media/
 
 [.lead]
-sla.shelf events occur when ONTAP encounters issues associated with shelf firmware module reboots.
+sla.shelf EMS events occur when ONTAP encounters issues associated with shelf firmware module reboots.
 
 
 == sla.shelf.mod.reboot

@@ -15,7 +15,7 @@ summary: vifmgr.viplifwithoutbgp events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.viplifwithoutbgp events occur when a logical interface (LIF) associated with the Virtual IP (VIP) feature does not have a BGP peer group.
+vifmgr.viplifwithoutbgp EMS events occur when a logical interface (LIF) associated with the Virtual IP (VIP) feature does not have a BGP peer group.
 
 
 == vifmgr.vipLifWithoutBgp

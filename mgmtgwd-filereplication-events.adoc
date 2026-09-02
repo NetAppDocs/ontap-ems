@@ -15,7 +15,7 @@ summary: mgmtgwd.filereplication events
 :imagesdir: ./media/
 
 [.lead]
-mgmtgwd.filereplication events occur when ONTAP encounters issues associated with the file replication service.
+mgmtgwd.filereplication EMS events occur when ONTAP encounters issues associated with the file replication service.
 
 
 == mgmtgwd.filereplication.failverify

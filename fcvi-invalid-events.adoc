@@ -15,7 +15,7 @@ summary: fcvi.invalid events
 :imagesdir: ./media/
 
 [.lead]
-fcvi.invalid events occur when ONTAP encounters issues associated with Fibre Channel Virtual Interface (FC-VI) validity checks.
+fcvi.invalid EMS events occur when ONTAP encounters issues associated with Fibre Channel Virtual Interface (FC-VI) validity checks.
 
 
 == fcvi.invalid.advertisement

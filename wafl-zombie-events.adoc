@@ -15,7 +15,7 @@ summary: wafl.zombie events
 :imagesdir: ./media/
 
 [.lead]
-wafl.zombie events occur when ONTAP encounters issues associated with zombie throttling during file deletion.
+wafl.zombie EMS events occur when ONTAP encounters issues associated with zombie throttling during file deletion.
 
 
 == wafl.zombie.susp.aggr.limit

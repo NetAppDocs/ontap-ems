@@ -15,7 +15,7 @@ summary: san.volrehostsanbestpractice events
 :imagesdir: ./media/
 
 [.lead]
-san.volrehostsanbestpractice events occur on ONTAP(R) systems for volume rehost operation when the destination storage virtual machine (SVM) does not comply with SAN best practices.
+san.volrehostsanbestpractice EMS events occur on ONTAP(R) systems for volume rehost operation when the destination storage virtual machine (SVM) does not comply with SAN best practices.
 
 
 == san.volRehostSANBestPractice

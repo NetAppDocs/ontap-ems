@@ -15,7 +15,7 @@ summary: nblade.notactivevscanserver events
 :imagesdir: ./media/
 
 [.lead]
-nblade.notactivevscanserver events occur when a connection from a remote IP is not found in the Vscan scanner pool belonging to the storage virtual machine (SVM).
+nblade.notactivevscanserver EMS events occur when a connection from a remote IP is not found in the Vscan scanner pool belonging to the storage virtual machine (SVM).
 
 
 == Nblade.NotActiveVscanServer

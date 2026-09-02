@@ -15,7 +15,7 @@ summary: nvmem.voltage events
 :imagesdir: ./media/
 
 [.lead]
-nvmem.voltage events occur when ONTAP encounters issues associated with NVMEM supply voltage.
+nvmem.voltage EMS events occur when ONTAP encounters issues associated with NVMEM supply voltage.
 
 
 == nvmem.voltage.high

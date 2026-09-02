@@ -15,7 +15,7 @@ summary: scsiblade.disabled events
 :imagesdir: ./media/
 
 [.lead]
-scsiblade.disabled events occur when the local node is made ineligible.
+scsiblade.disabled EMS events occur when the local node is made ineligible.
 
 
 == scsiblade.disabled

@@ -15,7 +15,7 @@ summary: disk.failmsg events
 :imagesdir: ./media/
 
 [.lead]
-disk.failmsg events occur when a drive is marked failed, is being sanitized, or has entered Maintenance Center.
+disk.failmsg EMS events occur when a drive is marked failed, is being sanitized, or has entered Maintenance Center.
 
 
 == disk.failmsg

@@ -15,7 +15,7 @@ summary: spm.bgpd events
 :imagesdir: ./media/
 
 [.lead]
-spm.bgpd events occur when the Border Gateway Protocol daemon (bgpd) involuntarily terminates.
+spm.bgpd EMS events occur when the Border Gateway Protocol daemon (bgpd) involuntarily terminates.
 
 
 == spm.bgpd.process.exit

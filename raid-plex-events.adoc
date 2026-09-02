@@ -15,7 +15,7 @@ summary: raid.plex events
 :imagesdir: ./media/
 
 [.lead]
-raid.plex events occur when ONTAP encounters issues associated with plex operations.
+raid.plex EMS events occur when ONTAP encounters issues associated with plex operations.
 
 
 == raid.plex.faultIsolation.reminder

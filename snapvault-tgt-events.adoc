@@ -15,7 +15,7 @@ summary: snapvault.tgt events
 :imagesdir: ./media/
 
 [.lead]
-snapvault.tgt events occur when ONTAP encounters issues associated with SnapVault(R) snapshot targets.
+snapvault.tgt EMS events occur when ONTAP encounters issues associated with SnapVault(R) snapshot targets.
 
 
 == snapvault.tgt.dupCoalesced

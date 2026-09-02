@@ -15,7 +15,7 @@ summary: sm.fgmirror events
 :imagesdir: ./media/
 
 [.lead]
-sm.fgmirror events occur when improper group workflow cleanup caused the subsequent SnapMirror(R) operation to fail.
+sm.fgmirror EMS events occur when improper group workflow cleanup caused the subsequent SnapMirror(R) operation to fail.
 
 
 == sm.fgmirror.stale.grp.wkflw

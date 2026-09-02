@@ -15,7 +15,7 @@ summary: isns.reg events
 :imagesdir: ./media/
 
 [.lead]
-isns.reg events occur when ONTAP encounters issues associated with Internet Storage Name Service (iSNS) registration.
+isns.reg EMS events occur when ONTAP encounters issues associated with Internet Storage Name Service (iSNS) registration.
 
 
 == isns.reg.info.unavailable

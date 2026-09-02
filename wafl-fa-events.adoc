@@ -15,7 +15,7 @@ summary: wafl.fa events
 :imagesdir: ./media/
 
 [.lead]
-wafl.fa events occur when ONTAP encounters issues associated with FlexAggregate synchronization and consistency.
+wafl.fa EMS events occur when ONTAP encounters issues associated with FlexAggregate synchronization and consistency.
 
 
 == wafl.fa.iron.sync.waiting

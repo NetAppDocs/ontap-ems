@@ -15,7 +15,7 @@ summary: raid.no events
 :imagesdir: ./media/
 
 [.lead]
-raid.no events occur periodically to warn the user that the aggregate has no RAID protection and is not safe for storing data.
+raid.no EMS events occur periodically to warn the user that the aggregate has no RAID protection and is not safe for storing data.
 
 
 == raid.no.parity.aggr

@@ -15,7 +15,7 @@ summary: callhome.invoke events
 :imagesdir: ./media/
 
 [.lead]
-callhome.invoke events occur when ONTAP encounters issues associated with user-invoked AutoSupport messages.
+callhome.invoke EMS events occur when ONTAP encounters issues associated with user-invoked AutoSupport messages.
 
 
 == callhome.invoke

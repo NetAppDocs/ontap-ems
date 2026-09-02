@@ -15,7 +15,7 @@ summary: callhome.reboot events
 :imagesdir: ./media/
 
 [.lead]
-callhome.reboot events occur when ONTAP encounters issues associated with system reboots.
+callhome.reboot EMS events occur when ONTAP encounters issues associated with system reboots.
 
 
 == callhome.reboot

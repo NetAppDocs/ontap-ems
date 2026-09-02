@@ -15,7 +15,7 @@ summary: vifmgr.ifgrp events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.ifgrp events occur when an interface group (ifgrp) is configured with an unsupported name.
+vifmgr.ifgrp EMS events occur when an interface group (ifgrp) is configured with an unsupported name.
 
 
 == vifmgr.ifgrp.invalidname

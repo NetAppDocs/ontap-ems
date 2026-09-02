@@ -15,7 +15,7 @@ summary: dfu.init events
 :imagesdir: ./media/
 
 [.lead]
-dfu.init events occur when the disk firmware update initialization routine cannot allocate memory.
+dfu.init EMS events occur when the disk firmware update initialization routine cannot allocate memory.
 
 
 == dfu.init.noMemory

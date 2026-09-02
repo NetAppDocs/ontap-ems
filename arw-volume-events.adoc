@@ -15,7 +15,7 @@ summary: arw.volume events
 :imagesdir: ./media/
 
 [.lead]
-arw.volume events occur when the anti-ransomware state of a volume is changed.
+arw.volume EMS events occur when the anti-ransomware state of a volume is changed.
 
 
 == arw.volume.state

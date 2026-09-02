@@ -15,7 +15,7 @@ summary: coredump.coreid events
 :imagesdir: ./media/
 
 [.lead]
-coredump.coreid events occur when could not find the specified core.
+coredump.coreid EMS events occur when could not find the specified core.
 
 
 == coredump.coreid.not.found

@@ -15,7 +15,7 @@ summary: nblade.fpols3 events
 :imagesdir: ./media/
 
 [.lead]
-nblade.fpols3 events occur when FPolicy S3 notifications were dropped due to error.
+nblade.fpols3 EMS events occur when FPolicy S3 notifications were dropped due to error.
 
 
 == Nblade.fpolS3.notif.dropped

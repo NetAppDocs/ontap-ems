@@ -15,7 +15,7 @@ summary: download.requestdoneerror events
 :imagesdir: ./media/
 
 [.lead]
-download.requestdoneerror events occur when a user-initiated download did not complete successfully because of a problem.
+download.requestdoneerror EMS events occur when a user-initiated download did not complete successfully because of a problem.
 
 
 == download.requestDoneError

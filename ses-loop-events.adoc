@@ -15,7 +15,7 @@ summary: ses.loop events
 :imagesdir: ./media/
 
 [.lead]
-ses.loop events occur when ONTAP encounters issues associated with disk shelf loop configuration.
+ses.loop EMS events occur when ONTAP encounters issues associated with disk shelf loop configuration.
 
 
 == ses.loop.configErr

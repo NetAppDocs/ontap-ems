@@ -15,7 +15,7 @@ summary: mlm.prregistration events
 :imagesdir: ./media/
 
 [.lead]
-mlm.prregistration events occur when ONTAP encounters issues associated with SCSI persistent reservation key registration.
+mlm.prregistration EMS events occur when ONTAP encounters issues associated with SCSI persistent reservation key registration.
 
 
 == mlm.PRregistration.failed

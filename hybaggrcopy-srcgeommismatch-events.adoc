@@ -15,7 +15,7 @@ summary: hybaggrcopy.srcgeommismatch events
 :imagesdir: ./media/
 
 [.lead]
-hybaggrcopy.srcgeommismatch events occur when an aggregate cannot be copied.
+hybaggrcopy.srcgeommismatch EMS events occur when an aggregate cannot be copied.
 
 
 == hybAggrCopy.srcGeomMismatch

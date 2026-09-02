@@ -15,7 +15,7 @@ summary: license.sfo events
 :imagesdir: ./media/
 
 [.lead]
-license.sfo events occur when ONTAP encounters issues associated with storage failover giveback and capacity license requirements.
+license.sfo EMS events occur when ONTAP encounters issues associated with storage failover giveback and capacity license requirements.
 
 
 == license.sfo.gb.veto

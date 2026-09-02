@@ -15,7 +15,7 @@ summary: rpl.snapshot events
 :imagesdir: ./media/
 
 [.lead]
-rpl.snapshot events occur when SnapMirror(R) or SnapVault(R) cannot delete one of its snapshots.
+rpl.snapshot EMS events occur when SnapMirror(R) or SnapVault(R) cannot delete one of its snapshots.
 
 
 == rpl.snapshot.delete.error

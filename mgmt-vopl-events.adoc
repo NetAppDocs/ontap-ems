@@ -15,7 +15,7 @@ summary: mgmt.vopl events
 :imagesdir: ./media/
 
 [.lead]
-mgmt.vopl events occur when ONTAP encounters issues associated with volume move operations.
+mgmt.vopl EMS events occur when ONTAP encounters issues associated with volume move operations.
 
 
 == mgmt.vopl.cleanup.failed

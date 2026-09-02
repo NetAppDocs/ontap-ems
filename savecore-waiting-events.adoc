@@ -15,7 +15,7 @@ summary: savecore.waiting events
 :imagesdir: ./media/
 
 [.lead]
-savecore.waiting events occur when savecore is running synchronously, and the console will be unresponsive until it is complete.
+savecore.waiting EMS events occur when savecore is running synchronously, and the console will be unresponsive until it is complete.
 
 
 == savecore.waiting

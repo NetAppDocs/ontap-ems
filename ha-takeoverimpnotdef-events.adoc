@@ -15,7 +15,7 @@ summary: ha.takeoverimpnotdef events
 :imagesdir: ./media/
 
 [.lead]
-ha.takeoverimpnotdef events occur when the partner node is down and it is currently impossible to perform a takeover.
+ha.takeoverimpnotdef EMS events occur when the partner node is down and it is currently impossible to perform a takeover.
 
 
 == ha.takeoverImpNotDef

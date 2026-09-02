@@ -15,7 +15,7 @@ summary: diskshelf.support events
 :imagesdir: ./media/
 
 [.lead]
-diskshelf.support events occur when a new disk shelf support file is detected.
+diskshelf.support EMS events occur when a new disk shelf support file is detected.
 
 
 == diskShelf.support.file

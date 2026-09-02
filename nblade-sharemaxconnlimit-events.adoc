@@ -15,7 +15,7 @@ summary: nblade.sharemaxconnlimit events
 :imagesdir: ./media/
 
 [.lead]
-nblade.sharemaxconnlimit events occur when a CIFS share exceeds its maximum configured connection limit.
+nblade.sharemaxconnlimit EMS events occur when a CIFS share exceeds its maximum configured connection limit.
 
 
 == Nblade.shareMaxConnLimit

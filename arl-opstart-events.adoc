@@ -15,7 +15,7 @@ summary: arl.opstart events
 :imagesdir: ./media/
 
 [.lead]
-arl.opstart events occur when the aggregate relocation operation starts.
+arl.opstart EMS events occur when the aggregate relocation operation starts.
 
 
 == arl.OpStart

@@ -15,7 +15,7 @@ summary: repl.large events
 :imagesdir: ./media/
 
 [.lead]
-repl.large events occur when ONTAP encounters issues associated with large volume limits on replication destinations.
+repl.large EMS events occur when ONTAP encounters issues associated with large volume limits on replication destinations.
 
 
 == repl.large.vol.600tb.limits.unsup

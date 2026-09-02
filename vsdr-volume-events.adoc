@@ -15,7 +15,7 @@ summary: vsdr.volume events
 :imagesdir: ./media/
 
 [.lead]
-vsdr.volume events occur when ONTAP encounters issues associated with volume identity conflicts or naming conflicts during Vserver DR operations.
+vsdr.volume EMS events occur when ONTAP encounters issues associated with volume identity conflicts or naming conflicts during Vserver DR operations.
 
 
 == vsdr.volume.idconflict

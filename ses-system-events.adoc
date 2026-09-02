@@ -15,7 +15,7 @@ summary: ses.system events
 :imagesdir: ./media/
 
 [.lead]
-ses.system events occur when ONTAP(R) software does not support internal disk drives in this platform.
+ses.system EMS events occur when ONTAP(R) software does not support internal disk drives in this platform.
 
 
 == ses.system.em.mmErr

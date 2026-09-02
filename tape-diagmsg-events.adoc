@@ -15,7 +15,7 @@ summary: tape.diagmsg events
 :imagesdir: ./media/
 
 [.lead]
-tape.diagmsg events occur when there is a new state of the tape diagnostic message flag.
+tape.diagmsg EMS events occur when there is a new state of the tape diagnostic message flag.
 
 
 == tape.diagMsg

@@ -15,7 +15,7 @@ summary: monitor.temp events
 :imagesdir: ./media/
 
 [.lead]
-monitor.temp events occur when the controller module temperature is not readable.
+monitor.temp EMS events occur when the controller module temperature is not readable.
 
 
 == monitor.temp.unreadable

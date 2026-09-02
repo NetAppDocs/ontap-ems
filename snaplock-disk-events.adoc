@@ -15,7 +15,7 @@ summary: snaplock.disk events
 :imagesdir: ./media/
 
 [.lead]
-snaplock.disk events occur when ONTAP encounters issues associated with SnapLock(R) disks.
+snaplock.disk EMS events occur when ONTAP encounters issues associated with SnapLock(R) disks.
 
 
 == snaplock.disk.import.7mode

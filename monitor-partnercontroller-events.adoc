@@ -15,7 +15,7 @@ summary: monitor.partnercontroller events
 :imagesdir: ./media/
 
 [.lead]
-monitor.partnercontroller events occur when both controllers are configured as an HA (high-availability) pair, but the partner controller is not present.
+monitor.partnercontroller EMS events occur when both controllers are configured as an HA (high-availability) pair, but the partner controller is not present.
 
 
 == monitor.partnerController.notPresent

@@ -15,7 +15,7 @@ summary: arl.subsystemabort events
 :imagesdir: ./media/
 
 [.lead]
-arl.subsystemabort events occur when the specified subsystem aborts relocation of the aggregate.
+arl.subsystemabort EMS events occur when the specified subsystem aborts relocation of the aggregate.
 
 
 == arl.subsystemAbort

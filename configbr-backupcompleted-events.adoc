@@ -15,7 +15,7 @@ summary: configbr.backupcompleted events
 :imagesdir: ./media/
 
 [.lead]
-configbr.backupcompleted events occur when a scheduled configuration backup is successfully created.
+configbr.backupcompleted EMS events occur when a scheduled configuration backup is successfully created.
 
 
 == configbr.backupCompleted

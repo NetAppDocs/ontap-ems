@@ -15,7 +15,7 @@ summary: mpt.busreg events
 :imagesdir: ./media/
 
 [.lead]
-mpt.busreg events occur when physical disk bus registration fails in the message processing technology (MPT) adapter driver.
+mpt.busreg EMS events occur when physical disk bus registration fails in the message processing technology (MPT) adapter driver.
 
 
 == mpt.busreg.phydisk.failed

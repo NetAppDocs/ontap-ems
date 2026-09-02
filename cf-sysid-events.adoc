@@ -15,7 +15,7 @@ summary: cf.sysid events
 :imagesdir: ./media/
 
 [.lead]
-cf.sysid events occur when a node sends its system ID and its HA partner's system ID successfully across the HA interconnect.
+cf.sysid EMS events occur when a node sends its system ID and its HA partner's system ID successfully across the HA interconnect.
 
 
 == cf.sysid.sent

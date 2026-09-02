@@ -15,7 +15,7 @@ summary: lun.online events
 :imagesdir: ./media/
 
 [.lead]
-lun.online events occur when a LUN is brought online manually.
+lun.online EMS events occur when a LUN is brought online manually.
 
 
 == LUN.online

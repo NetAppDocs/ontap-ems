@@ -15,7 +15,7 @@ summary: disk.senseerror events
 :imagesdir: ./media/
 
 [.lead]
-disk.senseerror events occur when the drive reports an error.
+disk.senseerror EMS events occur when the drive reports an error.
 
 
 == disk.senseError

@@ -15,7 +15,7 @@ summary: asup.aods events
 :imagesdir: ./media/
 
 [.lead]
-asup.aods events occur when ONTAP encounters issues associated with the AutoSupport OnDemand Server (AODS) response size or timeout limits.
+asup.aods EMS events occur when ONTAP encounters issues associated with the AutoSupport OnDemand Server (AODS) response size or timeout limits.
 
 
 == asup.aods.response.overLimit

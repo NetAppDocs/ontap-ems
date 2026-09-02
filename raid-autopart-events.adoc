@@ -15,7 +15,7 @@ summary: raid.autopart events
 :imagesdir: ./media/
 
 [.lead]
-raid.autopart events occur when ONTAP encounters issues associated with disk auto-partitioning for root aggregate creation.
+raid.autopart EMS events occur when ONTAP encounters issues associated with disk auto-partitioning for root aggregate creation.
 
 
 == raid.autoPart.disabled

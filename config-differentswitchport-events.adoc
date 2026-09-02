@@ -15,7 +15,7 @@ summary: config.differentswitchport events
 :imagesdir: ./media/
 
 [.lead]
-config.differentswitchport events occur when the two ports of the disk are connected to different switch ports.
+config.differentswitchport EMS events occur when the two ports of the disk are connected to different switch ports.
 
 
 == config.DifferentSwitchPort

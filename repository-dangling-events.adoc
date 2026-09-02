@@ -15,7 +15,7 @@ summary: repository.dangling events
 :imagesdir: ./media/
 
 [.lead]
-repository.dangling events occur when ONTAP encounters issues associated with Infinite Volume namespace redirector cleanup failures.
+repository.dangling EMS events occur when ONTAP encounters issues associated with Infinite Volume namespace redirector cleanup failures.
 
 
 == Repository.Dangling.Data.File

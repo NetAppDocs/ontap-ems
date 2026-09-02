@@ -15,7 +15,7 @@ summary: fcvi.disabled events
 :imagesdir: ./media/
 
 [.lead]
-fcvi.disabled events occur when the HA interconnect card is disabled by the ic-type environment variable.
+fcvi.disabled EMS events occur when the HA interconnect card is disabled by the ic-type environment variable.
 
 
 == fcvi.disabled

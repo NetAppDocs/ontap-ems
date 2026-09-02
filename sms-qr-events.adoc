@@ -15,7 +15,7 @@ summary: sms.qr events
 :imagesdir: ./media/
 
 [.lead]
-sms.qr events occur when ONTAP encounters issues associated with SnapMirror(R) Synchronous relationships.
+sms.qr EMS events occur when ONTAP encounters issues associated with SnapMirror(R) Synchronous relationships.
 
 
 == sms.qr.mem.alloc.issue

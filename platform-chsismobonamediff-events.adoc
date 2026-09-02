@@ -15,7 +15,7 @@ summary: platform.chsismobonamediff events
 :imagesdir: ./media/
 
 [.lead]
-platform.chsismobonamediff events occur when the product name on the chassis is different from the one on the controller.
+platform.chsismobonamediff EMS events occur when the product name on the chassis is different from the one on the controller.
 
 
 == platform.ChsisMoboNameDiff

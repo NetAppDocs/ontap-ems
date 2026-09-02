@@ -15,7 +15,7 @@ summary: callhome.checksum events
 :imagesdir: ./media/
 
 [.lead]
-callhome.checksum events occur when ONTAP encounters issues associated with RAID level checksum errors.
+callhome.checksum EMS events occur when ONTAP encounters issues associated with RAID level checksum errors.
 
 
 == callhome.checksum

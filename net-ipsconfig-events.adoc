@@ -15,7 +15,7 @@ summary: net.ipsconfig events
 :imagesdir: ./media/
 
 [.lead]
-net.ipsconfig events occur when creation of an IPspace fails.
+net.ipsconfig EMS events occur when creation of an IPspace fails.
 
 
 == net.ipsconfig.failed

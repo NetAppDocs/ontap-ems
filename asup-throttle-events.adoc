@@ -15,7 +15,7 @@ summary: asup.throttle events
 :imagesdir: ./media/
 
 [.lead]
-asup.throttle events occur when an AutoSupport message is dropped because it is believed to be spam.
+asup.throttle EMS events occur when an AutoSupport message is dropped because it is believed to be spam.
 
 
 == asup.throttle.drop

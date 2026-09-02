@@ -15,7 +15,7 @@ summary: dm.vserver events
 :imagesdir: ./media/
 
 [.lead]
-dm.vserver events occur when ONTAP encounters issues associated with Vserver configuration replication.
+dm.vserver EMS events occur when ONTAP encounters issues associated with Vserver configuration replication.
 
 
 == dm.vserver.mcc.rebaselinefailed

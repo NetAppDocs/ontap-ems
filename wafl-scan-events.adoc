@@ -15,7 +15,7 @@ summary: wafl.scan events
 :imagesdir: ./media/
 
 [.lead]
-wafl.scan events occur when ONTAP encounters issues associated with WAFL scanner operations.
+wafl.scan EMS events occur when ONTAP encounters issues associated with WAFL scanner operations.
 
 
 == wafl.scan.abort.nospace

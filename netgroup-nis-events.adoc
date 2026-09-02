@@ -15,7 +15,7 @@ summary: netgroup.nis events
 :imagesdir: ./media/
 
 [.lead]
-netgroup.nis events occur when ONTAP encounters issues associated with NIS netgroup configuration.
+netgroup.nis EMS events occur when ONTAP encounters issues associated with NIS netgroup configuration.
 
 
 == netgroup.nis.byhost.decode

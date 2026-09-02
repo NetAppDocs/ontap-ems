@@ -15,7 +15,7 @@ summary: sfo.retry events
 :imagesdir: ./media/
 
 [.lead]
-sfo.retry events occur when automatic giveback of one or more SFO aggregates fails.
+sfo.retry EMS events occur when automatic giveback of one or more SFO aggregates fails.
 
 
 == sfo.retry.autoGiveback

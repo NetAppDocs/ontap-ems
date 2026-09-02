@@ -15,7 +15,7 @@ summary: nvme.card events
 :imagesdir: ./media/
 
 [.lead]
-nvme.card events occur when ONTAP encounters issues associated with NVMe caching modules.
+nvme.card EMS events occur when ONTAP encounters issues associated with NVMe caching modules.
 
 
 == nvme.card.degraded

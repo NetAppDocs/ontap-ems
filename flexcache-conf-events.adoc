@@ -15,7 +15,7 @@ summary: flexcache.conf events
 :imagesdir: ./media/
 
 [.lead]
-flexcache.conf events occur when FlexCache configuration refresh fails.
+flexcache.conf EMS events occur when FlexCache configuration refresh fails.
 
 
 == flexcache.conf.refreshFailed

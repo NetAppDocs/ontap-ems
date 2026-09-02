@@ -15,7 +15,7 @@ summary: disk.lipstormdetect events
 :imagesdir: ./media/
 
 [.lead]
-disk.lipstormdetect events occur when a Fibre Channel disk detects a large number of Loop Initialization Procedure requests (a LIP storm) and has reset itself.
+disk.lipstormdetect EMS events occur when a Fibre Channel disk detects a large number of Loop Initialization Procedure requests (a LIP storm) and has reset itself.
 
 
 == disk.lipStormDetect

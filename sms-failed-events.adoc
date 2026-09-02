@@ -15,7 +15,7 @@ summary: sms.failed events
 :imagesdir: ./media/
 
 [.lead]
-sms.failed events occur when a SnapMirror(R) Sync relationship cannot be established due to precheck failures.
+sms.failed EMS events occur when a SnapMirror(R) Sync relationship cannot be established due to precheck failures.
 
 
 == sms.failed.precheck

@@ -15,7 +15,7 @@ summary: netif.uncoreccerror events
 :imagesdir: ./media/
 
 [.lead]
-netif.uncoreccerror events occur when the network interface controller reports an unrecoverable ECC error.
+netif.uncoreccerror EMS events occur when the network interface controller reports an unrecoverable ECC error.
 
 
 == netif.uncorEccError

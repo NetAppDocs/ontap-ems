@@ -15,7 +15,7 @@ summary: diskown.bayctrlr events
 :imagesdir: ./media/
 
 [.lead]
-diskown.bayctrlr events occur when ONTAP encounters issues associated with determining controller addresses for bay-based disk assignment.
+diskown.bayctrlr EMS events occur when ONTAP encounters issues associated with determining controller addresses for bay-based disk assignment.
 
 
 == diskown.bayctrlr

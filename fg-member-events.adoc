@@ -15,7 +15,7 @@ summary: fg.member events
 :imagesdir: ./media/
 
 [.lead]
-fg.member events occur when ONTAP encounters issues associated with FlexGroup member volume management.
+fg.member EMS events occur when ONTAP encounters issues associated with FlexGroup member volume management.
 
 
 == fg.member.below.threshold

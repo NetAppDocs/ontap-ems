@@ -15,7 +15,7 @@ summary: phdb.addedmailboxdisk events
 :imagesdir: ./media/
 
 [.lead]
-phdb.addedmailboxdisk events occur when Cloud Volume ONTAP (CVO) creates and adds a cloud mailbox disk.
+phdb.addedmailboxdisk EMS events occur when Cloud Volume ONTAP (CVO) creates and adds a cloud mailbox disk.
 
 
 == phdb.addedMailboxDisk

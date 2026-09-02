@@ -15,7 +15,7 @@ summary: config.habadremote events
 :imagesdir: ./media/
 
 [.lead]
-config.habadremote events occur when a remote host adapter is connected to the wrong switch bank.
+config.habadremote EMS events occur when a remote host adapter is connected to the wrong switch bank.
 
 
 == config.HABadRemote

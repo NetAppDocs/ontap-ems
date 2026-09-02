@@ -15,7 +15,7 @@ summary: scsiblade.unavailable events
 :imagesdir: ./media/
 
 [.lead]
-scsiblade.unavailable events occur when the node loses connectivity with the majority of the cluster and is unable to recover automatically.
+scsiblade.unavailable EMS events occur when the node loses connectivity with the majority of the cluster and is unable to recover automatically.
 
 
 == scsiblade.unavailable

@@ -15,7 +15,7 @@ summary: dev.path events
 :imagesdir: ./media/
 
 [.lead]
-dev.path events occur when the system fails to discover the drive.
+dev.path EMS events occur when the system fails to discover the drive.
 
 
 == dev.path.inquiry.failed

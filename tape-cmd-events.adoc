@@ -15,7 +15,7 @@ summary: tape.cmd events
 :imagesdir: ./media/
 
 [.lead]
-tape.cmd events occur when ONTAP encounters issues associated with tape drive command execution.
+tape.cmd EMS events occur when ONTAP encounters issues associated with tape drive command execution.
 
 
 == tape.cmd.chkCondErr

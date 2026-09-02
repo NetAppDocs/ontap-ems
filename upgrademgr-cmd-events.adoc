@@ -15,7 +15,7 @@ summary: upgrademgr.cmd events
 :imagesdir: ./media/
 
 [.lead]
-upgrademgr.cmd events occur when ONTAP encounters issues associated with automated nondisruptive upgrade (ANDU) command execution.
+upgrademgr.cmd EMS events occur when ONTAP encounters issues associated with automated nondisruptive upgrade (ANDU) command execution.
 
 
 == upgrademgr.cmd.invoke.done

@@ -15,7 +15,7 @@ summary: spm.vserverdr events
 :imagesdir: ./media/
 
 [.lead]
-spm.vserverdr events occur when the Vserver DR process involuntarily terminates.
+spm.vserverdr EMS events occur when the Vserver DR process involuntarily terminates.
 
 
 == spm.vserverdr.process.exit

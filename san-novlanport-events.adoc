@@ -15,7 +15,7 @@ summary: san.novlanport events
 :imagesdir: ./media/
 
 [.lead]
-san.novlanport events occur when a clustered Data ONTAP(R) system is in a MetroCluster(TM) configuration.
+san.novlanport EMS events occur when a clustered Data ONTAP(R) system is in a MetroCluster(TM) configuration.
 
 
 == san.NoVlanPort

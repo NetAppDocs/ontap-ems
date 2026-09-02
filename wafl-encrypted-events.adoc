@@ -15,7 +15,7 @@ summary: wafl.encrypted events
 :imagesdir: ./media/
 
 [.lead]
-wafl.encrypted events occur when ONTAP encounters issues associated with NetApp(R) Aggregate Encryption (NAE) aggregate operations.
+wafl.encrypted EMS events occur when ONTAP encounters issues associated with NetApp(R) Aggregate Encryption (NAE) aggregate operations.
 
 
 == wafl.encrypted.aggr.created

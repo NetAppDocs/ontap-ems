@@ -15,7 +15,7 @@ summary: cf.badshelfcountmsg events
 :imagesdir: ./media/
 
 [.lead]
-cf.badshelfcountmsg events occur if we are sent an invalid negotiated failover shelf count message.
+cf.badshelfcountmsg EMS events occur if we are sent an invalid negotiated failover shelf count message.
 
 
 == cf.badShelfCountMsg

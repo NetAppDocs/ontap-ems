@@ -15,7 +15,7 @@ summary: scsiblade.lu events
 :imagesdir: ./media/
 
 [.lead]
-scsiblade.lu events occur when ONTAP encounters issues associated with logical unit (LU) group operations and resynchronization.
+scsiblade.lu EMS events occur when ONTAP encounters issues associated with logical unit (LU) group operations and resynchronization.
 
 
 == scsiblade.lu.gir.end

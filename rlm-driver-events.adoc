@@ -15,7 +15,7 @@ summary: rlm.driver events
 :imagesdir: ./media/
 
 [.lead]
-rlm.driver events occur when ONTAP encounters issues associated with the Remote LAN Module (RLM) software driver.
+rlm.driver EMS events occur when ONTAP encounters issues associated with the Remote LAN Module (RLM) software driver.
 
 
 == rlm.driver.hourly.stats

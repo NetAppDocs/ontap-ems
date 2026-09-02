@@ -15,7 +15,7 @@ summary: raid.rg events
 :imagesdir: ./media/
 
 [.lead]
-raid.rg events occur when ONTAP encounters issues associated with RAID group operations and reconstruction.
+raid.rg EMS events occur when ONTAP encounters issues associated with RAID group operations and reconstruction.
 
 
 == raid.rg.bigio.fatal

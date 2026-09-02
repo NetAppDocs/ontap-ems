@@ -15,7 +15,7 @@ summary: cf.badshelfcountversion events
 :imagesdir: ./media/
 
 [.lead]
-cf.badshelfcountversion events occur if we are sent a negotiated failover shelf count message with a version which we don't support.
+cf.badshelfcountversion EMS events occur if we are sent a negotiated failover shelf count message with a version which we don't support.
 
 
 == cf.badShelfCountVersion

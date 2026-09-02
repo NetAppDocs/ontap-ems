@@ -15,7 +15,7 @@ summary: callhome.raid events
 :imagesdir: ./media/
 
 [.lead]
-callhome.raid events occur when ONTAP encounters issues associated with RAID operations.
+callhome.raid EMS events occur when ONTAP encounters issues associated with RAID operations.
 
 
 == callhome.raid.adp.disabled

@@ -15,7 +15,7 @@ summary: vol.phys events
 :imagesdir: ./media/
 
 [.lead]
-vol.phys events occur when the volume or aggregate is running dangerously low on free blocks to write to.
+vol.phys EMS events occur when the volume or aggregate is running dangerously low on free blocks to write to.
 
 
 == vol.phys.overalloc

@@ -15,7 +15,7 @@ summary: raid.preserve events
 :imagesdir: ./media/
 
 [.lead]
-raid.preserve events occur when ONTAP encounters issues associated with RAID configuration preservation operations.
+raid.preserve EMS events occur when ONTAP encounters issues associated with RAID configuration preservation operations.
 
 
 == raid.preserve.nvram

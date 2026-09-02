@@ -15,7 +15,7 @@ summary: useradmin.added events
 :imagesdir: ./media/
 
 [.lead]
-useradmin.added events occur when a user, group, or role has been added, deleted, or modified.
+useradmin.added EMS events occur when a user, group, or role has been added, deleted, or modified.
 
 
 == useradmin.added.deleted

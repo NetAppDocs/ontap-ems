@@ -15,7 +15,7 @@ summary: wafl.spacemgmnt events
 :imagesdir: ./media/
 
 [.lead]
-wafl.spacemgmnt events occur when autodelete/autosize policy of a volume is changed.
+wafl.spacemgmnt EMS events occur when autodelete/autosize policy of a volume is changed.
 
 
 == wafl.spacemgmnt.policyChg

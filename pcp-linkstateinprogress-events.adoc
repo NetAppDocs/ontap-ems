@@ -15,7 +15,7 @@ summary: pcp.linkstateinprogress events
 :imagesdir: ./media/
 
 [.lead]
-pcp.linkstateinprogress events occur when a change of network port state cannot be confirmed because another configuration task is in progress.
+pcp.linkstateinprogress EMS events occur when a change of network port state cannot be confirmed because another configuration task is in progress.
 
 
 == pcp.linkStateInProgress

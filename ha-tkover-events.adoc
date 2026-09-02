@@ -15,7 +15,7 @@ summary: ha.tkover events
 :imagesdir: ./media/
 
 [.lead]
-ha.tkover events occur when ONTAP encounters issues associated with high-availability (HA) takeover waiting for in-progress operations.
+ha.tkover EMS events occur when ONTAP encounters issues associated with high-availability (HA) takeover waiting for in-progress operations.
 
 
 == ha.tkover.waitARLabort

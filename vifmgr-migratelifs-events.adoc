@@ -15,7 +15,7 @@ summary: vifmgr.migratelifs events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.migratelifs events occur when ONTAP encounters issues associated with the network load balancing listener and cluster-scoped LIF migration.
+vifmgr.migratelifs EMS events occur when ONTAP encounters issues associated with the network load balancing listener and cluster-scoped LIF migration.
 
 
 == vifmgr.migrateLifs.nlbdDown

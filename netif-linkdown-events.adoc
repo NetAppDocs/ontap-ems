@@ -15,7 +15,7 @@ summary: netif.linkdown events
 :imagesdir: ./media/
 
 [.lead]
-netif.linkdown events occur when a network link goes down or the interface is not operational when first configured up.
+netif.linkdown EMS events occur when a network link goes down or the interface is not operational when first configured up.
 
 
 == netif.linkDown

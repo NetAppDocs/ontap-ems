@@ -15,7 +15,7 @@ summary: ha.takeoverimpversion events
 :imagesdir: ./media/
 
 [.lead]
-ha.takeoverimpversion events occur when the partner node is down; however, due to a version mismatch, it is currently impossible to perform a takeover.
+ha.takeoverimpversion EMS events occur when the partner node is down; however, due to a version mismatch, it is currently impossible to perform a takeover.
 
 
 == ha.takeoverImpVersion

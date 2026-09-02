@@ -15,7 +15,7 @@ summary: wafl.nvsave events
 :imagesdir: ./media/
 
 [.lead]
-wafl.nvsave events occur when ONTAP encounters issues associated with NVSave file management and replay operations.
+wafl.nvsave EMS events occur when ONTAP encounters issues associated with NVSave file management and replay operations.
 
 
 == wafl.nvsave.deletion.status

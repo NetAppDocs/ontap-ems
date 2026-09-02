@@ -15,7 +15,7 @@ summary: callhome.wafl events
 :imagesdir: ./media/
 
 [.lead]
-callhome.wafl events occur when ONTAP encounters issues associated with WAFL(R) file system integrity.
+callhome.wafl EMS events occur when ONTAP encounters issues associated with WAFL(R) file system integrity.
 
 
 == callhome.wafl.check

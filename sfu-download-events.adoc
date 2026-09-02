@@ -15,7 +15,7 @@ summary: sfu.download events
 :imagesdir: ./media/
 
 [.lead]
-sfu.download events occur when ONTAP encounters issues associated with disk shelf firmware downloads.
+sfu.download EMS events occur when ONTAP encounters issues associated with disk shelf firmware downloads.
 
 
 == sfu.download.details

@@ -15,7 +15,7 @@ summary: vserver.start events
 :imagesdir: ./media/
 
 [.lead]
-vserver.start events occur when ONTAP encounters issues associated with Vserver start operations.
+vserver.start EMS events occur when ONTAP encounters issues associated with Vserver start operations.
 
 
 == vserver.start.failed

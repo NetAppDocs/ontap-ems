@@ -15,7 +15,7 @@ summary: cloud.gcpcredsinvalid events
 :imagesdir: ./media/
 
 [.lead]
-cloud.gcpcredsinvalid events occur when the system acquires Google Cloud Platform (GCP) Service Account based credentials that are not valid.
+cloud.gcpcredsinvalid EMS events occur when the system acquires Google Cloud Platform (GCP) Service Account based credentials that are not valid.
 
 
 == cloud.gcpCredsInvalid

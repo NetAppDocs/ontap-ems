@@ -15,7 +15,7 @@ summary: wafl.failed events
 :imagesdir: ./media/
 
 [.lead]
-wafl.failed events occur when ONTAP encounters issues associated with volume mounting and online operations.
+wafl.failed EMS events occur when ONTAP encounters issues associated with volume mounting and online operations.
 
 
 == wafl.failed.mount

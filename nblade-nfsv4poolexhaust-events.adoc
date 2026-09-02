@@ -15,7 +15,7 @@ summary: nblade.nfsv4poolexhaust events
 :imagesdir: ./media/
 
 [.lead]
-nblade.nfsv4poolexhaust events occur when one of the NFSv4 store pools is exhausted.
+nblade.nfsv4poolexhaust EMS events occur when one of the NFSv4 store pools is exhausted.
 
 
 == Nblade.nfsV4PoolExhaust

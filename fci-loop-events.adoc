@@ -15,7 +15,7 @@ summary: fci.loop events
 :imagesdir: ./media/
 
 [.lead]
-fci.loop events occur when the Fibre Channel loop generates too many loop initialization events.
+fci.loop EMS events occur when the Fibre Channel loop generates too many loop initialization events.
 
 
 == fci.loop.stability

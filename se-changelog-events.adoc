@@ -15,7 +15,7 @@ summary: se.changelog events
 :imagesdir: ./media/
 
 [.lead]
-se.changelog events occur when Single Instance Storage (SIS) change logging metafile is full during migration workflow through Snapmirror.
+se.changelog EMS events occur when Single Instance Storage (SIS) change logging metafile is full during migration workflow through Snapmirror.
 
 
 == se.changelog.full

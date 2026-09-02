@@ -15,7 +15,7 @@ summary: cmd.result events
 :imagesdir: ./media/
 
 [.lead]
-cmd.result events occur when the system reboots as a consequence of executing the specified command.
+cmd.result EMS events occur when the system reboots as a consequence of executing the specified command.
 
 
 == cmd.result.reboot

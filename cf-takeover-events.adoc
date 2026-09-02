@@ -15,7 +15,7 @@ summary: cf.takeover events
 :imagesdir: ./media/
 
 [.lead]
-cf.takeover events occur when ONTAP encounters issues associated with takeover operations.
+cf.takeover EMS events occur when ONTAP encounters issues associated with takeover operations.
 
 
 == cf.takeover.aborted.bdfu

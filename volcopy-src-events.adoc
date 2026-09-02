@@ -15,7 +15,7 @@ summary: volcopy.src events
 :imagesdir: ./media/
 
 [.lead]
-volcopy.src events occur when ONTAP encounters issues associated with volume copy source operations.
+volcopy.src EMS events occur when ONTAP encounters issues associated with volume copy source operations.
 
 
 == volcopy.src.noMemory

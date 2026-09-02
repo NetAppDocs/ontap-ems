@@ -15,7 +15,7 @@ summary: logger.usr events
 :imagesdir: ./media/
 
 [.lead]
-logger.usr events occur when the user runs the 'logger' command.
+logger.usr EMS events occur when the user runs the 'logger' command.
 
 
 == logger.usr

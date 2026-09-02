@@ -15,7 +15,7 @@ summary: air.fc events
 :imagesdir: ./media/
 
 [.lead]
-air.fc events occur when inconsistencies are detected in the origin of this FlexCache(R) volume.
+air.fc EMS events occur when inconsistencies are detected in the origin of this FlexCache(R) volume.
 
 
 == air.fc.origin.corrupt

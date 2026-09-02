@@ -15,7 +15,7 @@ summary: connectx.ibretimerfailcount events
 :imagesdir: ./media/
 
 [.lead]
-connectx.ibretimerfailcount events occur when InfiniBand retimer programming fails due to one of the following reasons: InfiniBand device not found, GPIO read failure or retimer chip failure.
+connectx.ibretimerfailcount EMS events occur when InfiniBand retimer programming fails due to one of the following reasons: InfiniBand device not found, GPIO read failure or retimer chip failure.
 
 
 == connectx.IbRetimerFailCount

@@ -15,7 +15,7 @@ summary: monitor.fru events
 :imagesdir: ./media/
 
 [.lead]
-monitor.fru events occur when ONTAP encounters issues associated with field-replaceable unit (FRU) inventory information.
+monitor.fru EMS events occur when ONTAP encounters issues associated with field-replaceable unit (FRU) inventory information.
 
 
 == monitor.fru.info.readable

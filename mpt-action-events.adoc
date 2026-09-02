@@ -15,7 +15,7 @@ summary: mpt.action events
 :imagesdir: ./media/
 
 [.lead]
-mpt.action events occur when ONTAP encounters issues associated with message processing technology (MPT) adapter driver operations.
+mpt.action EMS events occur when ONTAP encounters issues associated with message processing technology (MPT) adapter driver operations.
 
 
 == mpt.action.reset.bus

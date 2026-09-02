@@ -15,7 +15,7 @@ summary: fli.lun events
 :imagesdir: ./media/
 
 [.lead]
-fli.lun events occur when ONTAP encounters issues associated with foreign LUN import operations.
+fli.lun EMS events occur when ONTAP encounters issues associated with foreign LUN import operations.
 
 
 == fli.lun.import.checkpoint

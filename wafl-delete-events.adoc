@@ -15,7 +15,7 @@ summary: wafl.delete events
 :imagesdir: ./media/
 
 [.lead]
-wafl.delete events occur when ONTAP encounters issues associated with file deletion operations and space reclamation.
+wafl.delete EMS events occur when ONTAP encounters issues associated with file deletion operations and space reclamation.
 
 
 == wafl.delete.bad.indirect

@@ -15,7 +15,7 @@ summary: scsitarget.hwpfct events
 :imagesdir: ./media/
 
 [.lead]
-scsitarget.hwpfct events occur when ONTAP encounters issues associated with Fibre Channel (FC) target host bus adapter operations.
+scsitarget.hwpfct EMS events occur when ONTAP encounters issues associated with Fibre Channel (FC) target host bus adapter operations.
 
 
 == scsitarget.hwpfct.dump.saved

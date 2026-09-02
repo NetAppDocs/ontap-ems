@@ -15,7 +15,7 @@ summary: vserver.name events
 :imagesdir: ./media/
 
 [.lead]
-vserver.name events occur when ONTAP encounters issues associated with Vserver name conflicts during rename operations.
+vserver.name EMS events occur when ONTAP encounters issues associated with Vserver name conflicts during rename operations.
 
 
 == vserver.name.conflict.local

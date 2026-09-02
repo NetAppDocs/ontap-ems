@@ -15,7 +15,7 @@ summary: raid.tetris events
 :imagesdir: ./media/
 
 [.lead]
-raid.tetris events occur when ONTAP encounters issues associated with write operations and block verification.
+raid.tetris EMS events occur when ONTAP encounters issues associated with write operations and block verification.
 
 
 == raid.tetris.cksum.bno

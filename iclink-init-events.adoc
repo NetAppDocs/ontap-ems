@@ -15,7 +15,7 @@ summary: iclink.init events
 :imagesdir: ./media/
 
 [.lead]
-iclink.init events occur when the HA interconnect fails to initialize.
+iclink.init EMS events occur when the HA interconnect fails to initialize.
 
 
 == iclink.init.error

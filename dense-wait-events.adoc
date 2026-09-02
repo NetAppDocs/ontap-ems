@@ -15,7 +15,7 @@ summary: dense.wait events
 :imagesdir: ./media/
 
 [.lead]
-dense.wait events occur while mounting a volume, when an in-memory buftree id cache was not able to be refreshed for SIS metafile operation.
+dense.wait EMS events occur while mounting a volume, when an in-memory buftree id cache was not able to be refreshed for SIS metafile operation.
 
 
 == dense.wait.for.gbc.timedout

@@ -15,7 +15,7 @@ summary: km.okm events
 :imagesdir: ./media/
 
 [.lead]
-km.okm events occur when ONTAP encounters issues associated with Onboard Key Manager (OKM) key hierarchy in MetroCluster configurations.
+km.okm EMS events occur when ONTAP encounters issues associated with Onboard Key Manager (OKM) key hierarchy in MetroCluster configurations.
 
 
 == km.okm.count.invalid

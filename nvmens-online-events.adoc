@@ -15,7 +15,7 @@ summary: nvmens.online events
 :imagesdir: ./media/
 
 [.lead]
-nvmens.online events occur when an NVMe namespace is brought online manually.
+nvmens.online EMS events occur when an NVMe namespace is brought online manually.
 
 
 == NVMeNS.online

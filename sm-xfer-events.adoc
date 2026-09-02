@@ -15,7 +15,7 @@ summary: sm.xfer events
 :imagesdir: ./media/
 
 [.lead]
-sm.xfer events occur when ONTAP encounters issues associated with SnapMirror(R) transfer operations.
+sm.xfer EMS events occur when ONTAP encounters issues associated with SnapMirror(R) transfer operations.
 
 
 == sm.xfer.fail.del.snap

@@ -15,7 +15,7 @@ summary: snapdiff.rebl events
 :imagesdir: ./media/
 
 [.lead]
-snapdiff.rebl events occur when ONTAP encounters issues associated with SnapDiff(R), the snapshot copy differencing engine.
+snapdiff.rebl EMS events occur when ONTAP encounters issues associated with SnapDiff(R), the snapshot copy differencing engine.
 
 
 == snapdiff.rebl.absent.allocated.block

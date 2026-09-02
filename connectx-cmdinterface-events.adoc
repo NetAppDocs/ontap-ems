@@ -15,7 +15,7 @@ summary: connectx.cmdinterface events
 :imagesdir: ./media/
 
 [.lead]
-connectx.cmdinterface events occur when the command interface of ConnectX HA interconnect hardware is temporarily hung.
+connectx.cmdinterface EMS events occur when the command interface of ConnectX HA interconnect hardware is temporarily hung.
 
 
 == connectx.cmdInterface.hung

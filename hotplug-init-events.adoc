@@ -15,7 +15,7 @@ summary: hotplug.init events
 :imagesdir: ./media/
 
 [.lead]
-hotplug.init events occur when ONTAP encounters issues associated with hot plug module initialization.
+hotplug.init EMS events occur when ONTAP encounters issues associated with hot plug module initialization.
 
 
 == hotplug.init.failed

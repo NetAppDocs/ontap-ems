@@ -15,7 +15,7 @@ summary: secd.cifsauth events
 :imagesdir: ./media/
 
 [.lead]
-secd.cifsauth events occur when ONTAP encounters issues associated with CIFS authentication.
+secd.cifsauth EMS events occur when ONTAP encounters issues associated with CIFS authentication.
 
 
 == secd.cifsAuth.denied

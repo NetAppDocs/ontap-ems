@@ -15,7 +15,7 @@ summary: nv.rename events
 :imagesdir: ./media/
 
 [.lead]
-nv.rename events occur when ONTAP encounters issues associated with file renaming after NVRAM failures.
+nv.rename EMS events occur when ONTAP encounters issues associated with file renaming after NVRAM failures.
 
 
 == nv.rename.err

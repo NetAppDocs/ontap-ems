@@ -15,7 +15,7 @@ summary: connectx.iblinkretrainreqd events
 :imagesdir: ./media/
 
 [.lead]
-connectx.iblinkretrainreqd events occur when the software detects that the previous InfiniBand link training was unsuccessful.
+connectx.iblinkretrainreqd EMS events occur when the software detects that the previous InfiniBand link training was unsuccessful.
 
 
 == connectx.IBLinkRetrainReqd

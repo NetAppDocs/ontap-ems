@@ -15,7 +15,7 @@ summary: mixed.controller events
 :imagesdir: ./media/
 
 [.lead]
-mixed.controller events occur when ONTAP encounters issues associated with mixed controller models in the same chassis.
+mixed.controller EMS events occur when ONTAP encounters issues associated with mixed controller models in the same chassis.
 
 
 == mixed.controller.halt

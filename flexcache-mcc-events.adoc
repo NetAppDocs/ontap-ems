@@ -15,7 +15,7 @@ summary: flexcache.mcc events
 :imagesdir: ./media/
 
 [.lead]
-flexcache.mcc events occur when a FlexCache(R) configuration refresh operation fails during MetroCluster(tm) switchover and switchback.
+flexcache.mcc EMS events occur when a FlexCache(R) configuration refresh operation fails during MetroCluster(tm) switchover and switchback.
 
 
 == flexcache.mcc.refresh.failed

@@ -15,7 +15,7 @@ summary: nblade.fpolpsinitfail events
 :imagesdir: ./media/
 
 [.lead]
-nblade.fpolpsinitfail events occur when initialization of any FPolicy persistent store resource fails.
+nblade.fpolpsinitfail EMS events occur when initialization of any FPolicy persistent store resource fails.
 
 
 == Nblade.fpolPsInitFail

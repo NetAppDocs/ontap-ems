@@ -15,7 +15,7 @@ summary: exports.dom events
 :imagesdir: ./media/
 
 [.lead]
-exports.dom events occur when ONTAP encounters issues associated with reverse DNS lookups for export-policy evaluation.
+exports.dom EMS events occur when ONTAP encounters issues associated with reverse DNS lookups for export-policy evaluation.
 
 
 == exports.dom.notFound

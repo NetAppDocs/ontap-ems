@@ -15,7 +15,7 @@ summary: vsdr.qos events
 :imagesdir: ./media/
 
 [.lead]
-vsdr.qos events occur when ONTAP encounters issues associated with Quality of Service (QoS) policy group replication in MetroCluster configurations.
+vsdr.qos EMS events occur when ONTAP encounters issues associated with Quality of Service (QoS) policy group replication in MetroCluster configurations.
 
 
 == vsdr.QoS.MaxQoSPGs

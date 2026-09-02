@@ -15,7 +15,7 @@ summary: netif.excesslinkinterrupts events
 :imagesdir: ./media/
 
 [.lead]
-netif.excesslinkinterrupts events occur when excessive link status change interrupts occur on the network interface.
+netif.excesslinkinterrupts EMS events occur when excessive link status change interrupts occur on the network interface.
 
 
 == netif.excessLinkInterrupts

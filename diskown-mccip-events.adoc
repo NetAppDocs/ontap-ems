@@ -15,7 +15,7 @@ summary: diskown.mccip events
 :imagesdir: ./media/
 
 [.lead]
-diskown.mccip events occur when ONTAP encounters issues associated with MetroCluster(tm) quarter-shelf based drive assignment.
+diskown.mccip EMS events occur when ONTAP encounters issues associated with MetroCluster(tm) quarter-shelf based drive assignment.
 
 
 == diskown.mccip.assignStatus

@@ -15,7 +15,7 @@ summary: diskown.rewriteowner events
 :imagesdir: ./media/
 
 [.lead]
-diskown.rewriteowner events occur when we have to rewrite a DOWN because it is out of date wrt the other DOWNs.
+diskown.rewriteowner EMS events occur when we have to rewrite a DOWN because it is out of date wrt the other DOWNs.
 
 
 == diskown.rewriteOwner

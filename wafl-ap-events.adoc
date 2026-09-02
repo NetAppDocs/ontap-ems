@@ -15,7 +15,7 @@ summary: wafl.ap events
 :imagesdir: ./media/
 
 [.lead]
-wafl.ap events occur when adaptive playlist message.
+wafl.ap EMS events occur when adaptive playlist message.
 
 
 == wafl.ap.info

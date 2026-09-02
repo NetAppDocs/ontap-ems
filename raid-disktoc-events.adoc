@@ -15,7 +15,7 @@ summary: raid.disktoc events
 :imagesdir: ./media/
 
 [.lead]
-raid.disktoc events occur when ONTAP encounters issues associated with disk Table Of Contents.
+raid.disktoc EMS events occur when ONTAP encounters issues associated with disk Table Of Contents.
 
 
 == raid.disktoc.rawsizeChange

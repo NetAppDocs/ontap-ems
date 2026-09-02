@@ -15,7 +15,7 @@ summary: callhome.weekly events
 :imagesdir: ./media/
 
 [.lead]
-callhome.weekly events occur when the weekly AutoSupport or 'call home' event is sent.
+callhome.weekly EMS events occur when the weekly AutoSupport or 'call home' event is sent.
 
 
 == callhome.weekly

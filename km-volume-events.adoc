@@ -15,7 +15,7 @@ summary: km.volume events
 :imagesdir: ./media/
 
 [.lead]
-km.volume events occur when ONTAP encounters issues associated with key manager recovery during volume mount operations.
+km.volume EMS events occur when ONTAP encounters issues associated with key manager recovery during volume mount operations.
 
 
 == km.volume.mount.fail

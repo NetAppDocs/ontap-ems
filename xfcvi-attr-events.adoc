@@ -15,7 +15,7 @@ summary: xfcvi.attr events
 :imagesdir: ./media/
 
 [.lead]
-xfcvi.attr events occur when any of the xfcvi attributes changes.
+xfcvi.attr EMS events occur when any of the xfcvi attributes changes.
 
 
 == xfcvi.attr.changed

@@ -15,7 +15,7 @@ summary: cloud.dbtablenotfound events
 :imagesdir: ./media/
 
 [.lead]
-cloud.dbtablenotfound events occur when a cloud database table is not found in this cloud database service.
+cloud.dbtablenotfound EMS events occur when a cloud database table is not found in this cloud database service.
 
 
 == cloud.DBTableNotFound

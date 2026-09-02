@@ -15,7 +15,7 @@ summary: vserver.stop events
 :imagesdir: ./media/
 
 [.lead]
-vserver.stop events occur when ONTAP encounters issues associated with Vserver stop operations.
+vserver.stop EMS events occur when ONTAP encounters issues associated with Vserver stop operations.
 
 
 == vserver.stop.failed

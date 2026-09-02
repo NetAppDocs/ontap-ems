@@ -15,7 +15,7 @@ summary: nblade.nosmbvernegotiated events
 :imagesdir: ./media/
 
 [.lead]
-nblade.nosmbvernegotiated events occur when Data ONTAP(R) does not support any of the SMB protocol versions sent by the client for negotiation.
+nblade.nosmbvernegotiated EMS events occur when Data ONTAP(R) does not support any of the SMB protocol versions sent by the client for negotiation.
 
 
 == Nblade.noSmbVerNegotiated

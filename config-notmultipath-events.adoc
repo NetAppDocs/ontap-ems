@@ -15,7 +15,7 @@ summary: config.notmultipath events
 :imagesdir: ./media/
 
 [.lead]
-config.notmultipath events occur when a disk is not multipathed.
+config.notmultipath EMS events occur when a disk is not multipathed.
 
 
 == config.NotMultiPath

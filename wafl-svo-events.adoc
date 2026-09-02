@@ -15,7 +15,7 @@ summary: wafl.svo events
 :imagesdir: ./media/
 
 [.lead]
-wafl.svo events occur when ONTAP encounters issues associated with SnapValidator for Oracle (svo) operations.
+wafl.svo EMS events occur when ONTAP encounters issues associated with SnapValidator for Oracle (svo) operations.
 
 
 == wafl.svo.checkFailed

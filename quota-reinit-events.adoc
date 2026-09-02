@@ -15,7 +15,7 @@ summary: quota.reinit events
 :imagesdir: ./media/
 
 [.lead]
-quota.reinit events occur when an unplanned MetroCluster(tm) switchover happens.
+quota.reinit EMS events occur when an unplanned MetroCluster(tm) switchover happens.
 
 
 == quota.reinit.required

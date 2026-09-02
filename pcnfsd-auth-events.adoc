@@ -15,7 +15,7 @@ summary: pcnfsd.auth events
 :imagesdir: ./media/
 
 [.lead]
-pcnfsd.auth events occur when the authorization for a user fails due to a corrupted password entry in /etc/passwd.
+pcnfsd.auth EMS events occur when the authorization for a user fails due to a corrupted password entry in /etc/passwd.
 
 
 == pcnfsd.auth.failure

@@ -15,7 +15,7 @@ summary: asup.post events
 :imagesdir: ./media/
 
 [.lead]
-asup.post events occur when the AutoSupport(R) mechanism quits trying to post to the NetApp URL after having retried for the specified number of times.
+asup.post EMS events occur when the AutoSupport(R) mechanism quits trying to post to the NetApp URL after having retried for the specified number of times.
 
 
 == asup.post.drop

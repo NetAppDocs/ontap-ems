@@ -15,7 +15,7 @@ summary: volmigrate.result events
 :imagesdir: ./media/
 
 [.lead]
-volmigrate.result events occur when description of the result of a volume migration.
+volmigrate.result EMS events occur when description of the result of a volume migration.
 
 
 == volmigrate.result

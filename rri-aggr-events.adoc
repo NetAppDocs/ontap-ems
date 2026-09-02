@@ -15,7 +15,7 @@ summary: rri.aggr events
 :imagesdir: ./media/
 
 [.lead]
-rri.aggr events occur when to indicate there is not enough free space to do RRI work.
+rri.aggr EMS events occur when to indicate there is not enough free space to do RRI work.
 
 
 == rri.aggr.nospace

@@ -15,7 +15,7 @@ summary: callhome.nvmf events
 :imagesdir: ./media/
 
 [.lead]
-callhome.nvmf events occur when a NVMe-oF target subsystem is hidden due to a SnapMirror(R) Active Synchronous relationship going out of sync.
+callhome.nvmf EMS events occur when a NVMe-oF target subsystem is hidden due to a SnapMirror(R) Active Synchronous relationship going out of sync.
 
 
 == callhome.nvmf.subsys.hidden

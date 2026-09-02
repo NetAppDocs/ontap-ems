@@ -15,7 +15,7 @@ summary: backup.flip events
 :imagesdir: ./media/
 
 [.lead]
-backup.flip events occur when while flipping inodemap.
+backup.flip EMS events occur when while flipping inodemap.
 
 
 == backup.flip.inodemap

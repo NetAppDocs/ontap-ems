@@ -15,7 +15,7 @@ summary: coredump.segment events
 :imagesdir: ./media/
 
 [.lead]
-coredump.segment events occur when ONTAP encounters issues associated with segmenting core files.
+coredump.segment EMS events occur when ONTAP encounters issues associated with segmenting core files.
 
 
 == coredump.segment.auto.fail

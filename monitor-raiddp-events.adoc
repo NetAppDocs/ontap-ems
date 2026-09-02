@@ -15,7 +15,7 @@ summary: monitor.raiddp events
 :imagesdir: ./media/
 
 [.lead]
-monitor.raiddp events occur as part of an hourly system check when a double parity volume is in single degraded mode.
+monitor.raiddp EMS events occur as part of an hourly system check when a double parity volume is in single degraded mode.
 
 
 == monitor.raiddp.vol.singleDegraded

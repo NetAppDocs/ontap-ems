@@ -15,7 +15,7 @@ summary: disk.stalledtoolong events
 :imagesdir: ./media/
 
 [.lead]
-disk.stalledtoolong events occur when a disk has been stalled too long.
+disk.stalledtoolong EMS events occur when a disk has been stalled too long.
 
 
 == disk.stalledTooLong

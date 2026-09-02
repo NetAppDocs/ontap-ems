@@ -15,7 +15,7 @@ summary: spm.servprocd events
 :imagesdir: ./media/
 
 [.lead]
-spm.servprocd events occur when the Service processor daemon process (servprocd) involuntarily terminates.
+spm.servprocd EMS events occur when the Service processor daemon process (servprocd) involuntarily terminates.
 
 
 == spm.servprocd.process.exit

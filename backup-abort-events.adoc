@@ -15,7 +15,7 @@ summary: backup.abort events
 :imagesdir: ./media/
 
 [.lead]
-backup.abort events occur when ONTAP encounters issues associated with backup operations being aborted during ROOLR or VERITAS NBU STSP Protocol operations.
+backup.abort EMS events occur when ONTAP encounters issues associated with backup operations being aborted during ROOLR or VERITAS NBU STSP Protocol operations.
 
 
 == backup.abort.ROOLR

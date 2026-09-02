@@ -15,7 +15,7 @@ summary: spm.fpolicy events
 :imagesdir: ./media/
 
 [.lead]
-spm.fpolicy events occur when the fpolicy involuntarily terminates.
+spm.fpolicy EMS events occur when the fpolicy involuntarily terminates.
 
 
 == spm.fpolicy.process.exit

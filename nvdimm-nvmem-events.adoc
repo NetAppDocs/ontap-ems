@@ -15,7 +15,7 @@ summary: nvdimm.nvmem events
 :imagesdir: ./media/
 
 [.lead]
-nvdimm.nvmem events occur when ONTAP encounters issues associated with NVDIMM-based NVMEM subsystem operations and checks.
+nvdimm.nvmem EMS events occur when ONTAP encounters issues associated with NVDIMM-based NVMEM subsystem operations and checks.
 
 
 == nvdimm.nvmem.checkfail

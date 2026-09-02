@@ -15,7 +15,7 @@ summary: nvme.lowmem events
 :imagesdir: ./media/
 
 [.lead]
-nvme.lowmem events occur when EC is disabled on low memory cloud instance types.
+nvme.lowmem EMS events occur when EC is disabled on low memory cloud instance types.
 
 
 == nvme.lowmem.ec.disabled

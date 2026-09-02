@@ -15,7 +15,7 @@ summary: diskshelf.unsupported events
 :imagesdir: ./media/
 
 [.lead]
-diskshelf.unsupported events occur when ONTAP(R) software detects an unsupported disk shelf.
+diskshelf.unsupported EMS events occur when ONTAP(R) software detects an unsupported disk shelf.
 
 
 == diskShelf.unsupported

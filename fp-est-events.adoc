@@ -15,7 +15,7 @@ summary: fp.est events
 :imagesdir: ./media/
 
 [.lead]
-fp.est events occur when ONTAP encounters issues associated with volume footprint estimator scan operations.
+fp.est EMS events occur when ONTAP encounters issues associated with volume footprint estimator scan operations.
 
 
 == fp.est.scan.catalog.failed

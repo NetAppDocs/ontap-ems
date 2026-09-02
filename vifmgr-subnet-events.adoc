@@ -15,7 +15,7 @@ summary: vifmgr.subnet events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.subnet events occur when ONTAP encounters issues associated with IP address management in subnets or subnet configuration conflicts.
+vifmgr.subnet EMS events occur when ONTAP encounters issues associated with IP address management in subnets or subnet configuration conflicts.
 
 
 == vifmgr.subnet.addr.acquired

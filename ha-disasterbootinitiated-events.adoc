@@ -15,7 +15,7 @@ summary: ha.disasterbootinitiated events
 :imagesdir: ./media/
 
 [.lead]
-ha.disasterbootinitiated events occur when an HA disaster recovery boot is initiated.
+ha.disasterbootinitiated EMS events occur when an HA disaster recovery boot is initiated.
 
 
 == ha.disasterBootInitiated

@@ -15,7 +15,7 @@ summary: sm.cloud events
 :imagesdir: ./media/
 
 [.lead]
-sm.cloud events occur when ONTAP encounters issues associated with ONTAP cloud mediator operations.
+sm.cloud EMS events occur when ONTAP encounters issues associated with ONTAP cloud mediator operations.
 
 
 == sm.cloud.med.added.high.lat

@@ -15,7 +15,7 @@ summary: nblade.cifsmanyauths events
 :imagesdir: ./media/
 
 [.lead]
-nblade.cifsmanyauths events occur when many authentication negotiations occur simultaneously.
+nblade.cifsmanyauths EMS events occur when many authentication negotiations occur simultaneously.
 
 
 == Nblade.cifsManyAuths

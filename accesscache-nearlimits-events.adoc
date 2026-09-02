@@ -15,7 +15,7 @@ summary: accesscache.nearlimits events
 :imagesdir: ./media/
 
 [.lead]
-accesscache.nearlimits events occur when the access cache module is near its limit for entries.
+accesscache.nearlimits EMS events occur when the access cache module is near its limit for entries.
 
 
 == AccessCache.NearLimits

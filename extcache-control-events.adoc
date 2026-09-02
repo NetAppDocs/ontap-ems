@@ -15,7 +15,7 @@ summary: extcache.control events
 :imagesdir: ./media/
 
 [.lead]
-extcache.control events occur when the external cache software cannot signal its administrative thread.
+extcache.control EMS events occur when the external cache software cannot signal its administrative thread.
 
 
 == extCache.control

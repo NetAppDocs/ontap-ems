@@ -15,7 +15,7 @@ summary: tls.insecure events
 :imagesdir: ./media/
 
 [.lead]
-tls.insecure events occur when ONTAP encounters issues associated with insecure TLS cipher suites and protocols.
+tls.insecure EMS events occur when ONTAP encounters issues associated with insecure TLS cipher suites and protocols.
 
 
 == tls.insecure.cipher

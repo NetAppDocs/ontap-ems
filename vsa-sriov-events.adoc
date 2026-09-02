@@ -15,7 +15,7 @@ summary: vsa.sriov events
 :imagesdir: ./media/
 
 [.lead]
-vsa.sriov events occur when ONTAP(R) software running in the guest virtual machine (VM) detects an SR-IOV NIC detach event.
+vsa.sriov EMS events occur when ONTAP(R) software running in the guest virtual machine (VM) detects an SR-IOV NIC detach event.
 
 
 == vsa.sriov.nic.detach

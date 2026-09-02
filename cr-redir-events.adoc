@@ -15,7 +15,7 @@ summary: cr.redir events
 :imagesdir: ./media/
 
 [.lead]
-cr.redir events occur when the data scanner skips an inode for which it cannot access the redirector file.
+cr.redir EMS events occur when the data scanner skips an inode for which it cannot access the redirector file.
 
 
 == CR.Redir.File.Inaccessible

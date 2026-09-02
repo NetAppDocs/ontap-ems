@@ -15,7 +15,7 @@ summary: usbmon.boot events
 :imagesdir: ./media/
 
 [.lead]
-usbmon.boot events occur when ONTAP encounters issues associated with USB boot device health monitoring.
+usbmon.boot EMS events occur when ONTAP encounters issues associated with USB boot device health monitoring.
 
 
 == usbmon.boot.device.failed

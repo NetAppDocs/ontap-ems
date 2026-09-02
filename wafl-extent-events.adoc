@@ -15,7 +15,7 @@ summary: wafl.extent events
 :imagesdir: ./media/
 
 [.lead]
-wafl.extent events occur when the volume extent option is set and WAFL(R) encounters an invalid extent size.
+wafl.extent EMS events occur when the volume extent option is set and WAFL(R) encounters an invalid extent size.
 
 
 == wafl.extent.size.reset

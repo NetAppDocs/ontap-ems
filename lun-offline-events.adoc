@@ -15,7 +15,7 @@ summary: lun.offline events
 :imagesdir: ./media/
 
 [.lead]
-lun.offline events occur when a LUN is brought offline manually.
+lun.offline EMS events occur when a LUN is brought offline manually.
 
 
 == LUN.offline

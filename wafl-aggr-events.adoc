@@ -15,7 +15,7 @@ summary: wafl.aggr events
 :imagesdir: ./media/
 
 [.lead]
-wafl.aggr events occur when ONTAP encounters issues associated with aggregate operations, configurations, or consistency checks.
+wafl.aggr EMS events occur when ONTAP encounters issues associated with aggregate operations, configurations, or consistency checks.
 
 
 == wafl.aggr.addup.offline

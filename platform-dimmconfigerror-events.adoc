@@ -15,7 +15,7 @@ summary: platform.dimmconfigerror events
 :imagesdir: ./media/
 
 [.lead]
-platform.dimmconfigerror events occur when the DIMM configuration of the controller is different from the configuration supported by this model.
+platform.dimmconfigerror EMS events occur when the DIMM configuration of the controller is different from the configuration supported by this model.
 
 
 == platform.dimmConfigError

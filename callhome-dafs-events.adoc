@@ -15,7 +15,7 @@ summary: callhome.dafs events
 :imagesdir: ./media/
 
 [.lead]
-callhome.dafs events occur when the DAFS (Direct Acess File System) NIC (Network Interface Controller) has stopped while DAFS was running.
+callhome.dafs EMS events occur when the DAFS (Direct Acess File System) NIC (Network Interface Controller) has stopped while DAFS was running.
 
 
 == callhome.dafs.nic.stop

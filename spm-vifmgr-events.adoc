@@ -15,7 +15,7 @@ summary: spm.vifmgr events
 :imagesdir: ./media/
 
 [.lead]
-spm.vifmgr events occur when the Logical Interface Manager (VIFMgr) subsystem aborts.
+spm.vifmgr EMS events occur when the Logical Interface Manager (VIFMgr) subsystem aborts.
 
 
 == spm.vifmgr.process.exit

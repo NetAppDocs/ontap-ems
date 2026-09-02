@@ -15,7 +15,7 @@ summary: shelf.identify events
 :imagesdir: ./media/
 
 [.lead]
-shelf.identify events occur when ONTAP encounters issues associated with disk shelf identification operations.
+shelf.identify EMS events occur when ONTAP encounters issues associated with disk shelf identification operations.
 
 
 == shelf.identify.start

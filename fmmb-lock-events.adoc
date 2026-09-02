@@ -15,7 +15,7 @@ summary: fmmb.lock events
 :imagesdir: ./media/
 
 [.lead]
-fmmb.lock events occur when a disk is removed from the HA mailbox disk lock set.
+fmmb.lock EMS events occur when a disk is removed from the HA mailbox disk lock set.
 
 
 == fmmb.lock.disk.remove

@@ -15,7 +15,7 @@ summary: sas.reset events
 :imagesdir: ./media/
 
 [.lead]
-sas.reset events occur when ONTAP encounters issues associated with SAS expander resets.
+sas.reset EMS events occur when ONTAP encounters issues associated with SAS expander resets.
 
 
 == sas.reset.exp.discovery.resp

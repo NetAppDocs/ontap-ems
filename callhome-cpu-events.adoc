@@ -15,7 +15,7 @@ summary: callhome.cpu events
 :imagesdir: ./media/
 
 [.lead]
-callhome.cpu events occur when ONTAP encounters issues associated with CPU fan failures or abnormal spinning speeds.
+callhome.cpu EMS events occur when ONTAP encounters issues associated with CPU fan failures or abnormal spinning speeds.
 
 
 == callhome.cpu.fan

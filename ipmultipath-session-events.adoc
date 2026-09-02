@@ -15,7 +15,7 @@ summary: ipmultipath.session events
 :imagesdir: ./media/
 
 [.lead]
-ipmultipath.session events occur when an IP Multipath session is dropped due to failure to allocate memory.
+ipmultipath.session EMS events occur when an IP Multipath session is dropped due to failure to allocate memory.
 
 
 == ipmultipath.session.noMemory

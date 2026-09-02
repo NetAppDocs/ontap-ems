@@ -15,7 +15,7 @@ summary: lun.metadb events
 :imagesdir: ./media/
 
 [.lead]
-lun.metadb events occur when a version mismatch is detected for the metafile containing LUN metadata.
+lun.metadb EMS events occur when a version mismatch is detected for the metafile containing LUN metadata.
 
 
 == LUN.metadb.version.mismatch

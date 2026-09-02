@@ -15,7 +15,7 @@ summary: ha.net events
 :imagesdir: ./media/
 
 [.lead]
-ha.net events occur when HA network security is disabled.
+ha.net EMS events occur when HA network security is disabled.
 
 
 == ha.net.sec.disabled

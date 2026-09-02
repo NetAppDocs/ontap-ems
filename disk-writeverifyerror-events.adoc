@@ -15,7 +15,7 @@ summary: disk.writeverifyerror events
 :imagesdir: ./media/
 
 [.lead]
-disk.writeverifyerror events occur when a write verify error occurs.
+disk.writeverifyerror EMS events occur when a write verify error occurs.
 
 
 == disk.writeVerifyError

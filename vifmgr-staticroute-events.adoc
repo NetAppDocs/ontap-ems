@@ -15,7 +15,7 @@ summary: vifmgr.staticroute events
 :imagesdir: ./media/
 
 [.lead]
-vifmgr.staticroute events occur when ONTAP encounters issues associated with static route operations on Vservers or storage virtual machines (SVMs).
+vifmgr.staticroute EMS events occur when ONTAP encounters issues associated with static route operations on Vservers or storage virtual machines (SVMs).
 
 
 == vifmgr.staticRoute.add

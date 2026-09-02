@@ -15,7 +15,7 @@ summary: ha.fencecheckbad events
 :imagesdir: ./media/
 
 [.lead]
-ha.fencecheckbad events occur when the check for local fence returns a bad status, in the failover monitor during boot.
+ha.fencecheckbad EMS events occur when the check for local fence returns a bad status, in the failover monitor during boot.
 
 
 == ha.fenceCheckBad

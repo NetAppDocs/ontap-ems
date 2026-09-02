@@ -15,7 +15,7 @@ summary: ses.disk events
 :imagesdir: ./media/
 
 [.lead]
-ses.disk events occur when ONTAP encounters issues associated with disk drive configuration.
+ses.disk EMS events occur when ONTAP encounters issues associated with disk drive configuration.
 
 
 == ses.disk.configOk

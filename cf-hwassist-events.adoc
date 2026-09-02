@@ -15,7 +15,7 @@ summary: cf.hwassist events
 :imagesdir: ./media/
 
 [.lead]
-cf.hwassist events occur when ONTAP encounters issues associated with hardware-assisted takeover operations.
+cf.hwassist EMS events occur when ONTAP encounters issues associated with hardware-assisted takeover operations.
 
 
 == cf.hwassist.Default.NodemgmtAddr

@@ -15,7 +15,7 @@ summary: mgmt.snapmir events
 :imagesdir: ./media/
 
 [.lead]
-mgmt.snapmir events occur when ONTAP encounters issues associated with SnapMirror(R) relationship operations.
+mgmt.snapmir EMS events occur when ONTAP encounters issues associated with SnapMirror(R) relationship operations.
 
 
 == mgmt.snapmir.dst.invalidType

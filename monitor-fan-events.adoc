@@ -15,7 +15,7 @@ summary: monitor.fan events
 :imagesdir: ./media/
 
 [.lead]
-monitor.fan events occur when ONTAP encounters issues associated with main unit fan operation.
+monitor.fan EMS events occur when ONTAP encounters issues associated with main unit fan operation.
 
 
 == monitor.fan.critical

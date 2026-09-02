@@ -15,7 +15,7 @@ summary: dfu.readtestfailedstatus events
 :imagesdir: ./media/
 
 [.lead]
-dfu.readtestfailedstatus events occur when a read test failure occurs after a firmware download.
+dfu.readtestfailedstatus EMS events occur when a read test failure occurs after a firmware download.
 
 
 == dfu.readTestFailedStatus

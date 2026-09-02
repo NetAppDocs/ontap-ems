@@ -15,7 +15,7 @@ summary: dfu.disksizechanged events
 :imagesdir: ./media/
 
 [.lead]
-dfu.disksizechanged events occur when a size change is detected after a firmware update.
+dfu.disksizechanged EMS events occur when a size change is detected after a firmware update.
 
 
 == dfu.diskSizeChanged

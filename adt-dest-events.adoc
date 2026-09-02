@@ -15,7 +15,7 @@ summary: adt.dest events
 :imagesdir: ./media/
 
 [.lead]
-adt.dest events occur when ONTAP encounters issues associated with the audit consolidation job failing to access or write audit logs to the destination directory.
+adt.dest EMS events occur when ONTAP encounters issues associated with the audit consolidation job failing to access or write audit logs to the destination directory.
 
 
 == adt.dest.access.fail

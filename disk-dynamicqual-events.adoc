@@ -15,7 +15,7 @@ summary: disk.dynamicqual events
 :imagesdir: ./media/
 
 [.lead]
-disk.dynamicqual events occur when ONTAP encounters issues associated with dynamic device qualification.
+disk.dynamicqual EMS events occur when ONTAP encounters issues associated with dynamic device qualification.
 
 
 == disk.dynamicqual.fail.parse

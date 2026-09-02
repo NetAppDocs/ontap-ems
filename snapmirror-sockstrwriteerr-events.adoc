@@ -15,7 +15,7 @@ summary: snapmirror.sockstrwriteerr events
 :imagesdir: ./media/
 
 [.lead]
-snapmirror.sockstrwriteerr events occur when SnapMirror tries to write a large string to the socket.
+snapmirror.sockstrwriteerr EMS events occur when SnapMirror tries to write a large string to the socket.
 
 
 == snapmirror.sockStrWriteErr

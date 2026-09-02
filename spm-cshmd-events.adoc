@@ -15,7 +15,7 @@ summary: spm.cshmd events
 :imagesdir: ./media/
 
 [.lead]
-spm.cshmd events occur when the Cluster Switch Health Monitor process (cshmd) involuntarily terminates.
+spm.cshmd EMS events occur when the Cluster Switch Health Monitor process (cshmd) involuntarily terminates.
 
 
 == spm.cshmd.process.exit

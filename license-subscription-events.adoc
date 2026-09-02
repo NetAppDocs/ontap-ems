@@ -15,7 +15,7 @@ summary: license.subscription events
 :imagesdir: ./media/
 
 [.lead]
-license.subscription events occur when ONTAP encounters issues associated with Cloud ONTAP(R) license subscription expiration.
+license.subscription EMS events occur when ONTAP encounters issues associated with Cloud ONTAP(R) license subscription expiration.
 
 
 == license.subscription.enforcement

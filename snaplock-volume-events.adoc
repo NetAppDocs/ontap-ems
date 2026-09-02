@@ -15,7 +15,7 @@ summary: snaplock.volume events
 :imagesdir: ./media/
 
 [.lead]
-snaplock.volume events occur when wafliron is run on a SnapLock(R) volume.
+snaplock.volume EMS events occur when wafliron is run on a SnapLock(R) volume.
 
 
 == snaplock.volume.repair

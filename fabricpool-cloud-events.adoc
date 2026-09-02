@@ -15,7 +15,7 @@ summary: fabricpool.cloud events
 :imagesdir: ./media/
 
 [.lead]
-fabricpool.cloud events occur when ONTAP encounters issues associated with cloud subscription licenses for FabricPools.
+fabricpool.cloud EMS events occur when ONTAP encounters issues associated with cloud subscription licenses for FabricPools.
 
 
 == fabricpool.cloud.subscription.added

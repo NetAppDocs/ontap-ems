@@ -15,7 +15,7 @@ summary: gb.sfo events
 :imagesdir: ./media/
 
 [.lead]
-gb.sfo events occur when ONTAP encounters issues associated with storage failover (SFO) giveback operations.
+gb.sfo EMS events occur when ONTAP encounters issues associated with storage failover (SFO) giveback operations.
 
 
 == gb.sfo.abort.raid.fm

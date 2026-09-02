@@ -15,7 +15,7 @@ summary: callhome.bridge events
 :imagesdir: ./media/
 
 [.lead]
-callhome.bridge events occur when a bridge reboots unexpectedly.
+callhome.bridge EMS events occur when a bridge reboots unexpectedly.
 
 
 == callhome.bridge.reboot.unexp

@@ -15,7 +15,7 @@ summary: wafl.split events
 :imagesdir: ./media/
 
 [.lead]
-wafl.split events occur when this event indicates that the split inofile scan has completed.
+wafl.split EMS events occur when this event indicates that the split inofile scan has completed.
 
 
 == wafl.split.inofile.scan.complete

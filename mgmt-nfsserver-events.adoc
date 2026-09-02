@@ -15,7 +15,7 @@ summary: mgmt.nfsserver events
 :imagesdir: ./media/
 
 [.lead]
-mgmt.nfsserver events occur when ONTAP encounters issues associated with NFS server configuration.
+mgmt.nfsserver EMS events occur when ONTAP encounters issues associated with NFS server configuration.
 
 
 == mgmt.nfsserver.failure

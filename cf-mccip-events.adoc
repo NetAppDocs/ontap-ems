@@ -15,7 +15,7 @@ summary: cf.mccip events
 :imagesdir: ./media/
 
 [.lead]
-cf.mccip events occur when ONTAP encounters issues associated with automatic switchover in MetroCluster(tm) IP configurations.
+cf.mccip EMS events occur when ONTAP encounters issues associated with automatic switchover in MetroCluster(tm) IP configurations.
 
 
 == cf.mccip.med.auso.stDisabled

@@ -15,7 +15,7 @@ summary: sfu.partnerupdatetimeout events
 :imagesdir: ./media/
 
 [.lead]
-sfu.partnerupdatetimeout events occur in a high-availability (HA) configuration in which an HA partner was downloading disk shelf firmware and the download has timed out.
+sfu.partnerupdatetimeout EMS events occur in a high-availability (HA) configuration in which an HA partner was downloading disk shelf firmware and the download has timed out.
 
 
 == sfu.partnerUpdateTimeout

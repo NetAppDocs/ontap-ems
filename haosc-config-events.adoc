@@ -15,7 +15,7 @@ summary: haosc.config events
 :imagesdir: ./media/
 
 [.lead]
-haosc.config events occur when ONTAP encounters issues associated with high-availability (HA) chassis and controller configuration inconsistencies.
+haosc.config EMS events occur when ONTAP encounters issues associated with high-availability (HA) chassis and controller configuration inconsistencies.
 
 
 == haosc.config.unknown.cf

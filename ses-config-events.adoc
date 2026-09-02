@@ -15,7 +15,7 @@ summary: ses.config events
 :imagesdir: ./media/
 
 [.lead]
-ses.config events occur when ONTAP encounters issues associated with disk shelf configuration.
+ses.config EMS events occur when ONTAP encounters issues associated with disk shelf configuration.
 
 
 == ses.config.diskStackMaxError

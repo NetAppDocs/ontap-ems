@@ -15,7 +15,7 @@ summary: vserver.rbac events
 :imagesdir: ./media/
 
 [.lead]
-vserver.rbac events occur when ONTAP encounters issues associated with custom role configuration using aliased command directories.
+vserver.rbac EMS events occur when ONTAP encounters issues associated with custom role configuration using aliased command directories.
 
 
 == vserver.rbac.alias.command

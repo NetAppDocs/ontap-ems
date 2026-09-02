@@ -15,7 +15,7 @@ summary: vsa.scheduledevent events
 :imagesdir: ./media/
 
 [.lead]
-vsa.scheduledevent events occur when ONTAP encounters issues associated with cloud provider scheduled maintenance events.
+vsa.scheduledevent EMS events occur when ONTAP encounters issues associated with cloud provider scheduled maintenance events.
 
 
 == vsa.scheduledEvent.mlx.detch

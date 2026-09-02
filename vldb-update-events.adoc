@@ -15,7 +15,7 @@ summary: vldb.update events
 :imagesdir: ./media/
 
 [.lead]
-vldb.update events occur when the aggregate ownership update fails during switchover.
+vldb.update EMS events occur when the aggregate ownership update fails during switchover.
 
 
 == vldb.update.duringsofail

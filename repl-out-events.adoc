@@ -15,7 +15,7 @@ summary: repl.out events
 :imagesdir: ./media/
 
 [.lead]
-repl.out events occur when ONTAP encounters issues associated with out-of-band block transfers and memory allocation.
+repl.out EMS events occur when ONTAP encounters issues associated with out-of-band block transfers and memory allocation.
 
 
 == repl.out.of.band.vbn

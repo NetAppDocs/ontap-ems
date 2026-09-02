@@ -15,7 +15,7 @@ summary: nblade.cifsnonunicoderequest events
 :imagesdir: ./media/
 
 [.lead]
-nblade.cifsnonunicoderequest events occur when a client attempts to send a non-unicode request to a Vserver.
+nblade.cifsnonunicoderequest EMS events occur when a client attempts to send a non-unicode request to a Vserver.
 
 
 == Nblade.cifsNonUnicodeRequest

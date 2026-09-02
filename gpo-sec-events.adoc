@@ -15,7 +15,7 @@ summary: gpo.sec events
 :imagesdir: ./media/
 
 [.lead]
-gpo.sec events occur when ONTAP encounters issues associated with Group Policy Object (GPO) security policy settings.
+gpo.sec EMS events occur when ONTAP encounters issues associated with Group Policy Object (GPO) security policy settings.
 
 
 == gpo.sec.EvtAdt.applied

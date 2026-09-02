@@ -15,7 +15,7 @@ summary: de.callhome events
 :imagesdir: ./media/
 
 [.lead]
-de.callhome events occur when ONTAP encounters issues associated with AutoSupport invocation on the AI Data Engine.
+de.callhome EMS events occur when ONTAP encounters issues associated with AutoSupport invocation on the AI Data Engine.
 
 
 == de.callhome.invoke

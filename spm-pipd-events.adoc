@@ -15,7 +15,7 @@ summary: spm.pipd events
 :imagesdir: ./media/
 
 [.lead]
-spm.pipd events occur when the post-ingest processing daemon (pipd) involuntarily terminates.
+spm.pipd EMS events occur when the post-ingest processing daemon (pipd) involuntarily terminates.
 
 
 == spm.pipd.process.exit

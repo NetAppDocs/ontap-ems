@@ -15,7 +15,7 @@ summary: callhome.sfo events
 :imagesdir: ./media/
 
 [.lead]
-callhome.sfo events occur when ONTAP encounters issues associated with high-availability (HA) operations.
+callhome.sfo EMS events occur when ONTAP encounters issues associated with high-availability (HA) operations.
 
 
 == callhome.sfo.disabled.freq

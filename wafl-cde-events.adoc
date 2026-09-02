@@ -15,7 +15,7 @@ summary: wafl.cde events
 :imagesdir: ./media/
 
 [.lead]
-wafl.cde events occur when the WAFL(R) kernel cannot decompress a compressed user data block.
+wafl.cde EMS events occur when the WAFL(R) kernel cannot decompress a compressed user data block.
 
 
 == wafl.cde.decompression.fail

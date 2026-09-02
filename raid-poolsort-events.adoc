@@ -15,7 +15,7 @@ summary: raid.poolsort events
 :imagesdir: ./media/
 
 [.lead]
-raid.poolsort events occur when ONTAP encounters issues associated with disk pool sorting and validation.
+raid.poolsort EMS events occur when ONTAP encounters issues associated with disk pool sorting and validation.
 
 
 == raid.poolsort.disks_per_channel

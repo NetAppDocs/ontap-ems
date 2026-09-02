@@ -15,7 +15,7 @@ summary: monitor.weeklystatsasup events
 :imagesdir: ./media/
 
 [.lead]
-monitor.weeklystatsasup events occur when weekly performance AutoSupport(tm) is disabled.
+monitor.weeklystatsasup EMS events occur when weekly performance AutoSupport(tm) is disabled.
 
 
 == monitor.weeklyStatsASUP.off
