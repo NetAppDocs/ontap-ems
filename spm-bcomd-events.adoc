@@ -14,6 +14,10 @@ summary: spm.bcomd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+spm.bcomd EMS events occur when the Blocks Configuration and Operations Manager Daemon (BCOMd) aborts.
+
+
 == spm.bcomd.process.exit
 *Severity*::
 ALERT

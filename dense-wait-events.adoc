@@ -14,6 +14,10 @@ summary: dense.wait events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dense.wait EMS events occur while mounting a volume, when an in-memory buftree id cache was not able to be refreshed for SIS metafile operation.
+
+
 == dense.wait.for.gbc.timedout
 *Severity*::
 NOTICE
