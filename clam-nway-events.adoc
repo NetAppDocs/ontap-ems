@@ -14,6 +14,10 @@ summary: clam.nway events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+clam.nway EMS events occur when the Kernel Cluster Services (KCS) Connectivity, Liveliness, Availability Monitor (CLAM) is operating in an N-Way HA Configuration.
+
+
 == clam.nway.ha.config
 *Severity*::
 INFORMATIONAL

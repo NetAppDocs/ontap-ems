@@ -14,6 +14,10 @@ summary: configbr.initfailedbm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+configbr.initfailedbm EMS events occur when the configuration backup and restore feature cannot initialize the necessary software components.
+
+
 == configbr.initFailedBM
 *Severity*::
 ERROR
